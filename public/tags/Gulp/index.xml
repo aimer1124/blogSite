@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gulp on Yuanjie-跑步爱好者，IT从业者。</title>
+    <link>https://www.shiyuanjie.cn/tags/Gulp/</link>
+    <description>Recent content in Gulp on Yuanjie-跑步爱好者，IT从业者。</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 10 May 2016 14:23:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.shiyuanjie.cn/tags/Gulp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>API自动化测试与持续集成</title>
+      <link>https://www.shiyuanjie.cn/posts/API%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E4%B8%8E%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/</link>
+      <pubDate>Tue, 10 May 2016 14:23:00 +0000</pubDate>
+      
+      <guid>https://www.shiyuanjie.cn/posts/API%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E4%B8%8E%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/</guid>
+      <description>&lt;h1 id=&#34;目的&#34;&gt;目的&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;如何使用&lt;code&gt;SuperTest&lt;/code&gt;测试框架，进行API测试&lt;/li&gt;
+&lt;li&gt;如何将API测试与构建工具结合&lt;/li&gt;
+&lt;li&gt;如何将API测试、构建工具与持续集成结合&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>SuperTestWithGulp</title>
+      <link>https://www.shiyuanjie.cn/posts/SuperTestWithGulp/</link>
+      <pubDate>Fri, 15 Apr 2016 15:51:00 +0000</pubDate>
+      
+      <guid>https://www.shiyuanjie.cn/posts/SuperTestWithGulp/</guid>
+      <description>&lt;h1 id=&#34;gulp&#34;&gt;Gulp&lt;/h1&gt;
+&lt;p&gt;Automate and enhance your workflow&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;用自动化构建工具增强你的工作流程！&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;官网：&lt;a href=&#34;http://gulpjs.com/&#34;&gt;http://gulpjs.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;中文官网：&lt;a href=&#34;http://www.gulpjs.com.cn/&#34;&gt;http://www.gulpjs.com.cn/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;简体中文文档: &lt;a href=&#34;https://github.com/lisposter/gulp-docs-zh-cn&#34;&gt;https://github.com/lisposter/gulp-docs-zh-cn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;安装&lt;code&gt;npm install --global gulp&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;验证&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;➜  Downloads gulp -v
+[15:59:38] CLI version 3.9.1
+[15:59:38] Local version 3.9.1
+
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GIF on Yuanjie-跑步爱好者，IT从业者。</title>
+    <link>https://www.shiyuanjie.cn/tags/GIF/</link>
+    <description>Recent content in GIF on Yuanjie-跑步爱好者，IT从业者。</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 23 Nov 2016 16:20:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.shiyuanjie.cn/tags/GIF/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MAC制作GIF及设置GIF循环播放</title>
+      <link>https://www.shiyuanjie.cn/posts/Mac%E5%88%B6%E4%BD%9CGIF%E5%8F%8A%E8%AE%BE%E7%BD%AEGIF%E5%BE%AA%E7%8E%AF%E6%92%AD%E6%94%BE/</link>
+      <pubDate>Wed, 23 Nov 2016 16:20:00 +0000</pubDate>
+      
+      <guid>https://www.shiyuanjie.cn/posts/Mac%E5%88%B6%E4%BD%9CGIF%E5%8F%8A%E8%AE%BE%E7%BD%AEGIF%E5%BE%AA%E7%8E%AF%E6%92%AD%E6%94%BE/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;需求：在Mac电脑中录制操作，并生成GIF文件。GIF文件需要循环播放。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;工具选择&#34;&gt;工具选择&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://recordit.co/&#34;&gt;Recordit&lt;/a&gt;，7.2M大小，Free&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.lcdf.org/gifsicle/&#34;&gt;gifsicle&lt;/a&gt;，&lt;code&gt;加工&lt;/code&gt;GIF图片工具&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
