@@ -13,10 +13,10 @@
     
     <item>
       <title>Flutter学习</title>
-      <link>https://www.shiyuanjie.cn/posts/learn-flutter/</link>
+      <link>https://www.shiyuanjie.cn/posts/Android/learn-flutter/</link>
       <pubDate>Tue, 17 Mar 2020 11:30:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/learn-flutter/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Android/learn-flutter/</guid>
       <description>什么是Flutter 1 Flutter is Google’s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase. 是什么 UI 组件库 做什么 使用一套代码 构建美观、本地话编译的应用程序 适用平台 mobile web desktop 使用Flutter 最佳实践Flutter 参考 Flutter官方地址 Flutter中文官方地址</description>
     </item>
     

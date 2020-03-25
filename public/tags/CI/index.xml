@@ -13,19 +13,19 @@
     
     <item>
       <title>选择一个好的Hexo主题</title>
-      <link>https://www.shiyuanjie.cn/posts/%E9%80%89%E6%8B%A9%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9A%84Hexo%E4%B8%BB%E9%A2%98/</link>
+      <link>https://www.shiyuanjie.cn/posts/Blog/%E9%80%89%E6%8B%A9%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9A%84Hexo%E4%B8%BB%E9%A2%98/</link>
       <pubDate>Sat, 04 Jan 2020 15:55:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E9%80%89%E6%8B%A9%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9A%84Hexo%E4%B8%BB%E9%A2%98/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Blog/%E9%80%89%E6%8B%A9%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9A%84Hexo%E4%B8%BB%E9%A2%98/</guid>
       <description>诉求：找一个好用的Hexo主题 方法 去官网看了下，Theme有285个，按名字排名。没有任何星级或者推荐之类的，看了下，眼花缭乱。https://hexo.io/themes/ 在知乎上面搜索了下，高赞答案：爬取Theme的Star数量，用数据说话。https://www.zhihu</description>
     </item>
     
     <item>
       <title>构建Headless 的 E2E 测试</title>
-      <link>https://www.shiyuanjie.cn/posts/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BA-Headless-%E7%9A%84-E2E-%E6%B5%8B%E8%AF%95/</link>
+      <link>https://www.shiyuanjie.cn/posts/UITest/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BA-Headless-%E7%9A%84-E2E-%E6%B5%8B%E8%AF%95/</link>
       <pubDate>Fri, 02 Mar 2018 12:20:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BA-Headless-%E7%9A%84-E2E-%E6%B5%8B%E8%AF%95/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/UITest/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BA-Headless-%E7%9A%84-E2E-%E6%B5%8B%E8%AF%95/</guid>
       <description>&lt;h2 id=&#34;为什么要构建-headless-的-e2e-测试&#34;&gt;为什么要&lt;code&gt;构建 Headless 的 E2E 测试&lt;/code&gt;&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;A headless browser is a great tool for automated testing and server environments where you don&#39;t need a visible UI shell. For example, you may want to run some tests against a real web page, create a PDF of it, or just inspect how the browser renders an URL.
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;结合上面的原因，我们还可以&lt;/p&gt;
@@ -47,10 +47,10 @@
     
     <item>
       <title>轻量级微服务架构(上册)</title>
-      <link>https://www.shiyuanjie.cn/posts/%E8%BD%BB%E9%87%8F%E7%BA%A7%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E4%B8%8A%E5%86%8C/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E8%BD%BB%E9%87%8F%E7%BA%A7%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E4%B8%8A%E5%86%8C/</link>
       <pubDate>Fri, 20 Jan 2017 14:40:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E8%BD%BB%E9%87%8F%E7%BA%A7%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E4%B8%8A%E5%86%8C/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E8%BD%BB%E9%87%8F%E7%BA%A7%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E4%B8%8A%E5%86%8C/</guid>
       <description>&lt;h2 id=&#34;书&#34;&gt;书&lt;/h2&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;h2 id=&#34;读后总结&#34;&gt;读后总结&lt;/h2&gt;
@@ -74,10 +74,10 @@
     
     <item>
       <title>API开发神器-Postman</title>
-      <link>https://www.shiyuanjie.cn/posts/API%E5%BC%80%E5%8F%91%E7%A5%9E%E5%99%A8-Postman/</link>
+      <link>https://www.shiyuanjie.cn/posts/APITest/API%E5%BC%80%E5%8F%91%E7%A5%9E%E5%99%A8-Postman/</link>
       <pubDate>Fri, 24 Jun 2016 19:50:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/API%E5%BC%80%E5%8F%91%E7%A5%9E%E5%99%A8-Postman/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/APITest/API%E5%BC%80%E5%8F%91%E7%A5%9E%E5%99%A8-Postman/</guid>
       <description>&lt;p&gt;&lt;code&gt;Postman helps you develop APIs faster.&lt;/code&gt;&lt;/p&gt;
 &lt;h1 id=&#34;豪华午餐&#34;&gt;豪华午餐&lt;/h1&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.shiyuanjie.cn/img/Postman.png&#34; alt=&#34;Postman&#34;&gt;&lt;/p&gt;

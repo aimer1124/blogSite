@@ -6,80 +6,89 @@
     <description>Recent content on Yuanjie-跑步爱好者，IT从业者。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 17 Mar 2020 11:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2020 16:40:04 +0800</lastBuildDate>
     
 	<atom:link href="https://www.shiyuanjie.cn/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Ssh Connect</title>
+      <link>https://www.shiyuanjie.cn/posts/Aliyun/ssh-connect/</link>
+      <pubDate>Wed, 25 Mar 2020 16:40:04 +0800</pubDate>
+      
+      <guid>https://www.shiyuanjie.cn/posts/Aliyun/ssh-connect/</guid>
+      <description>etstst</description>
+    </item>
+    
+    <item>
       <title>Flutter学习</title>
-      <link>https://www.shiyuanjie.cn/posts/learn-flutter/</link>
+      <link>https://www.shiyuanjie.cn/posts/Android/learn-flutter/</link>
       <pubDate>Tue, 17 Mar 2020 11:30:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/learn-flutter/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Android/learn-flutter/</guid>
       <description>什么是Flutter 1 Flutter is Google’s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase. 是什么 UI 组件库 做什么 使用一套代码 构建美观、本地话编译的应用程序 适用平台 mobile web desktop 使用Flutter 最佳实践Flutter 参考 Flutter官方地址 Flutter中文官方地址</description>
     </item>
     
     <item>
       <title>我与中国移动的一场Battle</title>
-      <link>https://www.shiyuanjie.cn/posts/%E6%88%91%E4%B8%8E%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%E7%9A%84%E4%B8%80%E5%9C%BABattle/</link>
+      <link>https://www.shiyuanjie.cn/posts/Upgrade/%E6%88%91%E4%B8%8E%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%E7%9A%84%E4%B8%80%E5%9C%BABattle/</link>
       <pubDate>Sun, 19 Jan 2020 20:30:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E6%88%91%E4%B8%8E%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%E7%9A%84%E4%B8%80%E5%9C%BABattle/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Upgrade/%E6%88%91%E4%B8%8E%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%E7%9A%84%E4%B8%80%E5%9C%BABattle/</guid>
       <description>不要轻信客服人员的办不了，拿起武器，与它们战斗。 原由 自己的A卡是给孩子的电话手表办的卡，一直用的18RMB/月的套餐。儿童手表不知道丢哪了，想着号码先保留，把套餐调整至8RMB/月的。等待有空了，再去营业厅办理。 用自己的B卡打10086客服，想变更自己A卡的套餐，被告知只能通过A</description>
     </item>
     
     <item>
       <title>你要复吸了么？</title>
-      <link>https://www.shiyuanjie.cn/posts/%E4%BD%A0%E8%A6%81%E5%A4%8D%E5%90%B8%E4%BA%86%E4%B9%88/</link>
+      <link>https://www.shiyuanjie.cn/posts/Life/%E4%BD%A0%E8%A6%81%E5%A4%8D%E5%90%B8%E4%BA%86%E4%B9%88/</link>
       <pubDate>Sat, 11 Jan 2020 19:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E4%BD%A0%E8%A6%81%E5%A4%8D%E5%90%B8%E4%BA%86%E4%B9%88/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Life/%E4%BD%A0%E8%A6%81%E5%A4%8D%E5%90%B8%E4%BA%86%E4%B9%88/</guid>
       <description>最近偶尔又会去蹭别人的烟，去吸。难道我要复吸了么？ 现象 最近加班比较多，会去蹭别人的烟去吸。已经吸了10根左右了。 原因 加班多，抗不住 事情太多，分散压力 这真的是原因么？ 深入分析 每次自己去蹭烟的时候，都是想着解决上面原因。但问题根本没有解决 自己在每次蹭烟的过程中，都给自己会找一个理由 结</description>
     </item>
     
     <item>
       <title>JMeter5.2.1更新内容</title>
-      <link>https://www.shiyuanjie.cn/posts/JMeter5.2.1/</link>
+      <link>https://www.shiyuanjie.cn/posts/JMeter/JMeter5.2.1/</link>
       <pubDate>Sat, 11 Jan 2020 18:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/JMeter5.2.1/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/JMeter/JMeter5.2.1/</guid>
       <description>版本发布时间于20191113，本次版本主要是BugFix。 主要内容 本次更新主要为BugFix，更新内容参考5.2。 版本下载 JMeter5.2.1</description>
     </item>
     
     <item>
       <title>Alfred中的Workflow配制</title>
-      <link>https://www.shiyuanjie.cn/posts/Alfred_Workflows/</link>
+      <link>https://www.shiyuanjie.cn/posts/Tools/Alfred_Workflows/</link>
       <pubDate>Sat, 11 Jan 2020 12:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Alfred_Workflows/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Tools/Alfred_Workflows/</guid>
       <description>是什么 Alfred https://www.alfredapp.com/ 官方定义： 1 Alfred is an award-winning app for macOS which boosts your efficiency with hotkeys, keywords, text expansion and more. Search your Mac and the web, and be more productive with custom actions to control your Mac. 自己理解 通过定制化的方法，提高使用macOS 效率的工具。 补充： Alfred提供了Powerpack的收费功能，用于深度定制。 建议购买Powerpack。 Workflows Workflows是用于定制Alf</description>
     </item>
     
     <item>
       <title>JMeter5.2更新内容</title>
-      <link>https://www.shiyuanjie.cn/posts/JMeter5.2%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</link>
+      <link>https://www.shiyuanjie.cn/posts/JMeter/JMeter5.2%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</link>
       <pubDate>Wed, 08 Jan 2020 15:30:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/JMeter5.2%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/JMeter/JMeter5.2%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</guid>
       <description>版本发布时间于20191008，本次版本基本没有什么更新，主要是切换版本号。 主要内容 本次为版本发布，更新内容参考5.1.1 提升 HTTP(S) Test Script Recorder 会在名字后追加数字显示，参考Bug 64350 修复：当在XPath表达式中使用XPath Assertion返回Boolean值时，True if nothing matches</description>
     </item>
     
     <item>
       <title>选择一个好的Hexo主题</title>
-      <link>https://www.shiyuanjie.cn/posts/%E9%80%89%E6%8B%A9%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9A%84Hexo%E4%B8%BB%E9%A2%98/</link>
+      <link>https://www.shiyuanjie.cn/posts/Blog/%E9%80%89%E6%8B%A9%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9A%84Hexo%E4%B8%BB%E9%A2%98/</link>
       <pubDate>Sat, 04 Jan 2020 15:55:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E9%80%89%E6%8B%A9%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9A%84Hexo%E4%B8%BB%E9%A2%98/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Blog/%E9%80%89%E6%8B%A9%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9A%84Hexo%E4%B8%BB%E9%A2%98/</guid>
       <description>诉求：找一个好用的Hexo主题 方法 去官网看了下，Theme有285个，按名字排名。没有任何星级或者推荐之类的，看了下，眼花缭乱。https://hexo.io/themes/ 在知乎上面搜索了下，高赞答案：爬取Theme的Star数量，用数据说话。https://www.zhihu</description>
     </item>
     
     <item>
       <title>PDF转换神器</title>
-      <link>https://www.shiyuanjie.cn/posts/PDF%E8%BD%AC%E6%8D%A2%E7%A5%9E%E5%99%A8/</link>
+      <link>https://www.shiyuanjie.cn/posts/Tools/PDF%E8%BD%AC%E6%8D%A2%E7%A5%9E%E5%99%A8/</link>
       <pubDate>Thu, 26 Dec 2019 18:30:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/PDF%E8%BD%AC%E6%8D%A2%E7%A5%9E%E5%99%A8/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Tools/PDF%E8%BD%AC%E6%8D%A2%E7%A5%9E%E5%99%A8/</guid>
       <description>&lt;h3 id=&#34;前情&#34;&gt;前情&lt;/h3&gt;
 &lt;h4 id=&#34;背景今天要处理公司的一个会签材料两个pdf文件近70页的内容两个文件中分别有一处小错误需要修正后再合并为一个pdf文件&#34;&gt;背景：今天要处理公司的一个会签材料，两个PDF文件，近70页的内容。两个文件中分别有一处小错误，需要修正后，再合并为一个PDF文件。&lt;/h4&gt;
 &lt;h4 id=&#34;处理方法&#34;&gt;处理方法&lt;/h4&gt;
@@ -95,19 +104,19 @@
     
     <item>
       <title>更新package中依赖包版本</title>
-      <link>https://www.shiyuanjie.cn/posts/%E6%9B%B4%E6%96%B0package%E4%B8%AD%E4%BE%9D%E8%B5%96%E5%8C%85%E7%89%88%E6%9C%AC/</link>
+      <link>https://www.shiyuanjie.cn/posts/Tools/%E6%9B%B4%E6%96%B0package%E4%B8%AD%E4%BE%9D%E8%B5%96%E5%8C%85%E7%89%88%E6%9C%AC/</link>
       <pubDate>Thu, 26 Dec 2019 09:20:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E6%9B%B4%E6%96%B0package%E4%B8%AD%E4%BE%9D%E8%B5%96%E5%8C%85%E7%89%88%E6%9C%AC/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Tools/%E6%9B%B4%E6%96%B0package%E4%B8%AD%E4%BE%9D%E8%B5%96%E5%8C%85%E7%89%88%E6%9C%AC/</guid>
       <description>需求：更新package.json中dependencies的版本号至最新 解决方案 安装npm-check-updates npm install -g npm-check-updates https://www.npmjs.com/package/npm-check-updates 运行ncu -u 更新package.json中依赖包版本 以上需求已解决 参考 https://flaviocopes.com/update-npm-dependencies/</description>
     </item>
     
     <item>
       <title>2020总结</title>
-      <link>https://www.shiyuanjie.cn/posts/2020%E6%80%BB%E7%BB%93/</link>
+      <link>https://www.shiyuanjie.cn/posts/Flags/2020%E6%80%BB%E7%BB%93/</link>
       <pubDate>Tue, 24 Dec 2019 20:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/2020%E6%80%BB%E7%BB%93/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Flags/2020%E6%80%BB%E7%BB%93/</guid>
       <description>&lt;h2 id=&#34;summary-in-2019&#34;&gt;Summary in 2019&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;4道菜&lt;/li&gt;
@@ -123,10 +132,10 @@
     
     <item>
       <title>奈飞文化手册</title>
-      <link>https://www.shiyuanjie.cn/posts/%E5%A5%88%E9%A3%9E%E6%96%87%E5%8C%96%E6%89%8B%E5%86%8C/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E5%A5%88%E9%A3%9E%E6%96%87%E5%8C%96%E6%89%8B%E5%86%8C/</link>
       <pubDate>Wed, 11 Sep 2019 17:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E5%A5%88%E9%A3%9E%E6%96%87%E5%8C%96%E6%89%8B%E5%86%8C/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E5%A5%88%E9%A3%9E%E6%96%87%E5%8C%96%E6%89%8B%E5%86%8C/</guid>
       <description>&lt;pre&gt;&lt;code&gt;一本带你重新审视项目管理、人才招聘及公司运营的书。
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;书&#34;&gt;书&lt;/h2&gt;
 &lt;table&gt;
@@ -179,10 +188,10 @@
     
     <item>
       <title>天空、下雨、雨伞</title>
-      <link>https://www.shiyuanjie.cn/posts/%E5%A4%A9%E7%A9%BA%E4%B8%8B%E9%9B%A8%E9%9B%A8%E4%BC%9E/</link>
+      <link>https://www.shiyuanjie.cn/posts/Upgrade/%E5%A4%A9%E7%A9%BA%E4%B8%8B%E9%9B%A8%E9%9B%A8%E4%BC%9E/</link>
       <pubDate>Thu, 01 Aug 2019 18:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E5%A4%A9%E7%A9%BA%E4%B8%8B%E9%9B%A8%E9%9B%A8%E4%BC%9E/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Upgrade/%E5%A4%A9%E7%A9%BA%E4%B8%8B%E9%9B%A8%E9%9B%A8%E4%BC%9E/</guid>
       <description>&lt;p&gt;最近在听一本电子书《靠谱》，关于咨询师的工作基本功。其中有一个简单的因果论&lt;code&gt;思考方式&lt;/code&gt;感觉很不错：&lt;code&gt;天空--&amp;gt;下雨--&amp;gt;雨伞&lt;/code&gt;，自己尝试总结下。&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;领导问你，外面的天气怎么样？
 &lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;common-sense&#34;&gt;Common Sense&lt;/h4&gt;
@@ -193,10 +202,10 @@
     
     <item>
       <title>英雄钢笔</title>
-      <link>https://www.shiyuanjie.cn/posts/%E8%8B%B1%E9%9B%84%E9%92%A2%E7%AC%94/</link>
+      <link>https://www.shiyuanjie.cn/posts/Life/%E8%8B%B1%E9%9B%84%E9%92%A2%E7%AC%94/</link>
       <pubDate>Fri, 19 Jul 2019 10:30:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E8%8B%B1%E9%9B%84%E9%92%A2%E7%AC%94/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Life/%E8%8B%B1%E9%9B%84%E9%92%A2%E7%AC%94/</guid>
       <description>&lt;p&gt;本文源于自己购买一支&lt;code&gt;英雄&lt;/code&gt;钢笔的售后服务，让自己反思下一个老字号品牌的没落和互联网服务的影响。&lt;/p&gt;
 &lt;h4 id=&#34;购买&#34;&gt;购买&lt;/h4&gt;
 &lt;p&gt;自己之前买了一支&lt;code&gt;百乐&lt;/code&gt;78G的钢笔，被孩子不小心弄坏了。最近计划再买一支钢笔，随记在JD下单购买了一支钢笔&amp;amp;墨囊(&lt;strong&gt;同一品牌&amp;ndash;英雄&lt;/strong&gt;)。&lt;/p&gt;
@@ -209,10 +218,10 @@
     
     <item>
       <title>网易蜗牛读书会员</title>
-      <link>https://www.shiyuanjie.cn/posts/%E7%BD%91%E6%98%93%E8%9C%97%E7%89%9B%E8%AF%BB%E4%B9%A6%E4%BC%9A%E5%91%98/</link>
+      <link>https://www.shiyuanjie.cn/posts/Tools/%E7%BD%91%E6%98%93%E8%9C%97%E7%89%9B%E8%AF%BB%E4%B9%A6%E4%BC%9A%E5%91%98/</link>
       <pubDate>Sat, 13 Jul 2019 17:10:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E7%BD%91%E6%98%93%E8%9C%97%E7%89%9B%E8%AF%BB%E4%B9%A6%E4%BC%9A%E5%91%98/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Tools/%E7%BD%91%E6%98%93%E8%9C%97%E7%89%9B%E8%AF%BB%E4%B9%A6%E4%BC%9A%E5%91%98/</guid>
       <description>&lt;p&gt;8本文为购买&lt;code&gt;网易蜗牛读书&lt;/code&gt;会员的过程，记录下来。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://yuedust.yuedu.126.net/snail_st/static/images/web_intro/logo_header.png?11ac8d10&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;时间出新知
@@ -221,19 +230,19 @@
     
     <item>
       <title>需求延期的小讨论</title>
-      <link>https://www.shiyuanjie.cn/posts/%E9%9C%80%E6%B1%82%E5%BB%B6%E6%9C%9F%E7%9A%84%E5%B0%8F%E8%AE%A8%E8%AE%BA/</link>
+      <link>https://www.shiyuanjie.cn/posts/-Management/%E9%9C%80%E6%B1%82%E5%BB%B6%E6%9C%9F%E7%9A%84%E5%B0%8F%E8%AE%A8%E8%AE%BA/</link>
       <pubDate>Tue, 09 Jul 2019 16:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E9%9C%80%E6%B1%82%E5%BB%B6%E6%9C%9F%E7%9A%84%E5%B0%8F%E8%AE%A8%E8%AE%BA/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/-Management/%E9%9C%80%E6%B1%82%E5%BB%B6%E6%9C%9F%E7%9A%84%E5%B0%8F%E8%AE%A8%E8%AE%BA/</guid>
       <description>前提 客户早上找到我，说是领导看到一个大需求的进度慢，工作量也很大。领导很不满意，让我们分析下原因。 过程 沟通过程概述 客户合作经理：进度慢，有你们乙方的原因。但也有我们甲方的原因 客户开发主管：我们合理评估工作量就好 客户需求负责人：我的需求是有膨胀 乙方合作经理：慢的原因有：需求膨胀、技</description>
     </item>
     
     <item>
       <title>我购买的收费软件</title>
-      <link>https://www.shiyuanjie.cn/posts/%E6%88%91%E8%B4%AD%E4%B9%B0%E7%9A%84%E6%94%B6%E8%B4%B9%E8%BD%AF%E4%BB%B6/</link>
+      <link>https://www.shiyuanjie.cn/posts/Tools/%E6%88%91%E8%B4%AD%E4%B9%B0%E7%9A%84%E6%94%B6%E8%B4%B9%E8%BD%AF%E4%BB%B6/</link>
       <pubDate>Fri, 28 Jun 2019 15:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E6%88%91%E8%B4%AD%E4%B9%B0%E7%9A%84%E6%94%B6%E8%B4%B9%E8%BD%AF%E4%BB%B6/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Tools/%E6%88%91%E8%B4%AD%E4%B9%B0%E7%9A%84%E6%94%B6%E8%B4%B9%E8%BD%AF%E4%BB%B6/</guid>
       <description>&lt;p&gt;最近几年，自己也开始为一些软件付费。把&lt;code&gt;自己付费&lt;/code&gt;的软件梳理下来，为后续的软件再付费做参考。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;软件排名不分先后&lt;/strong&gt;&lt;/p&gt;
 &lt;h3 id=&#34;爱奇艺&#34;&gt;爱奇艺&lt;/h3&gt;
@@ -262,10 +271,10 @@
     
     <item>
       <title>戒烟</title>
-      <link>https://www.shiyuanjie.cn/posts/%E6%88%92%E7%83%9F/</link>
+      <link>https://www.shiyuanjie.cn/posts/Life/%E6%88%92%E7%83%9F/</link>
       <pubDate>Wed, 19 Jun 2019 11:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E6%88%92%E7%83%9F/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Life/%E6%88%92%E7%83%9F/</guid>
       <description>&lt;h3 id=&#34;现状&#34;&gt;现状&lt;/h3&gt;
 &lt;p&gt;自己从开始抽烟到现在已经有&lt;code&gt;15&lt;/code&gt;年了，今年&lt;code&gt;34&lt;/code&gt;岁，接近一半的岁月 44% 都在抽烟的生活中。抽烟的量基本是1包烟抽不到2天的时间，回想起来还挺可怕的~~&lt;/p&gt;
 &lt;p&gt;从这次的&lt;code&gt;正式&lt;/code&gt;不抽烟，到今天大概有&lt;code&gt;2&lt;/code&gt;个多月了，一根烟没有抽，对自己的坚持要点赞。&lt;/p&gt;</description>
@@ -273,10 +282,10 @@
     
     <item>
       <title>整理TickTick和邮箱</title>
-      <link>https://www.shiyuanjie.cn/posts/%E6%95%B4%E7%90%86TickTick%E5%92%8C%E9%82%AE%E7%AE%B1/</link>
+      <link>https://www.shiyuanjie.cn/posts/Upgrade/%E6%95%B4%E7%90%86TickTick%E5%92%8C%E9%82%AE%E7%AE%B1/</link>
       <pubDate>Tue, 11 Jun 2019 16:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E6%95%B4%E7%90%86TickTick%E5%92%8C%E9%82%AE%E7%AE%B1/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Upgrade/%E6%95%B4%E7%90%86TickTick%E5%92%8C%E9%82%AE%E7%AE%B1/</guid>
       <description>&lt;h3 id=&#34;邮箱&#34;&gt;邮箱&lt;/h3&gt;
 &lt;p&gt;自己在工作中使用Gmail有4年了，一直坚持在使用一些过滤器和分组整理各种邮件。今天邮箱里面的Filter和Label重新进行了梳理，感觉再次清爽了很多。&lt;/p&gt;
 &lt;h4 id=&#34;规则&#34;&gt;规则&lt;/h4&gt;
@@ -291,10 +300,10 @@
     
     <item>
       <title>放弃Keep</title>
-      <link>https://www.shiyuanjie.cn/posts/%E6%94%BE%E5%BC%83Keep/</link>
+      <link>https://www.shiyuanjie.cn/posts/Tools/%E6%94%BE%E5%BC%83Keep/</link>
       <pubDate>Thu, 06 Jun 2019 17:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E6%94%BE%E5%BC%83Keep/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Tools/%E6%94%BE%E5%BC%83Keep/</guid>
       <description>&lt;h2 id=&#34;放弃keep&#34;&gt;放弃Keep&lt;/h2&gt;
 &lt;p&gt;从2016年开始使用Keep来跑步，断断续续的有3年时间了。但最近我把Keep拉入黑名单了。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.shiyuanjie.cn/img/Keep/Keep%E4%BD%BF%E7%94%A8.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -303,38 +312,38 @@
     
     <item>
       <title>48天全程马拉松集训</title>
-      <link>https://www.shiyuanjie.cn/posts/48DayMathron/</link>
+      <link>https://www.shiyuanjie.cn/posts/Run/48DayMathron/</link>
       <pubDate>Wed, 29 May 2019 17:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/48DayMathron/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Run/48DayMathron/</guid>
       <description>&lt;p&gt;今天是自己坚持&lt;strong&gt;48天全程马拉松集训&lt;/strong&gt;的第&lt;strong&gt;16&lt;/strong&gt;天，期间中断一天没有锻炼，不过后面都有在坚持。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.shiyuanjie.cn/img/marathron/48DayMathron/48%E5%A4%A9Mathron.png&#34; alt=&#34;16Day in 48DayMathron&#34;&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>坚持日更</title>
-      <link>https://www.shiyuanjie.cn/posts/%E5%9D%9A%E6%8C%81%E6%97%A5%E6%9B%B4/</link>
+      <link>https://www.shiyuanjie.cn/posts/Upgrade/%E5%9D%9A%E6%8C%81%E6%97%A5%E6%9B%B4/</link>
       <pubDate>Wed, 08 May 2019 18:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E5%9D%9A%E6%8C%81%E6%97%A5%E6%9B%B4/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Upgrade/%E5%9D%9A%E6%8C%81%E6%97%A5%E6%9B%B4/</guid>
       <description>&lt;p&gt;从20190103到今天(20190508)，自己坚持的日更已经更新&lt;code&gt;124&lt;/code&gt;篇内容，详见&lt;a href=&#34;https://www.jianshu.com/c/add0c4ba262c&#34;&gt;日更&lt;/a&gt;。其间，中断过2天的日更。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>JMeter历史版本更新内容</title>
-      <link>https://www.shiyuanjie.cn/posts/JMeterUpdateHistory/</link>
+      <link>https://www.shiyuanjie.cn/posts/JMeter/JMeterUpdateHistory/</link>
       <pubDate>Sat, 30 Mar 2019 18:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/JMeterUpdateHistory/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/JMeter/JMeterUpdateHistory/</guid>
       <description>将自己翻译的JMeter历史版本的更新记录进行汇总，方便后期查阅。 JMeter版本 发布时间 更新内容 下载地址 5.2.1 20191113 [更新内容](http://shiyuanjie.cn/2019/01/11/JMeter5.2.1/ https://github.com/apache/jmeter/archive/v5.2.1-rc1.zip 5.2 20191008 [更新内容](http://shiyuanjie.cn/201</description>
     </item>
     
     <item>
       <title>JMeter5.1.1更新内容</title>
-      <link>https://www.shiyuanjie.cn/posts/JMeter5.1.1/</link>
+      <link>https://www.shiyuanjie.cn/posts/JMeter/JMeter5.1.1/</link>
       <pubDate>Wed, 20 Mar 2019 09:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/JMeter5.1.1/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/JMeter/JMeter5.1.1/</guid>
       <description>&lt;pre&gt;&lt;code&gt;此版本主要用于BUG修复
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;实时报告和测试报告&#34;&gt;实时报告和测试报告&lt;/h2&gt;
 &lt;p&gt;在&lt;code&gt;工具&lt;/code&gt;菜单中，新增直接通过&lt;code&gt;CS/JTL&lt;/code&gt;文件来生成测试报告.&lt;/p&gt;
@@ -344,10 +353,10 @@
     
     <item>
       <title>JMeter5.1更新内容</title>
-      <link>https://www.shiyuanjie.cn/posts/JMeter5.1%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</link>
+      <link>https://www.shiyuanjie.cn/posts/JMeter/JMeter5.1%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</link>
       <pubDate>Tue, 19 Mar 2019 20:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/JMeter5.1%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/JMeter/JMeter5.1%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</guid>
       <description>&lt;h2 id=&#34;核心能力提升&#34;&gt;核心能力提升&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;JDBC测试已被提升，可以直接设置SQL语句并支持查询超时功能。&lt;/li&gt;
@@ -361,28 +370,28 @@
     
     <item>
       <title>开学第一天</title>
-      <link>https://www.shiyuanjie.cn/posts/%E5%BC%80%E5%AD%A6%E7%AC%AC%E4%B8%80%E5%A4%A9/</link>
+      <link>https://www.shiyuanjie.cn/posts/Life/%E5%BC%80%E5%AD%A6%E7%AC%AC%E4%B8%80%E5%A4%A9/</link>
       <pubDate>Thu, 21 Feb 2019 08:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E5%BC%80%E5%AD%A6%E7%AC%AC%E4%B8%80%E5%A4%A9/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Life/%E5%BC%80%E5%AD%A6%E7%AC%AC%E4%B8%80%E5%A4%A9/</guid>
       <description>&lt;p&gt;早上我刚醒来，儿子也跟着醒来了。时间6:40。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>新学期报名</title>
-      <link>https://www.shiyuanjie.cn/posts/%E6%96%B0%E5%AD%A6%E6%9C%9F%E6%8A%A5%E5%90%8D/</link>
+      <link>https://www.shiyuanjie.cn/posts/Life/%E6%96%B0%E5%AD%A6%E6%9C%9F%E6%8A%A5%E5%90%8D/</link>
       <pubDate>Wed, 20 Feb 2019 07:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E6%96%B0%E5%AD%A6%E6%9C%9F%E6%8A%A5%E5%90%8D/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Life/%E6%96%B0%E5%AD%A6%E6%9C%9F%E6%8A%A5%E5%90%8D/</guid>
       <description>今天儿子要进行一年级第二学期的报名，早上自己也早早的醒来了。这会正在洗漱中。 新的学期 上个学期的时候，每天早上都要帮他穿衣，提前做好吃的，更要把洗漱的工具准备好。新的学期，需要有点改善： 早上起来需要自己穿衣 自己准备洗漱工具 也许这些内容对于成年人来说很容易，但是要让孩子养成自理的习惯</description>
     </item>
     
     <item>
       <title>个人网站搭建</title>
-      <link>https://www.shiyuanjie.cn/posts/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/</link>
+      <link>https://www.shiyuanjie.cn/posts/Blog/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/</link>
       <pubDate>Mon, 18 Feb 2019 20:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Blog/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/</guid>
       <description>&lt;h3 id=&#34;套餐&#34;&gt;套餐&lt;/h3&gt;
 &lt;p&gt;Github + Hexo + Travis&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.shiyuanjie.cn/img/SelfBlog/Relationship.png&#34; alt=&#34;Relationship&#34;&gt;&lt;/p&gt;
@@ -402,10 +411,10 @@
     
     <item>
       <title>假面前夜</title>
-      <link>https://www.shiyuanjie.cn/posts/%E5%81%87%E9%9D%A2%E5%89%8D%E5%A4%9C/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E5%81%87%E9%9D%A2%E5%89%8D%E5%A4%9C/</link>
       <pubDate>Fri, 01 Feb 2019 10:20:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E5%81%87%E9%9D%A2%E5%89%8D%E5%A4%9C/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E5%81%87%E9%9D%A2%E5%89%8D%E5%A4%9C/</guid>
       <description>&lt;h2 id=&#34;书&#34;&gt;书&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -457,10 +466,10 @@
     
     <item>
       <title>微习惯</title>
-      <link>https://www.shiyuanjie.cn/posts/%E5%BE%AE%E4%B9%A0%E6%83%AF/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E5%BE%AE%E4%B9%A0%E6%83%AF/</link>
       <pubDate>Thu, 24 Jan 2019 18:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E5%BE%AE%E4%B9%A0%E6%83%AF/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E5%BE%AE%E4%B9%A0%E6%83%AF/</guid>
       <description>&lt;h2 id=&#34;书&#34;&gt;书&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -512,10 +521,10 @@
     
     <item>
       <title>准备好了吗？开始工作吧</title>
-      <link>https://www.shiyuanjie.cn/posts/%E5%87%86%E5%A4%87%E5%A5%BD%E4%BA%86%E5%90%97%E5%BC%80%E5%A7%8B%E5%B7%A5%E4%BD%9C%E5%90%A7/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E5%87%86%E5%A4%87%E5%A5%BD%E4%BA%86%E5%90%97%E5%BC%80%E5%A7%8B%E5%B7%A5%E4%BD%9C%E5%90%A7/</link>
       <pubDate>Thu, 24 Jan 2019 09:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E5%87%86%E5%A4%87%E5%A5%BD%E4%BA%86%E5%90%97%E5%BC%80%E5%A7%8B%E5%B7%A5%E4%BD%9C%E5%90%A7/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E5%87%86%E5%A4%87%E5%A5%BD%E4%BA%86%E5%90%97%E5%BC%80%E5%A7%8B%E5%B7%A5%E4%BD%9C%E5%90%A7/</guid>
       <description>&lt;h2 id=&#34;书&#34;&gt;书&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -567,10 +576,10 @@
     
     <item>
       <title>冷场</title>
-      <link>https://www.shiyuanjie.cn/posts/%E5%86%B7%E5%9C%BA/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E5%86%B7%E5%9C%BA/</link>
       <pubDate>Wed, 23 Jan 2019 19:40:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E5%86%B7%E5%9C%BA/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E5%86%B7%E5%9C%BA/</guid>
       <description>&lt;h2 id=&#34;书&#34;&gt;书&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://images-cn.ssl-images-amazon.com/images/I/31wrrhOG4zL._SX275_BO1,204,203,200_.jpg&#34; alt=&#34;冷场&#34;&gt;&lt;/p&gt;
 &lt;p&gt;图片来源：&lt;a href=&#34;https://www.amazon.cn/dp/B07KC5SN2Z/ref=sr_1_1?ie=UTF8&amp;amp;qid=1547286413&amp;amp;sr=8-1&amp;amp;keywords=%E5%86%B7%E5%9C%BA&#34;&gt;Amazon.cn&lt;/a&gt;&lt;/p&gt;
@@ -617,10 +626,10 @@
     
     <item>
       <title>尘埃落定</title>
-      <link>https://www.shiyuanjie.cn/posts/%E5%B0%98%E5%9F%83%E8%90%BD%E5%AE%9A/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E5%B0%98%E5%9F%83%E8%90%BD%E5%AE%9A/</link>
       <pubDate>Sat, 12 Jan 2019 17:40:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E5%B0%98%E5%9F%83%E8%90%BD%E5%AE%9A/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E5%B0%98%E5%9F%83%E8%90%BD%E5%AE%9A/</guid>
       <description>&lt;h2 id=&#34;书&#34;&gt;书&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://images-cn.ssl-images-amazon.com/images/I/41ALdZ78k4L.jpg&#34; alt=&#34;尘埃落定&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -666,10 +675,10 @@
     
     <item>
       <title>2019总结</title>
-      <link>https://www.shiyuanjie.cn/posts/2019%E6%80%BB%E7%BB%93/</link>
+      <link>https://www.shiyuanjie.cn/posts/Flags/2019%E6%80%BB%E7%BB%93/</link>
       <pubDate>Sat, 12 Jan 2019 16:16:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/2019%E6%80%BB%E7%BB%93/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Flags/2019%E6%80%BB%E7%BB%93/</guid>
       <description>&lt;h2 id=&#34;回顾&#34;&gt;回顾&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://shiyuanjie.cn/2018/01/08/2018%E6%80%BB%E7%BB%93/&#34;&gt;2018总结&lt;/a&gt;&lt;/li&gt;
@@ -686,20 +695,20 @@
     
     <item>
       <title>中台</title>
-      <link>https://www.shiyuanjie.cn/posts/%E4%B8%AD%E5%8F%B0/</link>
+      <link>https://www.shiyuanjie.cn/posts/Upgrade/%E4%B8%AD%E5%8F%B0/</link>
       <pubDate>Thu, 10 Jan 2019 18:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E4%B8%AD%E5%8F%B0/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Upgrade/%E4%B8%AD%E5%8F%B0/</guid>
       <description>&lt;h2 id=&#34;思维导图版&#34;&gt;思维导图版&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.shiyuanjie.cn/img/%E4%B8%AD%E5%8F%B0.jpg&#34; alt=&#34;中台&#34;&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>关健沟通</title>
-      <link>https://www.shiyuanjie.cn/posts/%E5%85%B3%E5%81%A5%E6%B2%9F%E9%80%9A/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E5%85%B3%E5%81%A5%E6%B2%9F%E9%80%9A/</link>
       <pubDate>Thu, 03 Jan 2019 14:20:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E5%85%B3%E5%81%A5%E6%B2%9F%E9%80%9A/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E5%85%B3%E5%81%A5%E6%B2%9F%E9%80%9A/</guid>
       <description>&lt;h2 id=&#34;书&#34;&gt;书&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://img1.doubanio.com/view/subject/l/public/s29879408.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -745,10 +754,10 @@
     
     <item>
       <title>虚无的十字架</title>
-      <link>https://www.shiyuanjie.cn/posts/%E8%99%9A%E6%97%A0%E7%9A%84%E5%8D%81%E5%AD%97%E6%9E%B6/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E8%99%9A%E6%97%A0%E7%9A%84%E5%8D%81%E5%AD%97%E6%9E%B6/</link>
       <pubDate>Thu, 03 Jan 2019 13:55:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E8%99%9A%E6%97%A0%E7%9A%84%E5%8D%81%E5%AD%97%E6%9E%B6/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E8%99%9A%E6%97%A0%E7%9A%84%E5%8D%81%E5%AD%97%E6%9E%B6/</guid>
       <description>&lt;h2 id=&#34;书&#34;&gt;书&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://images-cn.ssl-images-amazon.com/images/I/51c98SlMCEL.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -794,10 +803,10 @@
     
     <item>
       <title>微前端</title>
-      <link>https://www.shiyuanjie.cn/posts/%E5%BE%AE%E5%89%8D%E7%AB%AF-%E6%80%BB%E7%BB%93/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E5%BE%AE%E5%89%8D%E7%AB%AF-%E6%80%BB%E7%BB%93/</link>
       <pubDate>Tue, 25 Dec 2018 11:40:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E5%BE%AE%E5%89%8D%E7%AB%AF-%E6%80%BB%E7%BB%93/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E5%BE%AE%E5%89%8D%E7%AB%AF-%E6%80%BB%E7%BB%93/</guid>
       <description>&lt;h2 id=&#34;解决问题&#34;&gt;解决问题&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;目标：遗留系统
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;往往这种系统都会有三个问题：&lt;/p&gt;
@@ -811,10 +820,10 @@
     
     <item>
       <title>假面饭店</title>
-      <link>https://www.shiyuanjie.cn/posts/%E5%81%87%E9%9D%A2%E9%A5%AD%E5%BA%97/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E5%81%87%E9%9D%A2%E9%A5%AD%E5%BA%97/</link>
       <pubDate>Thu, 13 Dec 2018 17:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E5%81%87%E9%9D%A2%E9%A5%AD%E5%BA%97/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E5%81%87%E9%9D%A2%E9%A5%AD%E5%BA%97/</guid>
       <description>&lt;h2 id=&#34;书&#34;&gt;书&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://images-cn.ssl-images-amazon.com/images/I/512e8JavaRL.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -856,10 +865,10 @@
     
     <item>
       <title>围城</title>
-      <link>https://www.shiyuanjie.cn/posts/%E5%9B%B4%E5%9F%8E/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E5%9B%B4%E5%9F%8E/</link>
       <pubDate>Wed, 05 Dec 2018 16:40:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E5%9B%B4%E5%9F%8E/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E5%9B%B4%E5%9F%8E/</guid>
       <description>&lt;h2 id=&#34;书&#34;&gt;书&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://images-cn.ssl-images-amazon.com/images/I/51RMtQatx0L.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -901,10 +910,10 @@
     
     <item>
       <title>洋葱阅读法</title>
-      <link>https://www.shiyuanjie.cn/posts/%E6%B4%8B%E8%91%B1%E9%98%85%E8%AF%BB%E6%B3%95/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E6%B4%8B%E8%91%B1%E9%98%85%E8%AF%BB%E6%B3%95/</link>
       <pubDate>Mon, 26 Nov 2018 15:40:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E6%B4%8B%E8%91%B1%E9%98%85%E8%AF%BB%E6%B3%95/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E6%B4%8B%E8%91%B1%E9%98%85%E8%AF%BB%E6%B3%95/</guid>
       <description>&lt;h2 id=&#34;书&#34;&gt;书&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://images-cn.ssl-images-amazon.com/images/I/5162btsZOPL.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -946,10 +955,10 @@
     
     <item>
       <title>告别失控：软件开发团队管理必读</title>
-      <link>https://www.shiyuanjie.cn/posts/%E5%91%8A%E5%88%AB%E5%A4%B1%E6%8E%A7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E5%9B%A2%E9%98%9F%E7%AE%A1%E7%90%86%E5%BF%85%E8%AF%BB/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E5%91%8A%E5%88%AB%E5%A4%B1%E6%8E%A7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E5%9B%A2%E9%98%9F%E7%AE%A1%E7%90%86%E5%BF%85%E8%AF%BB/</link>
       <pubDate>Mon, 26 Nov 2018 10:30:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E5%91%8A%E5%88%AB%E5%A4%B1%E6%8E%A7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E5%9B%A2%E9%98%9F%E7%AE%A1%E7%90%86%E5%BF%85%E8%AF%BB/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E5%91%8A%E5%88%AB%E5%A4%B1%E6%8E%A7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E5%9B%A2%E9%98%9F%E7%AE%A1%E7%90%86%E5%BF%85%E8%AF%BB/</guid>
       <description>&lt;h2 id=&#34;书&#34;&gt;书&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/51meRrTrPdL._SX395_BO1,204,203,200_.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -991,10 +1000,10 @@
     
     <item>
       <title>别说你懂思维导图</title>
-      <link>https://www.shiyuanjie.cn/posts/%E5%88%AB%E8%AF%B4%E4%BD%A0%E6%87%82%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E5%88%AB%E8%AF%B4%E4%BD%A0%E6%87%82%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE/</link>
       <pubDate>Thu, 22 Nov 2018 16:30:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E5%88%AB%E8%AF%B4%E4%BD%A0%E6%87%82%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E5%88%AB%E8%AF%B4%E4%BD%A0%E6%87%82%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE/</guid>
       <description>&lt;h2 id=&#34;书&#34;&gt;书&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/51ldM-FeVlL._SX431_BO1,204,203,200_.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -1036,10 +1045,10 @@
     
     <item>
       <title>日常生活中的思维导图</title>
-      <link>https://www.shiyuanjie.cn/posts/%E6%97%A5%E5%B8%B8%E7%94%9F%E6%B4%BB%E4%B8%AD%E7%9A%84%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E6%97%A5%E5%B8%B8%E7%94%9F%E6%B4%BB%E4%B8%AD%E7%9A%84%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE/</link>
       <pubDate>Wed, 21 Nov 2018 10:30:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E6%97%A5%E5%B8%B8%E7%94%9F%E6%B4%BB%E4%B8%AD%E7%9A%84%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E6%97%A5%E5%B8%B8%E7%94%9F%E6%B4%BB%E4%B8%AD%E7%9A%84%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE/</guid>
       <description>&lt;h2 id=&#34;书&#34;&gt;书&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/5199MnBGeML._SX385_BO1,204,203,200_.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -1081,19 +1090,19 @@
     
     <item>
       <title>思特沃克(全国)招聘</title>
-      <link>https://www.shiyuanjie.cn/posts/%E6%8B%9B%E8%81%98/</link>
+      <link>https://www.shiyuanjie.cn/posts/-Management/%E6%8B%9B%E8%81%98/</link>
       <pubDate>Fri, 16 Nov 2018 17:20:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E6%8B%9B%E8%81%98/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/-Management/%E6%8B%9B%E8%81%98/</guid>
       <description>持续更新 思特沃克（全国）重磅岗位，有兴趣的发简历至yjshi@thoughtworks.com，请注明城市和岗位。 上海: SA解决方案架构师（6年以上） UI前端开发工程师（3年以上，英文读写流利） Java 后端开发工程师（3年以上，英文读写流利） UX 用户体验设计师（5年以上，英文流利） BA 业务</description>
     </item>
     
     <item>
       <title>图解HTTP</title>
-      <link>https://www.shiyuanjie.cn/posts/%E5%9B%BE%E8%A7%A3HTTP/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E5%9B%BE%E8%A7%A3HTTP/</link>
       <pubDate>Thu, 15 Nov 2018 15:45:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E5%9B%BE%E8%A7%A3HTTP/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E5%9B%BE%E8%A7%A3HTTP/</guid>
       <description>&lt;h2 id=&#34;书&#34;&gt;书&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/41rIT5V1tiL._SX381_BO1,204,203,200_.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -1135,10 +1144,10 @@
     
     <item>
       <title>学会花钱</title>
-      <link>https://www.shiyuanjie.cn/posts/%E5%AD%A6%E4%BC%9A%E8%8A%B1%E9%92%B1/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E5%AD%A6%E4%BC%9A%E8%8A%B1%E9%92%B1/</link>
       <pubDate>Wed, 14 Nov 2018 16:10:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E5%AD%A6%E4%BC%9A%E8%8A%B1%E9%92%B1/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E5%AD%A6%E4%BC%9A%E8%8A%B1%E9%92%B1/</guid>
       <description>&lt;h2 id=&#34;书&#34;&gt;书&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://img1.doubanio.com/view/subject/l/public/s28929737.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -1170,10 +1179,10 @@
     
     <item>
       <title>职场奋斗记</title>
-      <link>https://www.shiyuanjie.cn/posts/%E8%81%8C%E5%9C%BA%E5%A5%8B%E6%96%97%E8%AE%A1/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E8%81%8C%E5%9C%BA%E5%A5%8B%E6%96%97%E8%AE%A1/</link>
       <pubDate>Mon, 12 Nov 2018 17:20:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E8%81%8C%E5%9C%BA%E5%A5%8B%E6%96%97%E8%AE%A1/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E8%81%8C%E5%9C%BA%E5%A5%8B%E6%96%97%E8%AE%A1/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://img3.doubanio.com/view/subject/l/public/s3587205.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;收获&#34;&gt;收获&lt;/h2&gt;
 &lt;h3 id=&#34;概念卡&#34;&gt;概念卡&lt;/h3&gt;
@@ -1187,10 +1196,10 @@
     
     <item>
       <title>思考，快与慢</title>
-      <link>https://www.shiyuanjie.cn/posts/%E6%80%9D%E8%80%83%E5%BF%AB%E4%B8%8E%E6%85%A2/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E6%80%9D%E8%80%83%E5%BF%AB%E4%B8%8E%E6%85%A2/</link>
       <pubDate>Tue, 06 Nov 2018 11:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E6%80%9D%E8%80%83%E5%BF%AB%E4%B8%8E%E6%85%A2/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E6%80%9D%E8%80%83%E5%BF%AB%E4%B8%8E%E6%85%A2/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://img1.doubanio.com/view/subject/l/public/s10345719.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;收获&#34;&gt;收获&lt;/h2&gt;
 &lt;h3 id=&#34;概念卡&#34;&gt;概念卡&lt;/h3&gt;
@@ -1211,10 +1220,10 @@
     
     <item>
       <title>假面山庄</title>
-      <link>https://www.shiyuanjie.cn/posts/%E5%81%87%E9%9D%A2%E5%B1%B1%E5%BA%84/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E5%81%87%E9%9D%A2%E5%B1%B1%E5%BA%84/</link>
       <pubDate>Tue, 23 Oct 2018 14:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E5%81%87%E9%9D%A2%E5%B1%B1%E5%BA%84/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E5%81%87%E9%9D%A2%E5%B1%B1%E5%BA%84/</guid>
       <description>&lt;h4 id=&#34;感悟&#34;&gt;感悟&lt;/h4&gt;
 &lt;p&gt;值得推荐的一本书，整本小说中基本全部围绕在一个山庄里发生与结束。但更多的是人性的细节，&lt;code&gt;高之&lt;/code&gt;作为&lt;code&gt;朋美&lt;/code&gt;最喜欢的人，也是即将步入婚姻一对夫妻，很难想像到是因为&lt;code&gt;高之&lt;/code&gt;喜欢了&lt;code&gt;朋美&lt;/code&gt;的好友&lt;code&gt;雪慧&lt;/code&gt;，从而对&lt;code&gt;朋美&lt;/code&gt;起了&lt;strong&gt;杀意&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;也许，这些事情很难在自己生活中发生，但它对人性真实想法的解读，很精细。&lt;/p&gt;
@@ -1223,10 +1232,10 @@
     
     <item>
       <title>七牛床图迁移至Github</title>
-      <link>https://www.shiyuanjie.cn/posts/%E4%B8%83%E7%89%9B%E5%BA%8A%E5%9B%BE%E8%BF%81%E7%A7%BB%E8%87%B3Github/</link>
+      <link>https://www.shiyuanjie.cn/posts/Tools/%E4%B8%83%E7%89%9B%E5%BA%8A%E5%9B%BE%E8%BF%81%E7%A7%BB%E8%87%B3Github/</link>
       <pubDate>Thu, 18 Oct 2018 15:10:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E4%B8%83%E7%89%9B%E5%BA%8A%E5%9B%BE%E8%BF%81%E7%A7%BB%E8%87%B3Github/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Tools/%E4%B8%83%E7%89%9B%E5%BA%8A%E5%9B%BE%E8%BF%81%E7%A7%BB%E8%87%B3Github/</guid>
       <description>&lt;p&gt;问题由于网站的大部分床图一直使用的是七牛的，近期&lt;a href=&#34;https://developer.qiniu.com/fusion/kb/1319/test-domain-access-restriction-rules&#34;&gt;官网更新&lt;/a&gt;，导致原测试域名已失效，之前在测试域名存储的图片无法&lt;code&gt;访问、查看、下载&lt;/code&gt;，网站文章关联的图片无法正常查看。所以决定&lt;strong&gt;把图片从七牛迁移至Github来存储，弃用七牛云&lt;/strong&gt;。&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;七牛融合 CDN 测试域名（以 clouddn.com/qiniucdn.com/qiniudn.com/qnssl.com/qbox.me 结尾），每个域名每日限总流量 10GB，
 每个测试域名自创建起 30 个自然日后系统会自动回收，仅供测试使用，详情查看 七牛测试域名使用规范 。
@@ -1235,10 +1244,10 @@
     
     <item>
       <title>JMeter5.0更新内容</title>
-      <link>https://www.shiyuanjie.cn/posts/JMeter5.0%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</link>
+      <link>https://www.shiyuanjie.cn/posts/JMeter/JMeter5.0%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</link>
       <pubDate>Wed, 17 Oct 2018 15:20:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/JMeter5.0%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/JMeter/JMeter5.0%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://jmeter.apache.org/&#34;&gt;JMeter&lt;/a&gt;官方在&lt;code&gt;20180918&lt;/code&gt;发布了JMeter 5.0版本，主要涉及的更新内容如下：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;新增&lt;code&gt;XPath2 extractor&lt;/code&gt;元素，用于XML处理&lt;/li&gt;
@@ -1255,19 +1264,19 @@ JMeter5.0下载：&lt;a href=&#34;http://jmeter.apache.org/download_jmeter.cgi&#
     
     <item>
       <title>印象笔记支持Markdown</title>
-      <link>https://www.shiyuanjie.cn/posts/%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0%E6%94%AF%E6%8C%81Markdown/</link>
+      <link>https://www.shiyuanjie.cn/posts/Tools/%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0%E6%94%AF%E6%8C%81Markdown/</link>
       <pubDate>Thu, 23 Aug 2018 14:50:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0%E6%94%AF%E6%8C%81Markdown/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Tools/%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0%E6%94%AF%E6%8C%81Markdown/</guid>
       <description>最近很长一断时间都比较喜欢用Markdown来编写文件，自己日常的工作和记录也一直都在用Evernote来进行. 看到Evernote在8.20发布的Mac 8.2.0 beta1版本支持Markdown格式的笔记了，赶紧来试下用。 版本支持 仅Mac的Beta版本支持此功能 版本下载 地址：http</description>
     </item>
     
     <item>
       <title>跃迁</title>
-      <link>https://www.shiyuanjie.cn/posts/%E8%B7%83%E8%BF%81/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E8%B7%83%E8%BF%81/</link>
       <pubDate>Sat, 07 Jul 2018 20:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E8%B7%83%E8%BF%81/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E8%B7%83%E8%BF%81/</guid>
       <description>&lt;pre&gt;&lt;code&gt;截止目前，个人阅读中，针对个人成长，总结最详细和接地气的一本书。
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;收获&#34;&gt;收获&lt;/h2&gt;
 &lt;h4 id=&#34;概念卡&#34;&gt;概念卡&lt;/h4&gt;
@@ -1316,10 +1325,10 @@ JMeter5.0下载：&lt;a href=&#34;http://jmeter.apache.org/download_jmeter.cgi&#
     
     <item>
       <title>寻找时间的人</title>
-      <link>https://www.shiyuanjie.cn/posts/%E5%AF%BB%E6%89%BE%E6%97%B6%E9%97%B4%E7%9A%84%E4%BA%BA/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E5%AF%BB%E6%89%BE%E6%97%B6%E9%97%B4%E7%9A%84%E4%BA%BA/</link>
       <pubDate>Sat, 23 Jun 2018 10:05:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E5%AF%BB%E6%89%BE%E6%97%B6%E9%97%B4%E7%9A%84%E4%BA%BA/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E5%AF%BB%E6%89%BE%E6%97%B6%E9%97%B4%E7%9A%84%E4%BA%BA/</guid>
       <description>&lt;h2 id=&#34;收获&#34;&gt;收获&lt;/h2&gt;
 &lt;h4 id=&#34;概念卡&#34;&gt;概念卡&lt;/h4&gt;
 &lt;p&gt;无&lt;/p&gt;
@@ -1334,10 +1343,10 @@ JMeter5.0下载：&lt;a href=&#34;http://jmeter.apache.org/download_jmeter.cgi&#
     
     <item>
       <title>蛙泳</title>
-      <link>https://www.shiyuanjie.cn/posts/%E8%9B%99%E6%B3%B3/</link>
+      <link>https://www.shiyuanjie.cn/posts/Life/%E8%9B%99%E6%B3%B3/</link>
       <pubDate>Sat, 26 May 2018 18:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E8%9B%99%E6%B3%B3/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Life/%E8%9B%99%E6%B3%B3/</guid>
       <description>&lt;p&gt;最近在出差，刚好住的酒店有游泳池。晚上有时有空就和同事一起去学习游泳，自己之前只去过三次泳池。但还是没有完全学会。&lt;/p&gt;
 &lt;p&gt;今天在知乎上看到&lt;code&gt;梦觉&lt;/code&gt;在 B站的系列课程，很不错。整理如下，为以后自己的游泳学习做个备忘。&lt;/p&gt;
 &lt;ul&gt;
@@ -1352,10 +1361,10 @@ JMeter5.0下载：&lt;a href=&#34;http://jmeter.apache.org/download_jmeter.cgi&#
     
     <item>
       <title>白夜行</title>
-      <link>https://www.shiyuanjie.cn/posts/%E7%99%BD%E5%A4%9C%E8%A1%8C/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E7%99%BD%E5%A4%9C%E8%A1%8C/</link>
       <pubDate>Wed, 23 May 2018 18:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E7%99%BD%E5%A4%9C%E8%A1%8C/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E7%99%BD%E5%A4%9C%E8%A1%8C/</guid>
       <description>&lt;h2 id=&#34;收获&#34;&gt;收获&lt;/h2&gt;
 &lt;h4 id=&#34;概念卡&#34;&gt;概念卡&lt;/h4&gt;
 &lt;p&gt;无&lt;/p&gt;
@@ -1366,10 +1375,10 @@ JMeter5.0下载：&lt;a href=&#34;http://jmeter.apache.org/download_jmeter.cgi&#
     
     <item>
       <title>自在独行</title>
-      <link>https://www.shiyuanjie.cn/posts/%E8%87%AA%E5%9C%A8%E7%8B%AC%E8%A1%8C/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E8%87%AA%E5%9C%A8%E7%8B%AC%E8%A1%8C/</link>
       <pubDate>Sat, 19 May 2018 14:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E8%87%AA%E5%9C%A8%E7%8B%AC%E8%A1%8C/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E8%87%AA%E5%9C%A8%E7%8B%AC%E8%A1%8C/</guid>
       <description>&lt;h2 id=&#34;收获&#34;&gt;收获&lt;/h2&gt;
 &lt;h4 id=&#34;概念卡&#34;&gt;概念卡&lt;/h4&gt;
 &lt;p&gt;无&lt;/p&gt;
@@ -1382,10 +1391,10 @@ JMeter5.0下载：&lt;a href=&#34;http://jmeter.apache.org/download_jmeter.cgi&#
     
     <item>
       <title>简约至上</title>
-      <link>https://www.shiyuanjie.cn/posts/%E7%AE%80%E7%BA%A6%E8%87%B3%E4%B8%8A/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E7%AE%80%E7%BA%A6%E8%87%B3%E4%B8%8A/</link>
       <pubDate>Mon, 23 Apr 2018 14:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E7%AE%80%E7%BA%A6%E8%87%B3%E4%B8%8A/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E7%AE%80%E7%BA%A6%E8%87%B3%E4%B8%8A/</guid>
       <description>&lt;h2 id=&#34;收获&#34;&gt;收获&lt;/h2&gt;
 &lt;h4 id=&#34;概念&#34;&gt;概念&lt;/h4&gt;
 &lt;ul&gt;
@@ -1419,20 +1428,20 @@ JMeter5.0下载：&lt;a href=&#34;http://jmeter.apache.org/download_jmeter.cgi&#
     
     <item>
       <title>黄金时代</title>
-      <link>https://www.shiyuanjie.cn/posts/%E9%BB%84%E9%87%91%E6%97%B6%E4%BB%A3/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E9%BB%84%E9%87%91%E6%97%B6%E4%BB%A3/</link>
       <pubDate>Mon, 09 Apr 2018 14:30:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E9%BB%84%E9%87%91%E6%97%B6%E4%BB%A3/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E9%BB%84%E9%87%91%E6%97%B6%E4%BB%A3/</guid>
       <description>&lt;h2 id=&#34;封面&#34;&gt;封面&lt;/h2&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>RIA 便签法</title>
-      <link>https://www.shiyuanjie.cn/posts/RIA%E4%BE%BF%E7%AD%BE%E6%B3%95/</link>
+      <link>https://www.shiyuanjie.cn/posts/Upgrade/RIA%E4%BE%BF%E7%AD%BE%E6%B3%95/</link>
       <pubDate>Sun, 08 Apr 2018 13:45:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/RIA%E4%BE%BF%E7%AD%BE%E6%B3%95/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Upgrade/RIA%E4%BE%BF%E7%AD%BE%E6%B3%95/</guid>
       <description>&lt;pre&gt;&lt;code&gt;为什么读书会没有效率，书中的内容不能很好的吸收。
 赵周老师发明了关于致用类书籍的 RIA 便签法，让我们可以用更好的形式来解决这个问题。
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;ria&#34;&gt;RIA&lt;/h2&gt;
@@ -1441,10 +1450,10 @@ JMeter5.0下载：&lt;a href=&#34;http://jmeter.apache.org/download_jmeter.cgi&#
     
     <item>
       <title>我的工具集</title>
-      <link>https://www.shiyuanjie.cn/posts/%E6%88%91%E7%9A%84%E5%B7%A5%E5%85%B7%E9%9B%86/</link>
+      <link>https://www.shiyuanjie.cn/posts/Tools/%E6%88%91%E7%9A%84%E5%B7%A5%E5%85%B7%E9%9B%86/</link>
       <pubDate>Wed, 21 Mar 2018 14:30:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E6%88%91%E7%9A%84%E5%B7%A5%E5%85%B7%E9%9B%86/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Tools/%E6%88%91%E7%9A%84%E5%B7%A5%E5%85%B7%E9%9B%86/</guid>
       <description>&lt;pre&gt;&lt;code&gt;把自己经常使用的工具和网址梳理出来，进行一个较完整的回顾。
 
 Last Update:20200323，持续维护...
@@ -1465,10 +1474,10 @@ Last Update:20200323，持续维护...
     
     <item>
       <title>构建Headless 的 E2E 测试</title>
-      <link>https://www.shiyuanjie.cn/posts/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BA-Headless-%E7%9A%84-E2E-%E6%B5%8B%E8%AF%95/</link>
+      <link>https://www.shiyuanjie.cn/posts/UITest/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BA-Headless-%E7%9A%84-E2E-%E6%B5%8B%E8%AF%95/</link>
       <pubDate>Fri, 02 Mar 2018 12:20:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BA-Headless-%E7%9A%84-E2E-%E6%B5%8B%E8%AF%95/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/UITest/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BA-Headless-%E7%9A%84-E2E-%E6%B5%8B%E8%AF%95/</guid>
       <description>&lt;h2 id=&#34;为什么要构建-headless-的-e2e-测试&#34;&gt;为什么要&lt;code&gt;构建 Headless 的 E2E 测试&lt;/code&gt;&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;A headless browser is a great tool for automated testing and server environments where you don&#39;t need a visible UI shell. For example, you may want to run some tests against a real web page, create a PDF of it, or just inspect how the browser renders an URL.
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;结合上面的原因，我们还可以&lt;/p&gt;
@@ -1490,10 +1499,10 @@ Last Update:20200323，持续维护...
     
     <item>
       <title>JMeter4.0更新内容</title>
-      <link>https://www.shiyuanjie.cn/posts/JMeter4.0%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</link>
+      <link>https://www.shiyuanjie.cn/posts/JMeter/JMeter4.0%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</link>
       <pubDate>Wed, 28 Feb 2018 15:20:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/JMeter4.0%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/JMeter/JMeter4.0%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</guid>
       <description>&lt;pre&gt;&lt;code&gt;等了这么久，20180210，终于有较大的更新。无论是从 UI 还是功能优化，都让人耳目一新。下面我们就详细看下具体变化。
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;原文地址：&lt;a href=&#34;http://jmeter.apache.org/changes.html&#34;&gt;http://jmeter.apache.org/changes.html&lt;/a&gt;
 下载地址：&lt;a href=&#34;http://ftp.cuhk.edu.hk/pub/packages/apache.org//jmeter/binaries/apache-jmeter-4.0.zip&#34;&gt;apache-jmeter-4.0.zip&lt;/a&gt;&lt;/p&gt;
@@ -1510,20 +1519,20 @@ Last Update:20200323，持续维护...
     
     <item>
       <title>2017Calendar中的提示</title>
-      <link>https://www.shiyuanjie.cn/posts/2017CalendarTips/</link>
+      <link>https://www.shiyuanjie.cn/posts/Flags/2017CalendarTips/</link>
       <pubDate>Thu, 18 Jan 2018 17:30:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/2017CalendarTips/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Flags/2017CalendarTips/</guid>
       <description>&lt;pre&gt;&lt;code&gt;2017年中的时候，想把自己针对孩子的教育方式和沟通方式调整下，所以在家里的 Calendar 中每个月都给自己一句话，来提醒自己。
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://www.shiyuanjie.cn/img/2017Calendar/6%E6%9C%88.jpeg&#34; alt=&#34;6月&#34;&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>我的创业史</title>
-      <link>https://www.shiyuanjie.cn/posts/%E6%88%91%E7%9A%84%E5%88%9B%E4%B8%9A%E5%8F%B2/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E6%88%91%E7%9A%84%E5%88%9B%E4%B8%9A%E5%8F%B2/</link>
       <pubDate>Thu, 18 Jan 2018 14:30:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E6%88%91%E7%9A%84%E5%88%9B%E4%B8%9A%E5%8F%B2/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E6%88%91%E7%9A%84%E5%88%9B%E4%B8%9A%E5%8F%B2/</guid>
       <description>&lt;pre&gt;&lt;code&gt;2017年底最后一天，花了一天时间，把这本书读完。
 书中主要涉及：刘强东 的个人发展史及 JD 的发展历程。
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;书&#34;&gt;书&lt;/h3&gt;
@@ -1535,20 +1544,20 @@ Last Update:20200323，持续维护...
     
     <item>
       <title>深牢大狱</title>
-      <link>https://www.shiyuanjie.cn/posts/%E6%B7%B1%E7%89%A2%E5%A4%A7%E7%8B%B1/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E6%B7%B1%E7%89%A2%E5%A4%A7%E7%8B%B1/</link>
       <pubDate>Wed, 10 Jan 2018 17:40:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E6%B7%B1%E7%89%A2%E5%A4%A7%E7%8B%B1/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E6%B7%B1%E7%89%A2%E5%A4%A7%E7%8B%B1/</guid>
       <description>&lt;h2 id=&#34;封面&#34;&gt;封面&lt;/h2&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>2018总结</title>
-      <link>https://www.shiyuanjie.cn/posts/2018%E6%80%BB%E7%BB%93/</link>
+      <link>https://www.shiyuanjie.cn/posts/Flags/2018%E6%80%BB%E7%BB%93/</link>
       <pubDate>Mon, 08 Jan 2018 19:10:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/2018%E6%80%BB%E7%BB%93/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Flags/2018%E6%80%BB%E7%BB%93/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;2018年已经过了好几天，这几天终于闲下来，把今年的事情总结下。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1567,19 +1576,19 @@ Last Update:20200323，持续维护...
     
     <item>
       <title>咨询的奥秘续</title>
-      <link>https://www.shiyuanjie.cn/posts/%E5%92%A8%E8%AF%A2%E7%9A%84%E5%A5%A5%E7%A7%98%E7%BB%AD/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E5%92%A8%E8%AF%A2%E7%9A%84%E5%A5%A5%E7%A7%98%E7%BB%AD/</link>
       <pubDate>Tue, 24 Oct 2017 14:30:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E5%92%A8%E8%AF%A2%E7%9A%84%E5%A5%A5%E7%A7%98%E7%BB%AD/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E5%92%A8%E8%AF%A2%E7%9A%84%E5%A5%A5%E7%A7%98%E7%BB%AD/</guid>
       <description>咨询师的锦囊集，IT 工程师的镜子，值得深入口味。 书 咨询的奥秘续 读后感 断断续续的读了3个月，书中的原则、定律、场景都可能是工作中的实际场景。需要慢慢品味。本书，绝对是法宝书之一，很多案例，都需要去深入体会。 无论是工程师，还是咨询师，在工作中，一定要有自己的节奏，尽量不要被外力影响。</description>
     </item>
     
     <item>
       <title>恶意</title>
-      <link>https://www.shiyuanjie.cn/posts/%E6%81%B6%E6%84%8F/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E6%81%B6%E6%84%8F/</link>
       <pubDate>Mon, 23 Oct 2017 14:30:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E6%81%B6%E6%84%8F/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E6%81%B6%E6%84%8F/</guid>
       <description>&lt;pre&gt;&lt;code&gt;8月就读完了，一直没来得及整理下，今天得空，赶紧整理下。
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;书&#34;&gt;书&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://images-cn.ssl-images-amazon.com/images/I/41K3LwaPVkL.jpg&#34; alt=&#34;恶意&#34;&gt;&lt;/p&gt;
@@ -1596,10 +1605,10 @@ Last Update:20200323，持续维护...
     
     <item>
       <title>MarkDown保存至印象笔记</title>
-      <link>https://www.shiyuanjie.cn/posts/MarkDown%E4%BF%9D%E5%AD%98%E8%87%B3%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0/</link>
+      <link>https://www.shiyuanjie.cn/posts/Tools/MarkDown%E4%BF%9D%E5%AD%98%E8%87%B3%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Sun, 15 Oct 2017 14:30:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/MarkDown%E4%BF%9D%E5%AD%98%E8%87%B3%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Tools/MarkDown%E4%BF%9D%E5%AD%98%E8%87%B3%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0/</guid>
       <description>&lt;pre&gt;&lt;code&gt;通过 Sumlime Text3 来实现将 MarkDown 文件完美保存至 印象笔记中。
 &lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;step1-安装evernote包&#34;&gt;Step1: 安装Evernote包&lt;/h1&gt;
 &lt;ul&gt;
@@ -1639,10 +1648,10 @@ Last Update:20200323，持续维护...
     
     <item>
       <title>JMeter3.3更新内容</title>
-      <link>https://www.shiyuanjie.cn/posts/JMeter3.3%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</link>
+      <link>https://www.shiyuanjie.cn/posts/JMeter/JMeter3.3%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</link>
       <pubDate>Mon, 09 Oct 2017 10:50:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/JMeter3.3%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/JMeter/JMeter3.3%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;code&gt;2017.9.21&lt;/code&gt;，JMeter3.3版本发布。&lt;/li&gt;
 &lt;li&gt;原文地址：&lt;a href=&#34;http://jmeter.apache.org/changes.html&#34;&gt;Apache JMeter 3.3 Release Notes &lt;/a&gt;,历史版本变更记录&lt;a href=&#34;http://jmeter.apache.org/changes_history.html&#34;&gt;http://jmeter.apache.org/changes_history.html&lt;/a&gt;&lt;/li&gt;
@@ -1664,19 +1673,19 @@ Last Update:20200323，持续维护...
     
     <item>
       <title>Responsive测试</title>
-      <link>https://www.shiyuanjie.cn/posts/Responsive%E6%B5%8B%E8%AF%95/</link>
+      <link>https://www.shiyuanjie.cn/posts/UITest/Responsive%E6%B5%8B%E8%AF%95/</link>
       <pubDate>Thu, 03 Aug 2017 15:30:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Responsive%E6%B5%8B%E8%AF%95/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/UITest/Responsive%E6%B5%8B%E8%AF%95/</guid>
       <description>Responsive测试 如何使用Galen进行响应式测试 使用Javascript编写测试代码 完整代码：https://github.com/aimer1124/GalenDemo 安装Galen 通过NPM安装 sudo npm install -g galenframework-cli 检查安装版本galen -v ➜ GalenDemo git:(master) ✗ galen -v Galen Framework Version: 2.3.4 JavaScript executor: Rhino 1.7 release 5 2015 01 29 第</description>
     </item>
     
     <item>
       <title>Feedback反馈</title>
-      <link>https://www.shiyuanjie.cn/posts/TeamLeader%E5%A6%82%E4%BD%95%E6%8F%90%E5%8F%8D%E9%A6%88/</link>
+      <link>https://www.shiyuanjie.cn/posts/-Management/TeamLeader%E5%A6%82%E4%BD%95%E6%8F%90%E5%8F%8D%E9%A6%88/</link>
       <pubDate>Mon, 17 Jul 2017 10:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/TeamLeader%E5%A6%82%E4%BD%95%E6%8F%90%E5%8F%8D%E9%A6%88/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/-Management/TeamLeader%E5%A6%82%E4%BD%95%E6%8F%90%E5%8F%8D%E9%A6%88/</guid>
       <description>&lt;h2 id=&#34;为什么要提反馈&#34;&gt;为什么要提反馈&lt;/h2&gt;
 &lt;h3 id=&#34;什么是反馈&#34;&gt;什么是反馈&lt;/h3&gt;
 &lt;p&gt;来自百度百科 - &lt;a href=&#34;http://baike.baidu.com/link?url=AvOQ2ATaxoMULc09bflgMRpcftXrL-9qFx4nvvAVuVJXjzHod1mYxCtGOg2esb5g7gMHkFXgGpxgZfijCTeZTP3J_mk8eQM3sf33DNl5Woe&#34;&gt;反馈&lt;/a&gt;&lt;/p&gt;
@@ -1690,10 +1699,10 @@ Last Update:20200323，持续维护...
     
     <item>
       <title>TeamLeader的有效沟通</title>
-      <link>https://www.shiyuanjie.cn/posts/TeamLeader%E6%9C%89%E6%95%88%E6%B2%9F%E9%80%9A/</link>
+      <link>https://www.shiyuanjie.cn/posts/-Management/TeamLeader%E6%9C%89%E6%95%88%E6%B2%9F%E9%80%9A/</link>
       <pubDate>Thu, 13 Jul 2017 14:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/TeamLeader%E6%9C%89%E6%95%88%E6%B2%9F%E9%80%9A/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/-Management/TeamLeader%E6%9C%89%E6%95%88%E6%B2%9F%E9%80%9A/</guid>
       <description>&lt;pre&gt;&lt;code&gt;大王 作为项目的TL，最近接手一个任务，需要分配给同事去做，其他同事都不适合只有 小牛 比较适合。小牛 是项目组的成员，平时加班很多，最近家里也有点事情。工作和生活的事情加在一起，搞的 小牛 焦头烂额的。
 于是，大王 找 小牛 想说下分配工作的事情，大王 也知道 小牛 最近加班很多。感觉有点不好意思，但工作还是要分配的。
 
@@ -1720,10 +1729,10 @@ Last Update:20200323，持续维护...
     
     <item>
       <title>TeamLeader的角色认知</title>
-      <link>https://www.shiyuanjie.cn/posts/TeamLeader%E8%A7%92%E8%89%B2%E8%AE%A4%E7%9F%A5/</link>
+      <link>https://www.shiyuanjie.cn/posts/-Management/TeamLeader%E8%A7%92%E8%89%B2%E8%AE%A4%E7%9F%A5/</link>
       <pubDate>Thu, 13 Jul 2017 10:30:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/TeamLeader%E8%A7%92%E8%89%B2%E8%AE%A4%E7%9F%A5/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/-Management/TeamLeader%E8%A7%92%E8%89%B2%E8%AE%A4%E7%9F%A5/</guid>
       <description>&lt;pre&gt;&lt;code&gt;经常在团队内部出现问题时，作为一名合格的TeamLeader，我们如何才能正确的分析问题并解决问题呢？
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;如何分析问题&#34;&gt;如何分析问题&lt;/h2&gt;
 &lt;ul&gt;
@@ -1754,19 +1763,19 @@ Last Update:20200323，持续维护...
     
     <item>
       <title>用户故事地图</title>
-      <link>https://www.shiyuanjie.cn/posts/%E7%94%A8%E6%88%B7%E6%95%85%E4%BA%8B%E5%9C%B0%E5%9B%BE/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E7%94%A8%E6%88%B7%E6%95%85%E4%BA%8B%E5%9C%B0%E5%9B%BE/</link>
       <pubDate>Tue, 04 Jul 2017 17:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E7%94%A8%E6%88%B7%E6%95%85%E4%BA%8B%E5%9C%B0%E5%9B%BE/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E7%94%A8%E6%88%B7%E6%95%85%E4%BA%8B%E5%9C%B0%E5%9B%BE/</guid>
       <description>书 用户故事地图 读后感 如果你在玩敏捷，定要看此书； 如果还没玩敏捷，更要看此书。 极力推荐！！！ 开始做产品前，一定要构建出产品全景图。不要担心花时间，只有这里理讲产品的故事路线，后面的故事情节才能不偏离主线。 故事地图，一定要完整 确立精准的用户画像 从用户的角度来讲解故事的发展 确定计划 使用</description>
     </item>
     
     <item>
       <title>什么是Locust</title>
-      <link>https://www.shiyuanjie.cn/posts/%E4%BB%80%E4%B9%88%E6%98%AFLocust/</link>
+      <link>https://www.shiyuanjie.cn/posts/Locust/%E4%BB%80%E4%B9%88%E6%98%AFLocust/</link>
       <pubDate>Thu, 08 Jun 2017 18:30:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E4%BB%80%E4%B9%88%E6%98%AFLocust/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Locust/%E4%BB%80%E4%B9%88%E6%98%AFLocust/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;原文地址：&lt;a href=&#34;http://docs.locust.io/en/latest/what-is-locust.html#&#34;&gt;http://docs.locust.io/en/latest/what-is-locust.html#&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1778,10 +1787,10 @@ Last Update:20200323，持续维护...
     
     <item>
       <title>分布式测试</title>
-      <link>https://www.shiyuanjie.cn/posts/Locust%E5%88%86%E5%B8%83%E5%BC%8F%E6%B5%8B%E8%AF%95/</link>
+      <link>https://www.shiyuanjie.cn/posts/Locust/Locust%E5%88%86%E5%B8%83%E5%BC%8F%E6%B5%8B%E8%AF%95/</link>
       <pubDate>Sat, 03 Jun 2017 21:30:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Locust%E5%88%86%E5%B8%83%E5%BC%8F%E6%B5%8B%E8%AF%95/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Locust/Locust%E5%88%86%E5%B8%83%E5%BC%8F%E6%B5%8B%E8%AF%95/</guid>
       <description>&lt;h2 id=&#34;分布式运行locust&#34;&gt;分布式运行Locust&lt;/h2&gt;
 &lt;p&gt;一旦单台机器不够模拟足够多的用户时，Locust支持运行在多台机器中进行压力测试。&lt;/p&gt;
 &lt;p&gt;为了实现这个，你应该在&lt;code&gt;master&lt;/code&gt;模式中使用&lt;code&gt;--master&lt;/code&gt;标记来启用一个Locust实例。这个实例将会运行你启动测试的Locust交互网站并查看实时统计数据。&lt;code&gt;master&lt;/code&gt;节点的机器自身不会模拟任何用户。相反，你必须使用&lt;code&gt;--slave&lt;/code&gt;标记启动一台到多台Locust&lt;code&gt;slave&lt;/code&gt;机器节点，与标记&lt;code&gt;--master-host&lt;/code&gt;一起使用(指出&lt;code&gt;master&lt;/code&gt;机器的&lt;code&gt;IP/hostname&lt;/code&gt;)。&lt;/p&gt;
@@ -1792,10 +1801,10 @@ Last Update:20200323，持续维护...
     
     <item>
       <title>编写一个Locust文件</title>
-      <link>https://www.shiyuanjie.cn/posts/%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AALocust%E6%96%87%E4%BB%B6/</link>
+      <link>https://www.shiyuanjie.cn/posts/Locust/%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AALocust%E6%96%87%E4%BB%B6/</link>
       <pubDate>Fri, 02 Jun 2017 21:30:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AALocust%E6%96%87%E4%BB%B6/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Locust/%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AALocust%E6%96%87%E4%BB%B6/</guid>
       <description>&lt;p&gt;Locust文件就是一般的Python文件。唯一的需求就是它至少需要一个继承于&lt;code&gt;Locust&lt;/code&gt;的类.&lt;/p&gt;
 &lt;h2 id=&#34;locust类&#34;&gt;Locust类&lt;/h2&gt;
 &lt;p&gt;Locust类代表一个用户(如果愿意，也可以是一个准备出动的蝗虫)。Locust会为每一个模拟用户生成一个locust类实例。同时会有一些locust类属性被定义。&lt;/p&gt;
@@ -1820,10 +1829,10 @@ class MyLocust(Locust):
     
     <item>
       <title>Locust快速入门</title>
-      <link>https://www.shiyuanjie.cn/posts/Locust%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</link>
+      <link>https://www.shiyuanjie.cn/posts/Locust/Locust%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</link>
       <pubDate>Wed, 24 May 2017 18:20:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Locust%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Locust/Locust%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</guid>
       <description>&lt;pre&gt;&lt;code&gt;Locust，基于Python的性能测试工具。
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://docs.locust.io/en/latest/what-is-locust.html&#34;&gt;什么是Locust&lt;/a&gt;&lt;/li&gt;
@@ -1858,10 +1867,10 @@ class WebsiteUser(HttpLocust):
     
     <item>
       <title>JMeter3.2更新内容</title>
-      <link>https://www.shiyuanjie.cn/posts/JMeter3.2%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</link>
+      <link>https://www.shiyuanjie.cn/posts/JMeter/JMeter3.2%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</link>
       <pubDate>Sat, 13 May 2017 14:50:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/JMeter3.2%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/JMeter/JMeter3.2%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;code&gt;2017.4.14&lt;/code&gt;，JMeter3.2版本发布。&lt;/li&gt;
 &lt;li&gt;原文地址：&lt;a href=&#34;http://jmeter.apache.org/changes.html&#34;&gt;Apache JMeter 3.2 Release Notes &lt;/a&gt;,&lt;/li&gt;
@@ -1882,10 +1891,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>刻意练习：如何从新手到大师</title>
-      <link>https://www.shiyuanjie.cn/posts/%E5%88%BB%E6%84%8F%E7%BB%83%E4%B9%A0/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E5%88%BB%E6%84%8F%E7%BB%83%E4%B9%A0/</link>
       <pubDate>Fri, 05 May 2017 15:50:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E5%88%BB%E6%84%8F%E7%BB%83%E4%B9%A0/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E5%88%BB%E6%84%8F%E7%BB%83%E4%B9%A0/</guid>
       <description>&lt;h2 id=&#34;书&#34;&gt;书&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.amazon.cn/%E5%88%BB%E6%84%8F%E7%BB%83%E4%B9%A0-%E5%A6%82%E4%BD%95%E4%BB%8E%E6%96%B0%E6%89%8B%E5%88%B0%E5%A4%A7%E5%B8%88-%E5%AE%89%E5%BE%B7%E6%96%AF-%E8%89%BE%E5%88%A9%E5%85%8B%E6%A3%AE/dp/B01MDQ7RAX/ref=tmm_pap_swatch_0?_encoding=UTF8&amp;amp;qid=1493970802&amp;amp;sr=8-1&#34;&gt;刻意练习：如何从新手到大师&lt;/a&gt;&lt;/li&gt;
@@ -1896,10 +1905,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>Showcase的正确姿势</title>
-      <link>https://www.shiyuanjie.cn/posts/Showcase%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF/</link>
+      <link>https://www.shiyuanjie.cn/posts/Agile/Showcase%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF/</link>
       <pubDate>Tue, 18 Apr 2017 18:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Showcase%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Agile/Showcase%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF/</guid>
       <description>&lt;h2 id=&#34;为什么要进行showcase&#34;&gt;为什么要进行Showcase&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Showcase目的：&lt;strong&gt;将迭代开发过程中，已完成的内容&lt;code&gt;定期&lt;/code&gt;给客户演示，让客户对迭代中的内容有&lt;code&gt;直观&lt;/code&gt;的了解&lt;/strong&gt;&lt;/p&gt;
@@ -1916,10 +1925,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>2017杨凌马拉松</title>
-      <link>https://www.shiyuanjie.cn/posts/2017%E6%9D%A8%E5%87%8C%E9%A9%AC%E6%8B%89%E6%9D%BE/</link>
+      <link>https://www.shiyuanjie.cn/posts/Run/2017%E6%9D%A8%E5%87%8C%E9%A9%AC%E6%8B%89%E6%9D%BE/</link>
       <pubDate>Sun, 16 Apr 2017 08:10:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/2017%E6%9D%A8%E5%87%8C%E9%A9%AC%E6%8B%89%E6%9D%BE/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Run/2017%E6%9D%A8%E5%87%8C%E9%A9%AC%E6%8B%89%E6%9D%BE/</guid>
       <description>&lt;h2 id=&#34;中雨跑-杨凌马拉松&#34;&gt;&lt;code&gt;中雨&lt;/code&gt;跑 杨凌马拉松&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;2015-02-23&lt;/code&gt;开始跑步，到现在也有&lt;strong&gt;2&lt;/strong&gt;年多的时间了，一直是一个人在跑，累积跑步不到&lt;code&gt;1000公里&lt;/code&gt;。以前在深圳的时候，坚持的还比较好，但西安的雾霾天气，断断续续的中断过好几次。&lt;/p&gt;
 &lt;p&gt;今年终于有机会报了杨凌马拉松，也跑了一次&lt;code&gt;半马&lt;/code&gt;，成绩&lt;strong&gt;2小时8分&lt;/strong&gt;。参赛当天，下着&lt;code&gt;中雨&lt;/code&gt;，不过对于第一次参加马拉松的人来说，确实不是啥大问题.当然，还有&lt;code&gt;家人&lt;/code&gt;在为我加油，全程跑起来，感觉很轻松。&lt;/p&gt;
@@ -1928,10 +1937,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>如何组织一场Retro</title>
-      <link>https://www.shiyuanjie.cn/posts/%E5%A6%82%E4%BD%95%E7%BB%84%E7%BB%87%E4%B8%80%E5%9C%BARetro/</link>
+      <link>https://www.shiyuanjie.cn/posts/Agile/%E5%A6%82%E4%BD%95%E7%BB%84%E7%BB%87%E4%B8%80%E5%9C%BARetro/</link>
       <pubDate>Mon, 27 Mar 2017 16:40:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E5%A6%82%E4%BD%95%E7%BB%84%E7%BB%87%E4%B8%80%E5%9C%BARetro/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Agile/%E5%A6%82%E4%BD%95%E7%BB%84%E7%BB%87%E4%B8%80%E5%9C%BARetro/</guid>
       <description>&lt;h2 id=&#34;retro&#34;&gt;Retro&lt;/h2&gt;
 &lt;h2 id=&#34;retro是什么&#34;&gt;Retro是什么&lt;/h2&gt;
 &lt;ul&gt;
@@ -1956,10 +1965,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>如何判断一个团队是敏捷团队？</title>
-      <link>https://www.shiyuanjie.cn/posts/%E5%A6%82%E4%BD%95%E5%88%A4%E6%96%AD%E4%B8%80%E4%B8%AA%E5%9B%A2%E9%98%9F%E6%98%AF%E6%95%8F%E6%8D%B7%E5%9B%A2%E9%98%9F/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E5%A6%82%E4%BD%95%E5%88%A4%E6%96%AD%E4%B8%80%E4%B8%AA%E5%9B%A2%E9%98%9F%E6%98%AF%E6%95%8F%E6%8D%B7%E5%9B%A2%E9%98%9F/</link>
       <pubDate>Tue, 14 Mar 2017 14:30:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E5%A6%82%E4%BD%95%E5%88%A4%E6%96%AD%E4%B8%80%E4%B8%AA%E5%9B%A2%E9%98%9F%E6%98%AF%E6%95%8F%E6%8D%B7%E5%9B%A2%E9%98%9F/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E5%A6%82%E4%BD%95%E5%88%A4%E6%96%AD%E4%B8%80%E4%B8%AA%E5%9B%A2%E9%98%9F%E6%98%AF%E6%95%8F%E6%8D%B7%E5%9B%A2%E9%98%9F/</guid>
       <description>&lt;p&gt;经常被客户问到，你们的敏捷团队是怎么定义的？敏捷的落实情况如何，项目开发中的敏捷实践有多少？&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;个人的理解&lt;/p&gt;
@@ -1975,10 +1984,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>轮滑VS滑板车</title>
-      <link>https://www.shiyuanjie.cn/posts/%E8%BD%AE%E6%BB%91VS%E6%BB%91%E6%9D%BF%E8%BD%A6/</link>
+      <link>https://www.shiyuanjie.cn/posts/Life/%E8%BD%AE%E6%BB%91VS%E6%BB%91%E6%9D%BF%E8%BD%A6/</link>
       <pubDate>Sat, 11 Mar 2017 19:30:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E8%BD%AE%E6%BB%91VS%E6%BB%91%E6%9D%BF%E8%BD%A6/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Life/%E8%BD%AE%E6%BB%91VS%E6%BB%91%E6%9D%BF%E8%BD%A6/</guid>
       <description>&lt;p&gt;今天带儿子去迪卡侬，计划买&lt;strong&gt;轮滑&lt;/strong&gt;，挑选好&lt;strong&gt;轮滑&lt;/strong&gt;后，又看中了&lt;strong&gt;滑板车&lt;/strong&gt;。随改主意。&lt;/p&gt;
 &lt;p&gt;我的方案：&lt;/p&gt;
 &lt;ul&gt;
@@ -1990,10 +1999,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>JMeter3.1更新内容</title>
-      <link>https://www.shiyuanjie.cn/posts/JMeter3.1%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</link>
+      <link>https://www.shiyuanjie.cn/posts/JMeter/JMeter3.1%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</link>
       <pubDate>Thu, 09 Mar 2017 16:30:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/JMeter3.1%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/JMeter/JMeter3.1%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;code&gt;2016.11.20&lt;/code&gt;，&lt;a href=&#34;http://jmeter.apache.org/&#34;&gt;JMeter&lt;/a&gt;官网已经正式发布了3.1的版本，今天尝试翻译下更新内容，内容中肯定还有很多不足，希望大家多多谅解。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -2017,19 +2026,19 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>性能测试-JMeter入门手册</title>
-      <link>https://www.shiyuanjie.cn/posts/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95-JMeter%E5%85%A5%E9%97%A8/</link>
+      <link>https://www.shiyuanjie.cn/posts/PerformanceTest/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95-JMeter%E5%85%A5%E9%97%A8/</link>
       <pubDate>Tue, 28 Feb 2017 16:15:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95-JMeter%E5%85%A5%E9%97%A8/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/PerformanceTest/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95-JMeter%E5%85%A5%E9%97%A8/</guid>
       <description>原文地址 # 本文目的 - 面向新手，学习后可以使用JMeter独立完成项目的性能测试 - 快速分析并使用JMeter定位出项目性能测试结果 - 产出有价值的性能测试报告 # 目录 - 简介 - 认识JMeter - 了解并启动JMeter - 认识JMeter - 第一个测试 - 提高JMeter - 线程高并发 - 逻辑控件器</description>
     </item>
     
     <item>
       <title>摆渡人</title>
-      <link>https://www.shiyuanjie.cn/posts/%E6%91%86%E6%B8%A1%E4%BA%BA/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E6%91%86%E6%B8%A1%E4%BA%BA/</link>
       <pubDate>Mon, 27 Feb 2017 17:47:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E6%91%86%E6%B8%A1%E4%BA%BA/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E6%91%86%E6%B8%A1%E4%BA%BA/</guid>
       <description>&lt;h2 id=&#34;封面&#34;&gt;封面&lt;/h2&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;h2 id=&#34;读后感&#34;&gt;读后感&lt;/h2&gt;
@@ -2041,19 +2050,19 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>20170224-水杯，碗，蜡烛，小人</title>
-      <link>https://www.shiyuanjie.cn/posts/%E6%89%8B%E7%BB%98-20170224-%E6%B0%B4%E6%9D%AF%E7%A2%97%E8%9C%A1%E7%83%9B%E5%B0%8F%E4%BA%BA/</link>
+      <link>https://www.shiyuanjie.cn/posts/Art/%E6%89%8B%E7%BB%98-20170224-%E6%B0%B4%E6%9D%AF%E7%A2%97%E8%9C%A1%E7%83%9B%E5%B0%8F%E4%BA%BA/</link>
       <pubDate>Fri, 24 Feb 2017 18:20:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E6%89%8B%E7%BB%98-20170224-%E6%B0%B4%E6%9D%AF%E7%A2%97%E8%9C%A1%E7%83%9B%E5%B0%8F%E4%BA%BA/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Art/%E6%89%8B%E7%BB%98-20170224-%E6%B0%B4%E6%9D%AF%E7%A2%97%E8%9C%A1%E7%83%9B%E5%B0%8F%E4%BA%BA/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://www.shiyuanjie.cn/img/Paint/20170224.jpg&#34; alt=&#34;20170224&#34;&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>20170209-20170222，模仿第一批</title>
-      <link>https://www.shiyuanjie.cn/posts/%E6%89%8B%E7%BB%98-20170209-20170222%E6%A8%A1%E4%BB%BF%E7%AC%AC%E4%B8%80%E6%89%B9/</link>
+      <link>https://www.shiyuanjie.cn/posts/Art/%E6%89%8B%E7%BB%98-20170209-20170222%E6%A8%A1%E4%BB%BF%E7%AC%AC%E4%B8%80%E6%89%B9/</link>
       <pubDate>Thu, 23 Feb 2017 09:54:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E6%89%8B%E7%BB%98-20170209-20170222%E6%A8%A1%E4%BB%BF%E7%AC%AC%E4%B8%80%E6%89%B9/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Art/%E6%89%8B%E7%BB%98-20170209-20170222%E6%A8%A1%E4%BB%BF%E7%AC%AC%E4%B8%80%E6%89%B9/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;9天的模仿记录
 &lt;ul&gt;
@@ -2066,10 +2075,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>JMeter与Docker</title>
-      <link>https://www.shiyuanjie.cn/posts/jmeter%E4%B8%8EDocker/</link>
+      <link>https://www.shiyuanjie.cn/posts/JMeter/jmeter%E4%B8%8EDocker/</link>
       <pubDate>Wed, 25 Jan 2017 21:50:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/jmeter%E4%B8%8EDocker/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/JMeter/jmeter%E4%B8%8EDocker/</guid>
       <description>&lt;h1 id=&#34;jmeter_docker&#34;&gt;JMeter_docker&lt;/h1&gt;
 &lt;p&gt;Use JMeter with Docker&lt;/p&gt;
 &lt;ul&gt;
@@ -2088,10 +2097,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>轻量级微服务架构(上册)</title>
-      <link>https://www.shiyuanjie.cn/posts/%E8%BD%BB%E9%87%8F%E7%BA%A7%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E4%B8%8A%E5%86%8C/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E8%BD%BB%E9%87%8F%E7%BA%A7%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E4%B8%8A%E5%86%8C/</link>
       <pubDate>Fri, 20 Jan 2017 14:40:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E8%BD%BB%E9%87%8F%E7%BA%A7%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E4%B8%8A%E5%86%8C/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E8%BD%BB%E9%87%8F%E7%BA%A7%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E4%B8%8A%E5%86%8C/</guid>
       <description>&lt;h2 id=&#34;书&#34;&gt;书&lt;/h2&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;h2 id=&#34;读后总结&#34;&gt;读后总结&lt;/h2&gt;
@@ -2115,10 +2124,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>获取Chrome浏览器</title>
-      <link>https://www.shiyuanjie.cn/posts/%E8%8E%B7%E5%8F%96Chrome%E6%B5%8F%E8%A7%88%E5%99%A8/</link>
+      <link>https://www.shiyuanjie.cn/posts/Tools/%E8%8E%B7%E5%8F%96Chrome%E6%B5%8F%E8%A7%88%E5%99%A8/</link>
       <pubDate>Wed, 18 Jan 2017 14:50:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E8%8E%B7%E5%8F%96Chrome%E6%B5%8F%E8%A7%88%E5%99%A8/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Tools/%E8%8E%B7%E5%8F%96Chrome%E6%B5%8F%E8%A7%88%E5%99%A8/</guid>
       <description>&lt;h2 id=&#34;由来&#34;&gt;由来&lt;/h2&gt;
 &lt;p&gt;项目的测试需求，需要针对64位 Chrome 42+的各个&lt;code&gt;稳定版&lt;/code&gt;本进行测试,但安装环境又无法&lt;code&gt;直接访问外网&lt;/code&gt;进行&lt;code&gt;在线版本&lt;/code&gt;安装，因此需要搜集已发布的&lt;code&gt;离线安装&lt;/code&gt;版本。作为&lt;code&gt;安装源&lt;/code&gt;。&lt;/p&gt;
 &lt;blockquote&gt;
@@ -2134,10 +2143,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>非暴力沟通</title>
-      <link>https://www.shiyuanjie.cn/posts/%E9%9D%9E%E6%9A%B4%E5%8A%9B%E6%B2%9F%E9%80%9A/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E9%9D%9E%E6%9A%B4%E5%8A%9B%E6%B2%9F%E9%80%9A/</link>
       <pubDate>Mon, 09 Jan 2017 13:18:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E9%9D%9E%E6%9A%B4%E5%8A%9B%E6%B2%9F%E9%80%9A/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E9%9D%9E%E6%9A%B4%E5%8A%9B%E6%B2%9F%E9%80%9A/</guid>
       <description>&lt;h2 id=&#34;书&#34;&gt;书&lt;/h2&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;h2 id=&#34;读后总结&#34;&gt;读后总结&lt;/h2&gt;
@@ -2149,10 +2158,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>蔡康永的说话之道</title>
-      <link>https://www.shiyuanjie.cn/posts/%E8%94%A1%E5%BA%B7%E6%B0%B8%E7%9A%84%E8%AA%AA%E8%A9%B1%E4%B9%8B%E9%81%93/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E8%94%A1%E5%BA%B7%E6%B0%B8%E7%9A%84%E8%AA%AA%E8%A9%B1%E4%B9%8B%E9%81%93/</link>
       <pubDate>Thu, 05 Jan 2017 14:15:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E8%94%A1%E5%BA%B7%E6%B0%B8%E7%9A%84%E8%AA%AA%E8%A9%B1%E4%B9%8B%E9%81%93/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E8%94%A1%E5%BA%B7%E6%B0%B8%E7%9A%84%E8%AA%AA%E8%A9%B1%E4%B9%8B%E9%81%93/</guid>
       <description>&lt;h2 id=&#34;书&#34;&gt;书&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;封面&lt;/li&gt;
@@ -2166,10 +2175,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>实例化需求：团队如何交付正确的软件</title>
-      <link>https://www.shiyuanjie.cn/posts/%E5%AE%9E%E4%BE%8B%E5%8C%96%E9%9C%80%E6%B1%82/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E5%AE%9E%E4%BE%8B%E5%8C%96%E9%9C%80%E6%B1%82/</link>
       <pubDate>Tue, 03 Jan 2017 12:05:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E5%AE%9E%E4%BE%8B%E5%8C%96%E9%9C%80%E6%B1%82/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E5%AE%9E%E4%BE%8B%E5%8C%96%E9%9C%80%E6%B1%82/</guid>
       <description>&lt;h2 id=&#34;书&#34;&gt;书&lt;/h2&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;h2 id=&#34;读后总结&#34;&gt;读后总结&lt;/h2&gt;
@@ -2180,10 +2189,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>2017总结</title>
-      <link>https://www.shiyuanjie.cn/posts/2017%E6%80%BB%E7%BB%93/</link>
+      <link>https://www.shiyuanjie.cn/posts/Flags/2017%E6%80%BB%E7%BB%93/</link>
       <pubDate>Wed, 28 Dec 2016 11:20:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/2017%E6%80%BB%E7%BB%93/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Flags/2017%E6%80%BB%E7%BB%93/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;2016还有几天就结束了，公司的Review基本做完，自己再做个总结。便于对新的一年有整体的规划。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -2218,10 +2227,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>如何快速崛起</title>
-      <link>https://www.shiyuanjie.cn/posts/%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E5%B4%9B%E8%B5%B7/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E5%B4%9B%E8%B5%B7/</link>
       <pubDate>Wed, 14 Dec 2016 16:05:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E5%B4%9B%E8%B5%B7/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E5%B4%9B%E8%B5%B7/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;本文整理的内容，来源于微信公众号『彪悍一只猫』作者猫哥的分享，『如何快速崛起』。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -2231,10 +2240,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>Layout测试</title>
-      <link>https://www.shiyuanjie.cn/posts/Layout%E6%B5%8B%E8%AF%95/</link>
+      <link>https://www.shiyuanjie.cn/posts/UITest/Layout%E6%B5%8B%E8%AF%95/</link>
       <pubDate>Mon, 28 Nov 2016 15:40:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Layout%E6%B5%8B%E8%AF%95/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/UITest/Layout%E6%B5%8B%E8%AF%95/</guid>
       <description>&lt;p&gt;Web页面Layout测试，一直是测试人员比较头疼的事情。原因有&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;当前市面中设备的&lt;code&gt;分辨率&lt;/code&gt;千差万别&lt;/li&gt;
@@ -2253,10 +2262,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>Android UI自动化测试神器-Espresso录制</title>
-      <link>https://www.shiyuanjie.cn/posts/Android-UI%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E7%A5%9E%E5%99%A8-Espresso%E5%BD%95%E5%88%B6/</link>
+      <link>https://www.shiyuanjie.cn/posts/Android/Android-UI%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E7%A5%9E%E5%99%A8-Espresso%E5%BD%95%E5%88%B6/</link>
       <pubDate>Fri, 25 Nov 2016 13:46:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Android-UI%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E7%A5%9E%E5%99%A8-Espresso%E5%BD%95%E5%88%B6/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Android/Android-UI%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E7%A5%9E%E5%99%A8-Espresso%E5%BD%95%E5%88%B6/</guid>
       <description>&lt;p&gt;Espresso Test Recorder的好处&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;直接录制与APP的所有交互操作&lt;/li&gt;
@@ -2274,10 +2283,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>PageObject分离E2E测试</title>
-      <link>https://www.shiyuanjie.cn/posts/PageObject%E5%88%86%E7%A6%BBE2E%E6%B5%8B%E8%AF%95/</link>
+      <link>https://www.shiyuanjie.cn/posts/UITest/PageObject%E5%88%86%E7%A6%BBE2E%E6%B5%8B%E8%AF%95/</link>
       <pubDate>Thu, 24 Nov 2016 14:20:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/PageObject%E5%88%86%E7%A6%BBE2E%E6%B5%8B%E8%AF%95/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/UITest/PageObject%E5%88%86%E7%A6%BBE2E%E6%B5%8B%E8%AF%95/</guid>
       <description>&lt;h2 id=&#34;pageobject&#34;&gt;PageObject&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://martinfowler.com&#34;&gt;老马&lt;/a&gt;关于&lt;a href=&#34;http://martinfowler.com/bliki/PageObject.html&#34;&gt;PageObject&lt;/a&gt;的定义&lt;/li&gt;
@@ -2295,10 +2304,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>MAC制作GIF及设置GIF循环播放</title>
-      <link>https://www.shiyuanjie.cn/posts/Mac%E5%88%B6%E4%BD%9CGIF%E5%8F%8A%E8%AE%BE%E7%BD%AEGIF%E5%BE%AA%E7%8E%AF%E6%92%AD%E6%94%BE/</link>
+      <link>https://www.shiyuanjie.cn/posts/UITest/Mac%E5%88%B6%E4%BD%9CGIF%E5%8F%8A%E8%AE%BE%E7%BD%AEGIF%E5%BE%AA%E7%8E%AF%E6%92%AD%E6%94%BE/</link>
       <pubDate>Wed, 23 Nov 2016 16:20:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Mac%E5%88%B6%E4%BD%9CGIF%E5%8F%8A%E8%AE%BE%E7%BD%AEGIF%E5%BE%AA%E7%8E%AF%E6%92%AD%E6%94%BE/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/UITest/Mac%E5%88%B6%E4%BD%9CGIF%E5%8F%8A%E8%AE%BE%E7%BD%AEGIF%E5%BE%AA%E7%8E%AF%E6%92%AD%E6%94%BE/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;需求：在Mac电脑中录制操作，并生成GIF文件。GIF文件需要循环播放。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -2311,10 +2320,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>Espresso入门</title>
-      <link>https://www.shiyuanjie.cn/posts/Espresso%E5%85%A5%E9%97%A8/</link>
+      <link>https://www.shiyuanjie.cn/posts/UITest/Espresso%E5%85%A5%E9%97%A8/</link>
       <pubDate>Wed, 23 Nov 2016 14:20:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Espresso%E5%85%A5%E9%97%A8/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/UITest/Espresso%E5%85%A5%E9%97%A8/</guid>
       <description>&lt;h2 id=&#34;espresso&#34;&gt;Espresso&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Espresso是什么&lt;/li&gt;
@@ -2335,10 +2344,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>Android模拟器环境搭建</title>
-      <link>https://www.shiyuanjie.cn/posts/Android%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</link>
+      <link>https://www.shiyuanjie.cn/posts/Android/Android%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</link>
       <pubDate>Tue, 22 Nov 2016 14:20:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Android%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Android/Android%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</guid>
       <description>&lt;h2 id=&#34;目的&#34;&gt;目的&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Mac电脑上面搭建Android模拟器&lt;/li&gt;
@@ -2351,10 +2360,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>如何阅读一本书</title>
-      <link>https://www.shiyuanjie.cn/posts/%E5%A6%82%E4%BD%95%E9%98%85%E8%AF%BB%E4%B8%80%E6%9C%AC%E4%B9%A6/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E5%A6%82%E4%BD%95%E9%98%85%E8%AF%BB%E4%B8%80%E6%9C%AC%E4%B9%A6/</link>
       <pubDate>Fri, 11 Nov 2016 09:50:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E5%A6%82%E4%BD%95%E9%98%85%E8%AF%BB%E4%B8%80%E6%9C%AC%E4%B9%A6/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E5%A6%82%E4%BD%95%E9%98%85%E8%AF%BB%E4%B8%80%E6%9C%AC%E4%B9%A6/</guid>
       <description>&lt;h4 id=&#34;阅读时间201605&#34;&gt;阅读时间：&lt;code&gt;201605&lt;/code&gt;&lt;/h4&gt;
 &lt;blockquote&gt;
 &lt;p&gt;这本书早就看完了，一直没有勇气把这本书的笔记整理下，最近终于有点时间，就尝试梳理了下。后面有机会还会&lt;code&gt;再次&lt;/code&gt;阅读。&lt;/p&gt;
@@ -2367,10 +2376,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>JMeter与BeanShell的化学反应</title>
-      <link>https://www.shiyuanjie.cn/posts/JMeter%E4%B8%8EBeanshell%E7%9A%84%E5%8C%96%E5%AD%A6%E5%8F%8D%E5%BA%94/</link>
+      <link>https://www.shiyuanjie.cn/posts/JMeter/JMeter%E4%B8%8EBeanshell%E7%9A%84%E5%8C%96%E5%AD%A6%E5%8F%8D%E5%BA%94/</link>
       <pubDate>Tue, 01 Nov 2016 15:53:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/JMeter%E4%B8%8EBeanshell%E7%9A%84%E5%8C%96%E5%AD%A6%E5%8F%8D%E5%BA%94/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/JMeter/JMeter%E4%B8%8EBeanshell%E7%9A%84%E5%8C%96%E5%AD%A6%E5%8F%8D%E5%BA%94/</guid>
       <description>&lt;h2 id=&#34;jmeter是什么&#34;&gt;JMeter是什么&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;http://jmeter.apache.org/&#34;&gt;http://jmeter.apache.org/&lt;/a&gt;，性能测试工具。&lt;/p&gt;
 &lt;ul&gt;
@@ -2408,10 +2417,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>Node.js开发指南</title>
-      <link>https://www.shiyuanjie.cn/posts/Node.js%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/Node.js%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/</link>
       <pubDate>Mon, 31 Oct 2016 20:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Node.js%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/Node.js%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/</guid>
       <description>&lt;h4 id=&#34;阅读时间20160930-20161031&#34;&gt;阅读时间：&lt;code&gt;20160930-20161031&lt;/code&gt;&lt;/h4&gt;
 &lt;h2 id=&#34;读后感&#34;&gt;读后感&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -2429,10 +2438,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>跑步500公里的小总结</title>
-      <link>https://www.shiyuanjie.cn/posts/%E8%B7%91%E6%AD%A5500%E5%85%AC%E9%87%8C%E7%9A%84%E5%B0%8F%E6%80%BB%E7%BB%93/</link>
+      <link>https://www.shiyuanjie.cn/posts/Run/%E8%B7%91%E6%AD%A5500%E5%85%AC%E9%87%8C%E7%9A%84%E5%B0%8F%E6%80%BB%E7%BB%93/</link>
       <pubDate>Mon, 17 Oct 2016 13:34:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E8%B7%91%E6%AD%A5500%E5%85%AC%E9%87%8C%E7%9A%84%E5%B0%8F%E6%80%BB%E7%BB%93/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Run/%E8%B7%91%E6%AD%A5500%E5%85%AC%E9%87%8C%E7%9A%84%E5%B0%8F%E6%80%BB%E7%BB%93/</guid>
       <description>&lt;h2 id=&#34;跑步数据&#34;&gt;跑步数据&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -2446,10 +2455,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>自控力</title>
-      <link>https://www.shiyuanjie.cn/posts/%E8%87%AA%E6%8E%A7%E5%8A%9B/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E8%87%AA%E6%8E%A7%E5%8A%9B/</link>
       <pubDate>Thu, 29 Sep 2016 20:20:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E8%87%AA%E6%8E%A7%E5%8A%9B/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E8%87%AA%E6%8E%A7%E5%8A%9B/</guid>
       <description>&lt;h4 id=&#34;阅读时间20160929&#34;&gt;阅读时间：&lt;code&gt;20160929&lt;/code&gt;&lt;/h4&gt;
 &lt;h2 id=&#34;读后感&#34;&gt;读后感&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -2460,10 +2469,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>如何利用21天的业余时间完成一本Mini书</title>
-      <link>https://www.shiyuanjie.cn/posts/%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A821%E5%A4%A9%E7%9A%84%E4%B8%9A%E4%BD%99%E6%97%B6%E9%97%B4%E5%AE%8C%E6%88%90%E4%B8%80%E6%9C%ACMini%E4%B9%A6/</link>
+      <link>https://www.shiyuanjie.cn/posts/Upgrade/%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A821%E5%A4%A9%E7%9A%84%E4%B8%9A%E4%BD%99%E6%97%B6%E9%97%B4%E5%AE%8C%E6%88%90%E4%B8%80%E6%9C%ACMini%E4%B9%A6/</link>
       <pubDate>Mon, 26 Sep 2016 13:17:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A821%E5%A4%A9%E7%9A%84%E4%B8%9A%E4%BD%99%E6%97%B6%E9%97%B4%E5%AE%8C%E6%88%90%E4%B8%80%E6%9C%ACMini%E4%B9%A6/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Upgrade/%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A821%E5%A4%A9%E7%9A%84%E4%B8%9A%E4%BD%99%E6%97%B6%E9%97%B4%E5%AE%8C%E6%88%90%E4%B8%80%E6%9C%ACMini%E4%B9%A6/</guid>
       <description>&lt;p&gt;自己之前也没有任何写&lt;code&gt;书&lt;/code&gt;的经验，这次写这本书，也是经一位朋友的建议，把自己了解的关于&lt;a href=&#34;http://jmeter.apache.org/&#34;&gt;JMeter&lt;/a&gt;内容&lt;code&gt;梳理&lt;/code&gt;下来，整本书仅&lt;code&gt;79&lt;/code&gt;页。&lt;/p&gt;
 &lt;p&gt;书中的内容是&lt;code&gt;性能测试工具&lt;/code&gt;&lt;a href=&#34;http://jmeter.apache.org/&#34;&gt;JMeter&lt;/a&gt;的&lt;strong&gt;入门级&lt;/strong&gt;使用。在准备写的时候，在心里做了简单的规划，如下:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.shiyuanjie.cn/img/JMeterBook/Mind.png&#34; alt=&#34;整体结构&#34;&gt;&lt;/p&gt;</description>
@@ -2471,10 +2480,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>JMeter-自动生成测试Report</title>
-      <link>https://www.shiyuanjie.cn/posts/JMeter-%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E6%B5%8B%E8%AF%95Report/</link>
+      <link>https://www.shiyuanjie.cn/posts/JMeter/JMeter-%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E6%B5%8B%E8%AF%95Report/</link>
       <pubDate>Fri, 23 Sep 2016 18:53:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/JMeter-%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E6%B5%8B%E8%AF%95Report/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/JMeter/JMeter-%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E6%B5%8B%E8%AF%95Report/</guid>
       <description>&lt;h1 id=&#34;dashboard-report&#34;&gt;Dashboard Report&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;http://jmeter.apache.org/changes.html&#34;&gt;JMeter3.0&lt;/a&gt;版本发布后，开始支持&lt;code&gt;动态&lt;/code&gt;报表报告。让测试人员编写&lt;code&gt;性能测试报告&lt;/code&gt;更加容易。&lt;/p&gt;
 &lt;ul&gt;
@@ -2490,10 +2499,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>Node入门</title>
-      <link>https://www.shiyuanjie.cn/posts/Node%E5%85%A5%E9%97%A8/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/Node%E5%85%A5%E9%97%A8/</link>
       <pubDate>Tue, 20 Sep 2016 20:44:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Node%E5%85%A5%E9%97%A8/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/Node%E5%85%A5%E9%97%A8/</guid>
       <description>&lt;h2 id=&#34;书&#34;&gt;书&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;在线版本: &lt;a href=&#34;http://www.nodebeginner.org/index-zh-cn.html&#34;&gt;Node入门&lt;/a&gt;，可在线&lt;code&gt;阅读全文&lt;/code&gt;&lt;/li&gt;
@@ -2511,10 +2520,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>性能测试之远程并发模式</title>
-      <link>https://www.shiyuanjie.cn/posts/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E4%B9%8B%E8%BF%9C%E7%A8%8B%E6%A8%A1%E5%BC%8F/</link>
+      <link>https://www.shiyuanjie.cn/posts/PerformanceTest/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E4%B9%8B%E8%BF%9C%E7%A8%8B%E6%A8%A1%E5%BC%8F/</link>
       <pubDate>Mon, 12 Sep 2016 19:15:38 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E4%B9%8B%E8%BF%9C%E7%A8%8B%E6%A8%A1%E5%BC%8F/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/PerformanceTest/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E4%B9%8B%E8%BF%9C%E7%A8%8B%E6%A8%A1%E5%BC%8F/</guid>
       <description>&lt;p&gt;事实上，你的JMeter客户端机器是不能表现出完美的压力请求，来模拟足够多的用户或由于网络限制去向服务施加压力，一种解决方法是通过一个JMeter去控制多个/远程JMeter。通过运行JMeter的远程模式，你可以通过多个低配制的电脑复制测试计划用于模拟一个大数据量的压力并发在服务器上。一个JMeter客户端实例可以控制多个远程JMeter实例，并收集所有数据信息。特点如下:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;保存测试样例在本机电脑&lt;/li&gt;
@@ -2528,10 +2537,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>性能测试最佳实践之JMeter</title>
-      <link>https://www.shiyuanjie.cn/posts/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%E4%B9%8BJMeter/</link>
+      <link>https://www.shiyuanjie.cn/posts/PerformanceTest/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%E4%B9%8BJMeter/</link>
       <pubDate>Wed, 31 Aug 2016 20:45:38 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%E4%B9%8BJMeter/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/PerformanceTest/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%E4%B9%8BJMeter/</guid>
       <description>&lt;h1 id=&#34;保持使用最新版本&#34;&gt;保持使用最新版本&lt;/h1&gt;
 &lt;p&gt;JMeter被经常推荐用来测试性能，鼓励用户使用最新的版本。&lt;/p&gt;
 &lt;p&gt;确保你要经常去阅读&lt;a href=&#34;http://jmeter.apache.org/changes.html&#34;&gt;变更记录&lt;/a&gt;中的新功能和模块的提升。你不应该再使用3.0之前的版本了&lt;/p&gt;
@@ -2542,20 +2551,20 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>无声告白</title>
-      <link>https://www.shiyuanjie.cn/posts/%E6%97%A0%E5%A3%B0%E5%91%8A%E7%99%BD/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E6%97%A0%E5%A3%B0%E5%91%8A%E7%99%BD/</link>
       <pubDate>Sun, 14 Aug 2016 20:02:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E6%97%A0%E5%A3%B0%E5%91%8A%E7%99%BD/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E6%97%A0%E5%A3%B0%E5%91%8A%E7%99%BD/</guid>
       <description>&lt;h2 id=&#34;封面&#34;&gt;封面&lt;/h2&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>性能测试与持续集成</title>
-      <link>https://www.shiyuanjie.cn/posts/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E4%B8%8E%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/</link>
+      <link>https://www.shiyuanjie.cn/posts/CICD/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E4%B8%8E%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/</link>
       <pubDate>Sun, 07 Aug 2016 14:23:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E4%B8%8E%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/CICD/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E4%B8%8E%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/</guid>
       <description>&lt;h2 id=&#34;目的&#34;&gt;目的&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;将性能测试与持续集成挂接起来&lt;/li&gt;
@@ -2566,10 +2575,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>E2E测试之Headless browser容器化</title>
-      <link>https://www.shiyuanjie.cn/posts/E2E%E6%B5%8B%E8%AF%95%E4%B9%8BHeadless-browser%E5%AE%B9%E5%99%A8%E5%8C%96/</link>
+      <link>https://www.shiyuanjie.cn/posts/UITest/E2E%E6%B5%8B%E8%AF%95%E4%B9%8BHeadless-browser%E5%AE%B9%E5%99%A8%E5%8C%96/</link>
       <pubDate>Mon, 01 Aug 2016 20:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/E2E%E6%B5%8B%E8%AF%95%E4%B9%8BHeadless-browser%E5%AE%B9%E5%99%A8%E5%8C%96/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/UITest/E2E%E6%B5%8B%E8%AF%95%E4%B9%8BHeadless-browser%E5%AE%B9%E5%99%A8%E5%8C%96/</guid>
       <description>&lt;h1 id=&#34;目的&#34;&gt;目的&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;E2E测试执行过程中&lt;strong&gt;不依赖UI&lt;/strong&gt;界面&lt;/li&gt;
@@ -2592,19 +2601,19 @@ git hub地址：&lt;a href=&#34;https://github.com/jciolek/docker-protractor-hea
     
     <item>
       <title>简书爬虫</title>
-      <link>https://www.shiyuanjie.cn/posts/%E7%AE%80%E4%B9%A6%E7%88%AC%E8%99%AB/</link>
+      <link>https://www.shiyuanjie.cn/posts/Tools/%E7%AE%80%E4%B9%A6%E7%88%AC%E8%99%AB/</link>
       <pubDate>Tue, 19 Jul 2016 19:50:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E7%AE%80%E4%B9%A6%E7%88%AC%E8%99%AB/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Tools/%E7%AE%80%E4%B9%A6%E7%88%AC%E8%99%AB/</guid>
       <description>简书爬虫 此功能纯粹为个人意想功能,利用业余时间来学习Node。所有内容均已开源,欢迎各种PR和Fork。最后更新时间: 20161129。 项目 源代码 https://github.com/aimer1124/JianshuSpider 需求 Teambition-简书爬虫 效果图 Home Article Author Collections Search ShowCase Home Articles Authors Collections Search 代码 启动 DB: sudo mongod 程序: gulp 测试: gulp test 版本 Node: 4.4.3 Mongo: 3.0.3 引用包列表 Backend express: http://expressjs.com/,node web框架</description>
     </item>
     
     <item>
       <title>API开发神器-Postman</title>
-      <link>https://www.shiyuanjie.cn/posts/API%E5%BC%80%E5%8F%91%E7%A5%9E%E5%99%A8-Postman/</link>
+      <link>https://www.shiyuanjie.cn/posts/APITest/API%E5%BC%80%E5%8F%91%E7%A5%9E%E5%99%A8-Postman/</link>
       <pubDate>Fri, 24 Jun 2016 19:50:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/API%E5%BC%80%E5%8F%91%E7%A5%9E%E5%99%A8-Postman/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/APITest/API%E5%BC%80%E5%8F%91%E7%A5%9E%E5%99%A8-Postman/</guid>
       <description>&lt;p&gt;&lt;code&gt;Postman helps you develop APIs faster.&lt;/code&gt;&lt;/p&gt;
 &lt;h1 id=&#34;豪华午餐&#34;&gt;豪华午餐&lt;/h1&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.shiyuanjie.cn/img/Postman.png&#34; alt=&#34;Postman&#34;&gt;&lt;/p&gt;
@@ -2625,10 +2634,10 @@ git hub地址：&lt;a href=&#34;https://github.com/jciolek/docker-protractor-hea
     
     <item>
       <title>如此Tricky的测试场景,你应该怎么办</title>
-      <link>https://www.shiyuanjie.cn/posts/%E5%A6%82%E6%AD%A4Tricky%E7%9A%84%E6%B5%8B%E8%AF%95%E5%9C%BA%E6%99%AF%E4%BD%A0%E5%BA%94%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E/</link>
+      <link>https://www.shiyuanjie.cn/posts/QA/%E5%A6%82%E6%AD%A4Tricky%E7%9A%84%E6%B5%8B%E8%AF%95%E5%9C%BA%E6%99%AF%E4%BD%A0%E5%BA%94%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E/</link>
       <pubDate>Sun, 22 May 2016 11:03:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E5%A6%82%E6%AD%A4Tricky%E7%9A%84%E6%B5%8B%E8%AF%95%E5%9C%BA%E6%99%AF%E4%BD%A0%E5%BA%94%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/QA/%E5%A6%82%E6%AD%A4Tricky%E7%9A%84%E6%B5%8B%E8%AF%95%E5%9C%BA%E6%99%AF%E4%BD%A0%E5%BA%94%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E/</guid>
       <description>&lt;h1 id=&#34;什么是tricky的测试场景&#34;&gt;什么是Tricky的测试场景？&lt;/h1&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.shiyuanjie.cn/img/TestScenario-Tricky.png&#34; alt=&#34;Tricky的测试场景&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;测试场景&#34;&gt;测试场景&lt;/h2&gt;
@@ -2637,10 +2646,10 @@ git hub地址：&lt;a href=&#34;https://github.com/jciolek/docker-protractor-hea
     
     <item>
       <title>API自动化测试与持续集成</title>
-      <link>https://www.shiyuanjie.cn/posts/API%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E4%B8%8E%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/</link>
+      <link>https://www.shiyuanjie.cn/posts/APITest/API%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E4%B8%8E%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/</link>
       <pubDate>Tue, 10 May 2016 14:23:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/API%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E4%B8%8E%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/APITest/API%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E4%B8%8E%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/</guid>
       <description>&lt;h1 id=&#34;目的&#34;&gt;目的&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;如何使用&lt;code&gt;SuperTest&lt;/code&gt;测试框架，进行API测试&lt;/li&gt;
@@ -2651,30 +2660,30 @@ git hub地址：&lt;a href=&#34;https://github.com/jciolek/docker-protractor-hea
     
     <item>
       <title>别笑，这是大清正史1,2,3</title>
-      <link>https://www.shiyuanjie.cn/posts/%E5%88%AB%E7%AC%91%E8%BF%99%E6%98%AF%E5%A4%A7%E6%B8%85%E6%AD%A3%E5%8F%B2/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E5%88%AB%E7%AC%91%E8%BF%99%E6%98%AF%E5%A4%A7%E6%B8%85%E6%AD%A3%E5%8F%B2/</link>
       <pubDate>Mon, 09 May 2016 10:24:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E5%88%AB%E7%AC%91%E8%BF%99%E6%98%AF%E5%A4%A7%E6%B8%85%E6%AD%A3%E5%8F%B2/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E5%88%AB%E7%AC%91%E8%BF%99%E6%98%AF%E5%A4%A7%E6%B8%85%E6%AD%A3%E5%8F%B2/</guid>
       <description>&lt;h2 id=&#34;封面&#34;&gt;封面&lt;/h2&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>The Cucumber Book: Behaviour-Driven Development for Testers and Developers</title>
-      <link>https://www.shiyuanjie.cn/posts/The-Cucumber-Book/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/The-Cucumber-Book/</link>
       <pubDate>Fri, 06 May 2016 14:40:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/The-Cucumber-Book/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/The-Cucumber-Book/</guid>
       <description>&lt;h2 id=&#34;封面&#34;&gt;封面&lt;/h2&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Protractor End to End Testing</title>
-      <link>https://www.shiyuanjie.cn/posts/Protractor-End-to-End-Testing/</link>
+      <link>https://www.shiyuanjie.cn/posts/UITest/Protractor-End-to-End-Testing/</link>
       <pubDate>Thu, 28 Apr 2016 11:06:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Protractor-End-to-End-Testing/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/UITest/Protractor-End-to-End-Testing/</guid>
       <description>&lt;h1 id=&#34;protractor&#34;&gt;Protractor&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Protractor is an end-to-end test framework for AngularJS applications.
 Protractor runs tests against your application running in a real browser, interacting with it as a user would.
@@ -2695,10 +2704,10 @@ Protractor runs tests against your application running in a real browser, intera
     
     <item>
       <title>SuperTestWithGulp</title>
-      <link>https://www.shiyuanjie.cn/posts/SuperTestWithGulp/</link>
+      <link>https://www.shiyuanjie.cn/posts/SuperTest/SuperTestWithGulp/</link>
       <pubDate>Fri, 15 Apr 2016 15:51:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/SuperTestWithGulp/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/SuperTest/SuperTestWithGulp/</guid>
       <description>&lt;h1 id=&#34;gulp&#34;&gt;Gulp&lt;/h1&gt;
 &lt;p&gt;Automate and enhance your workflow&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;用自动化构建工具增强你的工作流程！&lt;/code&gt;&lt;/p&gt;
@@ -2718,77 +2727,77 @@ Protractor runs tests against your application running in a real browser, intera
     
     <item>
       <title>游戏测试</title>
-      <link>https://www.shiyuanjie.cn/posts/%E6%B8%B8%E6%88%8F%E6%B5%8B%E8%AF%95/</link>
+      <link>https://www.shiyuanjie.cn/posts/QA/%E6%B8%B8%E6%88%8F%E6%B5%8B%E8%AF%95/</link>
       <pubDate>Sun, 03 Apr 2016 19:50:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E6%B8%B8%E6%88%8F%E6%B5%8B%E8%AF%95/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/QA/%E6%B8%B8%E6%88%8F%E6%B5%8B%E8%AF%95/</guid>
       <description>PS:文档备案，以便以后查看</description>
     </item>
     
     <item>
       <title>解忧杂货店</title>
-      <link>https://www.shiyuanjie.cn/posts/%E8%A7%A3%E5%BF%A7%E6%9D%82%E8%B4%A7%E5%BA%97/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E8%A7%A3%E5%BF%A7%E6%9D%82%E8%B4%A7%E5%BA%97/</link>
       <pubDate>Mon, 21 Mar 2016 20:02:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E8%A7%A3%E5%BF%A7%E6%9D%82%E8%B4%A7%E5%BA%97/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E8%A7%A3%E5%BF%A7%E6%9D%82%E8%B4%A7%E5%BA%97/</guid>
       <description>&lt;h2 id=&#34;封面&#34;&gt;封面&lt;/h2&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>你的灯亮着吗?:发现问题的真正所在</title>
-      <link>https://www.shiyuanjie.cn/posts/%E4%BD%A0%E7%9A%84%E7%81%AF%E4%BA%AE%E7%9D%80%E5%90%97-%E5%8F%91%E7%8E%B0%E9%97%AE%E9%A2%98%E7%9A%84%E7%9C%9F%E6%AD%A3%E6%89%80%E5%9C%A8/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E4%BD%A0%E7%9A%84%E7%81%AF%E4%BA%AE%E7%9D%80%E5%90%97-%E5%8F%91%E7%8E%B0%E9%97%AE%E9%A2%98%E7%9A%84%E7%9C%9F%E6%AD%A3%E6%89%80%E5%9C%A8/</link>
       <pubDate>Tue, 15 Mar 2016 20:20:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E4%BD%A0%E7%9A%84%E7%81%AF%E4%BA%AE%E7%9D%80%E5%90%97-%E5%8F%91%E7%8E%B0%E9%97%AE%E9%A2%98%E7%9A%84%E7%9C%9F%E6%AD%A3%E6%89%80%E5%9C%A8/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E4%BD%A0%E7%9A%84%E7%81%AF%E4%BA%AE%E7%9D%80%E5%90%97-%E5%8F%91%E7%8E%B0%E9%97%AE%E9%A2%98%E7%9A%84%E7%9C%9F%E6%AD%A3%E6%89%80%E5%9C%A8/</guid>
       <description>&lt;h2 id=&#34;封面&#34;&gt;封面&lt;/h2&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>JavaScript核心概念及实践</title>
-      <link>https://www.shiyuanjie.cn/posts/JavaScript%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5%E5%8F%8A%E5%AE%9E%E8%B7%B5/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/JavaScript%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5%E5%8F%8A%E5%AE%9E%E8%B7%B5/</link>
       <pubDate>Sat, 12 Mar 2016 23:43:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/JavaScript%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5%E5%8F%8A%E5%AE%9E%E8%B7%B5/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/JavaScript%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5%E5%8F%8A%E5%AE%9E%E8%B7%B5/</guid>
       <description>&lt;h2 id=&#34;封面&#34;&gt;封面&lt;/h2&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>三体</title>
-      <link>https://www.shiyuanjie.cn/posts/%E4%B8%89%E4%BD%93/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E4%B8%89%E4%BD%93/</link>
       <pubDate>Sat, 12 Mar 2016 20:03:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E4%B8%89%E4%BD%93/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E4%B8%89%E4%BD%93/</guid>
       <description>&lt;h2 id=&#34;封面&#34;&gt;封面&lt;/h2&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Chrome设置网络延迟与带宽</title>
-      <link>https://www.shiyuanjie.cn/posts/Chrome%E8%AE%BE%E7%BD%AE%E7%BD%91%E7%BB%9C%E5%BB%B6%E8%BF%9F%E4%B8%8E%E5%B8%A6%E5%AE%BD/</link>
+      <link>https://www.shiyuanjie.cn/posts/Tools/Chrome%E8%AE%BE%E7%BD%AE%E7%BD%91%E7%BB%9C%E5%BB%B6%E8%BF%9F%E4%B8%8E%E5%B8%A6%E5%AE%BD/</link>
       <pubDate>Wed, 09 Mar 2016 20:20:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Chrome%E8%AE%BE%E7%BD%AE%E7%BD%91%E7%BB%9C%E5%BB%B6%E8%BF%9F%E4%B8%8E%E5%B8%A6%E5%AE%BD/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Tools/Chrome%E8%AE%BE%E7%BD%AE%E7%BD%91%E7%BB%9C%E5%BB%B6%E8%BF%9F%E4%B8%8E%E5%B8%A6%E5%AE%BD/</guid>
       <description>Developer Tools开发者工具查看网络请求 Windows: F12键 Mac OS: option+command+i键 打开网络请求Network 请求网址http://aimer1124.github.io/后，Network中便会有本次的网络请求内容 点击第一条请求http://aimer1124.github.io</description>
     </item>
     
     <item>
       <title>Git添加ignore文件</title>
-      <link>https://www.shiyuanjie.cn/posts/Git%E6%B7%BB%E5%8A%A0ignore%E6%96%87%E4%BB%B6/</link>
+      <link>https://www.shiyuanjie.cn/posts/Tools/Git%E6%B7%BB%E5%8A%A0ignore%E6%96%87%E4%BB%B6/</link>
       <pubDate>Tue, 08 Mar 2016 20:57:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Git%E6%B7%BB%E5%8A%A0ignore%E6%96%87%E4%BB%B6/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Tools/Git%E6%B7%BB%E5%8A%A0ignore%E6%96%87%E4%BB%B6/</guid>
       <description>Git Ignore 忽略特殊指定的文件 gitignore - Specifies intentionally untracked files to ignore 操作 全局忽略 直接使用命令git config --global core.excludesfile ~/.gitignore_global 未添加到仓库的文件 直接在仓库根目录创建.gitignore文件 在文件中配制所需要ignore的文件清单 还原的话，直接在.gitignore中删除对应的配制行即可 已提交到仓库的文件 先更新仓库至最新版本 添加指</description>
     </item>
     
     <item>
       <title>Jenkins with Grunt</title>
-      <link>https://www.shiyuanjie.cn/posts/Jenkins-with-SuperTest-and-Grunt/</link>
+      <link>https://www.shiyuanjie.cn/posts/CICD/Jenkins-with-SuperTest-and-Grunt/</link>
       <pubDate>Thu, 03 Mar 2016 20:45:38 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Jenkins-with-SuperTest-and-Grunt/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/CICD/Jenkins-with-SuperTest-and-Grunt/</guid>
       <description>&lt;h1 id=&#34;jenkins&#34;&gt;Jenkins&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;In a nutshell, Jenkins is the leading open source automation server.
 Built with Java, it provides hundreds of plugins to support building,
@@ -2799,10 +2808,10 @@ testing, deploying and automation for virtually any project
     
     <item>
       <title>Http-Header</title>
-      <link>https://www.shiyuanjie.cn/posts/Http-Header/</link>
+      <link>https://www.shiyuanjie.cn/posts/APITest/Http-Header/</link>
       <pubDate>Mon, 29 Feb 2016 20:14:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Http-Header/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/APITest/Http-Header/</guid>
       <description>&lt;h1 id=&#34;header&#34;&gt;Header&lt;/h1&gt;
 &lt;h2 id=&#34;定义&#34;&gt;定义&lt;/h2&gt;
 &lt;p&gt;提供HTTP所需要的信息或发送的信息&lt;/p&gt;
@@ -2811,103 +2820,103 @@ testing, deploying and automation for virtually any project
     
     <item>
       <title>SuperTest-header:Auth设置</title>
-      <link>https://www.shiyuanjie.cn/posts/SuperTest-header-Auth%E8%AE%BE%E7%BD%AE/</link>
+      <link>https://www.shiyuanjie.cn/posts/SuperTest/SuperTest-header-Auth%E8%AE%BE%E7%BD%AE/</link>
       <pubDate>Sun, 28 Feb 2016 21:36:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/SuperTest-header-Auth%E8%AE%BE%E7%BD%AE/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/SuperTest/SuperTest-header-Auth%E8%AE%BE%E7%BD%AE/</guid>
       <description>SuperTest SuperTest-API测试 Auth分类 Basic:基本身份认证，直接采用：用户名密码 基本用法 1 2 3 4 5 6 it(&amp;#39;should receive a status code of 200 with login&amp;#39;, function(done) { request(url) .get(&amp;#39;/staging&amp;#39;) .auth(&amp;#39;the-username&amp;#39;, &amp;#39;the-password&amp;#39;) .expect(200, done); }); Base64加密 1 .set(&amp;#34;Authorization&amp;#34;, &amp;#34;basic &amp;#34; + new Buffer(&amp;#34;username:password&amp;#34;).toString(&amp;#34;base64&amp;#34;)) Digest:摘要式身份认证 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 request.get(&amp;#39;http://some.server.com/&amp;#39;).auth(&amp;#39;username&amp;#39;, &amp;#39;password&amp;#39;, false); // or request.get(&amp;#39;http://some.server.com/&amp;#39;, { &amp;#39;auth&amp;#39;: { &amp;#39;user&amp;#39;: &amp;#39;username&amp;#39;, &amp;#39;pass&amp;#39;: &amp;#39;password&amp;#39;, &amp;#39;sendImmediately&amp;#39;: false } }); // or request.get(&amp;#39;http://some.server.com/&amp;#39;).auth(null, null,</description>
     </item>
     
     <item>
       <title>Gauge学习</title>
-      <link>https://www.shiyuanjie.cn/posts/Gauge%E5%AD%A6%E4%B9%A0/</link>
+      <link>https://www.shiyuanjie.cn/posts/APITest/Gauge%E5%AD%A6%E4%B9%A0/</link>
       <pubDate>Fri, 19 Feb 2016 16:53:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Gauge%E5%AD%A6%E4%B9%A0/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/APITest/Gauge%E5%AD%A6%E4%B9%A0/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://www.shiyuanjie.cn/img/github.Gauge.png&#34; alt=&#34;Gauge脑图&#34;&gt;&lt;/p&gt;
 &lt;p&gt;之前梳理的&lt;a href=&#34;http://getgauge.io/&#34;&gt;Gauge&lt;/a&gt;的资料，存放到这里，便于以后使用。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Tricky test scenario</title>
-      <link>https://www.shiyuanjie.cn/posts/Tricky-test/</link>
+      <link>https://www.shiyuanjie.cn/posts/QA/Tricky-test/</link>
       <pubDate>Sat, 30 Jan 2016 18:47:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Tricky-test/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/QA/Tricky-test/</guid>
       <description>测试验证码，收到客户投诉 Scenario 作为普通用户,在用户注册时，可通过获取短信码使用手机号进行注册 功能 用户注册时，需要测试手机号码与获取的短信码是否能正常收到且匹配。 短信验证码由本项目生成,但由第三方来发送 验证码发送是由第三方提供的，无法完全Mock 数据库中会记录收到的短信验证码. 测试策略</description>
     </item>
     
     <item>
       <title>站点搭建过程</title>
-      <link>https://www.shiyuanjie.cn/posts/%E7%AB%99%E7%82%B9%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/</link>
+      <link>https://www.shiyuanjie.cn/posts/Blog/%E7%AB%99%E7%82%B9%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/</link>
       <pubDate>Sat, 30 Jan 2016 11:20:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E7%AB%99%E7%82%B9%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/</guid>
-      <description>20200325 重大更新 站点生成从Hexo转移至Hugo 将源公开站点信息拖管至Github的Private仓库 将站点资源部署在阿里云的ECS中，在阿里云中申请SSL证书并关联网站 申请网站备案号 原有busuanzi统计全部失效，重新统计 20200108 增加Donate功能(Alipay &amp;amp; wechat) 关闭右侧Tag功能 20200104</description>
+      <guid>https://www.shiyuanjie.cn/posts/Blog/%E7%AB%99%E7%82%B9%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/</guid>
+      <description>20200325 重大更新 站点生成从Hexo转移至Hugo 将源公开站点信息拖管至Github的Private仓库 将站点资源部署在阿里云的ECS中，在阿里云中申请SSL证书并关联网站 申请网站备案号 原有busuanzi统计全部失效，重新统计 按类型整理源文章，更新至对应的Folder 20200108 增加Donate</description>
     </item>
     
     <item>
       <title>Node.js时间格式处理</title>
-      <link>https://www.shiyuanjie.cn/posts/Node-js%E6%97%B6%E9%97%B4%E6%A0%BC%E5%BC%8F%E5%A4%84%E7%90%86/</link>
+      <link>https://www.shiyuanjie.cn/posts/Tools/Node-js%E6%97%B6%E9%97%B4%E6%A0%BC%E5%BC%8F%E5%A4%84%E7%90%86/</link>
       <pubDate>Tue, 26 Jan 2016 22:18:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Node-js%E6%97%B6%E9%97%B4%E6%A0%BC%E5%BC%8F%E5%A4%84%E7%90%86/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Tools/Node-js%E6%97%B6%E9%97%B4%E6%A0%BC%E5%BC%8F%E5%A4%84%E7%90%86/</guid>
       <description>moment库 专门用于Javascript的时间转化、验证、处理、展示 安装moment npm install moment 使用moment 引用moment 1 var moment = require(&amp;#39;moment&amp;#39;); 转化时间 1 2 3 4 5 6 7 //将时间格式转化为：2016-01-22 21:21:26 moment(new Date()).format(&amp;#34;YYYY-MM-DD HH:mm:ss&amp;#34;); moment().format(&amp;#39;MMMM Do YYYY, h:mm:ss a&amp;#39;); // January 26th 2016, 10:25:00 pm moment().format(&amp;#39;dddd&amp;#39;); // Tuesday moment().format(&amp;#34;MMM Do YY&amp;#34;); // Jan 26th 16 moment().format(&amp;#39;YYYY [escaped] YYYY&amp;#39;); // 2016 escaped 2016 moment().format(); // 2016-01-26T22:25:24+08:00 相对时间 1 2</description>
     </item>
     
     <item>
       <title>Node.js调用数据库:Mysql</title>
-      <link>https://www.shiyuanjie.cn/posts/JS%E8%B0%83%E7%94%A8%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
+      <link>https://www.shiyuanjie.cn/posts/Tools/JS%E8%B0%83%E7%94%A8%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
       <pubDate>Tue, 26 Jan 2016 22:01:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/JS%E8%B0%83%E7%94%A8%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Tools/JS%E8%B0%83%E7%94%A8%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
       <description>安装Mysql包 npm install mysql 调用 Mysql包 1 var mysql = require(&amp;#39;mysql&amp;#39;); 数据库查询 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 var mysql = require(&amp;#39;mysql&amp;#39;); var connection = mysql.createConnection({ host : &amp;#39;10.29.10.29&amp;#39;, port : 3307, user : &amp;#39;root&amp;#39;, password : &amp;#39;&amp;#39;, database : &amp;#39;emall&amp;#39;, //charset : &amp;#39;UTF8_GENERAL_CI&amp;#39;, debug : false }); connection.connect(); connection.query(&amp;#34;use emall&amp;#34;); connection.query(&amp;#39;select id from users&amp;#39;, function(err,results) { if (err) { throw err; } }); connection.end(); 数据库插入 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 var mysql = require(&amp;#39;mysql&amp;#39;); var connection = mysql.createConnection({ host : &amp;#39;10.29.10.29&amp;#39;, port : 3307, user : &amp;#39;root&amp;#39;, password : &amp;#39;&amp;#39;, database</description>
     </item>
     
     <item>
       <title>find</title>
-      <link>https://www.shiyuanjie.cn/posts/find/</link>
+      <link>https://www.shiyuanjie.cn/posts/Tools/find/</link>
       <pubDate>Wed, 20 Jan 2016 21:27:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/find/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Tools/find/</guid>
       <description>find 查找文件，可指定遍历路径 用法举例 查看当前目录下具体的文件 ~ find a.txt 在指定目录查找文件 ~ find ./Download -name &amp;quot;*.jpg&amp;quot; 查看目录下所有包括a的文件列表 ~ find . -name &amp;quot;Thought*&amp;quot; 查找大于100K的文件表列 ~ find . -name &amp;quot;Thought*&amp;quot; -size +100k 查找创建时间大于2天的 ~ find . -name &amp;quot;*.txt&amp;quot; -mtime +2 查看find的详细用法 FIND(1) BSD General Commands Manual FIND(1) NAME find -- walk a file hierarchy SYNOPSIS find [-H | -L | -P] [-EXdsx] [-f path] path ...</description>
     </item>
     
     <item>
       <title>SuperTest-API测试</title>
-      <link>https://www.shiyuanjie.cn/posts/SuperTest/</link>
+      <link>https://www.shiyuanjie.cn/posts/SuperTest/SuperTest/</link>
       <pubDate>Sun, 17 Jan 2016 19:51:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/SuperTest/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/SuperTest/SuperTest/</guid>
       <description>什么是SuperTest The motivation with this module is to provide a high-level abstraction for testing HTTP, while still allowing you to drop down to the lower-level API provided by super-agent. 简单说明：用来测试HTTP请求，提供简单的super-agent来实现API请求 安装SuperTest npm安装 官网下载对应的操作系统版本-NPM，下载完成后，直接进行安装即可 cnpm,若翻墙网络比较</description>
     </item>
     
     <item>
       <title>Google 软件测试之道</title>
-      <link>https://www.shiyuanjie.cn/posts/Google-%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E4%B9%8B%E9%81%93/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/Google-%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E4%B9%8B%E9%81%93/</link>
       <pubDate>Thu, 15 Oct 2015 21:37:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Google-%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E4%B9%8B%E9%81%93/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/Google-%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E4%B9%8B%E9%81%93/</guid>
       <description>&lt;h2 id=&#34;封面&#34;&gt;封面&lt;/h2&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Rework 重来:更为简单有效的商业思维</title>
-      <link>https://www.shiyuanjie.cn/posts/Rework/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/Rework/</link>
       <pubDate>Wed, 02 Sep 2015 20:44:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Rework/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/Rework/</guid>
       <description>&lt;h2 id=&#34;封面&#34;&gt;封面&lt;/h2&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>乖，摸摸头</title>
-      <link>https://www.shiyuanjie.cn/posts/%E4%B9%96%E6%91%B8%E6%91%B8%E5%A4%B4/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E4%B9%96%E6%91%B8%E6%91%B8%E5%A4%B4/</link>
       <pubDate>Sun, 23 Aug 2015 21:03:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E4%B9%96%E6%91%B8%E6%91%B8%E5%A4%B4/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E4%B9%96%E6%91%B8%E6%91%B8%E5%A4%B4/</guid>
       <description>&lt;h2 id=&#34;封面&#34;&gt;封面&lt;/h2&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>

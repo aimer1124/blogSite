@@ -13,10 +13,10 @@
     
     <item>
       <title>JMeter与Docker</title>
-      <link>https://www.shiyuanjie.cn/posts/jmeter%E4%B8%8EDocker/</link>
+      <link>https://www.shiyuanjie.cn/posts/JMeter/jmeter%E4%B8%8EDocker/</link>
       <pubDate>Wed, 25 Jan 2017 21:50:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/jmeter%E4%B8%8EDocker/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/JMeter/jmeter%E4%B8%8EDocker/</guid>
       <description>&lt;h1 id=&#34;jmeter_docker&#34;&gt;JMeter_docker&lt;/h1&gt;
 &lt;p&gt;Use JMeter with Docker&lt;/p&gt;
 &lt;ul&gt;
@@ -35,10 +35,10 @@
     
     <item>
       <title>轻量级微服务架构(上册)</title>
-      <link>https://www.shiyuanjie.cn/posts/%E8%BD%BB%E9%87%8F%E7%BA%A7%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E4%B8%8A%E5%86%8C/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E8%BD%BB%E9%87%8F%E7%BA%A7%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E4%B8%8A%E5%86%8C/</link>
       <pubDate>Fri, 20 Jan 2017 14:40:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E8%BD%BB%E9%87%8F%E7%BA%A7%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E4%B8%8A%E5%86%8C/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E8%BD%BB%E9%87%8F%E7%BA%A7%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E4%B8%8A%E5%86%8C/</guid>
       <description>&lt;h2 id=&#34;书&#34;&gt;书&lt;/h2&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;h2 id=&#34;读后总结&#34;&gt;读后总结&lt;/h2&gt;
@@ -62,10 +62,10 @@
     
     <item>
       <title>E2E测试之Headless browser容器化</title>
-      <link>https://www.shiyuanjie.cn/posts/E2E%E6%B5%8B%E8%AF%95%E4%B9%8BHeadless-browser%E5%AE%B9%E5%99%A8%E5%8C%96/</link>
+      <link>https://www.shiyuanjie.cn/posts/UITest/E2E%E6%B5%8B%E8%AF%95%E4%B9%8BHeadless-browser%E5%AE%B9%E5%99%A8%E5%8C%96/</link>
       <pubDate>Mon, 01 Aug 2016 20:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/E2E%E6%B5%8B%E8%AF%95%E4%B9%8BHeadless-browser%E5%AE%B9%E5%99%A8%E5%8C%96/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/UITest/E2E%E6%B5%8B%E8%AF%95%E4%B9%8BHeadless-browser%E5%AE%B9%E5%99%A8%E5%8C%96/</guid>
       <description>&lt;h1 id=&#34;目的&#34;&gt;目的&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;E2E测试执行过程中&lt;strong&gt;不依赖UI&lt;/strong&gt;界面&lt;/li&gt;

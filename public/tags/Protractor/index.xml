@@ -13,10 +13,10 @@
     
     <item>
       <title>E2E测试之Headless browser容器化</title>
-      <link>https://www.shiyuanjie.cn/posts/E2E%E6%B5%8B%E8%AF%95%E4%B9%8BHeadless-browser%E5%AE%B9%E5%99%A8%E5%8C%96/</link>
+      <link>https://www.shiyuanjie.cn/posts/UITest/E2E%E6%B5%8B%E8%AF%95%E4%B9%8BHeadless-browser%E5%AE%B9%E5%99%A8%E5%8C%96/</link>
       <pubDate>Mon, 01 Aug 2016 20:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/E2E%E6%B5%8B%E8%AF%95%E4%B9%8BHeadless-browser%E5%AE%B9%E5%99%A8%E5%8C%96/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/UITest/E2E%E6%B5%8B%E8%AF%95%E4%B9%8BHeadless-browser%E5%AE%B9%E5%99%A8%E5%8C%96/</guid>
       <description>&lt;h1 id=&#34;目的&#34;&gt;目的&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;E2E测试执行过程中&lt;strong&gt;不依赖UI&lt;/strong&gt;界面&lt;/li&gt;
@@ -39,10 +39,10 @@ git hub地址：&lt;a href=&#34;https://github.com/jciolek/docker-protractor-hea
     
     <item>
       <title>Protractor End to End Testing</title>
-      <link>https://www.shiyuanjie.cn/posts/Protractor-End-to-End-Testing/</link>
+      <link>https://www.shiyuanjie.cn/posts/UITest/Protractor-End-to-End-Testing/</link>
       <pubDate>Thu, 28 Apr 2016 11:06:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Protractor-End-to-End-Testing/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/UITest/Protractor-End-to-End-Testing/</guid>
       <description>&lt;h1 id=&#34;protractor&#34;&gt;Protractor&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Protractor is an end-to-end test framework for AngularJS applications.
 Protractor runs tests against your application running in a real browser, interacting with it as a user would.

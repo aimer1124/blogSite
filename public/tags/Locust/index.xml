@@ -13,10 +13,10 @@
     
     <item>
       <title>什么是Locust</title>
-      <link>https://www.shiyuanjie.cn/posts/%E4%BB%80%E4%B9%88%E6%98%AFLocust/</link>
+      <link>https://www.shiyuanjie.cn/posts/Locust/%E4%BB%80%E4%B9%88%E6%98%AFLocust/</link>
       <pubDate>Thu, 08 Jun 2017 18:30:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E4%BB%80%E4%B9%88%E6%98%AFLocust/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Locust/%E4%BB%80%E4%B9%88%E6%98%AFLocust/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;原文地址：&lt;a href=&#34;http://docs.locust.io/en/latest/what-is-locust.html#&#34;&gt;http://docs.locust.io/en/latest/what-is-locust.html#&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -28,10 +28,10 @@
     
     <item>
       <title>分布式测试</title>
-      <link>https://www.shiyuanjie.cn/posts/Locust%E5%88%86%E5%B8%83%E5%BC%8F%E6%B5%8B%E8%AF%95/</link>
+      <link>https://www.shiyuanjie.cn/posts/Locust/Locust%E5%88%86%E5%B8%83%E5%BC%8F%E6%B5%8B%E8%AF%95/</link>
       <pubDate>Sat, 03 Jun 2017 21:30:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Locust%E5%88%86%E5%B8%83%E5%BC%8F%E6%B5%8B%E8%AF%95/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Locust/Locust%E5%88%86%E5%B8%83%E5%BC%8F%E6%B5%8B%E8%AF%95/</guid>
       <description>&lt;h2 id=&#34;分布式运行locust&#34;&gt;分布式运行Locust&lt;/h2&gt;
 &lt;p&gt;一旦单台机器不够模拟足够多的用户时，Locust支持运行在多台机器中进行压力测试。&lt;/p&gt;
 &lt;p&gt;为了实现这个，你应该在&lt;code&gt;master&lt;/code&gt;模式中使用&lt;code&gt;--master&lt;/code&gt;标记来启用一个Locust实例。这个实例将会运行你启动测试的Locust交互网站并查看实时统计数据。&lt;code&gt;master&lt;/code&gt;节点的机器自身不会模拟任何用户。相反，你必须使用&lt;code&gt;--slave&lt;/code&gt;标记启动一台到多台Locust&lt;code&gt;slave&lt;/code&gt;机器节点，与标记&lt;code&gt;--master-host&lt;/code&gt;一起使用(指出&lt;code&gt;master&lt;/code&gt;机器的&lt;code&gt;IP/hostname&lt;/code&gt;)。&lt;/p&gt;
@@ -42,10 +42,10 @@
     
     <item>
       <title>编写一个Locust文件</title>
-      <link>https://www.shiyuanjie.cn/posts/%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AALocust%E6%96%87%E4%BB%B6/</link>
+      <link>https://www.shiyuanjie.cn/posts/Locust/%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AALocust%E6%96%87%E4%BB%B6/</link>
       <pubDate>Fri, 02 Jun 2017 21:30:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AALocust%E6%96%87%E4%BB%B6/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Locust/%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AALocust%E6%96%87%E4%BB%B6/</guid>
       <description>&lt;p&gt;Locust文件就是一般的Python文件。唯一的需求就是它至少需要一个继承于&lt;code&gt;Locust&lt;/code&gt;的类.&lt;/p&gt;
 &lt;h2 id=&#34;locust类&#34;&gt;Locust类&lt;/h2&gt;
 &lt;p&gt;Locust类代表一个用户(如果愿意，也可以是一个准备出动的蝗虫)。Locust会为每一个模拟用户生成一个locust类实例。同时会有一些locust类属性被定义。&lt;/p&gt;
@@ -70,10 +70,10 @@ class MyLocust(Locust):
     
     <item>
       <title>Locust快速入门</title>
-      <link>https://www.shiyuanjie.cn/posts/Locust%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</link>
+      <link>https://www.shiyuanjie.cn/posts/Locust/Locust%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</link>
       <pubDate>Wed, 24 May 2017 18:20:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Locust%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Locust/Locust%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</guid>
       <description>&lt;pre&gt;&lt;code&gt;Locust，基于Python的性能测试工具。
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://docs.locust.io/en/latest/what-is-locust.html&#34;&gt;什么是Locust&lt;/a&gt;&lt;/li&gt;

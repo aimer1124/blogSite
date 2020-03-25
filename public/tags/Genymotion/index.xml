@@ -13,10 +13,10 @@
     
     <item>
       <title>Espresso入门</title>
-      <link>https://www.shiyuanjie.cn/posts/Espresso%E5%85%A5%E9%97%A8/</link>
+      <link>https://www.shiyuanjie.cn/posts/UITest/Espresso%E5%85%A5%E9%97%A8/</link>
       <pubDate>Wed, 23 Nov 2016 14:20:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Espresso%E5%85%A5%E9%97%A8/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/UITest/Espresso%E5%85%A5%E9%97%A8/</guid>
       <description>&lt;h2 id=&#34;espresso&#34;&gt;Espresso&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Espresso是什么&lt;/li&gt;
@@ -37,10 +37,10 @@
     
     <item>
       <title>Android模拟器环境搭建</title>
-      <link>https://www.shiyuanjie.cn/posts/Android%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</link>
+      <link>https://www.shiyuanjie.cn/posts/Android/Android%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</link>
       <pubDate>Tue, 22 Nov 2016 14:20:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Android%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Android/Android%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</guid>
       <description>&lt;h2 id=&#34;目的&#34;&gt;目的&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Mac电脑上面搭建Android模拟器&lt;/li&gt;

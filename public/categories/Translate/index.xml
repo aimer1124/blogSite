@@ -13,37 +13,37 @@
     
     <item>
       <title>JMeter5.2.1更新内容</title>
-      <link>https://www.shiyuanjie.cn/posts/JMeter5.2.1/</link>
+      <link>https://www.shiyuanjie.cn/posts/JMeter/JMeter5.2.1/</link>
       <pubDate>Sat, 11 Jan 2020 18:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/JMeter5.2.1/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/JMeter/JMeter5.2.1/</guid>
       <description>版本发布时间于20191113，本次版本主要是BugFix。 主要内容 本次更新主要为BugFix，更新内容参考5.2。 版本下载 JMeter5.2.1</description>
     </item>
     
     <item>
       <title>JMeter5.2更新内容</title>
-      <link>https://www.shiyuanjie.cn/posts/JMeter5.2%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</link>
+      <link>https://www.shiyuanjie.cn/posts/JMeter/JMeter5.2%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</link>
       <pubDate>Wed, 08 Jan 2020 15:30:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/JMeter5.2%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/JMeter/JMeter5.2%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</guid>
       <description>版本发布时间于20191008，本次版本基本没有什么更新，主要是切换版本号。 主要内容 本次为版本发布，更新内容参考5.1.1 提升 HTTP(S) Test Script Recorder 会在名字后追加数字显示，参考Bug 64350 修复：当在XPath表达式中使用XPath Assertion返回Boolean值时，True if nothing matches</description>
     </item>
     
     <item>
       <title>JMeter历史版本更新内容</title>
-      <link>https://www.shiyuanjie.cn/posts/JMeterUpdateHistory/</link>
+      <link>https://www.shiyuanjie.cn/posts/JMeter/JMeterUpdateHistory/</link>
       <pubDate>Sat, 30 Mar 2019 18:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/JMeterUpdateHistory/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/JMeter/JMeterUpdateHistory/</guid>
       <description>将自己翻译的JMeter历史版本的更新记录进行汇总，方便后期查阅。 JMeter版本 发布时间 更新内容 下载地址 5.2.1 20191113 [更新内容](http://shiyuanjie.cn/2019/01/11/JMeter5.2.1/ https://github.com/apache/jmeter/archive/v5.2.1-rc1.zip 5.2 20191008 [更新内容](http://shiyuanjie.cn/201</description>
     </item>
     
     <item>
       <title>JMeter5.1.1更新内容</title>
-      <link>https://www.shiyuanjie.cn/posts/JMeter5.1.1/</link>
+      <link>https://www.shiyuanjie.cn/posts/JMeter/JMeter5.1.1/</link>
       <pubDate>Wed, 20 Mar 2019 09:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/JMeter5.1.1/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/JMeter/JMeter5.1.1/</guid>
       <description>&lt;pre&gt;&lt;code&gt;此版本主要用于BUG修复
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;实时报告和测试报告&#34;&gt;实时报告和测试报告&lt;/h2&gt;
 &lt;p&gt;在&lt;code&gt;工具&lt;/code&gt;菜单中，新增直接通过&lt;code&gt;CS/JTL&lt;/code&gt;文件来生成测试报告.&lt;/p&gt;
@@ -53,10 +53,10 @@
     
     <item>
       <title>JMeter5.1更新内容</title>
-      <link>https://www.shiyuanjie.cn/posts/JMeter5.1%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</link>
+      <link>https://www.shiyuanjie.cn/posts/JMeter/JMeter5.1%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</link>
       <pubDate>Tue, 19 Mar 2019 20:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/JMeter5.1%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/JMeter/JMeter5.1%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</guid>
       <description>&lt;h2 id=&#34;核心能力提升&#34;&gt;核心能力提升&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;JDBC测试已被提升，可以直接设置SQL语句并支持查询超时功能。&lt;/li&gt;
@@ -70,10 +70,10 @@
     
     <item>
       <title>JMeter5.0更新内容</title>
-      <link>https://www.shiyuanjie.cn/posts/JMeter5.0%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</link>
+      <link>https://www.shiyuanjie.cn/posts/JMeter/JMeter5.0%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</link>
       <pubDate>Wed, 17 Oct 2018 15:20:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/JMeter5.0%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/JMeter/JMeter5.0%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://jmeter.apache.org/&#34;&gt;JMeter&lt;/a&gt;官方在&lt;code&gt;20180918&lt;/code&gt;发布了JMeter 5.0版本，主要涉及的更新内容如下：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;新增&lt;code&gt;XPath2 extractor&lt;/code&gt;元素，用于XML处理&lt;/li&gt;
@@ -90,10 +90,10 @@ JMeter5.0下载：&lt;a href=&#34;http://jmeter.apache.org/download_jmeter.cgi&#
     
     <item>
       <title>JMeter4.0更新内容</title>
-      <link>https://www.shiyuanjie.cn/posts/JMeter4.0%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</link>
+      <link>https://www.shiyuanjie.cn/posts/JMeter/JMeter4.0%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</link>
       <pubDate>Wed, 28 Feb 2018 15:20:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/JMeter4.0%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/JMeter/JMeter4.0%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</guid>
       <description>&lt;pre&gt;&lt;code&gt;等了这么久，20180210，终于有较大的更新。无论是从 UI 还是功能优化，都让人耳目一新。下面我们就详细看下具体变化。
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;原文地址：&lt;a href=&#34;http://jmeter.apache.org/changes.html&#34;&gt;http://jmeter.apache.org/changes.html&lt;/a&gt;
 下载地址：&lt;a href=&#34;http://ftp.cuhk.edu.hk/pub/packages/apache.org//jmeter/binaries/apache-jmeter-4.0.zip&#34;&gt;apache-jmeter-4.0.zip&lt;/a&gt;&lt;/p&gt;
@@ -110,10 +110,10 @@ JMeter5.0下载：&lt;a href=&#34;http://jmeter.apache.org/download_jmeter.cgi&#
     
     <item>
       <title>JMeter3.3更新内容</title>
-      <link>https://www.shiyuanjie.cn/posts/JMeter3.3%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</link>
+      <link>https://www.shiyuanjie.cn/posts/JMeter/JMeter3.3%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</link>
       <pubDate>Mon, 09 Oct 2017 10:50:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/JMeter3.3%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/JMeter/JMeter3.3%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;code&gt;2017.9.21&lt;/code&gt;，JMeter3.3版本发布。&lt;/li&gt;
 &lt;li&gt;原文地址：&lt;a href=&#34;http://jmeter.apache.org/changes.html&#34;&gt;Apache JMeter 3.3 Release Notes &lt;/a&gt;,历史版本变更记录&lt;a href=&#34;http://jmeter.apache.org/changes_history.html&#34;&gt;http://jmeter.apache.org/changes_history.html&lt;/a&gt;&lt;/li&gt;
@@ -135,10 +135,10 @@ JMeter5.0下载：&lt;a href=&#34;http://jmeter.apache.org/download_jmeter.cgi&#
     
     <item>
       <title>什么是Locust</title>
-      <link>https://www.shiyuanjie.cn/posts/%E4%BB%80%E4%B9%88%E6%98%AFLocust/</link>
+      <link>https://www.shiyuanjie.cn/posts/Locust/%E4%BB%80%E4%B9%88%E6%98%AFLocust/</link>
       <pubDate>Thu, 08 Jun 2017 18:30:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E4%BB%80%E4%B9%88%E6%98%AFLocust/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Locust/%E4%BB%80%E4%B9%88%E6%98%AFLocust/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;原文地址：&lt;a href=&#34;http://docs.locust.io/en/latest/what-is-locust.html#&#34;&gt;http://docs.locust.io/en/latest/what-is-locust.html#&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -150,10 +150,10 @@ JMeter5.0下载：&lt;a href=&#34;http://jmeter.apache.org/download_jmeter.cgi&#
     
     <item>
       <title>分布式测试</title>
-      <link>https://www.shiyuanjie.cn/posts/Locust%E5%88%86%E5%B8%83%E5%BC%8F%E6%B5%8B%E8%AF%95/</link>
+      <link>https://www.shiyuanjie.cn/posts/Locust/Locust%E5%88%86%E5%B8%83%E5%BC%8F%E6%B5%8B%E8%AF%95/</link>
       <pubDate>Sat, 03 Jun 2017 21:30:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Locust%E5%88%86%E5%B8%83%E5%BC%8F%E6%B5%8B%E8%AF%95/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Locust/Locust%E5%88%86%E5%B8%83%E5%BC%8F%E6%B5%8B%E8%AF%95/</guid>
       <description>&lt;h2 id=&#34;分布式运行locust&#34;&gt;分布式运行Locust&lt;/h2&gt;
 &lt;p&gt;一旦单台机器不够模拟足够多的用户时，Locust支持运行在多台机器中进行压力测试。&lt;/p&gt;
 &lt;p&gt;为了实现这个，你应该在&lt;code&gt;master&lt;/code&gt;模式中使用&lt;code&gt;--master&lt;/code&gt;标记来启用一个Locust实例。这个实例将会运行你启动测试的Locust交互网站并查看实时统计数据。&lt;code&gt;master&lt;/code&gt;节点的机器自身不会模拟任何用户。相反，你必须使用&lt;code&gt;--slave&lt;/code&gt;标记启动一台到多台Locust&lt;code&gt;slave&lt;/code&gt;机器节点，与标记&lt;code&gt;--master-host&lt;/code&gt;一起使用(指出&lt;code&gt;master&lt;/code&gt;机器的&lt;code&gt;IP/hostname&lt;/code&gt;)。&lt;/p&gt;
@@ -164,10 +164,10 @@ JMeter5.0下载：&lt;a href=&#34;http://jmeter.apache.org/download_jmeter.cgi&#
     
     <item>
       <title>编写一个Locust文件</title>
-      <link>https://www.shiyuanjie.cn/posts/%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AALocust%E6%96%87%E4%BB%B6/</link>
+      <link>https://www.shiyuanjie.cn/posts/Locust/%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AALocust%E6%96%87%E4%BB%B6/</link>
       <pubDate>Fri, 02 Jun 2017 21:30:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AALocust%E6%96%87%E4%BB%B6/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Locust/%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AALocust%E6%96%87%E4%BB%B6/</guid>
       <description>&lt;p&gt;Locust文件就是一般的Python文件。唯一的需求就是它至少需要一个继承于&lt;code&gt;Locust&lt;/code&gt;的类.&lt;/p&gt;
 &lt;h2 id=&#34;locust类&#34;&gt;Locust类&lt;/h2&gt;
 &lt;p&gt;Locust类代表一个用户(如果愿意，也可以是一个准备出动的蝗虫)。Locust会为每一个模拟用户生成一个locust类实例。同时会有一些locust类属性被定义。&lt;/p&gt;
@@ -192,10 +192,10 @@ class MyLocust(Locust):
     
     <item>
       <title>Locust快速入门</title>
-      <link>https://www.shiyuanjie.cn/posts/Locust%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</link>
+      <link>https://www.shiyuanjie.cn/posts/Locust/Locust%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</link>
       <pubDate>Wed, 24 May 2017 18:20:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Locust%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Locust/Locust%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</guid>
       <description>&lt;pre&gt;&lt;code&gt;Locust，基于Python的性能测试工具。
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://docs.locust.io/en/latest/what-is-locust.html&#34;&gt;什么是Locust&lt;/a&gt;&lt;/li&gt;
@@ -230,10 +230,10 @@ class WebsiteUser(HttpLocust):
     
     <item>
       <title>JMeter3.2更新内容</title>
-      <link>https://www.shiyuanjie.cn/posts/JMeter3.2%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</link>
+      <link>https://www.shiyuanjie.cn/posts/JMeter/JMeter3.2%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</link>
       <pubDate>Sat, 13 May 2017 14:50:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/JMeter3.2%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/JMeter/JMeter3.2%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;code&gt;2017.4.14&lt;/code&gt;，JMeter3.2版本发布。&lt;/li&gt;
 &lt;li&gt;原文地址：&lt;a href=&#34;http://jmeter.apache.org/changes.html&#34;&gt;Apache JMeter 3.2 Release Notes &lt;/a&gt;,&lt;/li&gt;
@@ -254,10 +254,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>JMeter3.1更新内容</title>
-      <link>https://www.shiyuanjie.cn/posts/JMeter3.1%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</link>
+      <link>https://www.shiyuanjie.cn/posts/JMeter/JMeter3.1%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</link>
       <pubDate>Thu, 09 Mar 2017 16:30:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/JMeter3.1%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/JMeter/JMeter3.1%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;code&gt;2016.11.20&lt;/code&gt;，&lt;a href=&#34;http://jmeter.apache.org/&#34;&gt;JMeter&lt;/a&gt;官网已经正式发布了3.1的版本，今天尝试翻译下更新内容，内容中肯定还有很多不足，希望大家多多谅解。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -281,10 +281,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>性能测试之远程并发模式</title>
-      <link>https://www.shiyuanjie.cn/posts/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E4%B9%8B%E8%BF%9C%E7%A8%8B%E6%A8%A1%E5%BC%8F/</link>
+      <link>https://www.shiyuanjie.cn/posts/PerformanceTest/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E4%B9%8B%E8%BF%9C%E7%A8%8B%E6%A8%A1%E5%BC%8F/</link>
       <pubDate>Mon, 12 Sep 2016 19:15:38 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E4%B9%8B%E8%BF%9C%E7%A8%8B%E6%A8%A1%E5%BC%8F/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/PerformanceTest/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E4%B9%8B%E8%BF%9C%E7%A8%8B%E6%A8%A1%E5%BC%8F/</guid>
       <description>&lt;p&gt;事实上，你的JMeter客户端机器是不能表现出完美的压力请求，来模拟足够多的用户或由于网络限制去向服务施加压力，一种解决方法是通过一个JMeter去控制多个/远程JMeter。通过运行JMeter的远程模式，你可以通过多个低配制的电脑复制测试计划用于模拟一个大数据量的压力并发在服务器上。一个JMeter客户端实例可以控制多个远程JMeter实例，并收集所有数据信息。特点如下:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;保存测试样例在本机电脑&lt;/li&gt;
@@ -298,10 +298,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <item>
       <title>性能测试最佳实践之JMeter</title>
-      <link>https://www.shiyuanjie.cn/posts/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%E4%B9%8BJMeter/</link>
+      <link>https://www.shiyuanjie.cn/posts/PerformanceTest/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%E4%B9%8BJMeter/</link>
       <pubDate>Wed, 31 Aug 2016 20:45:38 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%E4%B9%8BJMeter/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/PerformanceTest/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%E4%B9%8BJMeter/</guid>
       <description>&lt;h1 id=&#34;保持使用最新版本&#34;&gt;保持使用最新版本&lt;/h1&gt;
 &lt;p&gt;JMeter被经常推荐用来测试性能，鼓励用户使用最新的版本。&lt;/p&gt;
 &lt;p&gt;确保你要经常去阅读&lt;a href=&#34;http://jmeter.apache.org/changes.html&#34;&gt;变更记录&lt;/a&gt;中的新功能和模块的提升。你不应该再使用3.0之前的版本了&lt;/p&gt;

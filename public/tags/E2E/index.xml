@@ -13,10 +13,10 @@
     
     <item>
       <title>构建Headless 的 E2E 测试</title>
-      <link>https://www.shiyuanjie.cn/posts/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BA-Headless-%E7%9A%84-E2E-%E6%B5%8B%E8%AF%95/</link>
+      <link>https://www.shiyuanjie.cn/posts/UITest/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BA-Headless-%E7%9A%84-E2E-%E6%B5%8B%E8%AF%95/</link>
       <pubDate>Fri, 02 Mar 2018 12:20:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BA-Headless-%E7%9A%84-E2E-%E6%B5%8B%E8%AF%95/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/UITest/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BA-Headless-%E7%9A%84-E2E-%E6%B5%8B%E8%AF%95/</guid>
       <description>&lt;h2 id=&#34;为什么要构建-headless-的-e2e-测试&#34;&gt;为什么要&lt;code&gt;构建 Headless 的 E2E 测试&lt;/code&gt;&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;A headless browser is a great tool for automated testing and server environments where you don&#39;t need a visible UI shell. For example, you may want to run some tests against a real web page, create a PDF of it, or just inspect how the browser renders an URL.
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;结合上面的原因，我们还可以&lt;/p&gt;
@@ -38,10 +38,10 @@
     
     <item>
       <title>Layout测试</title>
-      <link>https://www.shiyuanjie.cn/posts/Layout%E6%B5%8B%E8%AF%95/</link>
+      <link>https://www.shiyuanjie.cn/posts/UITest/Layout%E6%B5%8B%E8%AF%95/</link>
       <pubDate>Mon, 28 Nov 2016 15:40:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Layout%E6%B5%8B%E8%AF%95/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/UITest/Layout%E6%B5%8B%E8%AF%95/</guid>
       <description>&lt;p&gt;Web页面Layout测试，一直是测试人员比较头疼的事情。原因有&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;当前市面中设备的&lt;code&gt;分辨率&lt;/code&gt;千差万别&lt;/li&gt;
@@ -60,10 +60,10 @@
     
     <item>
       <title>Android UI自动化测试神器-Espresso录制</title>
-      <link>https://www.shiyuanjie.cn/posts/Android-UI%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E7%A5%9E%E5%99%A8-Espresso%E5%BD%95%E5%88%B6/</link>
+      <link>https://www.shiyuanjie.cn/posts/Android/Android-UI%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E7%A5%9E%E5%99%A8-Espresso%E5%BD%95%E5%88%B6/</link>
       <pubDate>Fri, 25 Nov 2016 13:46:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Android-UI%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E7%A5%9E%E5%99%A8-Espresso%E5%BD%95%E5%88%B6/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Android/Android-UI%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E7%A5%9E%E5%99%A8-Espresso%E5%BD%95%E5%88%B6/</guid>
       <description>&lt;p&gt;Espresso Test Recorder的好处&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;直接录制与APP的所有交互操作&lt;/li&gt;
@@ -81,10 +81,10 @@
     
     <item>
       <title>PageObject分离E2E测试</title>
-      <link>https://www.shiyuanjie.cn/posts/PageObject%E5%88%86%E7%A6%BBE2E%E6%B5%8B%E8%AF%95/</link>
+      <link>https://www.shiyuanjie.cn/posts/UITest/PageObject%E5%88%86%E7%A6%BBE2E%E6%B5%8B%E8%AF%95/</link>
       <pubDate>Thu, 24 Nov 2016 14:20:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/PageObject%E5%88%86%E7%A6%BBE2E%E6%B5%8B%E8%AF%95/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/UITest/PageObject%E5%88%86%E7%A6%BBE2E%E6%B5%8B%E8%AF%95/</guid>
       <description>&lt;h2 id=&#34;pageobject&#34;&gt;PageObject&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://martinfowler.com&#34;&gt;老马&lt;/a&gt;关于&lt;a href=&#34;http://martinfowler.com/bliki/PageObject.html&#34;&gt;PageObject&lt;/a&gt;的定义&lt;/li&gt;
@@ -102,10 +102,10 @@
     
     <item>
       <title>E2E测试之Headless browser容器化</title>
-      <link>https://www.shiyuanjie.cn/posts/E2E%E6%B5%8B%E8%AF%95%E4%B9%8BHeadless-browser%E5%AE%B9%E5%99%A8%E5%8C%96/</link>
+      <link>https://www.shiyuanjie.cn/posts/UITest/E2E%E6%B5%8B%E8%AF%95%E4%B9%8BHeadless-browser%E5%AE%B9%E5%99%A8%E5%8C%96/</link>
       <pubDate>Mon, 01 Aug 2016 20:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/E2E%E6%B5%8B%E8%AF%95%E4%B9%8BHeadless-browser%E5%AE%B9%E5%99%A8%E5%8C%96/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/UITest/E2E%E6%B5%8B%E8%AF%95%E4%B9%8BHeadless-browser%E5%AE%B9%E5%99%A8%E5%8C%96/</guid>
       <description>&lt;h1 id=&#34;目的&#34;&gt;目的&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;E2E测试执行过程中&lt;strong&gt;不依赖UI&lt;/strong&gt;界面&lt;/li&gt;
@@ -128,10 +128,10 @@ git hub地址：&lt;a href=&#34;https://github.com/jciolek/docker-protractor-hea
     
     <item>
       <title>Protractor End to End Testing</title>
-      <link>https://www.shiyuanjie.cn/posts/Protractor-End-to-End-Testing/</link>
+      <link>https://www.shiyuanjie.cn/posts/UITest/Protractor-End-to-End-Testing/</link>
       <pubDate>Thu, 28 Apr 2016 11:06:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Protractor-End-to-End-Testing/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/UITest/Protractor-End-to-End-Testing/</guid>
       <description>&lt;h1 id=&#34;protractor&#34;&gt;Protractor&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Protractor is an end-to-end test framework for AngularJS applications.
 Protractor runs tests against your application running in a real browser, interacting with it as a user would.

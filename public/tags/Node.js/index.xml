@@ -13,19 +13,19 @@
     
     <item>
       <title>更新package中依赖包版本</title>
-      <link>https://www.shiyuanjie.cn/posts/%E6%9B%B4%E6%96%B0package%E4%B8%AD%E4%BE%9D%E8%B5%96%E5%8C%85%E7%89%88%E6%9C%AC/</link>
+      <link>https://www.shiyuanjie.cn/posts/Tools/%E6%9B%B4%E6%96%B0package%E4%B8%AD%E4%BE%9D%E8%B5%96%E5%8C%85%E7%89%88%E6%9C%AC/</link>
       <pubDate>Thu, 26 Dec 2019 09:20:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E6%9B%B4%E6%96%B0package%E4%B8%AD%E4%BE%9D%E8%B5%96%E5%8C%85%E7%89%88%E6%9C%AC/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Tools/%E6%9B%B4%E6%96%B0package%E4%B8%AD%E4%BE%9D%E8%B5%96%E5%8C%85%E7%89%88%E6%9C%AC/</guid>
       <description>需求：更新package.json中dependencies的版本号至最新 解决方案 安装npm-check-updates npm install -g npm-check-updates https://www.npmjs.com/package/npm-check-updates 运行ncu -u 更新package.json中依赖包版本 以上需求已解决 参考 https://flaviocopes.com/update-npm-dependencies/</description>
     </item>
     
     <item>
       <title>轻量级微服务架构(上册)</title>
-      <link>https://www.shiyuanjie.cn/posts/%E8%BD%BB%E9%87%8F%E7%BA%A7%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E4%B8%8A%E5%86%8C/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/%E8%BD%BB%E9%87%8F%E7%BA%A7%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E4%B8%8A%E5%86%8C/</link>
       <pubDate>Fri, 20 Jan 2017 14:40:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E8%BD%BB%E9%87%8F%E7%BA%A7%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E4%B8%8A%E5%86%8C/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/%E8%BD%BB%E9%87%8F%E7%BA%A7%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E4%B8%8A%E5%86%8C/</guid>
       <description>&lt;h2 id=&#34;书&#34;&gt;书&lt;/h2&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;h2 id=&#34;读后总结&#34;&gt;读后总结&lt;/h2&gt;
@@ -49,10 +49,10 @@
     
     <item>
       <title>Layout测试</title>
-      <link>https://www.shiyuanjie.cn/posts/Layout%E6%B5%8B%E8%AF%95/</link>
+      <link>https://www.shiyuanjie.cn/posts/UITest/Layout%E6%B5%8B%E8%AF%95/</link>
       <pubDate>Mon, 28 Nov 2016 15:40:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Layout%E6%B5%8B%E8%AF%95/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/UITest/Layout%E6%B5%8B%E8%AF%95/</guid>
       <description>&lt;p&gt;Web页面Layout测试，一直是测试人员比较头疼的事情。原因有&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;当前市面中设备的&lt;code&gt;分辨率&lt;/code&gt;千差万别&lt;/li&gt;
@@ -71,10 +71,10 @@
     
     <item>
       <title>Node.js开发指南</title>
-      <link>https://www.shiyuanjie.cn/posts/Node.js%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/Node.js%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/</link>
       <pubDate>Mon, 31 Oct 2016 20:00:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Node.js%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/Node.js%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/</guid>
       <description>&lt;h4 id=&#34;阅读时间20160930-20161031&#34;&gt;阅读时间：&lt;code&gt;20160930-20161031&lt;/code&gt;&lt;/h4&gt;
 &lt;h2 id=&#34;读后感&#34;&gt;读后感&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -92,10 +92,10 @@
     
     <item>
       <title>Node入门</title>
-      <link>https://www.shiyuanjie.cn/posts/Node%E5%85%A5%E9%97%A8/</link>
+      <link>https://www.shiyuanjie.cn/posts/Book/Node%E5%85%A5%E9%97%A8/</link>
       <pubDate>Tue, 20 Sep 2016 20:44:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Node%E5%85%A5%E9%97%A8/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Book/Node%E5%85%A5%E9%97%A8/</guid>
       <description>&lt;h2 id=&#34;书&#34;&gt;书&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;在线版本: &lt;a href=&#34;http://www.nodebeginner.org/index-zh-cn.html&#34;&gt;Node入门&lt;/a&gt;，可在线&lt;code&gt;阅读全文&lt;/code&gt;&lt;/li&gt;
@@ -113,19 +113,19 @@
     
     <item>
       <title>简书爬虫</title>
-      <link>https://www.shiyuanjie.cn/posts/%E7%AE%80%E4%B9%A6%E7%88%AC%E8%99%AB/</link>
+      <link>https://www.shiyuanjie.cn/posts/Tools/%E7%AE%80%E4%B9%A6%E7%88%AC%E8%99%AB/</link>
       <pubDate>Tue, 19 Jul 2016 19:50:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/%E7%AE%80%E4%B9%A6%E7%88%AC%E8%99%AB/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Tools/%E7%AE%80%E4%B9%A6%E7%88%AC%E8%99%AB/</guid>
       <description>简书爬虫 此功能纯粹为个人意想功能,利用业余时间来学习Node。所有内容均已开源,欢迎各种PR和Fork。最后更新时间: 20161129。 项目 源代码 https://github.com/aimer1124/JianshuSpider 需求 Teambition-简书爬虫 效果图 Home Article Author Collections Search ShowCase Home Articles Authors Collections Search 代码 启动 DB: sudo mongod 程序: gulp 测试: gulp test 版本 Node: 4.4.3 Mongo: 3.0.3 引用包列表 Backend express: http://expressjs.com/,node web框架</description>
     </item>
     
     <item>
       <title>API开发神器-Postman</title>
-      <link>https://www.shiyuanjie.cn/posts/API%E5%BC%80%E5%8F%91%E7%A5%9E%E5%99%A8-Postman/</link>
+      <link>https://www.shiyuanjie.cn/posts/APITest/API%E5%BC%80%E5%8F%91%E7%A5%9E%E5%99%A8-Postman/</link>
       <pubDate>Fri, 24 Jun 2016 19:50:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/API%E5%BC%80%E5%8F%91%E7%A5%9E%E5%99%A8-Postman/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/APITest/API%E5%BC%80%E5%8F%91%E7%A5%9E%E5%99%A8-Postman/</guid>
       <description>&lt;p&gt;&lt;code&gt;Postman helps you develop APIs faster.&lt;/code&gt;&lt;/p&gt;
 &lt;h1 id=&#34;豪华午餐&#34;&gt;豪华午餐&lt;/h1&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.shiyuanjie.cn/img/Postman.png&#34; alt=&#34;Postman&#34;&gt;&lt;/p&gt;
@@ -146,10 +146,10 @@
     
     <item>
       <title>Jenkins with Grunt</title>
-      <link>https://www.shiyuanjie.cn/posts/Jenkins-with-SuperTest-and-Grunt/</link>
+      <link>https://www.shiyuanjie.cn/posts/CICD/Jenkins-with-SuperTest-and-Grunt/</link>
       <pubDate>Thu, 03 Mar 2016 20:45:38 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Jenkins-with-SuperTest-and-Grunt/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/CICD/Jenkins-with-SuperTest-and-Grunt/</guid>
       <description>&lt;h1 id=&#34;jenkins&#34;&gt;Jenkins&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;In a nutshell, Jenkins is the leading open source automation server.
 Built with Java, it provides hundreds of plugins to support building,
@@ -160,19 +160,19 @@ testing, deploying and automation for virtually any project
     
     <item>
       <title>Node.js时间格式处理</title>
-      <link>https://www.shiyuanjie.cn/posts/Node-js%E6%97%B6%E9%97%B4%E6%A0%BC%E5%BC%8F%E5%A4%84%E7%90%86/</link>
+      <link>https://www.shiyuanjie.cn/posts/Tools/Node-js%E6%97%B6%E9%97%B4%E6%A0%BC%E5%BC%8F%E5%A4%84%E7%90%86/</link>
       <pubDate>Tue, 26 Jan 2016 22:18:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/Node-js%E6%97%B6%E9%97%B4%E6%A0%BC%E5%BC%8F%E5%A4%84%E7%90%86/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Tools/Node-js%E6%97%B6%E9%97%B4%E6%A0%BC%E5%BC%8F%E5%A4%84%E7%90%86/</guid>
       <description>moment库 专门用于Javascript的时间转化、验证、处理、展示 安装moment npm install moment 使用moment 引用moment 1 var moment = require(&amp;#39;moment&amp;#39;); 转化时间 1 2 3 4 5 6 7 //将时间格式转化为：2016-01-22 21:21:26 moment(new Date()).format(&amp;#34;YYYY-MM-DD HH:mm:ss&amp;#34;); moment().format(&amp;#39;MMMM Do YYYY, h:mm:ss a&amp;#39;); // January 26th 2016, 10:25:00 pm moment().format(&amp;#39;dddd&amp;#39;); // Tuesday moment().format(&amp;#34;MMM Do YY&amp;#34;); // Jan 26th 16 moment().format(&amp;#39;YYYY [escaped] YYYY&amp;#39;); // 2016 escaped 2016 moment().format(); // 2016-01-26T22:25:24+08:00 相对时间 1 2</description>
     </item>
     
     <item>
       <title>Node.js调用数据库:Mysql</title>
-      <link>https://www.shiyuanjie.cn/posts/JS%E8%B0%83%E7%94%A8%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
+      <link>https://www.shiyuanjie.cn/posts/Tools/JS%E8%B0%83%E7%94%A8%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
       <pubDate>Tue, 26 Jan 2016 22:01:00 +0000</pubDate>
       
-      <guid>https://www.shiyuanjie.cn/posts/JS%E8%B0%83%E7%94%A8%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
+      <guid>https://www.shiyuanjie.cn/posts/Tools/JS%E8%B0%83%E7%94%A8%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
       <description>安装Mysql包 npm install mysql 调用 Mysql包 1 var mysql = require(&amp;#39;mysql&amp;#39;); 数据库查询 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 var mysql = require(&amp;#39;mysql&amp;#39;); var connection = mysql.createConnection({ host : &amp;#39;10.29.10.29&amp;#39;, port : 3307, user : &amp;#39;root&amp;#39;, password : &amp;#39;&amp;#39;, database : &amp;#39;emall&amp;#39;, //charset : &amp;#39;UTF8_GENERAL_CI&amp;#39;, debug : false }); connection.connect(); connection.query(&amp;#34;use emall&amp;#34;); connection.query(&amp;#39;select id from users&amp;#39;, function(err,results) { if (err) { throw err; } }); connection.end(); 数据库插入 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 var mysql = require(&amp;#39;mysql&amp;#39;); var connection = mysql.createConnection({ host : &amp;#39;10.29.10.29&amp;#39;, port : 3307, user : &amp;#39;root&amp;#39;, password : &amp;#39;&amp;#39;, database</description>
     </item>
     
