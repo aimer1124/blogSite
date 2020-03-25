@@ -9,6 +9,8 @@ preserveTaxonomyNames = true
 ## 是否禁止URL Path转小写
 disablePathToLower = true
 
+disableKinds = true
+
 hasCJKLanguage = true
 summaryLength = 140
 
