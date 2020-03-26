@@ -79,6 +79,46 @@
     <article class="post">
         <header>
             <h1 class="post-title">
+                <a href="https://www.shiyuanjie.cn/posts/UITest/E2E%E6%B5%8B%E8%AF%95%E4%B9%8BHeadless-browser%E5%AE%B9%E5%99%A8%E5%8C%96/" title="E2E测试之Headless browser容器化">E2E测试之Headless browser容器化</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2016年8月1日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='https://www.shiyuanjie.cn/categories/Testing'>Testing</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            <h1 id="目的">目的</h1>
+<ul>
+<li>E2E测试执行过程中<strong>不依赖UI</strong>界面</li>
+<li>可在*nix系统中运行</li>
+<li>为什么不用<code>PhantomJS</code>,<a href="http://www.protractortest.org/#/browser-setup#setting-up-phantomjs">Protractor官方不推荐使用<code>PhantomJS</code>来测试</a></li>
+</ul>
+<pre><code>We recommend against using PhantomJS for tests with Protractor. There are many reported issues with PhantomJS crashing and behaving differently from real browsers.
+</code></pre><h1 id="docker">Docker</h1>
+<h2 id="安装">安装</h2>
+<ul>
+<li>下载系统所需要的安装包，下载地址：<a href="https://www.docker.com/products/docker">https://www.docker.com/products/docker</a></li>
+<li>注册<a href="https://hub.docker.com/">https://hub.docker.com/</a>账号</li>
+<li>使用<code>pull</code>来获取docker 镜像<code>protractor-headless</code>，此过程会比较慢，耐心等待
+docker hub地址：<a href="https://hub.docker.com/r/webnicer/protractor-headless/">https://hub.docker.com/r/webnicer/protractor-headless/</a>
+git hub地址：<a href="https://github.com/jciolek/docker-protractor-headless">https://github.com/jciolek/docker-protractor-headless</a></li>
+</ul>
+<pre><code>docker pull webnicer/protractor-headless
+</code></pre>……
+        </div>
+        <p class="readmore"><a href="https://www.shiyuanjie.cn/posts/UITest/E2E%E6%B5%8B%E8%AF%95%E4%B9%8BHeadless-browser%E5%AE%B9%E5%99%A8%E5%8C%96/">阅读全文</a></p>
+    </article>
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
                 <a href="https://www.shiyuanjie.cn/posts/Tools/%E7%AE%80%E4%B9%A6%E7%88%AC%E8%99%AB/" title="简书爬虫">简书爬虫</a>
             </h1>
         </header>
@@ -337,30 +377,6 @@ Protractor runs tests against your application running in a real browser, intera
         <p class="readmore"><a href="https://www.shiyuanjie.cn/posts/QA/%E6%B8%B8%E6%88%8F%E6%B5%8B%E8%AF%95/">阅读全文</a></p>
     </article>
     
-    <article class="post">
-        <header>
-            <h1 class="post-title">
-                <a href="https://www.shiyuanjie.cn/posts/Book/%E8%A7%A3%E5%BF%A7%E6%9D%82%E8%B4%A7%E5%BA%97/" title="解忧杂货店">解忧杂货店</a>
-            </h1>
-        </header>
-        <date class="post-meta meta-date">
-            2016年3月21日
-        </date>
-        
-        <div class="post-meta">
-            <span>|</span>
-            
-            <span class="meta-category"><a href='https://www.shiyuanjie.cn/categories/Book'>Book</a></span>
-            
-        </div>
-        
-        <div class="post-content">
-            <h2 id="封面">封面</h2>
-<p><!-- raw HTML omitted --></p>……
-        </div>
-        <p class="readmore"><a href="https://www.shiyuanjie.cn/posts/Book/%E8%A7%A3%E5%BF%A7%E6%9D%82%E8%B4%A7%E5%BA%97/">阅读全文</a></p>
-    </article>
-    
     
 
 
@@ -461,6 +477,10 @@ Protractor runs tests against your application running in a real browser, intera
 <ul class="widget-list">
     
     <li>
+        <a href="https://www.shiyuanjie.cn/posts/Aliyun/ECS-tips/" title="ECS Tips">ECS Tips</a>
+    </li>
+    
+    <li>
         <a href="https://www.shiyuanjie.cn/posts/Aliyun/one-command-connect-ecs/" title="一行命令连接ECS">一行命令连接ECS</a>
     </li>
     
@@ -494,10 +514,6 @@ Protractor runs tests against your application running in a real browser, intera
     
     <li>
         <a href="https://www.shiyuanjie.cn/posts/Tools/PDF%E8%BD%AC%E6%8D%A2%E7%A5%9E%E5%99%A8/" title="PDF转换神器">PDF转换神器</a>
-    </li>
-    
-    <li>
-        <a href="https://www.shiyuanjie.cn/posts/Tools/%E6%9B%B4%E6%96%B0package%E4%B8%AD%E4%BE%9D%E8%B5%96%E5%8C%85%E7%89%88%E6%9C%AC/" title="更新package中依赖包版本">更新package中依赖包版本</a>
     </li>
     
 </ul>

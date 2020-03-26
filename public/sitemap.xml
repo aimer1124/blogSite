@@ -3,17 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.shiyuanjie.cn/posts/Aliyun/ECS-tips/</loc>
+    <lastmod>2020-03-26T17:21:38+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.shiyuanjie.cn/posts/</loc>
+    <lastmod>2020-03-26T17:21:38+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.shiyuanjie.cn/</loc>
+    <lastmod>2020-03-26T17:21:38+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.shiyuanjie.cn/categories/</loc>
     <lastmod>2020-03-25T16:40:04+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.shiyuanjie.cn/tags/ECS/</loc>
-    <lastmod>2020-03-25T16:40:04+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.shiyuanjie.cn/posts/</loc>
     <lastmod>2020-03-25T16:40:04+08:00</lastmod>
   </url>
   
@@ -29,11 +39,6 @@
   
   <url>
     <loc>https://www.shiyuanjie.cn/categories/Tool/</loc>
-    <lastmod>2020-03-25T16:40:04+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.shiyuanjie.cn/</loc>
     <lastmod>2020-03-25T16:40:04+08:00</lastmod>
   </url>
   
