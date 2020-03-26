@@ -1,5 +1,5 @@
 ---
-title: '如何利用21天的业余时间完成一本Mini书'
+title: '利用21天的完成一本Mini书'
 tags:
   - JMeter
   - 管理

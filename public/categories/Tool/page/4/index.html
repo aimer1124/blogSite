@@ -88,6 +88,29 @@
     <article class="post">
         <header>
             <h1 class="post-title">
+                <a href="https://www.shiyuanjie.cn/posts/Tools/JS%E8%B0%83%E7%94%A8%E6%95%B0%E6%8D%AE%E5%BA%93/">Node.js调用数据库:Mysql</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2016年1月26日
+        </date>
+        
+        <div class="post-meta meta-category">
+            |
+            
+            <a href='https://www.shiyuanjie.cn/categories/Tool'>Tool</a>
+            
+        </div>
+        
+        <div class="post-content">
+            安装Mysql包 npm install mysql 调用 Mysql包 1 var mysql = require(&#39;mysql&#39;); 数据库查询 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 var mysql = require(&#39;mysql&#39;); var connection = mysql.createConnection({ host : &#39;10.29.10.29&#39;, port : 3307, user : &#39;root&#39;, password : &#39;&#39;, database : &#39;emall&#39;, //charset : &#39;UTF8_GENERAL_CI&#39;, debug : false }); connection.connect(); connection.query(&#34;use emall&#34;); connection.query(&#39;select id from users&#39;, function(err,results) { if (err) { throw err; } }); connection.end(); 数据库插入 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 var mysql = require(&#39;mysql&#39;); var connection = mysql.createConnection({ host : &#39;10.29.10.29&#39;, port : 3307, user : &#39;root&#39;, password : &#39;&#39;, database……
+            <p class="readmore"><a href="https://www.shiyuanjie.cn/posts/Tools/JS%E8%B0%83%E7%94%A8%E6%95%B0%E6%8D%AE%E5%BA%93/">阅读全文</a></p>
+        </div>
+    </article>
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
                 <a href="https://www.shiyuanjie.cn/posts/Tools/find/">find</a>
             </h1>
         </header>
@@ -185,7 +208,7 @@
 <ul class="widget-list">
     
     <li>
-        <a href="https://www.shiyuanjie.cn/posts/Aliyun/ssh-connect/" title="Ssh Connect">Ssh Connect</a>
+        <a href="https://www.shiyuanjie.cn/posts/Aliyun/one-command-connect-ecs/" title="一行命令连接ECS">一行命令连接ECS</a>
     </li>
     
     <li>
@@ -245,7 +268,7 @@
     
     <li><a href="https://www.shiyuanjie.cn/categories/Testing/">Testing (8)</a></li>
     
-    <li><a href="https://www.shiyuanjie.cn/categories/Tool/">Tool (32)</a></li>
+    <li><a href="https://www.shiyuanjie.cn/categories/Tool/">Tool (33)</a></li>
     
     <li><a href="https://www.shiyuanjie.cn/categories/Translate/">Translate (16)</a></li>
     
@@ -277,6 +300,8 @@
     <a href="https://www.shiyuanjie.cn/tags/Docker/">Docker</a>
     
     <a href="https://www.shiyuanjie.cn/tags/E2E/">E2E</a>
+    
+    <a href="https://www.shiyuanjie.cn/tags/ECS/">ECS</a>
     
     <a href="https://www.shiyuanjie.cn/tags/Espresso/">Espresso</a>
     
@@ -331,6 +356,8 @@
     <a href="https://www.shiyuanjie.cn/tags/Python/">Python</a>
     
     <a href="https://www.shiyuanjie.cn/tags/Ruby/">Ruby</a>
+    
+    <a href="https://www.shiyuanjie.cn/tags/SSH/">SSH</a>
     
     <a href="https://www.shiyuanjie.cn/tags/SuperTest/">SuperTest</a>
     

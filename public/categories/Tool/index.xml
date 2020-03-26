@@ -6,10 +6,19 @@
     <description>Recent content in Tool on Yuanjie-跑步爱好者，IT从业者。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 11 Jan 2020 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2020 16:40:04 +0800</lastBuildDate>
     
 	<atom:link href="https://www.shiyuanjie.cn/categories/Tool/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>一行命令连接ECS</title>
+      <link>https://www.shiyuanjie.cn/posts/Aliyun/one-command-connect-ecs/</link>
+      <pubDate>Wed, 25 Mar 2020 16:40:04 +0800</pubDate>
+      
+      <guid>https://www.shiyuanjie.cn/posts/Aliyun/one-command-connect-ecs/</guid>
+      <description>目标：一行命令，直接连接至阿里云的ECS。不需要手动输入IP/Port/User/Pwd。 ECS 创建密钥对 打开ECS的&amp;quot;网络与安全&amp;rdquo;..&amp;gt;&amp;quot;密钥对&amp;rdquo; 左上角“创建密钥对”，完成密钥创建 保存生成的密钥对至本机 绑定密钥对 在生成的密钥中，点击</description>
+    </item>
     
     <item>
       <title>Alfred中的Workflow配制</title>
