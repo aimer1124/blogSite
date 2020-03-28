@@ -4,7 +4,42 @@
   
   <url>
     <loc>https://www.shiyuanjie.cn/categories/</loc>
-    <lastmod>2020-03-26T17:21:38+08:00</lastmod>
+    <lastmod>2020-03-28T20:10:20+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.shiyuanjie.cn/categories/Mark/</loc>
+    <lastmod>2020-03-28T20:10:20+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.shiyuanjie.cn/posts/</loc>
+    <lastmod>2020-03-28T20:10:20+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.shiyuanjie.cn/tags/</loc>
+    <lastmod>2020-03-28T20:10:20+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.shiyuanjie.cn/tags/%E7%AE%A1%E7%90%86/</loc>
+    <lastmod>2020-03-28T20:10:20+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.shiyuanjie.cn/tags/%E8%81%8C%E5%9C%BA/</loc>
+    <lastmod>2020-03-28T20:10:20+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.shiyuanjie.cn/tags/%E8%B7%83%E8%BF%81/</loc>
+    <lastmod>2020-03-28T20:10:20+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.shiyuanjie.cn/posts/Upgrade/challenge-new-job/</loc>
+    <lastmod>2020-03-28T20:10:20+08:00</lastmod>
   </url>
   
   <url>
@@ -18,17 +53,7 @@
   </url>
   
   <url>
-    <loc>https://www.shiyuanjie.cn/posts/</loc>
-    <lastmod>2020-03-26T17:21:38+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.shiyuanjie.cn/tags/SSH/</loc>
-    <lastmod>2020-03-26T17:21:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.shiyuanjie.cn/tags/</loc>
     <lastmod>2020-03-26T17:21:38+08:00</lastmod>
   </url>
   
@@ -55,11 +80,6 @@
   <url>
     <loc>https://www.shiyuanjie.cn/posts/Android/learn-flutter/</loc>
     <lastmod>2020-03-17T11:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.shiyuanjie.cn/categories/Mark/</loc>
-    <lastmod>2020-01-19T20:30:00+00:00</lastmod>
   </url>
   
   <url>
@@ -184,11 +204,6 @@
   
   <url>
     <loc>https://www.shiyuanjie.cn/posts/Flags/2020%E6%80%BB%E7%BB%93/</loc>
-    <lastmod>2019-12-24T20:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.shiyuanjie.cn/tags/%E7%AE%A1%E7%90%86/</loc>
     <lastmod>2019-12-24T20:00:00+00:00</lastmod>
   </url>
   
@@ -388,17 +403,7 @@
   </url>
   
   <url>
-    <loc>https://www.shiyuanjie.cn/tags/%E8%B7%83%E8%BF%81/</loc>
-    <lastmod>2019-01-24T18:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.shiyuanjie.cn/posts/Book/%E5%87%86%E5%A4%87%E5%A5%BD%E4%BA%86%E5%90%97%E5%BC%80%E5%A7%8B%E5%B7%A5%E4%BD%9C%E5%90%A7/</loc>
-    <lastmod>2019-01-24T09:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.shiyuanjie.cn/tags/%E8%81%8C%E5%9C%BA/</loc>
     <lastmod>2019-01-24T09:00:00+00:00</lastmod>
   </url>
   
