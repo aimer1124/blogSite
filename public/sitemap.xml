@@ -13,11 +13,6 @@
   </url>
   
   <url>
-    <loc>https://www.shiyuanjie.cn/</loc>
-    <lastmod>2020-03-26T17:21:38+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.shiyuanjie.cn/categories/</loc>
     <lastmod>2020-03-25T16:40:04+08:00</lastmod>
   </url>
@@ -150,6 +145,16 @@
   <url>
     <loc>https://www.shiyuanjie.cn/posts/Blog/%E9%80%89%E6%8B%A9%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9A%84Hexo%E4%B8%BB%E9%A2%98/</loc>
     <lastmod>2020-01-04T15:55:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.shiyuanjie.cn/</loc>
+    <lastmod>2020-01-01T00:00:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.shiyuanjie.cn/about/</loc>
+    <lastmod>2020-01-01T00:00:01+00:00</lastmod>
   </url>
   
   <url>
@@ -1234,10 +1239,6 @@
   
   <url>
     <loc>https://www.shiyuanjie.cn/404/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.shiyuanjie.cn/about/</loc>
   </url>
   
   <url>
