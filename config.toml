@@ -2,7 +2,7 @@ baseURL = "https://www.shiyuanjie.cn"
 languageCode = "zh-CN"
 title = "Yuanjie-跑步爱好者，IT从业者。"
 theme = "maupassant"
-googleAnalytics = ""  # UA-XXXXXXXX-X
+googleAnalytics = "G-5XEH1YLC7R"  # UA-XXXXXXXX-X
 
 ## 保持分类的原始名字（false会做转小写处理）
 preserveTaxonomyNames = true
