@@ -1,7 +1,11 @@
 ---
 title: "ECS Tips"
 date: 2020-03-26T17:21:38+08:00
-draft: true
+tags:
+  - ECS
+  - SSH
+categories:
+  - Tool
 ---
 
 ## SSH

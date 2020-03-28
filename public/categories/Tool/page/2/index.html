@@ -91,6 +91,63 @@
     <article class="post">
         <header>
             <h1 class="post-title">
+                <a href="https://www.shiyuanjie.cn/posts/Tools/MarkDown%E4%BF%9D%E5%AD%98%E8%87%B3%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0/">MarkDown保存至印象笔记</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2017年10月15日
+        </date>
+        
+        <div class="post-meta meta-category">
+            |
+            
+            <a href='https://www.shiyuanjie.cn/categories/Tool'>Tool</a>
+            
+        </div>
+        
+        <div class="post-content">
+            <pre><code>通过 Sumlime Text3 来实现将 MarkDown 文件完美保存至 印象笔记中。
+</code></pre><h1 id="step1-安装evernote包">Step1: 安装Evernote包</h1>
+<ul>
+<li>打开 Sumlime Text3</li>
+<li><code>cmd + shift + p</code>打开command pattern</li>
+<li>输入<code>Package Controll: Install Package</code>，回车</li>
+<li>输入Evernote，等待安装成功。Evernote包地址：<a href="https://packagecontrol.io/packages/Evernote">https://packagecontrol.io/packages/Evernote</a></li>
+<li>安装结束后，在<code>Package Setting</code>中会有<code>Evernote</code></li>
+<li><code>cmd + shift + p</code>打开command pattern，输入Evernote，查看是否有Evernote对应的功能列表显示</li>
+</ul>
+<h1 id="step2-获取印象笔记的developer-token">Step2: 获取印象笔记的Developer Token</h1>
+<ul>
+<li>登录<a href="https://app.yinxiang.com/api/DeveloperToken.action">https://app.yinxiang.com/api/DeveloperToken.action</a></li>
+<li>如果没有内容，选择新增一个developer token</li>
+</ul>
+<h1 id="step3-配制sublime-text中的-evernote">Step3: 配制Sublime Text中的 Evernote</h1>
+<ul>
+<li><code>Package Settings</code> &ndash;&gt; <code>Evernote</code> &ndash;&gt; <code>Settings User</code></li>
+<li>默认打开内容为空，设置内容如下(Step2中获取的内容)</li>
+</ul>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">{
+	<span style="color:#000080">&#34;token&#34;</span>: <span style="color:#d14">&#34;Token内容，那一串长的字符&#34;</span>,
+	<span style="color:#000080">&#34;noteStoreUrl&#34;</span>: <span style="color:#d14">&#34;StoreUrl&#34;</span>
+}
+</code></pre></td></tr></table>
+</div>
+</div><p>至此，已经配制<code>完成</code>。</p>……
+            <p class="readmore"><a href="https://www.shiyuanjie.cn/posts/Tools/MarkDown%E4%BF%9D%E5%AD%98%E8%87%B3%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0/">阅读全文</a></p>
+        </div>
+    </article>
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
                 <a href="https://www.shiyuanjie.cn/posts/JMeter/jmeter%E4%B8%8EDocker/">JMeter与Docker</a>
             </h1>
         </header>
@@ -416,39 +473,6 @@
         </div>
     </article>
     
-    <article class="post">
-        <header>
-            <h1 class="post-title">
-                <a href="https://www.shiyuanjie.cn/posts/JMeter/JMeter-%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E6%B5%8B%E8%AF%95Report/">JMeter-自动生成测试Report</a>
-            </h1>
-        </header>
-        <date class="post-meta meta-date">
-            2016年9月23日
-        </date>
-        
-        <div class="post-meta meta-category">
-            |
-            
-            <a href='https://www.shiyuanjie.cn/categories/Tool'>Tool</a>
-            
-        </div>
-        
-        <div class="post-content">
-            <h1 id="dashboard-report">Dashboard Report</h1>
-<p><a href="http://jmeter.apache.org/changes.html">JMeter3.0</a>版本发布后，开始支持<code>动态</code>报表报告。让测试人员编写<code>性能测试报告</code>更加容易。</p>
-<ul>
-<li>
-<p>支持在<code>测试结束</code>后，生成测试报告</p>
-</li>
-<li>
-<p><code>导入</code>之前测试结果，生成测试报告</p>
-</li>
-</ul>
-<p>下面就看下如何使用这个<code>新特性</code>，生成测试报告</p>……
-            <p class="readmore"><a href="https://www.shiyuanjie.cn/posts/JMeter/JMeter-%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E6%B5%8B%E8%AF%95Report/">阅读全文</a></p>
-        </div>
-    </article>
-    
 
     
 
@@ -567,7 +591,7 @@
     
     <li><a href="https://www.shiyuanjie.cn/categories/Testing/">Testing (8)</a></li>
     
-    <li><a href="https://www.shiyuanjie.cn/categories/Tool/">Tool (33)</a></li>
+    <li><a href="https://www.shiyuanjie.cn/categories/Tool/">Tool (34)</a></li>
     
     <li><a href="https://www.shiyuanjie.cn/categories/Translate/">Translate (16)</a></li>
     
