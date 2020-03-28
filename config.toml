@@ -2,7 +2,7 @@ baseURL = "https://www.shiyuanjie.cn"
 languageCode = "zh-CN"
 title = "Yuanjie-跑步爱好者，IT从业者。"
 theme = "maupassant"
-googleAnalytics = "G-5XEH1YLC7R"  # UA-XXXXXXXX-X
+# googleAnalytics = "G-5XEH1YLC7R"  # UA-XXXXXXXX-X
 
 ## 保持分类的原始名字（false会做转小写处理）
 preserveTaxonomyNames = true
@@ -22,7 +22,7 @@ summaryLength = 140
   keywords = "测试,敏捷,跑步,项目管理,学习"
   description = "跑步爱好者，IT从业者。"
   busuanzi = true #启用不算子网页统计
-  googleAd = "ca-pub-4031353640611810"  #ca-pub-xxxxxxxxxxxxxx
+  # googleAd = "ca-pub-4031353640611810"  #ca-pub-xxxxxxxxxxxxxx
   baiduAd = "ac69e1e54b317232c0d3a881b738cfe8"
   beian = "陕ICP备20003547号-1"
   localSearch = true # 启用本地搜索
