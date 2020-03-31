@@ -17,7 +17,7 @@
       <pubDate>Tue, 31 Mar 2020 16:16:25 +0800</pubDate>
       
       <guid>https://www.shiyuanjie.cn/posts/Blog/migrate-from-hexo-to-hugo/</guid>
-      <description>Github源代码地址：https://github.com/aimer1124/python-format-md 为什么做这个： 把原来博客的文章从Hexo转移至Hugo，但两者在MD文件头部处理不一致。 Hexo格式 title: &#39;Http-Header&#39; tags: - API测试 - SuperTest categories: - Tool date: 2016-02-29 20:14:00 thumbnail: /img/a.png --- Hugo格式 --- title: &#39;Http-Header&#39; tags: - AP</description>
+      <description>Github源代码地址：https://github.com/aimer1124/python-format-md 为什么做这个： 把原来博客的文章从Hexo转移至Hugo，但两者在MD文件头部处理不一致。 Hexo格式 1 2 3 4 5 6 7 8 9 title: &amp;#39;Http-Header&amp;#39; tags: - API测试 - SuperTest categories: - Tool date: 2016-02-29 20:14:00 thumbnail: /img/a.png --- Hugo</description>
     </item>
     
     <item>

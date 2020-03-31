@@ -15,7 +15,7 @@ Github源代码地址：[https://github.com/aimer1124/python-format-md](https://
 
 - Hexo格式
 
-```
+```markdown
 title: 'Http-Header'
 tags:
   - API测试
@@ -29,7 +29,7 @@ thumbnail: /img/a.png
 
 - Hugo格式 
 
-```
+```markdown
 ---
 title: 'Http-Header'
 tags:
@@ -45,7 +45,7 @@ date: 2016-02-29 20:14:00
 - 在文件首行添加`---`
 - 删除MD文件Header中的`thumbnail`字段（nice to have）
 
-## ToDo
+## Function
 
 - [X] Read MD file content
     - [X] Create source MD file
@@ -77,14 +77,14 @@ date: 2016-02-29 20:14:00
 - Add `---` to new MD file
 - Delete the line with `thumbnail`
 
-```
+```python
 lines = (i for i in sourceFile if 'thumbnail' not in i )
 targetFile.writelines(lines)
 ```
 
 - Use `readlines` to convert file: `list.insert(index,obj)` for add `---` and `list.remove(obj)` for delete `thumbnail`
 
-```
+```python
 sourceFileList = sourceFile.readlines()
 
 sourceFileList.insert(0,"---\n")
@@ -101,7 +101,7 @@ targetFile.writelines(sourceFileList)
 
 - Refactor the code
 
-```
+```python
 def convert(sourceFile, targetFile):
 
     sourceFile = open(source, "r")
@@ -122,14 +122,14 @@ def convert(sourceFile, targetFile):
 ```
 - Get the list in the folder 
 
-```
+```python
 import os
 sourceFileList = os.listdir(sourcePath)
 ```
 
 - Convert the files
 
-```
+```python
 for fileName in sourceFileList:
     print("Convert file: " + fileName)
     target = "./target.md"

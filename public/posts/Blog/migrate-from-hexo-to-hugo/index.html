@@ -148,7 +148,7 @@
     <div class="post-toc-content">
         <nav id="TableOfContents">
   <ul>
-    <li><a href="#todo">ToDo</a></li>
+    <li><a href="#function">Function</a></li>
     <li><a href="#day-by-day">Day by Day</a>
       <ul>
         <li><a href="#day-1">Day 1</a></li>
@@ -217,33 +217,63 @@
 <ul>
 <li>Hexo格式</li>
 </ul>
-<pre><code>title: 'Http-Header'
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">9
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">title: &#39;Http-Header&#39;
 tags:
-  - API测试
-  - SuperTest
+  <span style="color:#000;font-weight:bold">-</span> API测试
+  <span style="color:#000;font-weight:bold">-</span> SuperTest
 categories:
-  - Tool
+  <span style="color:#000;font-weight:bold">-</span> Tool
 date: 2016-02-29 20:14:00
 thumbnail: /img/a.png
 ---
-</code></pre><ul>
+</code></pre></td></tr></table>
+</div>
+</div><ul>
 <li>Hugo格式</li>
 </ul>
-<pre><code>---
-title: 'Http-Header'
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">9
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">---
+title: &#39;Http-Header&#39;
 tags:
-  - API测试
-  - SuperTest
+  <span style="color:#000;font-weight:bold">-</span> API测试
+  <span style="color:#000;font-weight:bold">-</span> SuperTest
 categories:
-  - Tool
+  <span style="color:#000;font-weight:bold">-</span> Tool
 date: 2016-02-29 20:14:00
 ---
-</code></pre><p>暂时发现，需要处理的内容有两处：</p>
+</code></pre></td></tr></table>
+</div>
+</div><p>暂时发现，需要处理的内容有两处：</p>
 <ul>
 <li>在文件首行添加<code>---</code></li>
 <li>删除MD文件Header中的<code>thumbnail</code>字段（nice to have）</li>
 </ul>
-<h2 id="todo">ToDo</h2>
+<h2 id="function">Function</h2>
 <ul>
 <li><input checked="" disabled="" type="checkbox">Read MD file content
 <ul>
@@ -286,56 +316,122 @@ date: 2016-02-29 20:14:00
 <li>Add <code>---</code> to new MD file</li>
 <li>Delete the line with <code>thumbnail</code></li>
 </ul>
-<pre><code>lines = (i for i in sourceFile if 'thumbnail' not in i )
-targetFile.writelines(lines)
-</code></pre><ul>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">lines <span style="color:#000;font-weight:bold">=</span> (i <span style="color:#000;font-weight:bold">for</span> i <span style="color:#000;font-weight:bold">in</span> sourceFile <span style="color:#000;font-weight:bold">if</span> <span style="color:#d14">&#39;thumbnail&#39;</span> <span style="color:#000;font-weight:bold">not</span> <span style="color:#000;font-weight:bold">in</span> i )
+targetFile<span style="color:#000;font-weight:bold">.</span>writelines(lines)
+</code></pre></td></tr></table>
+</div>
+</div><ul>
 <li>Use <code>readlines</code> to convert file: <code>list.insert(index,obj)</code> for add <code>---</code> and <code>list.remove(obj)</code> for delete <code>thumbnail</code></li>
 </ul>
-<pre><code>sourceFileList = sourceFile.readlines()
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">sourceFileList <span style="color:#000;font-weight:bold">=</span> sourceFile<span style="color:#000;font-weight:bold">.</span>readlines()
 
-sourceFileList.insert(0,&quot;---\n&quot;)
-for line in sourceFileList:
-    print(line)
-    if &quot;thumbnail&quot; in line:
-        sourceFileList.remove(line)
+sourceFileList<span style="color:#000;font-weight:bold">.</span>insert(<span style="color:#099">0</span>,<span style="color:#d14">&#34;---</span><span style="color:#d14">\n</span><span style="color:#d14">&#34;</span>)
+<span style="color:#000;font-weight:bold">for</span> line <span style="color:#000;font-weight:bold">in</span> sourceFileList:
+    <span style="color:#000;font-weight:bold">print</span>(line)
+    <span style="color:#000;font-weight:bold">if</span> <span style="color:#d14">&#34;thumbnail&#34;</span> <span style="color:#000;font-weight:bold">in</span> line:
+        sourceFileList<span style="color:#000;font-weight:bold">.</span>remove(line)
 
-targetFile.writelines(sourceFileList)
+targetFile<span style="color:#000;font-weight:bold">.</span>writelines(sourceFileList)
 
-</code></pre><h3 id="day-3">Day 3</h3>
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="day-3">Day 3</h3>
 <ul>
 <li>Refactor the code</li>
 </ul>
-<pre><code>def convert(sourceFile, targetFile):
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#000;font-weight:bold">def</span> <span style="color:#900;font-weight:bold">convert</span>(sourceFile, targetFile):
 
-    sourceFile = open(source, &quot;r&quot;)
-    targetFile = open(target,&quot;w&quot;)
+    sourceFile <span style="color:#000;font-weight:bold">=</span> <span style="color:#0086b3">open</span>(source, <span style="color:#d14">&#34;r&#34;</span>)
+    targetFile <span style="color:#000;font-weight:bold">=</span> <span style="color:#0086b3">open</span>(target,<span style="color:#d14">&#34;w&#34;</span>)
 
-    sourceFileList = sourceFile.readlines()
+    sourceFileList <span style="color:#000;font-weight:bold">=</span> sourceFile<span style="color:#000;font-weight:bold">.</span>readlines()
 
-    sourceFileList.insert(0,&quot;---\n&quot;)
-    for line in sourceFileList:
-        # print(line)
-        if &quot;thumbnail&quot; in line:
-            sourceFileList.remove(line)
+    sourceFileList<span style="color:#000;font-weight:bold">.</span>insert(<span style="color:#099">0</span>,<span style="color:#d14">&#34;---</span><span style="color:#d14">\n</span><span style="color:#d14">&#34;</span>)
+    <span style="color:#000;font-weight:bold">for</span> line <span style="color:#000;font-weight:bold">in</span> sourceFileList:
+        <span style="color:#998;font-style:italic"># print(line)</span>
+        <span style="color:#000;font-weight:bold">if</span> <span style="color:#d14">&#34;thumbnail&#34;</span> <span style="color:#000;font-weight:bold">in</span> line:
+            sourceFileList<span style="color:#000;font-weight:bold">.</span>remove(line)
 
-    targetFile.writelines(sourceFileList)
+    targetFile<span style="color:#000;font-weight:bold">.</span>writelines(sourceFileList)
 
-    targetFile.close()
-    sourceFile.close()
-</code></pre><ul>
+    targetFile<span style="color:#000;font-weight:bold">.</span>close()
+    sourceFile<span style="color:#000;font-weight:bold">.</span>close()
+</code></pre></td></tr></table>
+</div>
+</div><ul>
 <li>Get the list in the folder</li>
 </ul>
-<pre><code>import os
-sourceFileList = os.listdir(sourcePath)
-</code></pre><ul>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#000;font-weight:bold">import</span> <span style="color:#555">os</span>
+sourceFileList <span style="color:#000;font-weight:bold">=</span> os<span style="color:#000;font-weight:bold">.</span>listdir(sourcePath)
+</code></pre></td></tr></table>
+</div>
+</div><ul>
 <li>Convert the files</li>
 </ul>
-<pre><code>for fileName in sourceFileList:
-    print(&quot;Convert file: &quot; + fileName)
-    target = &quot;./target.md&quot;
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#000;font-weight:bold">for</span> fileName <span style="color:#000;font-weight:bold">in</span> sourceFileList:
+    <span style="color:#000;font-weight:bold">print</span>(<span style="color:#d14">&#34;Convert file: &#34;</span> <span style="color:#000;font-weight:bold">+</span> fileName)
+    target <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#34;./target.md&#34;</span>
 
-    convert(sourcePath + fileName, targetPath + fileName)
-</code></pre><h2 id="参考">参考</h2>
+    convert(sourcePath <span style="color:#000;font-weight:bold">+</span> fileName, targetPath <span style="color:#000;font-weight:bold">+</span> fileName)
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="参考">参考</h2>
 <ul>
 <li>文件读写: <a href="https://www.runoob.com/python/python-files-io.html">https://www.runoob.com/python/python-files-io.html</a></li>
 <li>Python List: <a href="https://www.runoob.com/python/python-lists.html">https://www.runoob.com/python/python-lists.html</a></li>
@@ -415,6 +511,10 @@ sourceFileList = os.listdir(sourcePath)
 <ul class="widget-list">
     
     <li>
+        <a href="https://www.shiyuanjie.cn/posts/Upgrade/word-practice/" title="三月练字">三月练字</a>
+    </li>
+    
+    <li>
         <a href="https://www.shiyuanjie.cn/posts/Blog/migrate-from-hexo-to-hugo/" title="转移hexo文章至Hugo">转移hexo文章至Hugo</a>
     </li>
     
@@ -450,10 +550,6 @@ sourceFileList = os.listdir(sourcePath)
         <a href="https://www.shiyuanjie.cn/posts/Tools/Alfred_Workflows/" title="Alfred中的Workflow配制">Alfred中的Workflow配制</a>
     </li>
     
-    <li>
-        <a href="https://www.shiyuanjie.cn/posts/JMeter/JMeter5.2%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/" title="JMeter5.2更新内容">JMeter5.2更新内容</a>
-    </li>
-    
 </ul>
     </section>
 
@@ -471,7 +567,7 @@ sourceFileList = os.listdir(sourcePath)
     
     <li><a href="https://www.shiyuanjie.cn/categories/Mark/">Mark (32)</a></li>
     
-    <li><a href="https://www.shiyuanjie.cn/categories/Paint/">Paint (2)</a></li>
+    <li><a href="https://www.shiyuanjie.cn/categories/Paint/">Paint (3)</a></li>
     
     <li><a href="https://www.shiyuanjie.cn/categories/Testing/">Testing (8)</a></li>
     
@@ -645,6 +741,8 @@ sourceFileList = os.listdir(sourcePath)
     <a href="https://www.shiyuanjie.cn/tags/%E7%94%B2%E6%96%B9/">甲方</a>
     
     <a href="https://www.shiyuanjie.cn/tags/%E7%AE%A1%E7%90%86/">管理</a>
+    
+    <a href="https://www.shiyuanjie.cn/tags/%E7%BB%83%E5%AD%97/">练字</a>
     
     <a href="https://www.shiyuanjie.cn/tags/%E8%81%8C%E5%9C%BA/">职场</a>
     
