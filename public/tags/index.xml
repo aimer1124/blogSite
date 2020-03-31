@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Yuanjie-跑步爱好者，IT从业者。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 28 Mar 2020 20:10:20 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2020 16:16:25 +0800</lastBuildDate>
     
 	<atom:link href="https://www.shiyuanjie.cn/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hexo</title>
+      <link>https://www.shiyuanjie.cn/tags/Hexo/</link>
+      <pubDate>Tue, 31 Mar 2020 16:16:25 +0800</pubDate>
+      
+      <guid>https://www.shiyuanjie.cn/tags/Hexo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://www.shiyuanjie.cn/tags/Hugo/</link>
+      <pubDate>Tue, 31 Mar 2020 16:16:25 +0800</pubDate>
+      
+      <guid>https://www.shiyuanjie.cn/tags/Hugo/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>管理</title>
@@ -125,15 +143,6 @@
       <pubDate>Sat, 04 Jan 2020 15:55:00 +0000</pubDate>
       
       <guid>https://www.shiyuanjie.cn/tags/CI/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hexo</title>
-      <link>https://www.shiyuanjie.cn/tags/Hexo/</link>
-      <pubDate>Sat, 04 Jan 2020 15:55:00 +0000</pubDate>
-      
-      <guid>https://www.shiyuanjie.cn/tags/Hexo/</guid>
       <description></description>
     </item>
     
