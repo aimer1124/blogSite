@@ -210,19 +210,19 @@
             <h2 id="安装mysql包">安装Mysql包</h2>
 <pre><code>npm install mysql
 </code></pre><h2 id="调用-mysql包">调用 Mysql包</h2>
-<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#000;font-weight:bold">var</span> mysql <span style="color:#000;font-weight:bold">=</span> require(<span style="color:#d14">&#39;mysql&#39;</span>);
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">mysql</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;mysql&#39;</span>);
 </code></pre></td></tr></table>
 </div>
 </div><h2 id="数据库查询">数据库查询</h2>
 <!-- raw HTML omitted -->
-<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
@@ -243,31 +243,31 @@
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#000;font-weight:bold">var</span> mysql <span style="color:#000;font-weight:bold">=</span> require(<span style="color:#d14">&#39;mysql&#39;</span>);
-<span style="color:#000;font-weight:bold">var</span> connection <span style="color:#000;font-weight:bold">=</span> mysql.createConnection({
-    host <span style="color:#000;font-weight:bold">:</span> <span style="color:#d14">&#39;10.29.10.29&#39;</span>,
-    port <span style="color:#000;font-weight:bold">:</span> <span style="color:#099">3307</span>,
-    user <span style="color:#000;font-weight:bold">:</span> <span style="color:#d14">&#39;root&#39;</span>,
-    password <span style="color:#000;font-weight:bold">:</span> <span style="color:#d14">&#39;&#39;</span>,
-    database <span style="color:#000;font-weight:bold">:</span> <span style="color:#d14">&#39;emall&#39;</span>,
-    <span style="color:#998;font-style:italic">//charset : &#39;UTF8_GENERAL_CI&#39;,
-</span><span style="color:#998;font-style:italic"></span>    debug <span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">false</span>
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">mysql</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;mysql&#39;</span>);
+<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">connection</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">mysql</span>.<span style="color:#a6e22e">createConnection</span>({
+    <span style="color:#a6e22e">host</span> <span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;10.29.10.29&#39;</span>,
+    <span style="color:#a6e22e">port</span> <span style="color:#f92672">:</span> <span style="color:#ae81ff">3307</span>,
+    <span style="color:#a6e22e">user</span> <span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;root&#39;</span>,
+    <span style="color:#a6e22e">password</span> <span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;&#39;</span>,
+    <span style="color:#a6e22e">database</span> <span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;emall&#39;</span>,
+    <span style="color:#75715e">//charset : &#39;UTF8_GENERAL_CI&#39;,
+</span><span style="color:#75715e"></span>    <span style="color:#a6e22e">debug</span> <span style="color:#f92672">:</span> <span style="color:#66d9ef">false</span>
 });
-connection.connect();
-connection.query(<span style="color:#d14">&#34;use emall&#34;</span>);
-connection.query(<span style="color:#d14">&#39;select id from users&#39;</span>, <span style="color:#000;font-weight:bold">function</span>(err,results) {
-		<span style="color:#000;font-weight:bold">if</span> (err) {
-          <span style="color:#000;font-weight:bold">throw</span> err;
+<span style="color:#a6e22e">connection</span>.<span style="color:#a6e22e">connect</span>();
+<span style="color:#a6e22e">connection</span>.<span style="color:#a6e22e">query</span>(<span style="color:#e6db74">&#34;use emall&#34;</span>);
+<span style="color:#a6e22e">connection</span>.<span style="color:#a6e22e">query</span>(<span style="color:#e6db74">&#39;select id from users&#39;</span>, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">err</span>,<span style="color:#a6e22e">results</span>) {
+		<span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">err</span>) {
+          <span style="color:#66d9ef">throw</span> <span style="color:#a6e22e">err</span>;
         }
         });
-connection.end();
+<span style="color:#a6e22e">connection</span>.<span style="color:#a6e22e">end</span>();
 
 </code></pre></td></tr></table>
 </div>
 </div><h2 id="数据库插入">数据库插入</h2>
-<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
@@ -288,25 +288,25 @@ connection.end();
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#000;font-weight:bold">var</span> mysql <span style="color:#000;font-weight:bold">=</span> require(<span style="color:#d14">&#39;mysql&#39;</span>);
-<span style="color:#000;font-weight:bold">var</span> connection <span style="color:#000;font-weight:bold">=</span> mysql.createConnection({
-    host <span style="color:#000;font-weight:bold">:</span> <span style="color:#d14">&#39;10.29.10.29&#39;</span>,
-    port <span style="color:#000;font-weight:bold">:</span> <span style="color:#099">3307</span>,
-    user <span style="color:#000;font-weight:bold">:</span> <span style="color:#d14">&#39;root&#39;</span>,
-    password <span style="color:#000;font-weight:bold">:</span> <span style="color:#d14">&#39;&#39;</span>,
-    database <span style="color:#000;font-weight:bold">:</span> <span style="color:#d14">&#39;emall&#39;</span>,
-    <span style="color:#998;font-style:italic">//charset : &#39;UTF8_GENERAL_CI&#39;,
-</span><span style="color:#998;font-style:italic"></span>    debug <span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">false</span>
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">mysql</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;mysql&#39;</span>);
+<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">connection</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">mysql</span>.<span style="color:#a6e22e">createConnection</span>({
+    <span style="color:#a6e22e">host</span> <span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;10.29.10.29&#39;</span>,
+    <span style="color:#a6e22e">port</span> <span style="color:#f92672">:</span> <span style="color:#ae81ff">3307</span>,
+    <span style="color:#a6e22e">user</span> <span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;root&#39;</span>,
+    <span style="color:#a6e22e">password</span> <span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;&#39;</span>,
+    <span style="color:#a6e22e">database</span> <span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;emall&#39;</span>,
+    <span style="color:#75715e">//charset : &#39;UTF8_GENERAL_CI&#39;,
+</span><span style="color:#75715e"></span>    <span style="color:#a6e22e">debug</span> <span style="color:#f92672">:</span> <span style="color:#66d9ef">false</span>
 });
-connection.connect();
-connection.query(<span style="color:#d14">&#34;use emall&#34;</span>);
-<span style="color:#000;font-weight:bold">var</span> insertUser2 <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#34;INSERT INTO `sms_verification_code` (`phone_number`, `code`) VALUES (&#39;18392520000&#39;, &#39;018227&#39;);&#34;</span>;
-connection.query(insertUser2,<span style="color:#000;font-weight:bold">function</span>(err,results,field){
-    <span style="color:#000;font-weight:bold">if</span> (err) {
-        <span style="color:#000;font-weight:bold">throw</span> err;
+<span style="color:#a6e22e">connection</span>.<span style="color:#a6e22e">connect</span>();
+<span style="color:#a6e22e">connection</span>.<span style="color:#a6e22e">query</span>(<span style="color:#e6db74">&#34;use emall&#34;</span>);
+<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">insertUser2</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;INSERT INTO `sms_verification_code` (`phone_number`, `code`) VALUES (&#39;18392520000&#39;, &#39;018227&#39;);&#34;</span>;
+<span style="color:#a6e22e">connection</span>.<span style="color:#a6e22e">query</span>(<span style="color:#a6e22e">insertUser2</span>,<span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">err</span>,<span style="color:#a6e22e">results</span>,<span style="color:#a6e22e">field</span>){
+    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">err</span>) {
+        <span style="color:#66d9ef">throw</span> <span style="color:#a6e22e">err</span>;
     }
 });
-connection.end();					
+<span style="color:#a6e22e">connection</span>.<span style="color:#a6e22e">end</span>();					
 </code></pre></td></tr></table>
 </div>
 </div><h2 id="api测试应用nodejs">API测试应用：Node.js</h2>

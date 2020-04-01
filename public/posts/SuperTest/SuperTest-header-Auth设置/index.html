@@ -215,9 +215,9 @@
 <ul>
 <li>基本用法</li>
 </ul>
-<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
@@ -225,30 +225,30 @@
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">it(<span style="color:#d14">&#39;should receive a status code of 200 with login&#39;</span>, <span style="color:#000;font-weight:bold">function</span>(done) {
-    request(url)
-        .get(<span style="color:#d14">&#39;/staging&#39;</span>)
-        .auth(<span style="color:#d14">&#39;the-username&#39;</span>, <span style="color:#d14">&#39;the-password&#39;</span>)
-        .expect(<span style="color:#099">200</span>, done);
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">it</span>(<span style="color:#e6db74">&#39;should receive a status code of 200 with login&#39;</span>, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">done</span>) {
+    <span style="color:#a6e22e">request</span>(<span style="color:#a6e22e">url</span>)
+        .<span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;/staging&#39;</span>)
+        .<span style="color:#a6e22e">auth</span>(<span style="color:#e6db74">&#39;the-username&#39;</span>, <span style="color:#e6db74">&#39;the-password&#39;</span>)
+        .<span style="color:#a6e22e">expect</span>(<span style="color:#ae81ff">200</span>, <span style="color:#a6e22e">done</span>);
 });
 </code></pre></td></tr></table>
 </div>
 </div><ul>
 <li>Base64加密</li>
 </ul>
-<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">.set(<span style="color:#d14">&#34;Authorization&#34;</span>, <span style="color:#d14">&#34;basic &#34;</span> <span style="color:#000;font-weight:bold">+</span> <span style="color:#000;font-weight:bold">new</span> Buffer(<span style="color:#d14">&#34;username:password&#34;</span>).toString(<span style="color:#d14">&#34;base64&#34;</span>))
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">.<span style="color:#a6e22e">set</span>(<span style="color:#e6db74">&#34;Authorization&#34;</span>, <span style="color:#e6db74">&#34;basic &#34;</span> <span style="color:#f92672">+</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Buffer</span>(<span style="color:#e6db74">&#34;username:password&#34;</span>).<span style="color:#a6e22e">toString</span>(<span style="color:#e6db74">&#34;base64&#34;</span>))
 </code></pre></td></tr></table>
 </div>
 </div><!-- raw HTML omitted -->
 <h2 id="digesthttpsenwikipediaorgwikidigest_access_authentication摘要式身份认证"><a href="https://en.wikipedia.org/wiki/Digest_access_authentication">Digest</a>:摘要式身份认证</h2>
-<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
@@ -267,21 +267,21 @@
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">request.get(<span style="color:#d14">&#39;http://some.server.com/&#39;</span>).auth(<span style="color:#d14">&#39;username&#39;</span>, <span style="color:#d14">&#39;password&#39;</span>, <span style="color:#000;font-weight:bold">false</span>);
-<span style="color:#998;font-style:italic">// or
-</span><span style="color:#998;font-style:italic"></span>request.get(<span style="color:#d14">&#39;http://some.server.com/&#39;</span>, {
-  <span style="color:#d14">&#39;auth&#39;</span><span style="color:#000;font-weight:bold">:</span> {
-    <span style="color:#d14">&#39;user&#39;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#d14">&#39;username&#39;</span>,
-    <span style="color:#d14">&#39;pass&#39;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#d14">&#39;password&#39;</span>,
-    <span style="color:#d14">&#39;sendImmediately&#39;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">false</span>
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">request</span>.<span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;http://some.server.com/&#39;</span>).<span style="color:#a6e22e">auth</span>(<span style="color:#e6db74">&#39;username&#39;</span>, <span style="color:#e6db74">&#39;password&#39;</span>, <span style="color:#66d9ef">false</span>);
+<span style="color:#75715e">// or
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">request</span>.<span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;http://some.server.com/&#39;</span>, {
+  <span style="color:#e6db74">&#39;auth&#39;</span><span style="color:#f92672">:</span> {
+    <span style="color:#e6db74">&#39;user&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;username&#39;</span>,
+    <span style="color:#e6db74">&#39;pass&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;password&#39;</span>,
+    <span style="color:#e6db74">&#39;sendImmediately&#39;</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">false</span>
   }
 });
-<span style="color:#998;font-style:italic">// or
-</span><span style="color:#998;font-style:italic"></span>request.get(<span style="color:#d14">&#39;http://some.server.com/&#39;</span>).auth(<span style="color:#000;font-weight:bold">null</span>, <span style="color:#000;font-weight:bold">null</span>, <span style="color:#000;font-weight:bold">true</span>, <span style="color:#d14">&#39;bearerToken&#39;</span>);
-<span style="color:#998;font-style:italic">// or
-</span><span style="color:#998;font-style:italic"></span>request.get(<span style="color:#d14">&#39;http://some.server.com/&#39;</span>, {
-  <span style="color:#d14">&#39;auth&#39;</span><span style="color:#000;font-weight:bold">:</span> {
-    <span style="color:#d14">&#39;bearer&#39;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#d14">&#39;bearerToken&#39;</span>
+<span style="color:#75715e">// or
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">request</span>.<span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;http://some.server.com/&#39;</span>).<span style="color:#a6e22e">auth</span>(<span style="color:#66d9ef">null</span>, <span style="color:#66d9ef">null</span>, <span style="color:#66d9ef">true</span>, <span style="color:#e6db74">&#39;bearerToken&#39;</span>);
+<span style="color:#75715e">// or
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">request</span>.<span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;http://some.server.com/&#39;</span>, {
+  <span style="color:#e6db74">&#39;auth&#39;</span><span style="color:#f92672">:</span> {
+    <span style="color:#e6db74">&#39;bearer&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;bearerToken&#39;</span>
   }
 });
 </code></pre></td></tr></table>
@@ -290,9 +290,9 @@
 <ul>
 <li>例子</li>
 </ul>
-<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
@@ -308,43 +308,43 @@
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#000;font-weight:bold">var</span> OAuth <span style="color:#000;font-weight:bold">=</span> require(<span style="color:#d14">&#39;openauth&#39;</span>);
-<span style="color:#000;font-weight:bold">var</span> request <span style="color:#000;font-weight:bold">=</span> require(<span style="color:#d14">&#39;superagent&#39;</span>);
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">OAuth</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;openauth&#39;</span>);
+<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">request</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;superagent&#39;</span>);
 
-require(<span style="color:#d14">&#39;superagent-openauth&#39;</span>)(request);
+<span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;superagent-openauth&#39;</span>)(<span style="color:#a6e22e">request</span>);
 
-<span style="color:#000;font-weight:bold">var</span> oauth <span style="color:#000;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">new</span> OAuth(consumerKey, consumerSecret, {...});
+<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">oauth</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">OAuth</span>(<span style="color:#a6e22e">consumerKey</span>, <span style="color:#a6e22e">consumerSecret</span>, {...});
 
-request.post(<span style="color:#d14">&#39;https://api.twitter.com/1.1/statuses/update.json&#39;</span>)
-  .sign(oauth, token, tokenSecret)
-  .type(<span style="color:#d14">&#39;urlencoded&#39;</span>)
-  .send({status<span style="color:#000;font-weight:bold">:</span> <span style="color:#d14">&#39;hello world&#39;</span>})
-  .end(<span style="color:#000;font-weight:bold">function</span>(res) {
-    console.log(res.status, res.body);
+<span style="color:#a6e22e">request</span>.<span style="color:#a6e22e">post</span>(<span style="color:#e6db74">&#39;https://api.twitter.com/1.1/statuses/update.json&#39;</span>)
+  .<span style="color:#a6e22e">sign</span>(<span style="color:#a6e22e">oauth</span>, <span style="color:#a6e22e">token</span>, <span style="color:#a6e22e">tokenSecret</span>)
+  .<span style="color:#a6e22e">type</span>(<span style="color:#e6db74">&#39;urlencoded&#39;</span>)
+  .<span style="color:#a6e22e">send</span>({<span style="color:#a6e22e">status</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;hello world&#39;</span>})
+  .<span style="color:#a6e22e">end</span>(<span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">res</span>) {
+    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">res</span>.<span style="color:#a6e22e">status</span>, <span style="color:#a6e22e">res</span>.<span style="color:#a6e22e">body</span>);
   });
 </code></pre></td></tr></table>
 </div>
 </div><ul>
 <li>OAuth 1</li>
 </ul>
-<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">request.sign(oauth, token, secret);
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">request</span>.<span style="color:#a6e22e">sign</span>(<span style="color:#a6e22e">oauth</span>, <span style="color:#a6e22e">token</span>, <span style="color:#a6e22e">secret</span>);
 </code></pre></td></tr></table>
 </div>
 </div><p><code>oauth: OAuth instance token: string access token secret: string access token secret</code></p>
 <ul>
 <li>OAuth 2</li>
 </ul>
-<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">request.sign(oauth, token);
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">request</span>.<span style="color:#a6e22e">sign</span>(<span style="color:#a6e22e">oauth</span>, <span style="color:#a6e22e">token</span>);
 </code></pre></td></tr></table>
 </div>
 </div><p><code>oauth: OAuth2 instance token: string access token</code></p>

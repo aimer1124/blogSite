@@ -129,7 +129,7 @@ sourceFileList = os.listdir(sourcePath)
 
 - Convert the files
 
-```python
+```Python
 for fileName in sourceFileList:
     print("Convert file: " + fileName)
     target = "./target.md"

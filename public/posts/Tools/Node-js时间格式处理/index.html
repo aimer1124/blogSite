@@ -215,21 +215,21 @@
 <ul>
 <li>引用moment</li>
 </ul>
-<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#000;font-weight:bold">var</span> moment <span style="color:#000;font-weight:bold">=</span> require(<span style="color:#d14">&#39;moment&#39;</span>);
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">moment</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;moment&#39;</span>);
 </code></pre></td></tr></table>
 </div>
 </div><!-- raw HTML omitted -->
 <ul>
 <li>转化时间</li>
 </ul>
-<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
@@ -238,40 +238,40 @@
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#998;font-style:italic">//将时间格式转化为：2016-01-22 21:21:26
-</span><span style="color:#998;font-style:italic"></span>moment(<span style="color:#000;font-weight:bold">new</span> <span style="color:#0086b3">Date</span>()).format(<span style="color:#d14">&#34;YYYY-MM-DD HH:mm:ss&#34;</span>);
-moment().format(<span style="color:#d14">&#39;MMMM Do YYYY, h:mm:ss a&#39;</span>); <span style="color:#998;font-style:italic">// January 26th 2016, 10:25:00 pm
-</span><span style="color:#998;font-style:italic"></span>moment().format(<span style="color:#d14">&#39;dddd&#39;</span>);                    <span style="color:#998;font-style:italic">// Tuesday
-</span><span style="color:#998;font-style:italic"></span>moment().format(<span style="color:#d14">&#34;MMM Do YY&#34;</span>);               <span style="color:#998;font-style:italic">// Jan 26th 16
-</span><span style="color:#998;font-style:italic"></span>moment().format(<span style="color:#d14">&#39;YYYY [escaped] YYYY&#39;</span>);     <span style="color:#998;font-style:italic">// 2016 escaped 2016
-</span><span style="color:#998;font-style:italic"></span>moment().format();                          <span style="color:#998;font-style:italic">// 2016-01-26T22:25:24+08:00
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">//将时间格式转化为：2016-01-22 21:21:26
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">moment</span>(<span style="color:#66d9ef">new</span> Date()).<span style="color:#a6e22e">format</span>(<span style="color:#e6db74">&#34;YYYY-MM-DD HH:mm:ss&#34;</span>);
+<span style="color:#a6e22e">moment</span>().<span style="color:#a6e22e">format</span>(<span style="color:#e6db74">&#39;MMMM Do YYYY, h:mm:ss a&#39;</span>); <span style="color:#75715e">// January 26th 2016, 10:25:00 pm
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">moment</span>().<span style="color:#a6e22e">format</span>(<span style="color:#e6db74">&#39;dddd&#39;</span>);                    <span style="color:#75715e">// Tuesday
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">moment</span>().<span style="color:#a6e22e">format</span>(<span style="color:#e6db74">&#34;MMM Do YY&#34;</span>);               <span style="color:#75715e">// Jan 26th 16
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">moment</span>().<span style="color:#a6e22e">format</span>(<span style="color:#e6db74">&#39;YYYY [escaped] YYYY&#39;</span>);     <span style="color:#75715e">// 2016 escaped 2016
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">moment</span>().<span style="color:#a6e22e">format</span>();                          <span style="color:#75715e">// 2016-01-26T22:25:24+08:00
 </span></code></pre></td></tr></table>
 </div>
 </div><ul>
 <li>相对时间</li>
 </ul>
-<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">moment(<span style="color:#d14">&#34;20111031&#34;</span>, <span style="color:#d14">&#34;YYYYMMDD&#34;</span>).fromNow(); <span style="color:#998;font-style:italic">// 4 years ago
-</span><span style="color:#998;font-style:italic"></span>moment(<span style="color:#d14">&#34;20120620&#34;</span>, <span style="color:#d14">&#34;YYYYMMDD&#34;</span>).fromNow(); <span style="color:#998;font-style:italic">// 4 years ago
-</span><span style="color:#998;font-style:italic"></span>moment().startOf(<span style="color:#d14">&#39;day&#39;</span>).fromNow();        <span style="color:#998;font-style:italic">// a day ago
-</span><span style="color:#998;font-style:italic"></span>moment().endOf(<span style="color:#d14">&#39;day&#39;</span>).fromNow();          <span style="color:#998;font-style:italic">// in 2 hours
-</span><span style="color:#998;font-style:italic"></span>moment().startOf(<span style="color:#d14">&#39;hour&#39;</span>).fromNow();      
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">moment</span>(<span style="color:#e6db74">&#34;20111031&#34;</span>, <span style="color:#e6db74">&#34;YYYYMMDD&#34;</span>).<span style="color:#a6e22e">fromNow</span>(); <span style="color:#75715e">// 4 years ago
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">moment</span>(<span style="color:#e6db74">&#34;20120620&#34;</span>, <span style="color:#e6db74">&#34;YYYYMMDD&#34;</span>).<span style="color:#a6e22e">fromNow</span>(); <span style="color:#75715e">// 4 years ago
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">moment</span>().<span style="color:#a6e22e">startOf</span>(<span style="color:#e6db74">&#39;day&#39;</span>).<span style="color:#a6e22e">fromNow</span>();        <span style="color:#75715e">// a day ago
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">moment</span>().<span style="color:#a6e22e">endOf</span>(<span style="color:#e6db74">&#39;day&#39;</span>).<span style="color:#a6e22e">fromNow</span>();          <span style="color:#75715e">// in 2 hours
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">moment</span>().<span style="color:#a6e22e">startOf</span>(<span style="color:#e6db74">&#39;hour&#39;</span>).<span style="color:#a6e22e">fromNow</span>();      
 </code></pre></td></tr></table>
 </div>
 </div><ul>
 <li>日历时间</li>
 </ul>
-<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
@@ -281,22 +281,22 @@ moment().format(<span style="color:#d14">&#39;MMMM Do YYYY, h:mm:ss a&#39;</span
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">moment().subtract(<span style="color:#099">10</span>, <span style="color:#d14">&#39;days&#39;</span>).calendar(); <span style="color:#998;font-style:italic">// 01/16/2016
-</span><span style="color:#998;font-style:italic"></span>moment().subtract(<span style="color:#099">6</span>, <span style="color:#d14">&#39;days&#39;</span>).calendar();  <span style="color:#998;font-style:italic">// Last Wednesday at 10:27 PM
-</span><span style="color:#998;font-style:italic"></span>moment().subtract(<span style="color:#099">3</span>, <span style="color:#d14">&#39;days&#39;</span>).calendar();  <span style="color:#998;font-style:italic">// Last Saturday at 10:27 PM
-</span><span style="color:#998;font-style:italic"></span>moment().subtract(<span style="color:#099">1</span>, <span style="color:#d14">&#39;days&#39;</span>).calendar();  <span style="color:#998;font-style:italic">// Yesterday at 10:27 PM
-</span><span style="color:#998;font-style:italic"></span>moment().calendar();                      <span style="color:#998;font-style:italic">// Today at 10:27 PM
-</span><span style="color:#998;font-style:italic"></span>moment().add(<span style="color:#099">1</span>, <span style="color:#d14">&#39;days&#39;</span>).calendar();       <span style="color:#998;font-style:italic">// Tomorrow at 10:27 PM
-</span><span style="color:#998;font-style:italic"></span>moment().add(<span style="color:#099">3</span>, <span style="color:#d14">&#39;days&#39;</span>).calendar();       <span style="color:#998;font-style:italic">// Friday at 10:27 PM
-</span><span style="color:#998;font-style:italic"></span>moment().add(<span style="color:#099">10</span>, <span style="color:#d14">&#39;days&#39;</span>).calendar();     
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">moment</span>().<span style="color:#a6e22e">subtract</span>(<span style="color:#ae81ff">10</span>, <span style="color:#e6db74">&#39;days&#39;</span>).<span style="color:#a6e22e">calendar</span>(); <span style="color:#75715e">// 01/16/2016
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">moment</span>().<span style="color:#a6e22e">subtract</span>(<span style="color:#ae81ff">6</span>, <span style="color:#e6db74">&#39;days&#39;</span>).<span style="color:#a6e22e">calendar</span>();  <span style="color:#75715e">// Last Wednesday at 10:27 PM
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">moment</span>().<span style="color:#a6e22e">subtract</span>(<span style="color:#ae81ff">3</span>, <span style="color:#e6db74">&#39;days&#39;</span>).<span style="color:#a6e22e">calendar</span>();  <span style="color:#75715e">// Last Saturday at 10:27 PM
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">moment</span>().<span style="color:#a6e22e">subtract</span>(<span style="color:#ae81ff">1</span>, <span style="color:#e6db74">&#39;days&#39;</span>).<span style="color:#a6e22e">calendar</span>();  <span style="color:#75715e">// Yesterday at 10:27 PM
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">moment</span>().<span style="color:#a6e22e">calendar</span>();                      <span style="color:#75715e">// Today at 10:27 PM
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">moment</span>().<span style="color:#a6e22e">add</span>(<span style="color:#ae81ff">1</span>, <span style="color:#e6db74">&#39;days&#39;</span>).<span style="color:#a6e22e">calendar</span>();       <span style="color:#75715e">// Tomorrow at 10:27 PM
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">moment</span>().<span style="color:#a6e22e">add</span>(<span style="color:#ae81ff">3</span>, <span style="color:#e6db74">&#39;days&#39;</span>).<span style="color:#a6e22e">calendar</span>();       <span style="color:#75715e">// Friday at 10:27 PM
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">moment</span>().<span style="color:#a6e22e">add</span>(<span style="color:#ae81ff">10</span>, <span style="color:#e6db74">&#39;days&#39;</span>).<span style="color:#a6e22e">calendar</span>();     
 </code></pre></td></tr></table>
 </div>
 </div><ul>
 <li>其它应用</li>
 </ul>
-<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
@@ -306,14 +306,14 @@ moment().format(<span style="color:#d14">&#39;MMMM Do YYYY, h:mm:ss a&#39;</span
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">moment().format(<span style="color:#d14">&#39;L&#39;</span>);    <span style="color:#998;font-style:italic">// 01/26/2016
-</span><span style="color:#998;font-style:italic"></span>moment().format(<span style="color:#d14">&#39;l&#39;</span>);    <span style="color:#998;font-style:italic">// 1/26/2016
-</span><span style="color:#998;font-style:italic"></span>moment().format(<span style="color:#d14">&#39;LL&#39;</span>);   <span style="color:#998;font-style:italic">// January 26, 2016
-</span><span style="color:#998;font-style:italic"></span>moment().format(<span style="color:#d14">&#39;ll&#39;</span>);   <span style="color:#998;font-style:italic">// Jan 26, 2016
-</span><span style="color:#998;font-style:italic"></span>moment().format(<span style="color:#d14">&#39;LLL&#39;</span>);  <span style="color:#998;font-style:italic">// January 26, 2016 10:28 PM
-</span><span style="color:#998;font-style:italic"></span>moment().format(<span style="color:#d14">&#39;lll&#39;</span>);  <span style="color:#998;font-style:italic">// Jan 26, 2016 10:28 PM
-</span><span style="color:#998;font-style:italic"></span>moment().format(<span style="color:#d14">&#39;LLLL&#39;</span>); <span style="color:#998;font-style:italic">// Tuesday, January 26, 2016 10:28 PM
-</span><span style="color:#998;font-style:italic"></span>moment().format(<span style="color:#d14">&#39;llll&#39;</span>);
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">moment</span>().<span style="color:#a6e22e">format</span>(<span style="color:#e6db74">&#39;L&#39;</span>);    <span style="color:#75715e">// 01/26/2016
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">moment</span>().<span style="color:#a6e22e">format</span>(<span style="color:#e6db74">&#39;l&#39;</span>);    <span style="color:#75715e">// 1/26/2016
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">moment</span>().<span style="color:#a6e22e">format</span>(<span style="color:#e6db74">&#39;LL&#39;</span>);   <span style="color:#75715e">// January 26, 2016
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">moment</span>().<span style="color:#a6e22e">format</span>(<span style="color:#e6db74">&#39;ll&#39;</span>);   <span style="color:#75715e">// Jan 26, 2016
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">moment</span>().<span style="color:#a6e22e">format</span>(<span style="color:#e6db74">&#39;LLL&#39;</span>);  <span style="color:#75715e">// January 26, 2016 10:28 PM
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">moment</span>().<span style="color:#a6e22e">format</span>(<span style="color:#e6db74">&#39;lll&#39;</span>);  <span style="color:#75715e">// Jan 26, 2016 10:28 PM
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">moment</span>().<span style="color:#a6e22e">format</span>(<span style="color:#e6db74">&#39;LLLL&#39;</span>); <span style="color:#75715e">// Tuesday, January 26, 2016 10:28 PM
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">moment</span>().<span style="color:#a6e22e">format</span>(<span style="color:#e6db74">&#39;llll&#39;</span>);
 </code></pre></td></tr></table>
 </div>
 </div><ul>
