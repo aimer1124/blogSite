@@ -25,7 +25,7 @@ summaryLength = 140
   # googleAd = "ca-pub-4031353640611810"  #ca-pub-xxxxxxxxxxxxxx
   baiduAd = "ac69e1e54b317232c0d3a881b738cfe8"
   beian = "陕ICP备20003547号-1"
-  localSearch = true # 启用本地搜索
+  # localSearch = true # 启用本地搜索
 
   # 这里我存放在了主题的static文件夹里，根目录的似乎也可以
   customCSS = ['douban.css', 'other.css']
