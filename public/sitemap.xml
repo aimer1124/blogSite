@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.shiyuanjie.cn/posts/-Management/PM-Daily/</loc>
+    <lastmod>2020-04-03T17:16:47+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.shiyuanjie.cn/posts/</loc>
+    <lastmod>2020-04-03T17:16:47+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.shiyuanjie.cn/categories/Book/</loc>
     <lastmod>2020-04-01T15:32:06+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.shiyuanjie.cn/categories/</loc>
-    <lastmod>2020-04-01T15:32:06+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.shiyuanjie.cn/posts/</loc>
     <lastmod>2020-04-01T15:32:06+08:00</lastmod>
   </url>
   

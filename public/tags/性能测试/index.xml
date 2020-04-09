@@ -285,7 +285,7 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
       <pubDate>Tue, 28 Feb 2017 16:15:00 +0000</pubDate>
       
       <guid>https://www.shiyuanjie.cn/posts/PerformanceTest/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95-JMeter%E5%85%A5%E9%97%A8/</guid>
-      <description>原文地址 # 本文目的 - 面向新手，学习后可以使用JMeter独立完成项目的性能测试 - 快速分析并使用JMeter定位出项目性能测试结果 - 产出有价值的性能测试报告 # 目录 - 简介 - 认识JMeter - 了解并启动JMeter - 认识JMeter - 第一个测试 - 提高JMeter - 线程高并发 - 逻辑控件器</description>
+      <description>Github地址(源文件及脚本) 本文目的 面向新手，学习后可以使用JMeter独立完成项目的性能测试 快速分析并使用JMeter定位出项目性能测试结果 产出有价值的性能测试报告 目录 简介 认识JMeter 了解并启动JMeter 认识JMeter 第一个测试 提高JMeter 线程高并发 逻辑控件器 断</description>
     </item>
     
     <item>
