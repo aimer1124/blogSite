@@ -3,8 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.shiyuanjie.cn/categories/Book/</loc>
+    <lastmod>2020-04-10T15:20:58+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.shiyuanjie.cn/categories/</loc>
-    <lastmod>2020-04-03T17:16:47+08:00</lastmod>
+    <lastmod>2020-04-10T15:20:58+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.shiyuanjie.cn/posts/</loc>
+    <lastmod>2020-04-10T15:20:58+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.shiyuanjie.cn/tags/</loc>
+    <lastmod>2020-04-10T15:20:58+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.shiyuanjie.cn/tags/%E8%8C%B6/</loc>
+    <lastmod>2020-04-10T15:20:58+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.shiyuanjie.cn/posts/Book/%E8%8C%B6%E9%81%93/</loc>
+    <lastmod>2020-04-10T15:20:58+08:00</lastmod>
   </url>
   
   <url>
@@ -23,23 +48,8 @@
   </url>
   
   <url>
-    <loc>https://www.shiyuanjie.cn/posts/</loc>
-    <lastmod>2020-04-03T17:16:47+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.shiyuanjie.cn/tags/</loc>
-    <lastmod>2020-04-03T17:16:47+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.shiyuanjie.cn/tags/%E7%AE%A1%E7%90%86/</loc>
     <lastmod>2020-04-03T17:16:47+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.shiyuanjie.cn/categories/Book/</loc>
-    <lastmod>2020-04-01T15:32:06+08:00</lastmod>
   </url>
   
   <url>
