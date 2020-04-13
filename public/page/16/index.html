@@ -82,6 +82,29 @@
     <article class="post">
         <header>
             <h1 class="post-title">
+                <a href="https://www.shiyuanjie.cn/posts/Tools/JS%E8%B0%83%E7%94%A8%E6%95%B0%E6%8D%AE%E5%BA%93/" title="Node.js调用数据库:Mysql">Node.js调用数据库:Mysql</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2016年1月26日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='https://www.shiyuanjie.cn/categories/Tool'>Tool</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            安装Mysql包 npm install mysql 调用 Mysql包 1 var mysql = require(&#39;mysql&#39;); 数据库查询 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 var mysql = require(&#39;mysql&#39;); var connection = mysql.createConnection({ host : &#39;10.29.10.29&#39;, port : 3307, user : &#39;root&#39;, password : &#39;&#39;, database : &#39;emall&#39;, //charset : &#39;UTF8_GENERAL_CI&#39;, debug : false }); connection.connect(); connection.query(&#34;use emall&#34;); connection.query(&#39;select id from users&#39;, function(err,results) { if (err) { throw err; } }); connection.end(); 数据库插入 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 var mysql = require(&#39;mysql&#39;); var connection = mysql.createConnection({ host : &#39;10.29.10.29&#39;, port : 3307, user : &#39;root&#39;, password : &#39;&#39;, database……
+        </div>
+        <p class="readmore"><a href="https://www.shiyuanjie.cn/posts/Tools/JS%E8%B0%83%E7%94%A8%E6%95%B0%E6%8D%AE%E5%BA%93/">阅读全文</a></p>
+    </article>
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
                 <a href="https://www.shiyuanjie.cn/posts/Tools/find/" title="find">find</a>
             </h1>
         </header>
@@ -270,6 +293,10 @@
 <ul class="widget-list">
     
     <li>
+        <a href="https://www.shiyuanjie.cn/posts/Product/shiyanlou/" title="实验室">实验室</a>
+    </li>
+    
+    <li>
         <a href="https://www.shiyuanjie.cn/posts/Book/%E8%8C%B6%E9%81%93/" title="茶道">茶道</a>
     </li>
     
@@ -305,10 +332,6 @@
         <a href="https://www.shiyuanjie.cn/posts/Android/learn-flutter/" title="Flutter学习">Flutter学习</a>
     </li>
     
-    <li>
-        <a href="https://www.shiyuanjie.cn/posts/Upgrade/%E6%88%91%E4%B8%8E%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%E7%9A%84%E4%B8%80%E5%9C%BABattle/" title="我与中国移动的一场Battle">我与中国移动的一场Battle</a>
-    </li>
-    
 </ul>
     </section>
 
@@ -320,7 +343,7 @@
     
     <li><a href="https://www.shiyuanjie.cn/categories/Book/">Book (52)</a></li>
     
-    <li><a href="https://www.shiyuanjie.cn/categories/Design/">Design (4)</a></li>
+    <li><a href="https://www.shiyuanjie.cn/categories/Design/">Design (5)</a></li>
     
     <li><a href="https://www.shiyuanjie.cn/categories/Management/">Management (6)</a></li>
     
@@ -416,6 +439,8 @@
     <a href="https://www.shiyuanjie.cn/tags/PM/">PM</a>
     
     <a href="https://www.shiyuanjie.cn/tags/PageObject/">PageObject</a>
+    
+    <a href="https://www.shiyuanjie.cn/tags/Product/">Product</a>
     
     <a href="https://www.shiyuanjie.cn/tags/Protractor/">Protractor</a>
     

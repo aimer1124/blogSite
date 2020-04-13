@@ -84,6 +84,47 @@
     <article class="post">
         <header>
             <h1 class="post-title">
+                <a href="https://www.shiyuanjie.cn/posts/UITest/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BA-Headless-%E7%9A%84-E2E-%E6%B5%8B%E8%AF%95/" title="构建Headless 的 E2E 测试">构建Headless 的 E2E 测试</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2018年3月2日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='https://www.shiyuanjie.cn/categories/Testing'>Testing</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            <h2 id="为什么要构建-headless-的-e2e-测试">为什么要<code>构建 Headless 的 E2E 测试</code></h2>
+<pre><code>A headless browser is a great tool for automated testing and server environments where you don't need a visible UI shell. For example, you may want to run some tests against a real web page, create a PDF of it, or just inspect how the browser renders an URL.
+</code></pre><p>结合上面的原因，我们还可以</p>
+<ul>
+<li>Headless结合 E2E 测试，可以让E2E 测试在非 GUI 的操作系统中运行</li>
+<li>可以集成至 CI 环境中。让版本得到快速验证</li>
+</ul>
+<h3 id="chrome-headless-的选取">Chrome Headless 的选取</h3>
+<ul>
+<li>Mac/Linux 的Chrome从59版本后，已经支持 Healess 模式的运行。Windows 的从60版本开始支持</li>
+<li>所以选择一个你想要的 Chrome 版本，便可以进行 Headless 的测试</li>
+</ul>
+<pre><code>chrome \
+  --headless \                   # Runs Chrome in headless mode.
+  --disable-gpu \                # Temporarily needed if running on Windows.
+  https://www.chromestatus.com   # URL to open. Defaults to about:blank.
+</code></pre>……
+        </div>
+        <p class="readmore"><a href="https://www.shiyuanjie.cn/posts/UITest/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BA-Headless-%E7%9A%84-E2E-%E6%B5%8B%E8%AF%95/">阅读全文</a></p>
+    </article>
+    
+    
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
                 <a href="https://www.shiyuanjie.cn/posts/JMeter/JMeter4.0%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/" title="JMeter4.0更新内容">JMeter4.0更新内容</a>
             </h1>
         </header>
@@ -399,31 +440,6 @@
     
     
     
-    <article class="post">
-        <header>
-            <h1 class="post-title">
-                <a href="https://www.shiyuanjie.cn/posts/UITest/Responsive%E6%B5%8B%E8%AF%95/" title="Responsive测试">Responsive测试</a>
-            </h1>
-        </header>
-        <date class="post-meta meta-date">
-            2017年8月3日
-        </date>
-        
-        <div class="post-meta">
-            <span>|</span>
-            
-            <span class="meta-category"><a href='https://www.shiyuanjie.cn/categories/Testing'>Testing</a></span>
-            
-        </div>
-        
-        <div class="post-content">
-            Responsive测试 如何使用Galen进行响应式测试 使用Javascript编写测试代码 完整代码：https://github.com/aimer1124/GalenDemo 安装Galen 通过NPM安装 sudo npm install -g galenframework-cli 检查安装版本galen -v ➜ GalenDemo git:(master) ✗ galen -v Galen Framework Version: 2.3.4 JavaScript executor: Rhino 1.7 release 5 2015 01 29 第……
-        </div>
-        <p class="readmore"><a href="https://www.shiyuanjie.cn/posts/UITest/Responsive%E6%B5%8B%E8%AF%95/">阅读全文</a></p>
-    </article>
-    
-    
-    
 
 
 
@@ -529,6 +545,10 @@
 <ul class="widget-list">
     
     <li>
+        <a href="https://www.shiyuanjie.cn/posts/Product/shiyanlou/" title="实验室">实验室</a>
+    </li>
+    
+    <li>
         <a href="https://www.shiyuanjie.cn/posts/Book/%E8%8C%B6%E9%81%93/" title="茶道">茶道</a>
     </li>
     
@@ -564,10 +584,6 @@
         <a href="https://www.shiyuanjie.cn/posts/Android/learn-flutter/" title="Flutter学习">Flutter学习</a>
     </li>
     
-    <li>
-        <a href="https://www.shiyuanjie.cn/posts/Upgrade/%E6%88%91%E4%B8%8E%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%E7%9A%84%E4%B8%80%E5%9C%BABattle/" title="我与中国移动的一场Battle">我与中国移动的一场Battle</a>
-    </li>
-    
 </ul>
     </section>
 
@@ -579,7 +595,7 @@
     
     <li><a href="https://www.shiyuanjie.cn/categories/Book/">Book (52)</a></li>
     
-    <li><a href="https://www.shiyuanjie.cn/categories/Design/">Design (4)</a></li>
+    <li><a href="https://www.shiyuanjie.cn/categories/Design/">Design (5)</a></li>
     
     <li><a href="https://www.shiyuanjie.cn/categories/Management/">Management (6)</a></li>
     
@@ -675,6 +691,8 @@
     <a href="https://www.shiyuanjie.cn/tags/PM/">PM</a>
     
     <a href="https://www.shiyuanjie.cn/tags/PageObject/">PageObject</a>
+    
+    <a href="https://www.shiyuanjie.cn/tags/Product/">Product</a>
     
     <a href="https://www.shiyuanjie.cn/tags/Protractor/">Protractor</a>
     

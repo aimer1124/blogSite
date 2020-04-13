@@ -3,22 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.shiyuanjie.cn/categories/Book/</loc>
-    <lastmod>2020-04-10T15:20:58+08:00</lastmod>
+    <loc>https://www.shiyuanjie.cn/categories/</loc>
+    <lastmod>2020-04-10T17:33:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.shiyuanjie.cn/categories/</loc>
-    <lastmod>2020-04-10T15:20:58+08:00</lastmod>
+    <loc>https://www.shiyuanjie.cn/categories/Design/</loc>
+    <lastmod>2020-04-10T17:33:31+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.shiyuanjie.cn/posts/</loc>
-    <lastmod>2020-04-10T15:20:58+08:00</lastmod>
+    <lastmod>2020-04-10T17:33:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.shiyuanjie.cn/tags/Product/</loc>
+    <lastmod>2020-04-10T17:33:31+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.shiyuanjie.cn/tags/</loc>
+    <lastmod>2020-04-10T17:33:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.shiyuanjie.cn/posts/Product/shiyanlou/</loc>
+    <lastmod>2020-04-10T17:33:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.shiyuanjie.cn/categories/Book/</loc>
     <lastmod>2020-04-10T15:20:58+08:00</lastmod>
   </url>
   
@@ -135,11 +150,6 @@
   <url>
     <loc>https://www.shiyuanjie.cn/posts/Aliyun/one-command-connect-ecs/</loc>
     <lastmod>2020-03-25T16:40:04+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.shiyuanjie.cn/categories/Design/</loc>
-    <lastmod>2020-03-17T11:30:00+00:00</lastmod>
   </url>
   
   <url>
