@@ -1,5 +1,5 @@
 ---
-title: "实验室"
+title: "实验楼"
 date: 2020-04-10T17:33:31+08:00
 tags:
   - Product
