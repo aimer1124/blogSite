@@ -6,10 +6,19 @@
     <description>Recent content on Yuanjie-跑步爱好者，IT从业者。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 01 Jan 2020 00:00:01 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2020 00:00:01 +0000</lastBuildDate>
     
 	<atom:link href="https://www.shiyuanjie.cn/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>我的小工具</title>
+      <link>https://www.shiyuanjie.cn/tools/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:01 +0000</pubDate>
+      
+      <guid>https://www.shiyuanjie.cn/tools/</guid>
+      <description>Tool MD文件转化 使用Python把原来博客的文章从Hexo转移至Hugo，兼容两者在MD文件头部处理。https://github.com/aimer1124/python-format-md Python爬虫 使用Python爬取Hexo官网中各个Theme的数据（Star/Folk</description>
+    </item>
     
     <item>
       <title>实验楼</title>
