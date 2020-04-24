@@ -64,17 +64,17 @@ summaryLength = 140
 
 ## 侧边栏广告位
 [[params.ads]]
- title = "幕布-极简大纲笔记 | 一键生成思维导图"
+ title = "幕布: 极简大纲笔记 | 一键生成思维导图"
  url = "https://mubu.com/inv/2370809"
  img = "https://mubu.com/asset/img/logo/text-0f5be2e426.png"
-# [[params.ads]]
-#  title = "助力产业智慧升级，云服务器首年88元起，更有千元代金券礼包免费领！"
-#  url = "https://cloud.tencent.com/act/cps/redirect?redirect=1048&cps_key=14ff722692ac784fa8c3301c8c28d924&from=console"
-#  img = "https://upload-dianshi-1255598498.file.myqcloud.com/345-7c71532bd4935fbdd9a67c1a71e577b1767b805c.200%E7%89%88%E6%9C%ACB.jpg"
-# [[params.ads]]
-#  title = "【渠道专享低折扣】11月特惠 限时2折"
-#  url = "https://www.aliyun.com/acts/limit-buy?userCode=jdg9oj97"
-#  img = "https://img.alicdn.com/tfs/TB1hblJl7Y2gK0jSZFgXXc5OFXa-750-400.jpg"
+[[params.ads]]
+ title = "[极客时间]视觉笔记入门课"
+ url = "https://time.geekbang.org/column/intro/306?tab=catalog&code=EgKm1rU5f1GGwIV5DX9vfYw2cYufFyXDkdknOoV8d3k%3D&utm_term=SPoster"
+ img = "https://static001.geekbang.org/resource/image/85/95/85addade8fe148d547d4a5c463566095.jpg"
+[[params.ads]]
+ title = "【上云必备】上云仅¥102/年"
+ url = "https://www.aliyun.com/activity/daily/cloud?userCode=1cttmhqm"
+ img = "https://img.alicdn.com/tfs/TB1nkoQDlv0gK0jSZKbXXbK2FXa-440-240.jpg"
 
 ## 配置 utteranc评论,教程参考 https://utteranc.es/
 [params.utteranc]
