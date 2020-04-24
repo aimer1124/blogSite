@@ -59,4 +59,7 @@ categories:
 
 [实验楼](https://www.shiyanlou.com/)是一个功能比较完善的在线教学的IT产品，特别是在线实验室的功能。无论是课程内容的设计和用户体验，都比较完善。关于收费方面，799RMB/年还是值得入手的。
 
-PS：输入我的邀请码加入实验楼会员，可享受30元优惠！邀请码：`0650KXK`。开始学习：[https://www.shiyanlou.com/vip](https://www.shiyanlou.com/vip)
+**PS**
+
+- 输入我的邀请码加入实验楼会员，可享受30元优惠！邀请码：`0650KXK`。开始学习：[https://www.shiyanlou.com/vip](https://www.shiyanlou.com/vip)
+- 原文地址：[https://mubu.com/doc/EkbGA0txLN](https://mubu.com/doc/EkbGA0txLN)

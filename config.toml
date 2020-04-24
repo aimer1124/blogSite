@@ -48,20 +48,30 @@ summaryLength = 140
  url = "https://www.shiyuanjie.cn/posts/Upgrade/%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A821%E5%A4%A9%E7%9A%84%E4%B8%9A%E4%BD%99%E6%97%B6%E9%97%B4%E5%AE%8C%E6%88%90%E4%B8%80%E6%9C%ACMini%E4%B9%A6/"
 
 [[params.links]]
+ title = "练字记录"
+ name = "练字记录"
+ url = "https://aimer1124.github.io/practice-character/"
+
+[[params.links]]
+ title = "GR记录"
+ name = "GR记录"
+ url = "https://aimer1124.github.io/graphic-recorder/"
+
+[[params.links]]
  title = "网站时间线Timeline"
  name = "网站时间线Timeline"
  url = "https://www.shiyuanjie.cn/posts/Blog/%E7%AB%99%E7%82%B9%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/"
 
 ## 侧边栏广告位
-#[[params.ads]]
-#  title = "【2019双12】ALL IN CLoud 低至1折"
-#  url = "https://www.aliyun.com/minisite/goods?userCode=jdg9oj97&share_source=copy_link"
-#  img = "https://img.alicdn.com/tfs/TB1_rYHo7P2gK0jSZPxXXacQpXa-690-388.jpg"
-#[[params.ads]]
+[[params.ads]]
+ title = "幕布-极简大纲笔记 | 一键生成思维导图"
+ url = "https://mubu.com/inv/2370809"
+ img = "https://mubu.com/asset/img/logo/text-0f5be2e426.png"
+# [[params.ads]]
 #  title = "助力产业智慧升级，云服务器首年88元起，更有千元代金券礼包免费领！"
 #  url = "https://cloud.tencent.com/act/cps/redirect?redirect=1048&cps_key=14ff722692ac784fa8c3301c8c28d924&from=console"
 #  img = "https://upload-dianshi-1255598498.file.myqcloud.com/345-7c71532bd4935fbdd9a67c1a71e577b1767b805c.200%E7%89%88%E6%9C%ACB.jpg"
-#[[params.ads]]
+# [[params.ads]]
 #  title = "【渠道专享低折扣】11月特惠 限时2折"
 #  url = "https://www.aliyun.com/acts/limit-buy?userCode=jdg9oj97"
 #  img = "https://img.alicdn.com/tfs/TB1hblJl7Y2gK0jSZFgXXc5OFXa-750-400.jpg"
