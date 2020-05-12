@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Yuanjie-跑步爱好者，IT从业者。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 10 Apr 2020 17:33:31 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2020 08:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.shiyuanjie.cn/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Book</title>
+      <link>https://www.shiyuanjie.cn/categories/Book/</link>
+      <pubDate>Tue, 12 May 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://www.shiyuanjie.cn/categories/Book/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Design</title>
@@ -17,15 +26,6 @@
       <pubDate>Fri, 10 Apr 2020 17:33:31 +0800</pubDate>
       
       <guid>https://www.shiyuanjie.cn/categories/Design/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Book</title>
-      <link>https://www.shiyuanjie.cn/categories/Book/</link>
-      <pubDate>Fri, 10 Apr 2020 15:20:58 +0800</pubDate>
-      
-      <guid>https://www.shiyuanjie.cn/categories/Book/</guid>
       <description></description>
     </item>
     

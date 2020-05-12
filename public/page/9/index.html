@@ -80,6 +80,45 @@
     <article class="post">
         <header>
             <h1 class="post-title">
+                <a href="https://www.shiyuanjie.cn/posts/JMeter/JMeter3.3%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/" title="JMeter3.3更新内容">JMeter3.3更新内容</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2017年10月9日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='https://www.shiyuanjie.cn/categories/Translate'>Translate</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            <ul>
+<li><code>2017.9.21</code>，JMeter3.3版本发布。</li>
+<li>原文地址：<a href="http://jmeter.apache.org/changes.html">Apache JMeter 3.3 Release Notes </a>,历史版本变更记录<a href="http://jmeter.apache.org/changes_history.html">http://jmeter.apache.org/changes_history.html</a></li>
+<li>下载地址： <a href="http://jmeter.apache.org/download_jmeter.cgi">Download Apache JMeter 3.3</a></li>
+</ul>
+<h2 id="重要变更">重要变更</h2>
+<pre><code>JMeter 还不支持 Java9，下个版本将会支持，你可以给出帮助并查看此跟踪记录[Bug 61529](https://bz.apache.org/bugzilla/show_bug.cgi?id=61529)。
+</code></pre><pre><code>建议：使用最新版本的 Java8 ，避免出现 JDK 的问题。
+</code></pre><h3 id="主要提升">主要提升</h3>
+<p>HTTP 样例支持<a href="https://news.ycombinator.com/item?id=10257305">Brotli</a>解压算法。</p>
+<p>CacheManager 现在完全支持变量头方式。</p>
+<p>InfluxDB BackendListener 现在支持通过 UDP 协议发送结果至 InfluxDB。</p>
+<p><img src="http://jmeter.apache.org/images/screenshots/changes/3.3/influxdb_udp.png" alt="InfluxDB BackendListener"></p>
+<p>已经被增强来通过响应状态码和消息针对每一个 Transaction 发送错误数量。</p>
+<p>TCP 样例现在可以计算延迟，详情查看<a href="https://bz.apache.org/bugzilla/show_bug.cgi?id=60156">Bug 60156</a></p>
+<p>更新依赖至最新版本，用于提升性能和修复 BUG。</p>
+<p>持续提升代码质量和测试覆盖率。查看<a href="https://builds.apache.org/analysis/overview?id=12927">质量报告</a></p>……
+        </div>
+        <p class="readmore"><a href="https://www.shiyuanjie.cn/posts/JMeter/JMeter3.3%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/">阅读全文</a></p>
+    </article>
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
                 <a href="https://www.shiyuanjie.cn/posts/UITest/Responsive%E6%B5%8B%E8%AF%95/" title="Responsive测试">Responsive测试</a>
             </h1>
         </header>
@@ -397,44 +436,6 @@ class WebsiteUser(HttpLocust):
         <p class="readmore"><a href="https://www.shiyuanjie.cn/posts/Locust/Locust%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/">阅读全文</a></p>
     </article>
     
-    <article class="post">
-        <header>
-            <h1 class="post-title">
-                <a href="https://www.shiyuanjie.cn/posts/JMeter/JMeter3.2%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/" title="JMeter3.2更新内容">JMeter3.2更新内容</a>
-            </h1>
-        </header>
-        <date class="post-meta meta-date">
-            2017年5月13日
-        </date>
-        
-        <div class="post-meta">
-            <span>|</span>
-            
-            <span class="meta-category"><a href='https://www.shiyuanjie.cn/categories/Translate'>Translate</a></span>
-            
-        </div>
-        
-        <div class="post-content">
-            <ul>
-<li><code>2017.4.14</code>，JMeter3.2版本发布。</li>
-<li>原文地址：<a href="http://jmeter.apache.org/changes.html">Apache JMeter 3.2 Release Notes </a>,</li>
-<li>下载地址： <a href="http://jmeter.apache.org/download_jmeter.cgi">Download Apache JMeter 3.2</a></li>
-</ul>
-<h2 id="重要变更">重要变更</h2>
-<p>JMeter现在需要<code>Java8</code>。确保你使用的最新版本的Java。
-JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方插件，查看下面的『日志变更』.
-在使用JMeter的3.2版本时，在结果树中的结果数里从默认修改为500.如果你想查看更多，必须修改属性<code>view.results.tree.max_results</code>为一个更高的数值或者你不想限制数量可改为0。你可以在<code>bin/user.properties</code>中设置。更多的信息可查看<a href="http://jmeter.apache.org/usermanual/component_reference.html#View_Results_Tree">这里</a></p>
-<h3 id="主要提升">主要提升</h3>
-<ul>
-<li>JMeter现在提供一个新的<code>BackendListener</code>与<code>InfluxDB</code>交互
-<img src="http://jmeter.apache.org/images/screenshots/changes/3.2/backend_influxdb.png" alt="BackendListener">
-这个功能使用异步的HTTP请求发送数据至InfluxDB通过<a href="https://docs.influxdata.com/influxdb/v1.2/guides/writing_data/">HTTP API</a>并提供下面的图形展示结果
-<img src="http://jmeter.apache.org/images/screenshots/backend_listener_influxdb_graph.png" alt="Graph"></li>
-</ul>……
-        </div>
-        <p class="readmore"><a href="https://www.shiyuanjie.cn/posts/JMeter/JMeter3.2%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/">阅读全文</a></p>
-    </article>
-    
     
 
 
@@ -541,6 +542,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
 <ul class="widget-list">
     
     <li>
+        <a href="https://www.shiyuanjie.cn/posts/Book/%E5%AD%A6%E4%BC%9A%E6%8F%90%E9%97%AE/" title="学会提问">学会提问</a>
+    </li>
+    
+    <li>
         <a href="https://www.shiyuanjie.cn/posts/Product/shiyanlou/" title="实验楼">实验楼</a>
     </li>
     
@@ -574,10 +579,6 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <li>
         <a href="https://www.shiyuanjie.cn/posts/Aliyun/one-command-connect-ecs/" title="一行命令连接ECS">一行命令连接ECS</a>
-    </li>
-    
-    <li>
-        <a href="https://www.shiyuanjie.cn/posts/Android/learn-flutter/" title="Flutter学习">Flutter学习</a>
     </li>
     
 </ul>
@@ -620,7 +621,7 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
         <h3 class="widget-title">分类</h3>
 <ul class="widget-list">
     
-    <li><a href="https://www.shiyuanjie.cn/categories/Book/">Book (52)</a></li>
+    <li><a href="https://www.shiyuanjie.cn/categories/Book/">Book (53)</a></li>
     
     <li><a href="https://www.shiyuanjie.cn/categories/Design/">Design (5)</a></li>
     
