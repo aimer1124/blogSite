@@ -82,6 +82,60 @@
     <article class="post">
         <header>
             <h1 class="post-title">
+                <a href="https://www.shiyuanjie.cn/posts/Locust/Locust%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/" title="Locust快速入门">Locust快速入门</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2017年5月24日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='https://www.shiyuanjie.cn/categories/Translate'>Translate</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            <pre><code>Locust，基于Python的性能测试工具。
+</code></pre><ul>
+<li><a href="http://docs.locust.io/en/latest/what-is-locust.html">什么是Locust</a></li>
+<li>本文<a href="http://locust.io/">Locust</a>版本<code>0.7.5</code></li>
+<li>原文地址：<a href="http://docs.locust.io/en/latest/quickstart.html#">http://docs.locust.io/en/latest/quickstart.html#</a></li>
+</ul>
+<h2 id="示例locustfilepy">示例<code>locustfile.py</code></h2>
+<p>下面是一个简单的<code>locustfile.py</code>小示例:</p>
+<pre><code>from locust import HttpLocust, TaskSet
+
+def login(l):
+    l.client.post(&quot;/login&quot;, {&quot;username&quot;:&quot;ellen_key&quot;, &quot;password&quot;:&quot;education&quot;})
+
+def index(l):
+    l.client.get(&quot;/&quot;)
+
+def profile(l):
+    l.client.get(&quot;/profile&quot;)
+
+class UserBehavior(TaskSet):
+    tasks = {index: 2, profile: 1}
+
+    def on_start(self):
+        login(self)
+
+class WebsiteUser(HttpLocust):
+    task_set = UserBehavior
+    min_wait = 5000
+    max_wait = 9000
+</code></pre>……
+        </div>
+        <p class="readmore"><a href="https://www.shiyuanjie.cn/posts/Locust/Locust%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/">阅读全文</a></p>
+    </article>
+    
+    
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
                 <a href="https://www.shiyuanjie.cn/posts/JMeter/JMeter3.2%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/" title="JMeter3.2更新内容">JMeter3.2更新内容</a>
             </h1>
         </header>
@@ -391,37 +445,6 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     
     
-    <article class="post">
-        <header>
-            <h1 class="post-title">
-                <a href="https://www.shiyuanjie.cn/posts/Book/%E6%91%86%E6%B8%A1%E4%BA%BA/" title="摆渡人">摆渡人</a>
-            </h1>
-        </header>
-        <date class="post-meta meta-date">
-            2017年2月27日
-        </date>
-        
-        <div class="post-meta">
-            <span>|</span>
-            
-            <span class="meta-category"><a href='https://www.shiyuanjie.cn/categories/Book'>Book</a></span>
-            
-        </div>
-        
-        <div class="post-content">
-            <h2 id="封面">封面</h2>
-<p><!-- raw HTML omitted --></p>
-<h2 id="读后感">读后感</h2>
-<ul>
-<li>手绘版
-<img src="/img/book/%E6%91%86%E6%B8%A1%E4%BA%BA.jpeg" alt=""></li>
-</ul>……
-        </div>
-        <p class="readmore"><a href="https://www.shiyuanjie.cn/posts/Book/%E6%91%86%E6%B8%A1%E4%BA%BA/">阅读全文</a></p>
-    </article>
-    
-    
-    
 
 
 
@@ -527,6 +550,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
 <ul class="widget-list">
     
     <li>
+        <a href="https://www.shiyuanjie.cn/posts/Book/%E4%BA%BA%E7%B1%BB%E7%AE%80%E5%8F%B2/" title="人类简史">人类简史</a>
+    </li>
+    
+    <li>
         <a href="https://www.shiyuanjie.cn/posts/Book/%E5%AD%A6%E4%BC%9A%E6%8F%90%E9%97%AE/" title="学会提问">学会提问</a>
     </li>
     
@@ -560,10 +587,6 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <li>
         <a href="https://www.shiyuanjie.cn/posts/Aliyun/ECS-tips/" title="ECS Tips">ECS Tips</a>
-    </li>
-    
-    <li>
-        <a href="https://www.shiyuanjie.cn/posts/Aliyun/one-command-connect-ecs/" title="一行命令连接ECS">一行命令连接ECS</a>
     </li>
     
 </ul>
@@ -606,7 +629,7 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
         <h3 class="widget-title">分类</h3>
 <ul class="widget-list">
     
-    <li><a href="https://www.shiyuanjie.cn/categories/Book/">Book (53)</a></li>
+    <li><a href="https://www.shiyuanjie.cn/categories/Book/">Book (54)</a></li>
     
     <li><a href="https://www.shiyuanjie.cn/categories/Design/">Design (5)</a></li>
     
@@ -742,6 +765,8 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     <a href="https://www.shiyuanjie.cn/tags/%E4%B9%A0%E6%83%AF/">习惯</a>
     
     <a href="https://www.shiyuanjie.cn/tags/%E4%BA%A7%E5%93%81/">产品</a>
+    
+    <a href="https://www.shiyuanjie.cn/tags/%E5%8E%86%E5%8F%B2/">历史</a>
     
     <a href="https://www.shiyuanjie.cn/tags/%E5%92%A8%E8%AF%A2/">咨询</a>
     

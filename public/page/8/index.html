@@ -80,6 +80,32 @@
     <article class="post">
         <header>
             <h1 class="post-title">
+                <a href="https://www.shiyuanjie.cn/posts/Upgrade/RIA%E4%BE%BF%E7%AD%BE%E6%B3%95/" title="RIA 便签法">RIA 便签法</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2018年4月8日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='https://www.shiyuanjie.cn/categories/Management'>Management</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            <pre><code>为什么读书会没有效率，书中的内容不能很好的吸收。
+赵周老师发明了关于致用类书籍的 RIA 便签法，让我们可以用更好的形式来解决这个问题。
+</code></pre><h2 id="ria">RIA</h2>
+<p>将<code>书</code>中的内容使用<code>便签</code>的形式<code>管理</code>起来，便于结合<code>自己</code>的<code>经验</code>和<code>认识</code>来强化对内容的<code>理解与吸收</code>。</p>……
+        </div>
+        <p class="readmore"><a href="https://www.shiyuanjie.cn/posts/Upgrade/RIA%E4%BE%BF%E7%AD%BE%E6%B3%95/">阅读全文</a></p>
+    </article>
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
                 <a href="https://www.shiyuanjie.cn/posts/Tools/%E6%88%91%E7%9A%84%E5%B7%A5%E5%85%B7%E9%9B%86/" title="我的工具集">我的工具集</a>
             </h1>
         </header>
@@ -358,63 +384,6 @@ Last Update:20200323，持续维护...
         <p class="readmore"><a href="https://www.shiyuanjie.cn/posts/Book/%E6%81%B6%E6%84%8F/">阅读全文</a></p>
     </article>
     
-    <article class="post">
-        <header>
-            <h1 class="post-title">
-                <a href="https://www.shiyuanjie.cn/posts/Tools/MarkDown%E4%BF%9D%E5%AD%98%E8%87%B3%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0/" title="MarkDown保存至印象笔记">MarkDown保存至印象笔记</a>
-            </h1>
-        </header>
-        <date class="post-meta meta-date">
-            2017年10月15日
-        </date>
-        
-        <div class="post-meta">
-            <span>|</span>
-            
-            <span class="meta-category"><a href='https://www.shiyuanjie.cn/categories/Tool'>Tool</a></span>
-            
-        </div>
-        
-        <div class="post-content">
-            <pre><code>通过 Sumlime Text3 来实现将 MarkDown 文件完美保存至 印象笔记中。
-</code></pre><h1 id="step1-安装evernote包">Step1: 安装Evernote包</h1>
-<ul>
-<li>打开 Sumlime Text3</li>
-<li><code>cmd + shift + p</code>打开command pattern</li>
-<li>输入<code>Package Controll: Install Package</code>，回车</li>
-<li>输入Evernote，等待安装成功。Evernote包地址：<a href="https://packagecontrol.io/packages/Evernote">https://packagecontrol.io/packages/Evernote</a></li>
-<li>安装结束后，在<code>Package Setting</code>中会有<code>Evernote</code></li>
-<li><code>cmd + shift + p</code>打开command pattern，输入Evernote，查看是否有Evernote对应的功能列表显示</li>
-</ul>
-<h1 id="step2-获取印象笔记的developer-token">Step2: 获取印象笔记的Developer Token</h1>
-<ul>
-<li>登录<a href="https://app.yinxiang.com/api/DeveloperToken.action">https://app.yinxiang.com/api/DeveloperToken.action</a></li>
-<li>如果没有内容，选择新增一个developer token</li>
-</ul>
-<h1 id="step3-配制sublime-text中的-evernote">Step3: 配制Sublime Text中的 Evernote</h1>
-<ul>
-<li><code>Package Settings</code> &ndash;&gt; <code>Evernote</code> &ndash;&gt; <code>Settings User</code></li>
-<li>默认打开内容为空，设置内容如下(Step2中获取的内容)</li>
-</ul>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">{
-	<span style="color:#f92672">&#34;token&#34;</span>: <span style="color:#e6db74">&#34;Token内容，那一串长的字符&#34;</span>,
-	<span style="color:#f92672">&#34;noteStoreUrl&#34;</span>: <span style="color:#e6db74">&#34;StoreUrl&#34;</span>
-}
-</code></pre></td></tr></table>
-</div>
-</div><p>至此，已经配制<code>完成</code>。</p>……
-        </div>
-        <p class="readmore"><a href="https://www.shiyuanjie.cn/posts/Tools/MarkDown%E4%BF%9D%E5%AD%98%E8%87%B3%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0/">阅读全文</a></p>
-    </article>
-    
     
 
 
@@ -521,6 +490,10 @@ Last Update:20200323，持续维护...
 <ul class="widget-list">
     
     <li>
+        <a href="https://www.shiyuanjie.cn/posts/Book/%E4%BA%BA%E7%B1%BB%E7%AE%80%E5%8F%B2/" title="人类简史">人类简史</a>
+    </li>
+    
+    <li>
         <a href="https://www.shiyuanjie.cn/posts/Book/%E5%AD%A6%E4%BC%9A%E6%8F%90%E9%97%AE/" title="学会提问">学会提问</a>
     </li>
     
@@ -554,10 +527,6 @@ Last Update:20200323，持续维护...
     
     <li>
         <a href="https://www.shiyuanjie.cn/posts/Aliyun/ECS-tips/" title="ECS Tips">ECS Tips</a>
-    </li>
-    
-    <li>
-        <a href="https://www.shiyuanjie.cn/posts/Aliyun/one-command-connect-ecs/" title="一行命令连接ECS">一行命令连接ECS</a>
     </li>
     
 </ul>
@@ -600,7 +569,7 @@ Last Update:20200323，持续维护...
         <h3 class="widget-title">分类</h3>
 <ul class="widget-list">
     
-    <li><a href="https://www.shiyuanjie.cn/categories/Book/">Book (53)</a></li>
+    <li><a href="https://www.shiyuanjie.cn/categories/Book/">Book (54)</a></li>
     
     <li><a href="https://www.shiyuanjie.cn/categories/Design/">Design (5)</a></li>
     
@@ -736,6 +705,8 @@ Last Update:20200323，持续维护...
     <a href="https://www.shiyuanjie.cn/tags/%E4%B9%A0%E6%83%AF/">习惯</a>
     
     <a href="https://www.shiyuanjie.cn/tags/%E4%BA%A7%E5%93%81/">产品</a>
+    
+    <a href="https://www.shiyuanjie.cn/tags/%E5%8E%86%E5%8F%B2/">历史</a>
     
     <a href="https://www.shiyuanjie.cn/tags/%E5%92%A8%E8%AF%A2/">咨询</a>
     
