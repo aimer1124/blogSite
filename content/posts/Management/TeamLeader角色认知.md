@@ -5,7 +5,7 @@ tags:
   - TeamLeader
   - 管理
 categories:
-  - Management1
+  - Management
 ---
 
 
