@@ -8,8 +8,6 @@ categories:
   - Management
 ---
 
-Github地址: [https://aimer1124.github.io/100-questions-to-pm/](https://aimer1124.github.io/100-questions-to-pm/)
-
 ## 4/100 团队中成员效率底，如何处理？
 
 ```
