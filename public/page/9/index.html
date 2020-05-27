@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-	<meta name="generator" content="Hugo 0.71.0" />
+	<meta name="generator" content="Hugo 0.67.1" />
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -76,6 +76,40 @@
                 <div class="col-8" id="main">
                     
 <div class="res-cons">
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
+                <a href="https://www.shiyuanjie.cn/posts/Book/%E6%81%B6%E6%84%8F/" title="恶意">恶意</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2017年10月23日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='https://www.shiyuanjie.cn/categories/Book'>Book</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            <pre><code>8月就读完了，一直没来得及整理下，今天得空，赶紧整理下。
+</code></pre><h2 id="书">书</h2>
+<p><img src="https://images-cn.ssl-images-amazon.com/images/I/41K3LwaPVkL.jpg" alt="恶意"></p>
+<ul>
+<li><a href="https://www.amazon.cn/%E6%81%B6%E6%84%8F-%E4%B8%9C%E9%87%8E%E5%9C%AD%E5%90%BE/dp/B01LEPWBRO/ref=sr_1_2?ie=UTF8&amp;qid=1508740134&amp;sr=8-2&amp;keywords=%E6%81%B6%E6%84%8F">恶意</a></li>
+</ul>
+<h2 id="读后感">读后感</h2>
+<ul>
+<li>一桩<code>杀人案</code>，通过几个主角的视角展开的情节发展，最终把结局浮出水面，读起来很流畅。</li>
+<li>每个出现的章节，都会把剧情推向一个新的高度，让读者也对整个<code>案情</code>有新的认识。通过警察对案情的，深入分析，最终把整个案情分析出来。</li>
+<li>人性的<code>嫉妒</code>是可以被无限放大的，最终还可能引起杀人。<code>野野口</code>从小就对<code>日高</code>有嫉妒心理，还帮他引荐出版社的人认识。但他还是把<code>日高</code>给杀害了。甚至还编造出<code>日高</code>侵犯他作品、他与<code>日高</code>妻子恋爱的谎言。</li>
+</ul>……
+        </div>
+        <p class="readmore"><a href="https://www.shiyuanjie.cn/posts/Book/%E6%81%B6%E6%84%8F/">阅读全文</a></p>
+    </article>
     
     <article class="post">
         <header>
@@ -399,48 +433,6 @@
         <p class="readmore"><a href="https://www.shiyuanjie.cn/posts/Locust/Locust%E5%88%86%E5%B8%83%E5%BC%8F%E6%B5%8B%E8%AF%95/">阅读全文</a></p>
     </article>
     
-    <article class="post">
-        <header>
-            <h1 class="post-title">
-                <a href="https://www.shiyuanjie.cn/posts/Locust/%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AALocust%E6%96%87%E4%BB%B6/" title="编写一个Locust文件">编写一个Locust文件</a>
-            </h1>
-        </header>
-        <date class="post-meta meta-date">
-            2017年6月2日
-        </date>
-        
-        <div class="post-meta">
-            <span>|</span>
-            
-            <span class="meta-category"><a href='https://www.shiyuanjie.cn/categories/Translate'>Translate</a></span>
-            
-        </div>
-        
-        <div class="post-content">
-            <p>Locust文件就是一般的Python文件。唯一的需求就是它至少需要一个继承于<code>Locust</code>的类.</p>
-<h2 id="locust类">Locust类</h2>
-<p>Locust类代表一个用户(如果愿意，也可以是一个准备出动的蝗虫)。Locust会为每一个模拟用户生成一个locust类实例。同时会有一些locust类属性被定义。</p>
-<h3 id="task_set属性"><code>task_set</code>属性</h3>
-<p><code>task_set</code>属性是指向一个定义用户行为的<code>TaskSet</code>类，下面会有详细的介绍。</p>
-<h3 id="min_wait和max_wait属性"><code>min_wait</code>和<code>max_wait</code>属性</h3>
-<p>除了<code>task_set</code>属性，另外一个经常被使用的就是<code>min_wait</code>和<code>max_wait</code>属性。是用于各自以毫秒为单位的最小值和最大值，一个模拟用户将会在每个任务执行时的等待执行的时间间隔。<code>min_wait</code>和<code>max_wait</code>默认设置为<code>1000</code>，如果不声明的话，Locust会默认在每个任务间等待<code>1秒</code>。</p>
-<p>参考下面的代码，每个用户将会在每个任务间等待<code>5至15</code>秒:</p>
-<pre><code>from locust import Locust, TaskSet, task_set
-
-class MyTaskSet(TaskSet):
-    @task
-    def my_task(self):
-        print &quot;executing my_task&quot;
-
-class MyLocust(Locust):
-    task_set = MyTaskSet
-    min_wait = 5000
-    max_wait = 15000
-</code></pre><p><code>min_wait</code>和<code>max_wait</code>属性可以用于重写<code>TaskSet</code>类。</p>……
-        </div>
-        <p class="readmore"><a href="https://www.shiyuanjie.cn/posts/Locust/%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AALocust%E6%96%87%E4%BB%B6/">阅读全文</a></p>
-    </article>
-    
     
 
 
@@ -547,6 +539,10 @@ class MyLocust(Locust):
 <ul class="widget-list">
     
     <li>
+        <a href="https://www.shiyuanjie.cn/posts/QA/BugReview/" title="Bug Review">Bug Review</a>
+    </li>
+    
+    <li>
         <a href="https://www.shiyuanjie.cn/posts/Book/%E4%BA%BA%E7%B1%BB%E7%AE%80%E5%8F%B2/" title="人类简史">人类简史</a>
     </li>
     
@@ -580,10 +576,6 @@ class MyLocust(Locust):
     
     <li>
         <a href="https://www.shiyuanjie.cn/posts/Upgrade/challenge-new-job/" title="选择一个新的方向">选择一个新的方向</a>
-    </li>
-    
-    <li>
-        <a href="https://www.shiyuanjie.cn/posts/Aliyun/ECS-tips/" title="ECS Tips">ECS Tips</a>
     </li>
     
 </ul>
@@ -636,7 +628,7 @@ class MyLocust(Locust):
     
     <li><a href="https://www.shiyuanjie.cn/categories/Paint/">Paint (3)</a></li>
     
-    <li><a href="https://www.shiyuanjie.cn/categories/Testing/">Testing (8)</a></li>
+    <li><a href="https://www.shiyuanjie.cn/categories/Testing/">Testing (9)</a></li>
     
     <li><a href="https://www.shiyuanjie.cn/categories/Tool/">Tool (34)</a></li>
     
@@ -660,6 +652,8 @@ class MyLocust(Locust):
     <a href="https://www.shiyuanjie.cn/tags/Alfred/">Alfred</a>
     
     <a href="https://www.shiyuanjie.cn/tags/Android/">Android</a>
+    
+    <a href="https://www.shiyuanjie.cn/tags/Bug/">Bug</a>
     
     <a href="https://www.shiyuanjie.cn/tags/CI/">CI</a>
     
