@@ -82,6 +82,36 @@
     <article class="post">
         <header>
             <h1 class="post-title">
+                <a href="https://www.shiyuanjie.cn/posts/Locust/Locust%E5%88%86%E5%B8%83%E5%BC%8F%E6%B5%8B%E8%AF%95/" title="分布式测试">分布式测试</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2017年6月3日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='https://www.shiyuanjie.cn/categories/Translate'>Translate</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            <h2 id="分布式运行locust">分布式运行Locust</h2>
+<p>一旦单台机器不够模拟足够多的用户时，Locust支持运行在多台机器中进行压力测试。</p>
+<p>为了实现这个，你应该在<code>master</code>模式中使用<code>--master</code>标记来启用一个Locust实例。这个实例将会运行你启动测试的Locust交互网站并查看实时统计数据。<code>master</code>节点的机器自身不会模拟任何用户。相反，你必须使用<code>--slave</code>标记启动一台到多台Locust<code>slave</code>机器节点，与标记<code>--master-host</code>一起使用(指出<code>master</code>机器的<code>IP/hostname</code>)。</p>
+<p>常用的做法是在一台独立的机器中运行master，在<code>slave</code>机器中每个处理器内核运行一个<code>slave</code>实例。</p>
+<p>** !Note **</p>
+<p>** <code>master</code>和每一台<code>slave</code>机器，在运行分布式测试时都<code>必须</code>要有locust的测试文件。**</p>……
+        </div>
+        <p class="readmore"><a href="https://www.shiyuanjie.cn/posts/Locust/Locust%E5%88%86%E5%B8%83%E5%BC%8F%E6%B5%8B%E8%AF%95/">阅读全文</a></p>
+    </article>
+    
+    
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
                 <a href="https://www.shiyuanjie.cn/posts/Locust/%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AALocust%E6%96%87%E4%BB%B6/" title="编写一个Locust文件">编写一个Locust文件</a>
             </h1>
         </header>
@@ -421,49 +451,6 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     
     
-    <article class="post">
-        <header>
-            <h1 class="post-title">
-                <a href="https://www.shiyuanjie.cn/posts/JMeter/JMeter3.1%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/" title="JMeter3.1更新内容">JMeter3.1更新内容</a>
-            </h1>
-        </header>
-        <date class="post-meta meta-date">
-            2017年3月9日
-        </date>
-        
-        <div class="post-meta">
-            <span>|</span>
-            
-            <span class="meta-category"><a href='https://www.shiyuanjie.cn/categories/Translate'>Translate</a></span>
-            
-        </div>
-        
-        <div class="post-content">
-            <blockquote>
-<p><code>2016.11.20</code>，<a href="http://jmeter.apache.org/">JMeter</a>官网已经正式发布了3.1的版本，今天尝试翻译下更新内容，内容中肯定还有很多不足，希望大家多多谅解。</p>
-</blockquote>
-<ul>
-<li>原文地址：<a href="http://jmeter.apache.org/changes.html">Apache JMeter 3.1 Release Notes </a>,</li>
-<li>下载地址： <a href="http://jmeter.apache.org/download_jmeter.cgi">Download Apache JMeter</a></li>
-</ul>
-<h2 id="提升报告和仪表盘">提升报告和仪表盘</h2>
-<p>仪表盘新增三个图表和一个概要表格</p>
-<ul>
-<li>连接时间
-<img src="http://jmeter.apache.org/images/screenshots/dashboard/report_connect_time_over_time.png" alt=""></li>
-<li>成功百分比响应时间
-<img src="http://jmeter.apache.org/images/screenshots/dashboard/response_time_percentiles_over_time.png" alt=""></li>
-<li>响应时间分布
-<img src="http://jmeter.apache.org/images/screenshots/dashboard/response_time_overview.png" alt=""></li>
-<li>执行样例中的错误Top5
-<img src="http://jmeter.apache.org/images/screenshots/dashboard/top_5_errors_by_sampler.png" alt=""></li>
-</ul>……
-        </div>
-        <p class="readmore"><a href="https://www.shiyuanjie.cn/posts/JMeter/JMeter3.1%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/">阅读全文</a></p>
-    </article>
-    
-    
-    
 
 
 
@@ -569,6 +556,10 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
 <ul class="widget-list">
     
     <li>
+        <a href="https://www.shiyuanjie.cn/posts/Upgrade/driver-license/" title="我的驾照历程">我的驾照历程</a>
+    </li>
+    
+    <li>
         <a href="https://www.shiyuanjie.cn/posts/QA/BugReview/" title="Bug Review">Bug Review</a>
     </li>
     
@@ -602,10 +593,6 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     
     <li>
         <a href="https://www.shiyuanjie.cn/posts/Blog/migrate-from-hexo-to-hugo/" title="转移hexo文章至Hugo">转移hexo文章至Hugo</a>
-    </li>
-    
-    <li>
-        <a href="https://www.shiyuanjie.cn/posts/Upgrade/challenge-new-job/" title="选择一个新的方向">选择一个新的方向</a>
     </li>
     
 </ul>
@@ -649,6 +636,8 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
 <ul class="widget-list">
     
     <li><a href="https://www.shiyuanjie.cn/categories/Book/">Book (54)</a></li>
+    
+    <li><a href="https://www.shiyuanjie.cn/categories/Car/">Car (1)</a></li>
     
     <li><a href="https://www.shiyuanjie.cn/categories/Design/">Design (5)</a></li>
     
@@ -856,6 +845,8 @@ JMeter日志已经被迁移至SLF4J和Log4j 2。这个影响配制和第三方�
     <a href="https://www.shiyuanjie.cn/tags/%E9%93%B6%E5%B1%8B/">银屋</a>
     
     <a href="https://www.shiyuanjie.cn/tags/%E9%9C%80%E6%B1%82/">需求</a>
+    
+    <a href="https://www.shiyuanjie.cn/tags/%E9%A9%BE%E7%85%A7/">驾照</a>
     
 </div>
     </section>

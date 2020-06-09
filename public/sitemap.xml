@@ -3,27 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.shiyuanjie.cn/categories/Car/</loc>
+    <lastmod>2020-06-08T16:25:12+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.shiyuanjie.cn/categories/</loc>
+    <lastmod>2020-06-08T16:25:12+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.shiyuanjie.cn/posts/</loc>
+    <lastmod>2020-06-08T16:25:12+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.shiyuanjie.cn/tags/</loc>
+    <lastmod>2020-06-08T16:25:12+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.shiyuanjie.cn/posts/Upgrade/driver-license/</loc>
+    <lastmod>2020-06-08T16:25:12+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.shiyuanjie.cn/tags/%E9%A9%BE%E7%85%A7/</loc>
+    <lastmod>2020-06-08T16:25:12+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.shiyuanjie.cn/tags/Bug/</loc>
     <lastmod>2020-05-27T12:25:12+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.shiyuanjie.cn/posts/QA/BugReview/</loc>
-    <lastmod>2020-05-27T12:25:12+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.shiyuanjie.cn/categories/</loc>
-    <lastmod>2020-05-27T12:25:12+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.shiyuanjie.cn/posts/</loc>
-    <lastmod>2020-05-27T12:25:12+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.shiyuanjie.cn/tags/</loc>
     <lastmod>2020-05-27T12:25:12+08:00</lastmod>
   </url>
   
