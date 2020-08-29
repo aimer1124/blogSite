@@ -10,9 +10,6 @@ categories:
 > 把自己考取驾照的过程整理出来，做个记录。
 > 西安有想考驾照，给安利一个十分Nice的教练。请留下你的信息
 
-![驾照](/img/driverlicense/License.jpeg)
-
-![考试记录](/img/driverlicense/Message.jpeg)
 
 ## 报名
 
@@ -215,6 +212,11 @@ categories:
 - 科目四也是要多刷题就可以
 
 考完科目四，下午2：00拿证。
+
+![驾照](/img/driverlicense/License.jpeg)
+
+![考试记录](/img/driverlicense/Message.jpeg)
+
 
 ---
 
