@@ -9,3 +9,7 @@ Thumbs.db
 .build/
 .idea/
 nbproject/
+
+# Blogsite
+public/
+.hugo_build.lock
