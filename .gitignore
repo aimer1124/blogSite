@@ -13,3 +13,25 @@ nbproject/
 # Blogsite
 public/
 .hugo_build.lock
+resources/_gen/
+node_modules/
+.hugo_cache/
+.hugo_cache/*
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Env & local config
+.env
+.env.local
+
+# Editor settings
+.vscode/
+.history/
+.idea/
+
+# macOS
+.AppleDouble
+.LSOverride

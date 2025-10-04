@@ -1,0 +1,13 @@
+{
+	"name": "blogsite",
+	"private": true,
+	"version": "1.0.0",
+	"description": "Hugo blog with PaperMod, managed via pnpm and hugo-bin",
+	"scripts": {
+		"dev": "scripts/run-hugo.sh server -D",
+		"build": "scripts/run-hugo.sh --minify",
+		"clean": "rm -rf public resources/_gen vendor/hugo-bin",
+		"check:hugo": "hugo version || echo '请先安装 Hugo (brew install hugo)'"
+	},
+	"devDependencies": {}
+}

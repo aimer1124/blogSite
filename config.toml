@@ -1,7 +1,7 @@
 baseURL = "https://shiyuanjie.cn"
 languageCode = "zh-CN"
 title = "Yuanjie-跑步爱好者，IT从业者。"
-theme = "maupassant"
+theme = "PaperMod"
 # googleAnalytics = "G-5XEH1YLC7R"  # UA-XXXXXXXX-X
 
 ## 保持分类的原始名字（false会做转小写处理）
@@ -11,6 +11,7 @@ disablePathToLower = true
 
 hasCJKLanguage = true
 summaryLength = 140
+ignoreLogs = ['warning-goldmark-raw-html']
 
 
 [author]
@@ -18,23 +19,29 @@ summaryLength = 140
 
 [params]
   author = "Yuanjie"
-  subtitle = "跑步爱好者，IT从业者。"
-  keywords = "测试,敏捷,跑步,项目管理,学习"
   description = "跑步爱好者，IT从业者。"
-  busuanzi = true #启用不算子网页统计
-  # googleAd = "ca-pub-4031353640611810"  #ca-pub-xxxxxxxxxxxxxx
+  keywords = ["测试","敏捷","跑步","项目管理","学习"]
+  defaultTheme = "auto" # light, dark, auto
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  env = "production" # enables GA/Utterances/Disqus etc.
+  busuanzi = true # 自定义: 在自定义头部/底部插入 busuanzi 脚本 (layouts/partials/extend_head.html)
   baiduAd = "ac69e1e54b317232c0d3a881b738cfe8"
   beian = "陕ICP备20003547号-1"
-  # localSearch = true # 启用本地搜索
+  homeInfoParams = { Title = "你好，我是 Yuanjie", Content = "跑步爱好者 · IT从业者 · 记录与分享" }
+  socialIcons = [
+    { name = "github", url = "https://github.com/aimer1124" },
+  ]
+  # 可在 layouts/partials/extend_head.html 中引入 busuanzi 与自定义统计脚本
+  # 如果需要自定义 CSS/JS:
+  # assets/css/extended/ 或 assets/js/extended/
 
-  # 这里我存放在了主题的static文件夹里，根目录的似乎也可以
-  # customCSS = ['douban.css', 'other.css']
-  # if ['custom.css'], load '/static/css/custom.css' file
-  # customJS = ['douban.js']
-  # if ['custom.js'], load '/static/js/custom.js' file
-
-  # 全局开关，你也可以在每一篇内容的 front matter 中针对单篇内容关闭或开启某些功能
-  toc = true  # 是否开启目录
+  # 友情链接 (PaperMod 无内置 links 区域, 可在自定义 widget 或页面里用数据文件; 暂保留原结构供后续迁移)
 
 ## 友情链接，可以多个
 [[params.links]]
@@ -84,7 +91,7 @@ summaryLength = 140
 ## 配置 utteranc评论,教程参考 https://utteranc.es/
 [params.utteranc]
   enable = true
-  repo = "aimer1124/comments-blog" ##换成自己的Repo
+  repo = "aimer1124/comments-blog"
   issueTerm = "pathname"
   theme = "github-light"
 
@@ -98,6 +105,10 @@ summaryLength = 140
   [markup.highlight]
     lineNos = true
     style = "monokai"
+    noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 ## 配置网站菜单
 [menu]
