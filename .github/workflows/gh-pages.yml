@@ -1,12 +1,16 @@
-name: Deploy to GitHub Pages (gh-pages branch)
+name: Deploy to GitHub Pages (artifact)
 
 on:
   push:
     branches: [ master ]
   workflow_dispatch:
 
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -29,15 +33,21 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Add CNAME
+      - name: Ensure CNAME
         run: echo "shiyuanjie.cn" > public/CNAME
 
-      - name: Deploy to gh-pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          publish_branch: gh-pages
-          force_orphan: true
-          commit_message: "deploy: site update ${GITHUB_SHA}"
-          cname: shiyuanjie.cn
+          path: ./public
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
