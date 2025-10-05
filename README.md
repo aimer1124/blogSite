@@ -1,11 +1,11 @@
 # 个人博客站点 (Hugo + PaperMod)
 
-使用 [Hugo](https://gohugo.io/) 与现代主题 [PaperMod](https://github.com/adityatelange/hugo-PaperMod) 构建，自动部署到 GitHub Pages，并绑定自定义域名 `shiyuanjie.cn`。所有使用的服务与资源均为免费方案。
+使用 [Hugo](https://gohugo.io/) 与现代主题 [PaperMod](https://github.com/adityatelange/hugo-PaperMod) 构建，自动部署到 GitHub Pages（官方 Pages Artifact 流程），并绑定自定义域名 `shiyuanjie.cn`。所有使用的服务与资源均为免费方案。
 
 ## 功能概览
 - 主题：PaperMod（自适应浅/深色、目录、代码复制按钮、阅读时长）
 - 评论：Utterances (GitHub Issues)
-- 访问统计：不蒜子 (自定义扩展插槽, 需补充脚本)
+- 访问统计：不蒜子（已内置扩展 partials，可在站点参数中开关）
 - ICP 备案号展示
 - 自定义域名 CNAME 已配置
 - GitHub Actions 自动构建与发布
@@ -54,24 +54,31 @@ summary: "简短摘要用于列表展示"
 ```
 
 ## 部署流程（CI）
-同仓库分支管理：源码在 `master`，构建产物发布到 `gh-pages` 分支（GitHub Pages）。
+采用 GitHub Pages 官方的 “Artifact + Deploy Pages” 流程（非分支推送）。
 
-流程：
-1. Push 到 `master`
-2. Actions：Checkout (含子模块)
-3. 安装 Hugo（使用 `peaceiris/actions-hugo`）
-4. `hugo --minify` 生成 `public/`
-5. 自动写入 `public/CNAME` -> `shiyuanjie.cn`
-6. 使用 `peaceiris/actions-gh-pages` 推送到本仓库 `gh-pages` 分支
+触发：
+- 推送到 `master` 或手动触发 `workflow_dispatch`
 
-无需额外 PAT，使用默认的 `GITHUB_TOKEN` 即可。工作流文件：`.github/workflows/gh-pages.yml`。
-GitHub -> Repository Settings -> Pages：Source 选择 `Deploy from a branch`，Branch 选择 `gh-pages`。
+动作要点：
+1. Checkout（包含主题子模块）
+2. 配置 Pages 权限（`actions/configure-pages`）
+3. 安装 Hugo（`peaceiris/actions-hugo` extended）
+4. 构建：`hugo --minify`
+5. 写入 `public/CNAME` 为 `shiyuanjie.cn`，并生成 `public/.nojekyll`
+6. 上传构建产物为 Pages Artifact（`actions/upload-pages-artifact`）
+7. 部署到 GitHub Pages（`actions/deploy-pages`）
+
+无需额外 PAT，使用默认 `GITHUB_TOKEN` 即可。工作流文件：`.github/workflows/gh-pages.yml`。
+GitHub -> Settings -> Pages：Source 选择 “GitHub Actions”。
 
 ## 自定义域名 DNS 记录
 在域名解析商添加：
-- `A` 记录：`@` 指向 GitHub Pages IP（推荐使用 `CNAME` 到 `<username>.github.io` 更易维护）
-- 或 `CNAME` 记录：`www` 指向 `aimer1124.github.io`
-- 根域名 (@) 若需 301/ALIAS 支持，可使用 DNS 提供商的 ALIAS/ANAME 功能，否则加一条 A 记录指向 GitHub Pages 公共 IP：`185.199.108.153/109.153/110.153/111.153`（四条都加）
+- A 记录：`@` 指向 GitHub Pages 公共 IP（建议四条都加）：
+  - 185.199.108.153
+  - 185.199.109.153
+  - 185.199.110.153
+  - 185.199.111.153
+- 可选：`CNAME` 记录 `www` -> `shiyuanjie.cn`（或 `aimer1124.github.io` 也可）
 
 GitHub 仓库设置 -> Pages 中确保 Custom domain 填写 `shiyuanjie.cn` 并勾选 Enforce HTTPS。
 
@@ -98,15 +105,11 @@ git commit -m "chore(theme): update PaperMod"
 ```
 
 ## 不蒜子统计脚本
-在 `layouts/partials/extend_head.html` (需新建) 中插入：
-```html
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-```
-在想显示的位置 (如 `layouts/partials/footer.html` 扩展) 中放：
-```html
-<span id="busuanzi_container_site_pv">总访问量 <span id="busuanzi_value_site_pv"></span></span>
-```
-PaperMod 支持通过 `layouts/partials/` 下的同名文件进行覆盖。若后续我已补充将保留在仓库。
+本仓库已内置扩展 partials：
+- `layouts/partials/extend_head.html` 注入不蒜子脚本
+- `layouts/partials/footer.html` 展示 PV/UV 与 ICP 号
+
+可通过 `config.toml` 中 `params.busuanzi = true/false` 开关显示。
 
 ## Utterances 评论
 确保在配置中：
@@ -117,6 +120,7 @@ PaperMod 支持通过 `layouts/partials/` 下的同名文件进行覆盖。若�
   issueTerm = "pathname"
   theme = "github-light"
 ```
+提示：PaperMod 默认按文章级别开关评论区，需要在 Front Matter 设置 `comments: true`，或在全局 `params` 中设置 `comments = true`。
 
 ## 备份 & 安全
 - 主干内容即 Markdown + 主题子模块引用，Git 即备份
