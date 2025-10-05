@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Grunt on Yuanjie-跑步爱好者，IT从业者。</title><link>https://shiyuanjie.cn/tags/Grunt/</link><description>Recent content in Grunt on Yuanjie-跑步爱好者，IT从业者。</description><generator>Hugo -- 0.151.0</generator><language>zh-CN</language><lastBuildDate>Tue, 10 May 2016 14:23:00 +0000</lastBuildDate><atom:link href="https://shiyuanjie.cn/tags/Grunt/index.xml" rel="self" type="application/rss+xml"/><item><title>API自动化测试与持续集成</title><link>https://shiyuanjie.cn/posts/APITest/API%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E4%B8%8E%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/</link><pubDate>Tue, 10 May 2016 14:23:00 +0000</pubDate><guid>https://shiyuanjie.cn/posts/APITest/API%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E4%B8%8E%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/</guid><description>&lt;h1 id="目的"&gt;目的&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;如何使用&lt;code&gt;SuperTest&lt;/code&gt;测试框架，进行API测试&lt;/li&gt;
+&lt;li&gt;如何将API测试与构建工具结合&lt;/li&gt;
+&lt;li&gt;如何将API测试、构建工具与持续集成结合&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Jenkins with Grunt</title><link>https://shiyuanjie.cn/posts/CICD/Jenkins-with-SuperTest-and-Grunt/</link><pubDate>Thu, 03 Mar 2016 20:45:38 +0000</pubDate><guid>https://shiyuanjie.cn/posts/CICD/Jenkins-with-SuperTest-and-Grunt/</guid><description>&lt;h1 id="jenkins"&gt;Jenkins&lt;/h1&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;In a nutshell, Jenkins is the leading open source automation server.
+Built with Java, it provides hundreds of plugins to support building,
+testing, deploying and automation for virtually any project
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex="0"&gt;&lt;code&gt;Jenkins是一个开源软件项目，旨在提供一个开放易用的软件平台，使软件的持续集成变成可能。
+&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>SuperTest-API测试</title><link>https://shiyuanjie.cn/posts/SuperTest/SuperTest/</link><pubDate>Sun, 17 Jan 2016 19:51:00 +0000</pubDate><guid>https://shiyuanjie.cn/posts/SuperTest/SuperTest/</guid><description>&lt;h2 id="什么是supertest"&gt;什么是SuperTest&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The motivation with this module is to provide a high-level abstraction for testing HTTP, while still allowing you to drop down to the lower-level API provided by super-agent.&lt;/li&gt;
+&lt;li&gt;简单说明：用来测试HTTP请求，提供简单的super-agent来实现API请求&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="安装supertest"&gt;安装SuperTest&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;npm安装&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;官网下载对应的操作系统版本-&lt;a href="https://nodejs.org/en/download/"&gt;NPM&lt;/a&gt;，下载完成后，直接进行安装即可&lt;/li&gt;
+&lt;li&gt;cnpm,若翻墙网络比较慢或访问不了的话，可以尝试使用cnpm(国内的镜像)。&lt;a href="https://github.com/cnpm/cnpm"&gt;CNPM&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;SuperTest安装&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;npm install supertest --save-dev
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;grunt安装&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;npm install -g grunt-cli
+&lt;/code&gt;&lt;/pre&gt;&lt;!-- more --&gt;
+&lt;h2 id="使用grunt来管理和运行supertest"&gt;使用Grunt来管理和运行SuperTest&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Git Clone &lt;a href="https://github.com/aimer1124/SuperTestDemo"&gt;SuperTestDemo&lt;/a&gt;。此项目针对访问的URL的返回状态进行验证。&lt;/p&gt;</description></item></channel></rss>

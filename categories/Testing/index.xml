@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Testing on Yuanjie-跑步爱好者，IT从业者。</title><link>https://shiyuanjie.cn/categories/Testing/</link><description>Recent content in Testing on Yuanjie-跑步爱好者，IT从业者。</description><generator>Hugo -- 0.151.0</generator><language>zh-CN</language><lastBuildDate>Wed, 27 May 2020 12:25:12 +0800</lastBuildDate><atom:link href="https://shiyuanjie.cn/categories/Testing/index.xml" rel="self" type="application/rss+xml"/><item><title>Bug Review</title><link>https://shiyuanjie.cn/posts/QA/BugReview/</link><pubDate>Wed, 27 May 2020 12:25:12 +0800</pubDate><guid>https://shiyuanjie.cn/posts/QA/BugReview/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;今天有个朋友问到，BUG Review有什么注意事情和流程方法没？简单整理了下，便于后续回顾。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;源地址：&lt;a href="https://mubu.com/doc/amsCZEE1YV"&gt;https://mubu.com/doc/amsCZEE1YV&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;流程
+&lt;ul&gt;
+&lt;li&gt;host
+&lt;ul&gt;
+&lt;li&gt;QA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;流程
+&lt;ul&gt;
+&lt;li&gt;QA搜集各位输入信息，并整理数据分布&lt;/li&gt;
+&lt;li&gt;所有参与人员一起讨论，并制定后续改进&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;时机
+&lt;ul&gt;
+&lt;li&gt;不确定，建议：团队质量较差或者定期做&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;参与人
+&lt;ul&gt;
+&lt;li&gt;全团队成员&lt;/li&gt;
+&lt;li&gt;必要可以拉上客户&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;输入
+&lt;ul&gt;
+&lt;li&gt;所有的BUG单&lt;/li&gt;
+&lt;li&gt;反馈信息(客户/用户/其它渠道)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;输出
+&lt;ul&gt;
+&lt;li&gt;各种分布
+&lt;ul&gt;
+&lt;li&gt;新增/修复/关闭时间&lt;/li&gt;
+&lt;li&gt;BUG的模块分类，如：登录模块/订单模块 等&lt;/li&gt;
+&lt;li&gt;BUG的原因分类，如：需要描述不清晰/程序代码问题/再次出现 等&lt;/li&gt;
+&lt;li&gt;优先级划分&lt;/li&gt;
+&lt;li&gt;责任人&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;后续改进
+&lt;ul&gt;
+&lt;li&gt;改进策略&lt;/li&gt;
+&lt;li&gt;下一次Review的时间&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;注意
+&lt;ul&gt;
+&lt;li&gt;责任人
+&lt;ul&gt;
+&lt;li&gt;看情况是否需要拉出来讨论&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;改进策略
+&lt;ul&gt;
+&lt;li&gt;这部分才是Review的目的&lt;/li&gt;
+&lt;li&gt;分布的情况，打开讨论，并制定Action。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Review的结论
+&lt;ul&gt;
+&lt;li&gt;如果是给客户的，要酌情做一些内容的调整&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>构建Headless 的 E2E 测试</title><link>https://shiyuanjie.cn/posts/UITest/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BA-Headless-%E7%9A%84-E2E-%E6%B5%8B%E8%AF%95/</link><pubDate>Fri, 02 Mar 2018 12:20:00 +0000</pubDate><guid>https://shiyuanjie.cn/posts/UITest/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BA-Headless-%E7%9A%84-E2E-%E6%B5%8B%E8%AF%95/</guid><description>&lt;h2 id="为什么要构建-headless-的-e2e-测试"&gt;为什么要&lt;code&gt;构建 Headless 的 E2E 测试&lt;/code&gt;&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;A headless browser is a great tool for automated testing and server environments where you don&amp;#39;t need a visible UI shell. For example, you may want to run some tests against a real web page, create a PDF of it, or just inspect how the browser renders an URL.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;结合上面的原因，我们还可以&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Headless结合 E2E 测试，可以让E2E 测试在非 GUI 的操作系统中运行&lt;/li&gt;
+&lt;li&gt;可以集成至 CI 环境中。让版本得到快速验证&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="chrome-headless-的选取"&gt;Chrome Headless 的选取&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Mac/Linux 的Chrome从59版本后，已经支持 Healess 模式的运行。Windows 的从60版本开始支持&lt;/li&gt;
+&lt;li&gt;所以选择一个你想要的 Chrome 版本，便可以进行 Headless 的测试&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;chrome \
+--headless \ # Runs Chrome in headless mode.
+--disable-gpu \ # Temporarily needed if running on Windows.
+https://www.chromestatus.com # URL to open. Defaults to about:blank.
+&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>Responsive测试</title><link>https://shiyuanjie.cn/posts/UITest/Responsive%E6%B5%8B%E8%AF%95/</link><pubDate>Thu, 03 Aug 2017 15:30:00 +0000</pubDate><guid>https://shiyuanjie.cn/posts/UITest/Responsive%E6%B5%8B%E8%AF%95/</guid><description>&lt;h1 id="responsive测试"&gt;Responsive测试&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;如何使用Galen进行&lt;code&gt;响应式测试&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;使用Javascript编写测试代码&lt;/li&gt;
+&lt;li&gt;完整代码：&lt;a href="https://github.com/aimer1124/GalenDemo"&gt;https://github.com/aimer1124/GalenDemo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- more --&gt;
+&lt;h2 id="安装galen"&gt;安装Galen&lt;/h2&gt;
+&lt;h3 id="通过npm安装"&gt;通过NPM安装&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;sudo npm install -g galenframework-cli
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="检查安装版本galen--v"&gt;检查安装版本&lt;code&gt;galen -v&lt;/code&gt;&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;➜ GalenDemo git:(master) ✗ galen -v
+Galen Framework
+Version: 2.3.4
+JavaScript executor: Rhino 1.7 release 5 2015 01 29
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="第一步"&gt;第一步&lt;/h2&gt;
+&lt;h3 id="创建测试文件存放于teststep1testjs"&gt;创建测试文件，存放于&lt;code&gt;test/step1.test.js&lt;/code&gt;&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;test(&amp;#34;First test&amp;#34;, function () {
+console.log(&amp;#39;This is first test&amp;#39;)
+});
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="执行测试"&gt;执行测试&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;➜ GalenDemo git:(master) ✗ galen test test/*.js
+========================================
+Test: First test
+========================================
+This is first test
+========================================
+----------------------------------------
+========================================
+Suite status: PASS
+Total tests: 1
+Total failed tests: 0
+Total failures: 0
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="第二步"&gt;第二步&lt;/h2&gt;
+&lt;h2 id="添加多个不同的设备用于测试兼容性"&gt;添加多个不同的设备，用于测试兼容性&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;this.devices = {
+mobile: {
+deviceName: &amp;#34;mobile&amp;#34;,
+size: &amp;#34;400x700&amp;#34;
+},
+tablet: {
+deviceName: &amp;#34;tablet&amp;#34;,
+size: &amp;#34;600x800&amp;#34;
+},
+desktop: {
+deviceName: &amp;#34;desktop&amp;#34;,
+size: &amp;#34;1024x768&amp;#34;
+}
+};
+forAll(devices, function (device) {
+test(&amp;#34;Home page on ${deviceName}&amp;#34;, function (device){
+var driver = createDriver(&amp;#34;http://galenframework.com&amp;#34;,
+device.size,
+&amp;#34;chrome&amp;#34;);
+console.log(device.size)
+});
+});
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="查看测试结果"&gt;查看测试结果&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;➜ GalenDemo git:(master) ✗ galen test test/*.js
+========================================
+Test: Home page on mobile
+========================================
+Starting ChromeDriver 2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b) on port 10344
+Only local connections are allowed.
+Aug 01, 2017 2:34:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+400x700
+========================================
+Test: Home page on tablet
+========================================
+Starting ChromeDriver 2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b) on port 6454
+Only local connections are allowed.
+Aug 01, 2017 2:34:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+600x800
+========================================
+Test: Home page on desktop
+========================================
+Starting ChromeDriver 2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b) on port 42862
+Only local connections are allowed.
+Aug 01, 2017 2:34:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+1024x768
+========================================
+----------------------------------------
+========================================
+Suite status: PASS
+Total tests: 3
+Total failed tests: 0
+Total failures: 0
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="第三步-引入gspec文件来难页面布局"&gt;第三步 引入&lt;code&gt;gspec&lt;/code&gt;文件，来难页面布局&lt;/h2&gt;
+&lt;h3 id="新增specshome-pagegspec"&gt;新增&lt;code&gt;specs/home-page.gspec&lt;/code&gt;&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;@objects
+header id header
+= Main section =
+header:
+height 5 to 100px
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="在测试脚本step3testjs中添加layout检查"&gt;在测试脚本&lt;code&gt;step3.test.js&lt;/code&gt;中添加Layout检查&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt; test(&amp;#34;Home page on ${deviceName}&amp;#34;, function (device){
+var driver = createDriver(&amp;#34;http://samples.galenframework.com/tutorial1/tutorial1.html&amp;#34;,
+device.size,
+&amp;#34;chrome&amp;#34;);
+checkLayout(driver, &amp;#34;GalenDemo/home-page.gspec&amp;#34;, [device.deviceName]);
+});
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="添加关闭浏览器"&gt;添加关闭浏览器&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;driver.close();
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="添加页面pageobject"&gt;添加页面&lt;code&gt;pageObject&lt;/code&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;新增&lt;code&gt;pageObject&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;this.home = $page(&amp;#34;home&amp;#34;, {
+content: &amp;#34;div#content&amp;#34;
+});
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;测试中引用&lt;code&gt;pageObject&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt; var homepage = new home(driver);
+if (!homepage.content.exists()){
+console.log(&amp;#34;Content element don&amp;#39;t exist&amp;#34;)
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="第四步-不同分辨率下layout测试及生成测试报告"&gt;第四步 不同分辨率下Layout测试及生成测试报告&lt;/h2&gt;
+&lt;h3 id="不同分辨率测试"&gt;不同分辨率测试&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;重新调整设备配制信息&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;function Device(deviceName, size, tags) {
+this.deviceName = deviceName;
+this.size = size;
+this.tags = tags;
+}
+this.devices = {
+mobile: new Device(&amp;#34;mobile&amp;#34;, &amp;#34;450x700&amp;#34;, [&amp;#34;mobile&amp;#34;]),
+tablet: new Device(&amp;#34;tablet&amp;#34;, &amp;#34;600x800&amp;#34;, [&amp;#34;tablet&amp;#34;]),
+desktop: new Device(&amp;#34;desktop&amp;#34;, &amp;#34;1024x768&amp;#34;, [&amp;#34;desktop&amp;#34;])
+};
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;修改&lt;code&gt;layout&lt;/code&gt;测试中的设备&lt;code&gt;辨别和测试&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt; @on *
+header:
+height 5 to 100px
+@on tablet
+content:
+width 600px
+@on desktop
+content:
+width 1024px
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="生成测试报告"&gt;生成测试报告&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;➜ GalenDemo git:(master) ✗ galen test test/step3.test.js --htmlreport ./report
+========================================
+Test: Home page on mobile
+========================================
+Starting ChromeDriver 2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b) on port 36316
+Only local connections are allowed.
+Aug 03, 2017 2:56:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+= Main section =
+header:
+height 5 to 100px
+========================================
+Test: Home page on tablet
+========================================
+Starting ChromeDriver 2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b) on port 28325
+Only local connections are allowed.
+Aug 03, 2017 2:56:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+= Main section =
+header:
+height 5 to 100px
+content:
+width 600px
+========================================
+Test: Home page on desktop
+========================================
+Starting ChromeDriver 2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b) on port 12177
+Only local connections are allowed.
+Aug 03, 2017 2:56:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+= Main section =
+header:
+height 5 to 100px
+content:
+width 1024px
+========================================
+----------------------------------------
+========================================
+Suite status: PASS
+Total tests: 3
+Total failed tests: 0
+Total failures: 0
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;从日志中可以查看到，每次在不同&lt;code&gt;设备&lt;/code&gt;测试时&lt;code&gt;layout&lt;/code&gt;代码已变更&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;Test: Home page on desktop
+========================================
+Starting ChromeDriver 2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b) on port 12177
+Only local connections are allowed.
+Aug 03, 2017 2:56:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+= Main section =
+header:
+height 5 to 100px
+content:
+width 1024px
+========================================
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="参考"&gt;参考&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://galenframework.com/"&gt;http://galenframework.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://galenframework.com/docs/reference-javascript-tests-guide/"&gt;http://galenframework.com/docs/reference-javascript-tests-guide/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>性能测试与持续集成</title><link>https://shiyuanjie.cn/posts/CICD/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E4%B8%8E%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/</link><pubDate>Sun, 07 Aug 2016 14:23:00 +0000</pubDate><guid>https://shiyuanjie.cn/posts/CICD/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E4%B8%8E%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/</guid><description>&lt;h2 id="目的"&gt;目的&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;将性能测试与持续集成挂接起来&lt;/li&gt;
+&lt;li&gt;性能测试： &lt;a href="http://jmeter.apache.org/"&gt;JMeter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;持续集成： &lt;a href="https://jenkins.io/"&gt;Jenkins&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>E2E测试之Headless browser容器化</title><link>https://shiyuanjie.cn/posts/UITest/E2E%E6%B5%8B%E8%AF%95%E4%B9%8BHeadless-browser%E5%AE%B9%E5%99%A8%E5%8C%96/</link><pubDate>Mon, 01 Aug 2016 20:00:00 +0000</pubDate><guid>https://shiyuanjie.cn/posts/UITest/E2E%E6%B5%8B%E8%AF%95%E4%B9%8BHeadless-browser%E5%AE%B9%E5%99%A8%E5%8C%96/</guid><description>&lt;h1 id="目的"&gt;目的&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;E2E测试执行过程中&lt;strong&gt;不依赖UI&lt;/strong&gt;界面&lt;/li&gt;
+&lt;li&gt;可在*nix系统中运行&lt;/li&gt;
+&lt;li&gt;为什么不用&lt;code&gt;PhantomJS&lt;/code&gt;,&lt;a href="http://www.protractortest.org/#/browser-setup#setting-up-phantomjs"&gt;Protractor官方不推荐使用&lt;code&gt;PhantomJS&lt;/code&gt;来测试&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;We recommend against using PhantomJS for tests with Protractor. There are many reported issues with PhantomJS crashing and behaving differently from real browsers.
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id="docker"&gt;Docker&lt;/h1&gt;
+&lt;h2 id="安装"&gt;安装&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;下载系统所需要的安装包，下载地址：&lt;a href="https://www.docker.com/products/docker"&gt;https://www.docker.com/products/docker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;注册&lt;a href="https://hub.docker.com/"&gt;https://hub.docker.com/&lt;/a&gt;账号&lt;/li&gt;
+&lt;li&gt;使用&lt;code&gt;pull&lt;/code&gt;来获取docker 镜像&lt;code&gt;protractor-headless&lt;/code&gt;，此过程会比较慢，耐心等待
+docker hub地址：&lt;a href="https://hub.docker.com/r/webnicer/protractor-headless/"&gt;https://hub.docker.com/r/webnicer/protractor-headless/&lt;/a&gt;
+git hub地址：&lt;a href="https://github.com/jciolek/docker-protractor-headless"&gt;https://github.com/jciolek/docker-protractor-headless&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;docker pull webnicer/protractor-headless
+&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>如此Tricky的测试场景,你应该怎么办</title><link>https://shiyuanjie.cn/posts/QA/%E5%A6%82%E6%AD%A4Tricky%E7%9A%84%E6%B5%8B%E8%AF%95%E5%9C%BA%E6%99%AF%E4%BD%A0%E5%BA%94%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E/</link><pubDate>Sun, 22 May 2016 11:03:00 +0000</pubDate><guid>https://shiyuanjie.cn/posts/QA/%E5%A6%82%E6%AD%A4Tricky%E7%9A%84%E6%B5%8B%E8%AF%95%E5%9C%BA%E6%99%AF%E4%BD%A0%E5%BA%94%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E/</guid><description>&lt;h1 id="什么是tricky的测试场景"&gt;什么是Tricky的测试场景？&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="Tricky的测试场景" loading="lazy" src="https://shiyuanjie.cn/img/TestScenario-Tricky.png"&gt;&lt;/p&gt;
+&lt;h2 id="测试场景"&gt;测试场景&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Scenario testing&lt;/strong&gt; is a software &lt;strong&gt;testing&lt;/strong&gt; activity that uses &lt;strong&gt;scenarios&lt;/strong&gt;: hypothetical stories to help the tester work through a complex problem or &lt;strong&gt;test&lt;/strong&gt; system. The ideal &lt;strong&gt;scenario test&lt;/strong&gt; is a credible, complex, compelling or motivating story the outcome of which is easy to evaluate.&lt;/p&gt;</description></item><item><title>API自动化测试与持续集成</title><link>https://shiyuanjie.cn/posts/APITest/API%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E4%B8%8E%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/</link><pubDate>Tue, 10 May 2016 14:23:00 +0000</pubDate><guid>https://shiyuanjie.cn/posts/APITest/API%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E4%B8%8E%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/</guid><description>&lt;h1 id="目的"&gt;目的&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;如何使用&lt;code&gt;SuperTest&lt;/code&gt;测试框架，进行API测试&lt;/li&gt;
+&lt;li&gt;如何将API测试与构建工具结合&lt;/li&gt;
+&lt;li&gt;如何将API测试、构建工具与持续集成结合&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>游戏测试</title><link>https://shiyuanjie.cn/posts/QA/%E6%B8%B8%E6%88%8F%E6%B5%8B%E8%AF%95/</link><pubDate>Sun, 03 Apr 2016 19:50:00 +0000</pubDate><guid>https://shiyuanjie.cn/posts/QA/%E6%B8%B8%E6%88%8F%E6%B5%8B%E8%AF%95/</guid><description>&lt;p&gt;&lt;img loading="lazy" src="https://shiyuanjie.cn/img/BQConf_GameTest-20160403.002.jpeg"&gt;
+&lt;img loading="lazy" src="https://shiyuanjie.cn/img/BQConf_GameTest-20160403.003.jpeg"&gt;
+&lt;img loading="lazy" src="https://shiyuanjie.cn/img/BQConf_GameTest-20160403.004.jpeg"&gt;
+&lt;img loading="lazy" src="https://shiyuanjie.cn/img/BQConf_GameTest-20160403.005.jpeg"&gt;
+&lt;img loading="lazy" src="https://shiyuanjie.cn/img/BQConf_GameTest-20160403.006.jpeg"&gt;
+&lt;img loading="lazy" src="https://shiyuanjie.cn/img/BQConf_GameTest-20160403.007.jpeg"&gt;
+&lt;img loading="lazy" src="https://shiyuanjie.cn/img/BQConf_GameTest-20160403.008.jpeg"&gt;
+&lt;img loading="lazy" src="https://shiyuanjie.cn/img/BQConf_GameTest-20160403.009.jpeg"&gt;
+&lt;img loading="lazy" src="https://shiyuanjie.cn/img/BQConf_GameTest-20160403.010.jpeg"&gt;
+&lt;img loading="lazy" src="https://shiyuanjie.cn/img/BQConf_GameTest-20160403.011.jpeg"&gt;
+&lt;img loading="lazy" src="https://shiyuanjie.cn/img/BQConf_GameTest-20160403.012.jpeg"&gt;
+&lt;img loading="lazy" src="https://shiyuanjie.cn/img/BQConf_GameTest-20160403.013.jpeg"&gt;
+&lt;img loading="lazy" src="https://shiyuanjie.cn/img/BQConf_GameTest-20160403.014.jpeg"&gt;
+&lt;img loading="lazy" src="https://shiyuanjie.cn/img/BQConf_GameTest-20160403.015.jpeg"&gt;
+&lt;img loading="lazy" src="https://shiyuanjie.cn/img/BQConf_GameTest-20160403.016.jpeg"&gt;
+&lt;img loading="lazy" src="https://shiyuanjie.cn/img/BQConf_GameTest-20160403.017.jpeg"&gt;
+&lt;img loading="lazy" src="https://shiyuanjie.cn/img/BQConf_GameTest-20160403.018.jpeg"&gt;&lt;/p&gt;
+&lt;p&gt;PS:文档备案，以便以后查看&lt;/p&gt;</description></item><item><title>Tricky test scenario</title><link>https://shiyuanjie.cn/posts/QA/Tricky-test/</link><pubDate>Sat, 30 Jan 2016 18:47:00 +0000</pubDate><guid>https://shiyuanjie.cn/posts/QA/Tricky-test/</guid><description>&lt;h2 id="测试验证码收到客户投诉"&gt;测试&lt;code&gt;验证码&lt;/code&gt;，收到客户投诉&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Scenario&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;作为普通用户,在用户注册时，可通过获取短信码使用手机号进行注册&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;功能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;用户注册时，需要测试手机号码与获取的短信码是否能正常收到且匹配。&lt;/li&gt;
+&lt;li&gt;短信验证码由本项目生成,但由第三方来发送&lt;/li&gt;
+&lt;li&gt;验证码发送是由第三方提供的，无法完全Mock&lt;/li&gt;
+&lt;li&gt;数据库中会记录收到的短信验证码.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;测试策略&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;测试验证码能否匹配时,用了自己的手机号码来测试.&lt;/li&gt;
+&lt;li&gt;后面再测试是否匹配时,发现没有手机号码可用,就 &lt;strong&gt;随机&lt;/strong&gt; 输入了手机号码进行测试,通过查询数据库来获取验证码&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Tricky&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;如上进行了一阵子测试,由于是国内某银行项目,后面就收到了客户投诉: &lt;strong&gt;没有进行任何的操作,便收到了短信验证码&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;分析&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;是否每次测试时,都需要通过第三方来发送短信验证码.&lt;/li&gt;
+&lt;li&gt;仅Mock第三方收到请求,不需要每次都真实的发送短信功能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;TIPS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;测试中,一定要确保 &lt;strong&gt;普通用户&lt;/strong&gt; 不会收到短信验证码&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- more --&gt;
+&lt;h2 id="同样返回内容在不同的浏览器中显示不同"&gt;同样&lt;code&gt;返回内容&lt;/code&gt;,在不同的浏览器中显示不同&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Scenario&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;作为普通用户,在浏览页面时,可查看到Title显示的内容&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;功能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;需要从第三方系统中获取指定的内容,返回给浏览器,并显示到Title&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;测试策略&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;为确保兼容性,使用不同的浏览器进行查看&lt;/li&gt;
+&lt;li&gt;涉及浏览器: &lt;strong&gt;Chrome,FireFox,IE&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Tricky&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;仅Chrome查看正常显示,FireFox/IE查看均会显示 &lt;strong&gt;部分&lt;/strong&gt; 乱码&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;分析&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;返回的内容中有 &lt;strong&gt;Unicode&lt;/strong&gt; 值为15的内容,这个返回值引起的显示乱码&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;TIPS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;在对第三方集成时,一定要先针对所有输入/输出内容均进行字符集处理.确保所用的字符集均一致&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="同样的样式在同一类浏览器中显示不同"&gt;同样的&lt;code&gt;样式&lt;/code&gt;，在同一类浏览器中显示不同&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Scenario&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;作为普通用户，在浏览页面时，可查看到正确的页面显示与布局&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;功能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;在页面布局测试时，需要查看页面的显示与布局的正确性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;测试策略&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;使用浏览器查看页面的显示与布局&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Tricky&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;在测试电脑中，发现页面的布局中的样式有问题（按钮被换行）&lt;/li&gt;
+&lt;li&gt;在DEV的电脑中完全是好的（使用的同一发布版本进行测试）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;分析&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;浏览器的版本是完全一致&lt;/li&gt;
+&lt;li&gt;浏览器的 &lt;strong&gt;缩放比例&lt;/strong&gt; 不同，测试电脑的页面被设置为 &lt;strong&gt;缩放90%&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;TIPS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;在测试页面的显示和样式时，一定要确保页面 &lt;strong&gt;浏览器版本、页面缩放&lt;/strong&gt; 完全一致&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="paas平台部署后时间出现偏差"&gt;PaaS平台部署后，时间出现&lt;code&gt;偏差&lt;/code&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Scenario&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;作为普通用户，在注册新用户时，需要使用获取的验证码在5分钟内进行验证，否则验证码失效&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;功能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;页面前端点击 &lt;strong&gt;获取验证码&lt;/strong&gt; 后，需要在生成验证码5分钟内，进行注册&lt;/li&gt;
+&lt;li&gt;生成的验证码会存储在 &lt;strong&gt;数据库&lt;/strong&gt; 中&lt;/li&gt;
+&lt;li&gt;生成验证码是由程序代码生成，有效期的验证是由生成验证码时生成的&lt;strong&gt;Createtime&lt;/strong&gt;和&lt;strong&gt;当前时间&lt;/strong&gt;比较&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;测试策略&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;在点击 &lt;strong&gt;获取验证码&lt;/strong&gt; 后，从数据库中查询生成的 &lt;strong&gt;验证码&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;通过查询的验证码，进行用户注册&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Tricky&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;在点击 &lt;strong&gt;获取验证码&lt;/strong&gt; 后，直接去数据库中查询&lt;strong&gt;验证码&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;使用查询获取的&lt;strong&gt;验证码&lt;/strong&gt;，在进行用户注册时，提示验证码已过期(查询与注册的时间操作差，&lt;strong&gt;绝对&lt;/strong&gt;在5分钟内)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;分析&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;此功能在非&lt;a href="https://en.wikipedia.org/wiki/Platform_as_a_service"&gt;PaaS&lt;/a&gt;平台时完全正常的&lt;/li&gt;
+&lt;li&gt;部署到Paas平台后，在&lt;a href="https://en.wikipedia.org/wiki/Platform_as_a_service"&gt;PaaS&lt;/a&gt;平台时，程序代码是部署到一台机器、数据库部署在&lt;strong&gt;另外&lt;/strong&gt;一台机器&lt;/li&gt;
+&lt;li&gt;验证码的生成时间是由数据库脚本生成，获取的数据库的当前插入时间&lt;/li&gt;
+&lt;li&gt;验证码有效期验证时，&lt;strong&gt;当前时间&lt;/strong&gt;为从&lt;strong&gt;程序代码&lt;/strong&gt;部署的机器获取&lt;strong&gt;当前系统时间&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;两台部署机器时区设置不一致(程序代码：&lt;strong&gt;Asia/Shanghai&lt;/strong&gt;，数据库:&lt;strong&gt;Etc/Zulu&lt;/strong&gt;)，两个时区相差8小时&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;TIPS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;部署环境时，一定要先确保时间的设置是否会对功能有影响&lt;/li&gt;
+&lt;li&gt;涉及到时间处理时，一定确保使用的是&lt;strong&gt;统一&lt;/strong&gt;的参考时间&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="mock的模块在集成后mock相关的功能出错"&gt;Mock的模块在集成后，Mock相关的&lt;code&gt;功能出错&lt;/code&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Scenario&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;作为普通用户，在查看个人账户时，可查看到账户余额&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;功能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;普通用户在查看个人账户时，需要通过系统去查询第三方系统数据&lt;/li&gt;
+&lt;li&gt;在开发环境中第三方系统无法直接连接进行调试开发，因此提前做了Mock进行开发&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;测试策略&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;测试时，正常使用个人账户查询结果&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Tricky&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;在到&lt;strong&gt;ST测试&lt;/strong&gt;环境时，无法正常查询账户余额。数据解析报错&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;分析&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;使用Mock返回的数据时，在ST环境可正常查询&lt;/li&gt;
+&lt;li&gt;但使用第三方&lt;strong&gt;真实&lt;/strong&gt;返回的数据查询时，在ST便会报错&lt;/li&gt;
+&lt;li&gt;对&lt;strong&gt;真实&lt;/strong&gt;数据进行分析，发现&lt;strong&gt;数据结构&lt;/strong&gt;已与之前Mock的不同&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;TIPS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;针对Mock系统，一定要有对应的测试，确保接口的正确性及数据正确性&lt;/li&gt;
+&lt;li&gt;针对需要Mock的功能，一定要定期与集成方沟通，确保开发功能、接口变同的同步&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="特定文件内容无法上传到生产环境其它环境均正常"&gt;特定文件内容无法上传到&lt;code&gt;生产环境&lt;/code&gt;，其它环境均正常&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Scenario&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;作为注册用户，在个人信息中，可上传文档&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;功能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;注册用户，可使用&lt;strong&gt;上传文档&lt;/strong&gt;功能，上传个人文档&lt;/li&gt;
+&lt;li&gt;针对上传的文件内容及类型均无限制（由于系统是&lt;strong&gt;特定&lt;/strong&gt;人群使用，所以对文件&lt;strong&gt;类型&lt;/strong&gt;均没有限制），&lt;strong&gt;文件大小&lt;/strong&gt;此处不考虑&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;测试策略&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;针对上传文件类型进行测试：txt/exe/pdf/doc等&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Tricky&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;上传txt/html时，若文件以**&amp;lt;**开头时，上传功能在其它环境均可正常使用，但在生产环境则上传会失败&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;分析&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;生产环配制有网关，会对文件内容进行过滤&lt;/li&gt;
+&lt;li&gt;若文件html/js/txt文件中以**&amp;lt;&lt;strong&gt;开头时，则会被判断为&lt;/strong&gt;注入**文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;TIPS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;作为测试人员，也要对&lt;strong&gt;安全测试&lt;/strong&gt;常出现的问题进行考虑&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="参考资料"&gt;参考资料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PAAS：&lt;a href="https://en.wikipedia.org/wiki/Platform_as_a_service"&gt;https://en.wikipedia.org/wiki/Platform_as_a_service&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;时区差：&lt;a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones"&gt;https://en.wikipedia.org/wiki/List_of_tz_database_time_zones&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Asia/Shanghai:&lt;a href="https://en.wikipedia.org/wiki/Asia/Shanghai"&gt;https://en.wikipedia.org/wiki/Asia/Shanghai&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Etc/Zulu:&lt;a href="http://www.prokerala.com/travel/timezones/Etc/Zulu"&gt;http://www.prokerala.com/travel/timezones/Etc/Zulu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mock：&lt;a href="https://en.wikipedia.org/wiki/MockServer"&gt;https://en.wikipedia.org/wiki/MockServer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ST测试：&lt;a href="https://en.wikipedia.org/wiki/System_testing"&gt;https://en.wikipedia.org/wiki/System_testing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;安全测试：&lt;a href="http://www.ltesting.net/ceshi/ceshijishu/aqcs/2015/0104/207771.html"&gt;http://www.ltesting.net/ceshi/ceshijishu/aqcs/2015/0104/207771.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

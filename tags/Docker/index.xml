@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Docker on Yuanjie-跑步爱好者，IT从业者。</title><link>https://shiyuanjie.cn/tags/Docker/</link><description>Recent content in Docker on Yuanjie-跑步爱好者，IT从业者。</description><generator>Hugo -- 0.151.0</generator><language>zh-CN</language><lastBuildDate>Wed, 25 Jan 2017 21:50:00 +0000</lastBuildDate><atom:link href="https://shiyuanjie.cn/tags/Docker/index.xml" rel="self" type="application/rss+xml"/><item><title>JMeter与Docker</title><link>https://shiyuanjie.cn/posts/JMeter/jmeter%E4%B8%8EDocker/</link><pubDate>Wed, 25 Jan 2017 21:50:00 +0000</pubDate><guid>https://shiyuanjie.cn/posts/JMeter/jmeter%E4%B8%8EDocker/</guid><description>&lt;h1 id="jmeter_docker"&gt;JMeter_docker&lt;/h1&gt;
+&lt;p&gt;Use JMeter with Docker&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Replace &lt;code&gt;Demo.jmx&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Change the following about &lt;code&gt;Demo.jmx&lt;/code&gt; file&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;COPY Demo.jmx /opt/jmeter
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;build Docker file in root folder&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;docker build -t performanceDocker .
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;run docker with performance testing&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>轻量级微服务架构(上册)</title><link>https://shiyuanjie.cn/posts/Book/%E8%BD%BB%E9%87%8F%E7%BA%A7%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E4%B8%8A%E5%86%8C/</link><pubDate>Fri, 20 Jan 2017 14:40:00 +0000</pubDate><guid>https://shiyuanjie.cn/posts/Book/%E8%BD%BB%E9%87%8F%E7%BA%A7%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E4%B8%8A%E5%86%8C/</guid><description>&lt;h2 id="书"&gt;书&lt;/h2&gt;
+&lt;img src="https://images-cn.ssl-images-amazon.com/images/I/41CcOT9lGUL._SX377_BO1,204,203,200_.jpg" /&gt;
+&lt;h2 id="读后总结"&gt;读后总结&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;微服务的架构实践，书中的内容更偏重于&lt;code&gt;落地的&lt;/code&gt;实践操作。 详细的讲解了如何&lt;code&gt;搭建&lt;/code&gt;一套微服务框架环境，适合于寻找实践操作的书籍&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;微服务就是将功能&lt;code&gt;分而治之&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;架构框架落地
+&lt;ul&gt;
+&lt;li&gt;Spring Boot做开发框架&lt;/li&gt;
+&lt;li&gt;Node.js做网关&lt;/li&gt;
+&lt;li&gt;Zookeeper做微服务注册与发现&lt;/li&gt;
+&lt;li&gt;Docker封装微服务&amp;ndash;&lt;code&gt;容器化&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Jenkins实现CI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;章节中，重点讲解了每个&lt;code&gt;落地&lt;/code&gt;步骤的&lt;code&gt;操作方法&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>E2E测试之Headless browser容器化</title><link>https://shiyuanjie.cn/posts/UITest/E2E%E6%B5%8B%E8%AF%95%E4%B9%8BHeadless-browser%E5%AE%B9%E5%99%A8%E5%8C%96/</link><pubDate>Mon, 01 Aug 2016 20:00:00 +0000</pubDate><guid>https://shiyuanjie.cn/posts/UITest/E2E%E6%B5%8B%E8%AF%95%E4%B9%8BHeadless-browser%E5%AE%B9%E5%99%A8%E5%8C%96/</guid><description>&lt;h1 id="目的"&gt;目的&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;E2E测试执行过程中&lt;strong&gt;不依赖UI&lt;/strong&gt;界面&lt;/li&gt;
+&lt;li&gt;可在*nix系统中运行&lt;/li&gt;
+&lt;li&gt;为什么不用&lt;code&gt;PhantomJS&lt;/code&gt;,&lt;a href="http://www.protractortest.org/#/browser-setup#setting-up-phantomjs"&gt;Protractor官方不推荐使用&lt;code&gt;PhantomJS&lt;/code&gt;来测试&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;We recommend against using PhantomJS for tests with Protractor. There are many reported issues with PhantomJS crashing and behaving differently from real browsers.
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id="docker"&gt;Docker&lt;/h1&gt;
+&lt;h2 id="安装"&gt;安装&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;下载系统所需要的安装包，下载地址：&lt;a href="https://www.docker.com/products/docker"&gt;https://www.docker.com/products/docker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;注册&lt;a href="https://hub.docker.com/"&gt;https://hub.docker.com/&lt;/a&gt;账号&lt;/li&gt;
+&lt;li&gt;使用&lt;code&gt;pull&lt;/code&gt;来获取docker 镜像&lt;code&gt;protractor-headless&lt;/code&gt;，此过程会比较慢，耐心等待
+docker hub地址：&lt;a href="https://hub.docker.com/r/webnicer/protractor-headless/"&gt;https://hub.docker.com/r/webnicer/protractor-headless/&lt;/a&gt;
+git hub地址：&lt;a href="https://github.com/jciolek/docker-protractor-headless"&gt;https://github.com/jciolek/docker-protractor-headless&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;docker pull webnicer/protractor-headless
+&lt;/code&gt;&lt;/pre&gt;</description></item></channel></rss>

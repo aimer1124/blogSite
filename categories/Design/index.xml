@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Design on Yuanjie-跑步爱好者，IT从业者。</title><link>https://shiyuanjie.cn/categories/Design/</link><description>Recent content in Design on Yuanjie-跑步爱好者，IT从业者。</description><generator>Hugo -- 0.151.0</generator><language>zh-CN</language><lastBuildDate>Fri, 10 Apr 2020 17:33:31 +0800</lastBuildDate><atom:link href="https://shiyuanjie.cn/categories/Design/index.xml" rel="self" type="application/rss+xml"/><item><title>实验楼</title><link>https://shiyuanjie.cn/posts/Product/shiyanlou/</link><pubDate>Fri, 10 Apr 2020 17:33:31 +0800</pubDate><guid>https://shiyuanjie.cn/posts/Product/shiyanlou/</guid><description>&lt;p&gt;&lt;a href="https://www.shiyanlou.com/"&gt;实验楼&lt;/a&gt;是一家专注于IT技术的&lt;code&gt;在线实训平台&lt;/code&gt;，采用创新的“在线实验”学习模式，为学生及在职程序员提供编程、运维、测试、云计算、大数据、数据库等当前主流IT技术实践课程。&lt;/p&gt;
+&lt;h2 id="结构"&gt;结构&lt;/h2&gt;
+&lt;h3 id="课程"&gt;课程&lt;/h3&gt;
+&lt;p&gt;课程，作为&lt;a href="https://www.shiyanlou.com/"&gt;实验楼&lt;/a&gt;的核心内容。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="课程内容" loading="lazy" src="https://shiyuanjie.cn/img/shiyanlou/courses.png"&gt;&lt;/p&gt;
+&lt;h3 id="训练营"&gt;训练营&lt;/h3&gt;
+&lt;p&gt;训练营，是涵盖&lt;code&gt;具体知识&lt;/code&gt;的系列&lt;code&gt;课程&lt;/code&gt;。&lt;/p&gt;
+&lt;h3 id="楼"&gt;楼+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;QQ群交流，班主任跟踪&lt;/li&gt;
+&lt;li&gt;组团学习&lt;/li&gt;
+&lt;li&gt;教学视频&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="会员"&gt;会员&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.shiyanlou.com/"&gt;实验楼&lt;/a&gt;存在三种会员：&lt;code&gt;普通会员/标准会员和高级会员&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="会员" loading="lazy" src="https://shiyuanjie.cn/img/shiyanlou/vip.png"&gt;&lt;/p&gt;
+&lt;h3 id="社区"&gt;社区&lt;/h3&gt;
+&lt;p&gt;社区中包含：讨论/教程库/直播/比赛。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="会员" loading="lazy" src="https://shiyuanjie.cn/img/shiyanlou/social.png"&gt;&lt;/p&gt;
+&lt;h3 id="企校版"&gt;企校版&lt;/h3&gt;
+&lt;p&gt;未体验&lt;/p&gt;
+&lt;h3 id="用户信息"&gt;用户信息&lt;/h3&gt;
+&lt;p&gt;用户信息主要涉及使用&lt;a href="https://www.shiyanlou.com/"&gt;实验楼&lt;/a&gt;过程中的用户数据。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="用户" loading="lazy" src="https://shiyuanjie.cn/img/shiyanlou/user.png"&gt;&lt;/p&gt;
+&lt;h2 id="优化点"&gt;优化点&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;研发体系课程不完善。缺少&lt;code&gt;QA&lt;/code&gt;相关的课程，比如：自动化测试/性能测试等&lt;/li&gt;
+&lt;li&gt;课程中的讨论功能，没有&lt;code&gt;使用&lt;/code&gt;起来。建议：这部分可以把知识点的内容稍做整理，便于学员讨论交流&lt;/li&gt;
+&lt;li&gt;针对&lt;code&gt;课程/老师&lt;/code&gt;进行增加&lt;code&gt;打分&lt;/code&gt;功能，让学员可以从大量的课程中，选择认可度比较高的老师。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="总结"&gt;总结&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.shiyanlou.com/"&gt;实验楼&lt;/a&gt;是一个功能比较完善的在线教学的IT产品，特别是在线实验室的功能。无论是课程内容的设计和用户体验，都比较完善。关于收费方面，799RMB/年还是值得入手的。&lt;/p&gt;</description></item><item><title>Flutter学习</title><link>https://shiyuanjie.cn/posts/Android/learn-flutter/</link><pubDate>Tue, 17 Mar 2020 11:30:00 +0000</pubDate><guid>https://shiyuanjie.cn/posts/Android/learn-flutter/</guid><description>&lt;h2 id="什么是flutter"&gt;什么是Flutter&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Flutter is Google’s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;是什么
+&lt;ul&gt;
+&lt;li&gt;UI 组件库&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;做什么
+&lt;ul&gt;
+&lt;li&gt;使用一套代码&lt;/li&gt;
+&lt;li&gt;构建美观、本地话编译的应用程序&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;适用平台
+&lt;ul&gt;
+&lt;li&gt;mobile&lt;/li&gt;
+&lt;li&gt;web&lt;/li&gt;
+&lt;li&gt;desktop&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="使用flutter"&gt;使用Flutter&lt;/h2&gt;
+&lt;h2 id="最佳实践flutter"&gt;最佳实践Flutter&lt;/h2&gt;
+&lt;h2 id="参考"&gt;参考&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://flutter.dev/"&gt;Flutter官方地址&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://flutter.cn/"&gt;Flutter中文官方地址&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>坚持日更</title><link>https://shiyuanjie.cn/posts/Upgrade/%E5%9D%9A%E6%8C%81%E6%97%A5%E6%9B%B4/</link><pubDate>Wed, 08 May 2019 18:00:00 +0000</pubDate><guid>https://shiyuanjie.cn/posts/Upgrade/%E5%9D%9A%E6%8C%81%E6%97%A5%E6%9B%B4/</guid><description>&lt;p&gt;从20190103到今天(20190508)，自己坚持的日更已经更新&lt;code&gt;124&lt;/code&gt;篇内容，详见&lt;a href="https://www.jianshu.com/c/add0c4ba262c"&gt;日更&lt;/a&gt;。其间，中断过2天的日更。&lt;/p&gt;</description></item><item><title>中台</title><link>https://shiyuanjie.cn/posts/Upgrade/%E4%B8%AD%E5%8F%B0/</link><pubDate>Thu, 10 Jan 2019 18:00:00 +0000</pubDate><guid>https://shiyuanjie.cn/posts/Upgrade/%E4%B8%AD%E5%8F%B0/</guid><description>&lt;h2 id="思维导图版"&gt;思维导图版&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="中台" loading="lazy" src="https://shiyuanjie.cn/img/%E4%B8%AD%E5%8F%B0.jpg"&gt;&lt;/p&gt;</description></item><item><title>微前端</title><link>https://shiyuanjie.cn/posts/Book/%E5%BE%AE%E5%89%8D%E7%AB%AF-%E6%80%BB%E7%BB%93/</link><pubDate>Tue, 25 Dec 2018 11:40:00 +0000</pubDate><guid>https://shiyuanjie.cn/posts/Book/%E5%BE%AE%E5%89%8D%E7%AB%AF-%E6%80%BB%E7%BB%93/</guid><description>&lt;h2 id="解决问题"&gt;解决问题&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;目标：遗留系统
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;往往这种系统都会有三个问题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;框架&lt;/code&gt;陈旧，没办法直接使用直接更换新的技术&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;业务&lt;/code&gt;复杂，老业务太复杂，当前很多业务已经没有人熟悉&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;改造&lt;/code&gt;成本大，这条其实是由上面两个问题引起的&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;提出&lt;code&gt;微前端&lt;/code&gt;，就是要解决上面的问题。&lt;/p&gt;</description></item></channel></rss>

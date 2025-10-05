@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Galen on Yuanjie-跑步爱好者，IT从业者。</title><link>https://shiyuanjie.cn/tags/Galen/</link><description>Recent content in Galen on Yuanjie-跑步爱好者，IT从业者。</description><generator>Hugo -- 0.151.0</generator><language>zh-CN</language><lastBuildDate>Thu, 03 Aug 2017 15:30:00 +0000</lastBuildDate><atom:link href="https://shiyuanjie.cn/tags/Galen/index.xml" rel="self" type="application/rss+xml"/><item><title>Responsive测试</title><link>https://shiyuanjie.cn/posts/UITest/Responsive%E6%B5%8B%E8%AF%95/</link><pubDate>Thu, 03 Aug 2017 15:30:00 +0000</pubDate><guid>https://shiyuanjie.cn/posts/UITest/Responsive%E6%B5%8B%E8%AF%95/</guid><description>&lt;h1 id="responsive测试"&gt;Responsive测试&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;如何使用Galen进行&lt;code&gt;响应式测试&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;使用Javascript编写测试代码&lt;/li&gt;
+&lt;li&gt;完整代码：&lt;a href="https://github.com/aimer1124/GalenDemo"&gt;https://github.com/aimer1124/GalenDemo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- more --&gt;
+&lt;h2 id="安装galen"&gt;安装Galen&lt;/h2&gt;
+&lt;h3 id="通过npm安装"&gt;通过NPM安装&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;sudo npm install -g galenframework-cli
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="检查安装版本galen--v"&gt;检查安装版本&lt;code&gt;galen -v&lt;/code&gt;&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;➜ GalenDemo git:(master) ✗ galen -v
+Galen Framework
+Version: 2.3.4
+JavaScript executor: Rhino 1.7 release 5 2015 01 29
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="第一步"&gt;第一步&lt;/h2&gt;
+&lt;h3 id="创建测试文件存放于teststep1testjs"&gt;创建测试文件，存放于&lt;code&gt;test/step1.test.js&lt;/code&gt;&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;test(&amp;#34;First test&amp;#34;, function () {
+console.log(&amp;#39;This is first test&amp;#39;)
+});
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="执行测试"&gt;执行测试&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;➜ GalenDemo git:(master) ✗ galen test test/*.js
+========================================
+Test: First test
+========================================
+This is first test
+========================================
+----------------------------------------
+========================================
+Suite status: PASS
+Total tests: 1
+Total failed tests: 0
+Total failures: 0
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="第二步"&gt;第二步&lt;/h2&gt;
+&lt;h2 id="添加多个不同的设备用于测试兼容性"&gt;添加多个不同的设备，用于测试兼容性&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;this.devices = {
+mobile: {
+deviceName: &amp;#34;mobile&amp;#34;,
+size: &amp;#34;400x700&amp;#34;
+},
+tablet: {
+deviceName: &amp;#34;tablet&amp;#34;,
+size: &amp;#34;600x800&amp;#34;
+},
+desktop: {
+deviceName: &amp;#34;desktop&amp;#34;,
+size: &amp;#34;1024x768&amp;#34;
+}
+};
+forAll(devices, function (device) {
+test(&amp;#34;Home page on ${deviceName}&amp;#34;, function (device){
+var driver = createDriver(&amp;#34;http://galenframework.com&amp;#34;,
+device.size,
+&amp;#34;chrome&amp;#34;);
+console.log(device.size)
+});
+});
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="查看测试结果"&gt;查看测试结果&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;➜ GalenDemo git:(master) ✗ galen test test/*.js
+========================================
+Test: Home page on mobile
+========================================
+Starting ChromeDriver 2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b) on port 10344
+Only local connections are allowed.
+Aug 01, 2017 2:34:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+400x700
+========================================
+Test: Home page on tablet
+========================================
+Starting ChromeDriver 2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b) on port 6454
+Only local connections are allowed.
+Aug 01, 2017 2:34:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+600x800
+========================================
+Test: Home page on desktop
+========================================
+Starting ChromeDriver 2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b) on port 42862
+Only local connections are allowed.
+Aug 01, 2017 2:34:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+1024x768
+========================================
+----------------------------------------
+========================================
+Suite status: PASS
+Total tests: 3
+Total failed tests: 0
+Total failures: 0
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="第三步-引入gspec文件来难页面布局"&gt;第三步 引入&lt;code&gt;gspec&lt;/code&gt;文件，来难页面布局&lt;/h2&gt;
+&lt;h3 id="新增specshome-pagegspec"&gt;新增&lt;code&gt;specs/home-page.gspec&lt;/code&gt;&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;@objects
+header id header
+= Main section =
+header:
+height 5 to 100px
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="在测试脚本step3testjs中添加layout检查"&gt;在测试脚本&lt;code&gt;step3.test.js&lt;/code&gt;中添加Layout检查&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt; test(&amp;#34;Home page on ${deviceName}&amp;#34;, function (device){
+var driver = createDriver(&amp;#34;http://samples.galenframework.com/tutorial1/tutorial1.html&amp;#34;,
+device.size,
+&amp;#34;chrome&amp;#34;);
+checkLayout(driver, &amp;#34;GalenDemo/home-page.gspec&amp;#34;, [device.deviceName]);
+});
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="添加关闭浏览器"&gt;添加关闭浏览器&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;driver.close();
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="添加页面pageobject"&gt;添加页面&lt;code&gt;pageObject&lt;/code&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;新增&lt;code&gt;pageObject&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;this.home = $page(&amp;#34;home&amp;#34;, {
+content: &amp;#34;div#content&amp;#34;
+});
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;测试中引用&lt;code&gt;pageObject&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt; var homepage = new home(driver);
+if (!homepage.content.exists()){
+console.log(&amp;#34;Content element don&amp;#39;t exist&amp;#34;)
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="第四步-不同分辨率下layout测试及生成测试报告"&gt;第四步 不同分辨率下Layout测试及生成测试报告&lt;/h2&gt;
+&lt;h3 id="不同分辨率测试"&gt;不同分辨率测试&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;重新调整设备配制信息&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;function Device(deviceName, size, tags) {
+this.deviceName = deviceName;
+this.size = size;
+this.tags = tags;
+}
+this.devices = {
+mobile: new Device(&amp;#34;mobile&amp;#34;, &amp;#34;450x700&amp;#34;, [&amp;#34;mobile&amp;#34;]),
+tablet: new Device(&amp;#34;tablet&amp;#34;, &amp;#34;600x800&amp;#34;, [&amp;#34;tablet&amp;#34;]),
+desktop: new Device(&amp;#34;desktop&amp;#34;, &amp;#34;1024x768&amp;#34;, [&amp;#34;desktop&amp;#34;])
+};
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;修改&lt;code&gt;layout&lt;/code&gt;测试中的设备&lt;code&gt;辨别和测试&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt; @on *
+header:
+height 5 to 100px
+@on tablet
+content:
+width 600px
+@on desktop
+content:
+width 1024px
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="生成测试报告"&gt;生成测试报告&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;➜ GalenDemo git:(master) ✗ galen test test/step3.test.js --htmlreport ./report
+========================================
+Test: Home page on mobile
+========================================
+Starting ChromeDriver 2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b) on port 36316
+Only local connections are allowed.
+Aug 03, 2017 2:56:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+= Main section =
+header:
+height 5 to 100px
+========================================
+Test: Home page on tablet
+========================================
+Starting ChromeDriver 2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b) on port 28325
+Only local connections are allowed.
+Aug 03, 2017 2:56:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+= Main section =
+header:
+height 5 to 100px
+content:
+width 600px
+========================================
+Test: Home page on desktop
+========================================
+Starting ChromeDriver 2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b) on port 12177
+Only local connections are allowed.
+Aug 03, 2017 2:56:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+= Main section =
+header:
+height 5 to 100px
+content:
+width 1024px
+========================================
+----------------------------------------
+========================================
+Suite status: PASS
+Total tests: 3
+Total failed tests: 0
+Total failures: 0
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;从日志中可以查看到，每次在不同&lt;code&gt;设备&lt;/code&gt;测试时&lt;code&gt;layout&lt;/code&gt;代码已变更&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;Test: Home page on desktop
+========================================
+Starting ChromeDriver 2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b) on port 12177
+Only local connections are allowed.
+Aug 03, 2017 2:56:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+= Main section =
+header:
+height 5 to 100px
+content:
+width 1024px
+========================================
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="参考"&gt;参考&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://galenframework.com/"&gt;http://galenframework.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://galenframework.com/docs/reference-javascript-tests-guide/"&gt;http://galenframework.com/docs/reference-javascript-tests-guide/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Layout测试</title><link>https://shiyuanjie.cn/posts/UITest/Layout%E6%B5%8B%E8%AF%95/</link><pubDate>Mon, 28 Nov 2016 15:40:00 +0000</pubDate><guid>https://shiyuanjie.cn/posts/UITest/Layout%E6%B5%8B%E8%AF%95/</guid><description>&lt;p&gt;Web页面Layout测试，一直是测试人员比较头疼的事情。原因有&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;当前市面中设备的&lt;code&gt;分辨率&lt;/code&gt;千差万别&lt;/li&gt;
+&lt;li&gt;浏览器版本众多，工作量很大&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如何使用&lt;code&gt;高效&lt;/code&gt;的方式来测试Web Layout是否能正常，下面来看下&lt;a href="http://galenframework.com/"&gt;Galen&lt;/a&gt;是如何帮助我们的&lt;/p&gt;
+&lt;h2 id="galen的特点"&gt;&lt;a href="http://galenframework.com/"&gt;Galen&lt;/a&gt;的特点&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;开源项目，License基于&lt;a href="http://www.apache.org/licenses/LICENSE-2.0"&gt;Apache License, Version 2.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;可测试页面布局、响应式设计，支持功能测试&lt;/li&gt;
+&lt;li&gt;基于&lt;a href="http://www.seleniumhq.org/"&gt;Selenium&lt;/a&gt;，对Selenium Grid支持很好，可直接在&lt;a href="https://saucelabs.com/"&gt;Sauce Labs&lt;/a&gt;和 &lt;a href="https://www.browserstack.com/"&gt;BrowserStack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;支持并行测试，减少测试时间&lt;/li&gt;
+&lt;li&gt;语法简洁&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

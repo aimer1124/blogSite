@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Evernote on Yuanjie-跑步爱好者，IT从业者。</title><link>https://shiyuanjie.cn/tags/Evernote/</link><description>Recent content in Evernote on Yuanjie-跑步爱好者，IT从业者。</description><generator>Hugo -- 0.151.0</generator><language>zh-CN</language><lastBuildDate>Thu, 23 Aug 2018 14:50:00 +0000</lastBuildDate><atom:link href="https://shiyuanjie.cn/tags/Evernote/index.xml" rel="self" type="application/rss+xml"/><item><title>印象笔记支持Markdown</title><link>https://shiyuanjie.cn/posts/Tools/%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0%E6%94%AF%E6%8C%81Markdown/</link><pubDate>Thu, 23 Aug 2018 14:50:00 +0000</pubDate><guid>https://shiyuanjie.cn/posts/Tools/%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0%E6%94%AF%E6%8C%81Markdown/</guid><description>&lt;pre tabindex="0"&gt;&lt;code&gt;最近很长一断时间都比较喜欢用Markdown来编写文件，自己日常的工作和记录也一直都在用Evernote来进行.
+看到Evernote在8.20发布的Mac 8.2.0 beta1版本支持Markdown格式的笔记了，赶紧来试下用。
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="版本支持"&gt;版本支持&lt;/h2&gt;
+&lt;p&gt;仅&lt;strong&gt;Mac的Beta版本&lt;/strong&gt;支持此功能&lt;/p&gt;
+&lt;h2 id="版本下载"&gt;版本下载&lt;/h2&gt;
+&lt;p&gt;地址：&lt;a href="https://cdn.yinxiang.com/mac-smd/prerelease/YinxiangBiji_BETA_8.2.0_beta_1_457096.dmg"&gt;https://cdn.yinxiang.com/mac-smd/prerelease/YinxiangBiji_BETA_8.2.0_beta_1_457096.dmg&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;PS：如果电脑里面已经有之前的版本，安装结束后，会共存&lt;strong&gt;两个&lt;/strong&gt;版本。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id="使用markdown笔记"&gt;使用Markdown笔记&lt;/h2&gt;
+&lt;h3 id="创建markdown笔记"&gt;创建Markdown笔记&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;在新版本中，左上角会有一个&amp;quot;New Markdown Note&amp;quot;的按钮，点击即可新增一&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="New Markdown Note" loading="lazy" src="https://shiyuanjie.cn/img/NewMarkdownNote.png"&gt;&lt;/p&gt;</description></item><item><title>MarkDown保存至印象笔记</title><link>https://shiyuanjie.cn/posts/Tools/MarkDown%E4%BF%9D%E5%AD%98%E8%87%B3%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0/</link><pubDate>Sun, 15 Oct 2017 14:30:00 +0000</pubDate><guid>https://shiyuanjie.cn/posts/Tools/MarkDown%E4%BF%9D%E5%AD%98%E8%87%B3%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0/</guid><description>&lt;pre tabindex="0"&gt;&lt;code&gt;通过 Sumlime Text3 来实现将 MarkDown 文件完美保存至 印象笔记中。
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id="step1-安装evernote包"&gt;Step1: 安装Evernote包&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;打开 Sumlime Text3&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cmd + shift + p&lt;/code&gt;打开command pattern&lt;/li&gt;
+&lt;li&gt;输入&lt;code&gt;Package Controll: Install Package&lt;/code&gt;，回车&lt;/li&gt;
+&lt;li&gt;输入Evernote，等待安装成功。Evernote包地址：&lt;a href="https://packagecontrol.io/packages/Evernote"&gt;https://packagecontrol.io/packages/Evernote&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;安装结束后，在&lt;code&gt;Package Setting&lt;/code&gt;中会有&lt;code&gt;Evernote&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cmd + shift + p&lt;/code&gt;打开command pattern，输入Evernote，查看是否有Evernote对应的功能列表显示&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="step2-获取印象笔记的developer-token"&gt;Step2: 获取印象笔记的Developer Token&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;登录&lt;a href="https://app.yinxiang.com/api/DeveloperToken.action"&gt;https://app.yinxiang.com/api/DeveloperToken.action&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;如果没有内容，选择新增一个developer token&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="step3-配制sublime-text中的-evernote"&gt;Step3: 配制Sublime Text中的 Evernote&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Package Settings&lt;/code&gt; &amp;ndash;&amp;gt; &lt;code&gt;Evernote&lt;/code&gt; &amp;ndash;&amp;gt; &lt;code&gt;Settings User&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;默认打开内容为空，设置内容如下(Step2中获取的内容)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-json" data-lang="json"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;token&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;Token内容，那一串长的字符&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;noteStoreUrl&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;StoreUrl&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;至此，已经配制&lt;code&gt;完成&lt;/code&gt;。&lt;/p&gt;</description></item></channel></rss>

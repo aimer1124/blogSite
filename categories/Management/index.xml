@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Management on Yuanjie-跑步爱好者，IT从业者。</title><link>https://shiyuanjie.cn/categories/Management/</link><description>Recent content in Management on Yuanjie-跑步爱好者，IT从业者。</description><generator>Hugo -- 0.151.0</generator><language>zh-CN</language><lastBuildDate>Fri, 03 Apr 2020 17:16:47 +0800</lastBuildDate><atom:link href="https://shiyuanjie.cn/categories/Management/index.xml" rel="self" type="application/rss+xml"/><item><title>PM Daily</title><link>https://shiyuanjie.cn/posts/Management/PM-Daily/</link><pubDate>Fri, 03 Apr 2020 17:16:47 +0800</pubDate><guid>https://shiyuanjie.cn/posts/Management/PM-Daily/</guid><description>&lt;h2 id="toc"&gt;TOC&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#8100-pm%E9%9C%80%E8%A6%81%E5%85%B7%E5%A4%87%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86%E7%9A%84%E8%83%BD%E5%8A%9B%E4%B9%88"&gt;8/100 PM需要具备产品经理的能力么？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#7100-pmp%E8%AF%81%E4%B9%A6%E6%9C%89%E5%BF%85%E8%A6%81%E8%80%83%E4%B9%88"&gt;7/100 PMP证书有必要考么？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#6100-%E9%A1%B9%E7%9B%AE%E4%B8%B4%E8%BF%91%E7%BB%93%E6%9D%9F%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E9%9C%80%E6%B1%82%E7%BD%AE%E6%8D%A2"&gt;6/100 项目临近结束，如何进行需求置换？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#5100-%E6%8A%80%E6%9C%AF%E5%9E%8B%E9%A1%B9%E7%9B%AE%E4%B8%AD%E7%9A%84qa%E6%98%AF%E5%BF%85%E9%9C%80%E7%9A%84%E4%B9%88"&gt;5/100 技术型项目中的QA，是必需的么？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#4100-%e5%9b%a2%e9%98%9f%e4%b8%ad%e6%88%90%e5%91%98%e6%95%88%e7%8e%87%e5%ba%95%e5%a6%82%e4%bd%95%e5%a4%84%e7%90%86"&gt;4/100 团队中成员效率底，如何处理？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#3100-%e7%ae%a1%e7%90%86%e7%bb%a9%e6%95%88%e5%a6%82%e4%bd%95%e6%8f%90%e5%8d%87"&gt;3/100 管理绩效如何提升？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#2100-pm%e7%9a%84%e6%9d%83%e5%8a%9b%e6%9c%89%e5%93%aa%e4%ba%9b"&gt;2/100 PM的权力有哪些？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#1100-pm%e7%9a%84%e5%ae%9a%e4%b9%89%e6%98%af%e4%bb%80%e4%b9%88"&gt;1/100 PM的定义是什么？&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="8100-pm需要具备产品经理的能力么"&gt;8/100 PM需要具备产品经理的能力么？&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;今天在跟客户沟通需求变更，客户针对填写的需求描述不够&lt;code&gt;专业&lt;/code&gt;，反馈需要提升下&lt;code&gt;产品设计&lt;/code&gt;的能力&lt;/p&gt;</description></item><item><title>需求延期的小讨论</title><link>https://shiyuanjie.cn/posts/Management/%E9%9C%80%E6%B1%82%E5%BB%B6%E6%9C%9F%E7%9A%84%E5%B0%8F%E8%AE%A8%E8%AE%BA/</link><pubDate>Tue, 09 Jul 2019 16:00:00 +0000</pubDate><guid>https://shiyuanjie.cn/posts/Management/%E9%9C%80%E6%B1%82%E5%BB%B6%E6%9C%9F%E7%9A%84%E5%B0%8F%E8%AE%A8%E8%AE%BA/</guid><description>&lt;h4 id="前提"&gt;前提&lt;/h4&gt;
+&lt;p&gt;客户早上找到我，说是领导看到一个大需求的进度慢，工作量也很大。领导很不满意，让我们分析下原因。&lt;/p&gt;
+&lt;h4 id="过程"&gt;过程&lt;/h4&gt;
+&lt;p&gt;沟通过程概述&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;客户合作经理：进度慢，有你们乙方的原因。但也有我们甲方的原因&lt;/li&gt;
+&lt;li&gt;客户开发主管：我们合理评估工作量就好&lt;/li&gt;
+&lt;li&gt;客户需求负责人：我的需求是有膨胀&lt;/li&gt;
+&lt;li&gt;乙方合作经理：慢的原因有：需求膨胀、技术调研&amp;amp;试错&lt;/li&gt;
+&lt;li&gt;乙方技术负责人：范围有膨胀，但技术复杂度很多。有试错是正常的。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="分析问题"&gt;分析问题&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;需求膨胀
+&lt;ul&gt;
+&lt;li&gt;原因
+&lt;ul&gt;
+&lt;li&gt;前期需求分析不到位，开发人员开始Coding。进行一半，发现需求有遗漏，加新卡&lt;/li&gt;
+&lt;li&gt;需求在Coding时，就不清晰。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;解决
+&lt;ul&gt;
+&lt;li&gt;需求分析时，尽量做到足够清晰，再Coding&lt;/li&gt;
+&lt;li&gt;如果中间有需求膨胀或调整，则走新的需求。&lt;em&gt;不在原有&lt;/em&gt;需求上再追加&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;技术方案试错
+&lt;ul&gt;
+&lt;li&gt;原因
+&lt;ul&gt;
+&lt;li&gt;Story原本的技术复杂度高，在方案确定后，在实现过程中，发现不满足业务需求，需要换框架&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;解决
+&lt;ul&gt;
+&lt;li&gt;所有技术方案均需要与&lt;em&gt;甲方开发主管&lt;/em&gt;确认后，再进行Coding&lt;/li&gt;
+&lt;li&gt;如果开发过程中，需要更换技术方案，需要再次&lt;em&gt;三方&lt;/em&gt;评估，重新确定新的工作量&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="本质问题"&gt;本质问题&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;客户领导的关注点
+&lt;ul&gt;
+&lt;li&gt;一个需求做了一个月，没有做完。与预期差异较大。&lt;/li&gt;
+&lt;li&gt;花费的成本与收益不对等&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;自己的问题
+&lt;ul&gt;
+&lt;li&gt;没有及时关注团队内部的进度及风险，并告知甲方&lt;/li&gt;
+&lt;li&gt;没有把风险管理起来，引发了这次风波&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;团队的问题
+&lt;ul&gt;
+&lt;li&gt;没有正确流程操作意识，根因：团队JR新人太多，经验缺失&lt;/li&gt;
+&lt;li&gt;没有管理客户期望的意识&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="总结"&gt;总结&lt;/h4&gt;
+&lt;p&gt;这个问题，虽然看起来不大。但已经说明甲方爸爸缺失对我们的信任了，如何在后续的工作中，建立起来足够的信任，需要我们做更大的努力才可以。当然，作为PM，我自己也要更多去关注客户的预期，同时控制团队的风险。想起一位同事对PM及格线的定义：对内保护、对外&lt;/p&gt;</description></item><item><title>RIA 便签法</title><link>https://shiyuanjie.cn/posts/Upgrade/RIA%E4%BE%BF%E7%AD%BE%E6%B3%95/</link><pubDate>Sun, 08 Apr 2018 13:45:00 +0000</pubDate><guid>https://shiyuanjie.cn/posts/Upgrade/RIA%E4%BE%BF%E7%AD%BE%E6%B3%95/</guid><description>&lt;pre tabindex="0"&gt;&lt;code&gt;为什么读书会没有效率，书中的内容不能很好的吸收。
+赵周老师发明了关于致用类书籍的 RIA 便签法，让我们可以用更好的形式来解决这个问题。
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="ria"&gt;RIA&lt;/h2&gt;
+&lt;p&gt;将&lt;code&gt;书&lt;/code&gt;中的内容使用&lt;code&gt;便签&lt;/code&gt;的形式&lt;code&gt;管理&lt;/code&gt;起来，便于结合&lt;code&gt;自己&lt;/code&gt;的&lt;code&gt;经验&lt;/code&gt;和&lt;code&gt;认识&lt;/code&gt;来强化对内容的&lt;code&gt;理解与吸收&lt;/code&gt;。&lt;/p&gt;</description></item><item><title>Feedback反馈</title><link>https://shiyuanjie.cn/posts/Management/TeamLeader%E5%A6%82%E4%BD%95%E6%8F%90%E5%8F%8D%E9%A6%88/</link><pubDate>Mon, 17 Jul 2017 10:00:00 +0000</pubDate><guid>https://shiyuanjie.cn/posts/Management/TeamLeader%E5%A6%82%E4%BD%95%E6%8F%90%E5%8F%8D%E9%A6%88/</guid><description>&lt;h2 id="为什么要提反馈"&gt;为什么要提反馈&lt;/h2&gt;
+&lt;h3 id="什么是反馈"&gt;什么是反馈&lt;/h3&gt;
+&lt;p&gt;来自百度百科 - &lt;a href="http://baike.baidu.com/link?url=AvOQ2ATaxoMULc09bflgMRpcftXrL-9qFx4nvvAVuVJXjzHod1mYxCtGOg2esb5g7gMHkFXgGpxgZfijCTeZTP3J_mk8eQM3sf33DNl5Woe"&gt;反馈&lt;/a&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;反馈又称回馈，是现代科学技术的基本概念之一。一般来讲，控制论中的反馈概念，指将系统的输出返回到输入端并以某种方式改变输入，进而影响系统功能的过程，即将输出量通过恰当的检测装置返回到输入端并与输入量进行比较的过程。反馈可分为负反馈和正反馈。在其他学科领域，反馈一词也被赋予了其他的含义，例如传播学中的反馈，无线电工程技术中的反馈等等。
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;简单来讲就是，我跟你说话，你要响应我。如果我说的是你做的好的，就是正反馈；如果是做的不好的，就是负反馈。&lt;/p&gt;
+&lt;h3 id="为什么要提反馈-1"&gt;为什么要提反馈&lt;/h3&gt;
+&lt;p&gt;提反馈，是为了提出并让对方&lt;code&gt;知道&lt;/code&gt;在什么场景下的行为是 &lt;em&gt;正确的还是错误&lt;/em&gt; 。&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;如果你为了 对方 好，请给出`反馈`。
+&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>TeamLeader的有效沟通</title><link>https://shiyuanjie.cn/posts/Management/TeamLeader%E6%9C%89%E6%95%88%E6%B2%9F%E9%80%9A/</link><pubDate>Thu, 13 Jul 2017 14:00:00 +0000</pubDate><guid>https://shiyuanjie.cn/posts/Management/TeamLeader%E6%9C%89%E6%95%88%E6%B2%9F%E9%80%9A/</guid><description>&lt;pre tabindex="0"&gt;&lt;code&gt;大王 作为项目的TL，最近接手一个任务，需要分配给同事去做，其他同事都不适合只有 小牛 比较适合。小牛 是项目组的成员，平时加班很多，最近家里也有点事情。工作和生活的事情加在一起，搞的 小牛 焦头烂额的。
+于是，大王 找 小牛 想说下分配工作的事情，大王 也知道 小牛 最近加班很多。感觉有点不好意思，但工作还是要分配的。
+大王：小牛啊，看你最近加班挺多的。但没有办法，我们又接到一个新任务，公司下个月要把这个项目做完。要不公司今年的业绩会受到影响的。这个任务，还要分配给你
+小牛：又有任务？我现在每天都在加班，忙的很啊
+大王：没办法，别人都不适合干这个
+小牛：(皱了皱眉头)，那好吧。
+小牛虽然接了新的任务，但他的内心很不愿意。又迫于 大王 是领导，没办法拒绝。只要继续之前的工作状态。
+很多人都有过类似的经历，无论是安排或被安排。那么我们有没有办法，可以让 小牛 在接受任务的时候，不那么难堪。或者让 大王 明白 小牛 其实内心很不愿意，但没地方诉说。
+那么，在 大王 分配 任务时，我们是不是可以换一种沟通方式来解除双方的沟通障碍，让沟通更加顺畅？
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="为什么会有沟通障碍"&gt;为什么会有沟通障碍&lt;/h2&gt;
+&lt;p&gt;究竟是什么原因，引起这样的情况发生呢？ - &lt;code&gt;认知偏差&lt;/code&gt;。下面我们来看看究竟什么是&lt;code&gt;认知偏差&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;来源 &lt;em&gt;百度百科&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;认知偏差是指人们根据一定表现的现象或虚假的信息而对他人作出判断，从而出现判断失误或判断本身与判断对象的真实情况不相符合。
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;为什么会引起&lt;code&gt;认知偏差&lt;/code&gt;，看看知乎上面的作答&lt;a href="https://www.zhihu.com/question/37723905"&gt;人容易出现哪些认知偏差？&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>TeamLeader的角色认知</title><link>https://shiyuanjie.cn/posts/Management/TeamLeader%E8%A7%92%E8%89%B2%E8%AE%A4%E7%9F%A5/</link><pubDate>Thu, 13 Jul 2017 10:20:38 +0800</pubDate><guid>https://shiyuanjie.cn/posts/Management/TeamLeader%E8%A7%92%E8%89%B2%E8%AE%A4%E7%9F%A5/</guid><description>&lt;pre tabindex="0"&gt;&lt;code&gt;经常在团队内部出现问题时，作为一名合格的TeamLeader，我们如何才能正确的分析问题并解决问题呢？
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="如何分析问题"&gt;如何分析问题&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;找到问题的本质：每个问题的发生，都是有原因的。作为TL，如何引导团队找到问题的的本质
+&lt;ul&gt;
+&lt;li&gt;为什么会发生这样的问题&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;分析发生的原因：
+&lt;ul&gt;
+&lt;li&gt;为什么这个人会引发这样的问题&lt;/li&gt;
+&lt;li&gt;如何让团队在后面的开发过程中，避免再次出现类似的问题&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;引发问题的原因及解决方案
+&lt;ul&gt;
+&lt;li&gt;与团队成员一并商讨，问题的原因&lt;/li&gt;
+&lt;li&gt;最终达成共识，确定解决方案&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;从上面分析问题的过程，我们可以看出来作为TL
+- 一定要从当前的思维中跳出来，找准自己的角色
+- 在问题分析的不同阶段，扮演好不同的角色。
+如何才能正确的认知TL角色、作为TL需要戴哪几顶帽子呢？下面就这两个问题讨论下
+&lt;/code&gt;&lt;/pre&gt;</description></item></channel></rss>

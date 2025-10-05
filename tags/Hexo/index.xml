@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Hexo on Yuanjie-跑步爱好者，IT从业者。</title><link>https://shiyuanjie.cn/tags/Hexo/</link><description>Recent content in Hexo on Yuanjie-跑步爱好者，IT从业者。</description><generator>Hugo -- 0.151.0</generator><language>zh-CN</language><lastBuildDate>Tue, 31 Mar 2020 16:16:25 +0800</lastBuildDate><atom:link href="https://shiyuanjie.cn/tags/Hexo/index.xml" rel="self" type="application/rss+xml"/><item><title>转移hexo文章至Hugo</title><link>https://shiyuanjie.cn/posts/Blog/migrate-from-hexo-to-hugo/</link><pubDate>Tue, 31 Mar 2020 16:16:25 +0800</pubDate><guid>https://shiyuanjie.cn/posts/Blog/migrate-from-hexo-to-hugo/</guid><description>&lt;p&gt;Github源代码地址：&lt;a href="https://github.com/aimer1124/python-format-md"&gt;https://github.com/aimer1124/python-format-md&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;为什么做这个：
+把原来博客的文章从&lt;a href="hexo.io/"&gt;Hexo&lt;/a&gt;转移至&lt;a href="https://gohugo.io/"&gt;Hugo&lt;/a&gt;，但两者在MD文件头部处理不一致。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hexo格式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;span class="lnt"&gt;7
+&lt;/span&gt;&lt;span class="lnt"&gt;8
+&lt;/span&gt;&lt;span class="lnt"&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;title: &amp;#39;Http-Header&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;tags:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;-&lt;/span&gt; API测试
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;-&lt;/span&gt; SuperTest
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;categories:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;-&lt;/span&gt; Tool
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;date: 2016-02-29 20:14:00
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;thumbnail: /img/a.png
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Hugo格式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;span class="lnt"&gt;7
+&lt;/span&gt;&lt;span class="lnt"&gt;8
+&lt;/span&gt;&lt;span class="lnt"&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;title: &amp;#39;Http-Header&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;tags:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;-&lt;/span&gt; API测试
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;-&lt;/span&gt; SuperTest
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;categories:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;-&lt;/span&gt; Tool
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;date: 2016-02-29 20:14:00
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;暂时发现，需要处理的内容有两处：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在文件首行添加&lt;code&gt;---&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;删除MD文件Header中的&lt;code&gt;thumbnail&lt;/code&gt;字段（nice to have）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="function"&gt;Function&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Read MD file content
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Create source MD file&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Create covert file&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Read MD file&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Save the change to MD file
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Make Change to the MD file&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Save the change to &lt;code&gt;New&lt;/code&gt; file&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Add &lt;code&gt;---&lt;/code&gt; to the first line of the MD file&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Delete &lt;code&gt;thumbnail&lt;/code&gt; in the file format
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Find &lt;code&gt;thumbnail&lt;/code&gt; line&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Delete the line&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Batch to update MD files in the &lt;code&gt;folder&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; read the list in the &lt;code&gt;folder&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; make the convert to the file in the list&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; save the new file to the new &lt;code&gt;folder&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="day-by-day"&gt;Day by Day&lt;/h2&gt;
+&lt;h3 id="day-1"&gt;Day 1&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Set source md file, &lt;code&gt;source.md&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Create &lt;code&gt;convert.py&lt;/code&gt; as convert controller&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;open(file, &amp;quot;r&amp;quot;).read()&lt;/code&gt; to get MD file content&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="day-2"&gt;Day 2&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Make Change and save to new MD file&lt;/li&gt;
+&lt;li&gt;Add &lt;code&gt;---&lt;/code&gt; to new MD file&lt;/li&gt;
+&lt;li&gt;Delete the line with &lt;code&gt;thumbnail&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;lines&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;sourceFile&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;thumbnail&amp;#39;&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;targetFile&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;writelines&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;lines&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Use &lt;code&gt;readlines&lt;/code&gt; to convert file: &lt;code&gt;list.insert(index,obj)&lt;/code&gt; for add &lt;code&gt;---&lt;/code&gt; and &lt;code&gt;list.remove(obj)&lt;/code&gt; for delete &lt;code&gt;thumbnail&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;span class="lnt"&gt;7
+&lt;/span&gt;&lt;span class="lnt"&gt;8
+&lt;/span&gt;&lt;span class="lnt"&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;sourceFileList&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;sourceFile&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;readlines&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;sourceFileList&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;insert&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;---&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;line&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;sourceFileList&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;line&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;thumbnail&amp;#34;&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;line&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;sourceFileList&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;remove&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;line&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;targetFile&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;writelines&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sourceFileList&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id="day-3"&gt;Day 3&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Refactor the code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
+&lt;/span&gt;&lt;span class="lnt"&gt; 2
+&lt;/span&gt;&lt;span class="lnt"&gt; 3
+&lt;/span&gt;&lt;span class="lnt"&gt; 4
+&lt;/span&gt;&lt;span class="lnt"&gt; 5
+&lt;/span&gt;&lt;span class="lnt"&gt; 6
+&lt;/span&gt;&lt;span class="lnt"&gt; 7
+&lt;/span&gt;&lt;span class="lnt"&gt; 8
+&lt;/span&gt;&lt;span class="lnt"&gt; 9
+&lt;/span&gt;&lt;span class="lnt"&gt;10
+&lt;/span&gt;&lt;span class="lnt"&gt;11
+&lt;/span&gt;&lt;span class="lnt"&gt;12
+&lt;/span&gt;&lt;span class="lnt"&gt;13
+&lt;/span&gt;&lt;span class="lnt"&gt;14
+&lt;/span&gt;&lt;span class="lnt"&gt;15
+&lt;/span&gt;&lt;span class="lnt"&gt;16
+&lt;/span&gt;&lt;span class="lnt"&gt;17
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;convert&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sourceFile&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;targetFile&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;sourceFile&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;source&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;r&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;targetFile&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;target&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;w&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;sourceFileList&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;sourceFile&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;readlines&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;sourceFileList&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;insert&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;---&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;line&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;sourceFileList&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="c1"&gt;# print(line)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;thumbnail&amp;#34;&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;line&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;sourceFileList&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;remove&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;line&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;targetFile&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;writelines&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sourceFileList&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;targetFile&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;close&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;sourceFile&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;close&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Get the list in the folder&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;os&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;sourceFileList&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;listdir&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sourcePath&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Convert the files&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-Python" data-lang="Python"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;fileName&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;sourceFileList&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;Convert file: &amp;#34;&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;fileName&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;target&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;./target.md&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;convert&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sourcePath&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;fileName&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;targetPath&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;fileName&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="参考"&gt;参考&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;文件读写: &lt;a href="https://www.runoob.com/python/python-files-io.html"&gt;https://www.runoob.com/python/python-files-io.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Python List: &lt;a href="https://www.runoob.com/python/python-lists.html"&gt;https://www.runoob.com/python/python-lists.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Python File: &lt;a href="https://www.runoob.com/python/os-listdir.html"&gt;https://www.runoob.com/python/os-listdir.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>选择一个好的Hexo主题</title><link>https://shiyuanjie.cn/posts/Blog/%E9%80%89%E6%8B%A9%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9A%84Hexo%E4%B8%BB%E9%A2%98/</link><pubDate>Sat, 04 Jan 2020 15:55:00 +0000</pubDate><guid>https://shiyuanjie.cn/posts/Blog/%E9%80%89%E6%8B%A9%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9A%84Hexo%E4%B8%BB%E9%A2%98/</guid><description>&lt;pre tabindex="0"&gt;&lt;code&gt;诉求：找一个好用的Hexo主题
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id="方法"&gt;方法&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;去官网看了下，Theme有285个，按&lt;code&gt;名字&lt;/code&gt;排名。没有任何星级或者推荐之类的，看了下，眼花缭乱。&lt;a href="https://hexo.io/themes/"&gt;https://hexo.io/themes/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;在知乎上面搜索了下，高赞答案：爬取Theme的Star数量，用数据说话。&lt;a href="https://www.zhihu.com/question/24422335/answer/46357100"&gt;https://www.zhihu.com/question/24422335/answer/46357100&lt;/a&gt;。但数据是2015年的，过去5年了。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;要不自己写个爬虫玩一玩？爬下现在的数据是怎样的&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Repo:&lt;a href="https://github.com/aimer1124/hexo-theme-spider"&gt;https://github.com/aimer1124/hexo-theme-spider&lt;/a&gt;
+需求管理：&lt;a href="https://github.com/aimer1124/hexo-theme-spider/projects/1"&gt;https://github.com/aimer1124/hexo-theme-spider/projects/1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;结果展示：
+&lt;img alt="0104数据" loading="lazy" src="https://shiyuanjie.cn/img/hexoThemeSpider/0104/331e508a.png"&gt;&lt;/p&gt;</description></item><item><title>个人网站搭建</title><link>https://shiyuanjie.cn/posts/Blog/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/</link><pubDate>Mon, 18 Feb 2019 20:00:00 +0000</pubDate><guid>https://shiyuanjie.cn/posts/Blog/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/</guid><description>&lt;h3 id="套餐"&gt;套餐&lt;/h3&gt;
+&lt;p&gt;Github + Hexo + Travis&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Relationship" loading="lazy" src="https://shiyuanjie.cn/img/SelfBlog/Relationship.png"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Github&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;源文件和网站资源的管理&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hexo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;网站内容的生成&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Travis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;打通Github+Travis&lt;/p&gt;</description></item><item><title>站点搭建过程</title><link>https://shiyuanjie.cn/posts/Blog/%E7%AB%99%E7%82%B9%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/</link><pubDate>Sat, 30 Jan 2016 11:20:00 +0000</pubDate><guid>https://shiyuanjie.cn/posts/Blog/%E7%AB%99%E7%82%B9%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/</guid><description>&lt;h2 id="20220325-更新hugo版本重新写起来"&gt;20220325 更新hugo版本，重新写起来&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;更新hugo版本至0.95&lt;/li&gt;
+&lt;li&gt;添加HCIA文章&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="20200402-启用网站本地搜索功能"&gt;20200402 启用网站本地搜索功能&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;启用本地搜索功能&lt;/li&gt;
+&lt;li&gt;使用&lt;code&gt;百度&lt;/code&gt;搜索&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="20200401-codestyle变更为monokai"&gt;20200401 CodeStyle变更为monokai&lt;/h2&gt;
+&lt;p&gt;调整Code Style为&lt;code&gt;monokai&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id="20200325-ecs备案"&gt;20200325 ECS+备案&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;重大更新&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;站点生成从Hexo转移至Hugo&lt;/li&gt;
+&lt;li&gt;将源公开站点信息拖管至Github的Private仓库&lt;/li&gt;
+&lt;li&gt;将站点资源部署在阿里云的ECS中，在阿里云中申请SSL证书并关联网站&lt;/li&gt;
+&lt;li&gt;申请网站备案号&lt;/li&gt;
+&lt;li&gt;原有busuanzi统计全部失效，&lt;code&gt;重新统计&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;按类型整理源文章，更新至对应的Folder&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="20200108-donate"&gt;20200108 Donate&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;增加Donate功能(Alipay &amp;amp; wechat)&lt;/li&gt;
+&lt;li&gt;关闭右侧Tag功能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="20200104-icarus主题"&gt;20200104 icarus主题&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;添加Theme Module，切换Theme至&lt;a href="https://github.com/ppoffice/hexo-theme-icarus"&gt;icarus&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;git submodule add https://github.com/aimer1124/hexo-theme-icarus themes/icarus
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="20191225-更新hexo版本"&gt;20191225 更新Hexo版本&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;更新Node:12, Hexo:4&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="20191217-增加https"&gt;20191217 增加HTTPS&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;增加站点的HTTPS的功能，&lt;a href="https://shiyuanjie.cn"&gt;https://shiyuanjie.cn&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="20191216-替换留言功能valine"&gt;20191216 替换留言功能Valine&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;更新留言功能至&lt;a href="https://valine.js.org/quickstart.html"&gt;Valine&lt;/a&gt;，&lt;a href="https://github.com/aimer1124/blog_theme/tree/0416c9baa795a024364c6470b1cedad3450dfc2e"&gt;Theme Update&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;git submodule update --init --remote -- themes/themeHexo
+ga themes/themeHexo
+gc -m &amp;#39;Update Comments Plugin&amp;#39;
+gp
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="20181018-弃用qiniu"&gt;20181018 弃用Qiniu&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;由于qiniu官网的&lt;a href="https://developer.qiniu.com/fusion/kb/1319/test-domain-access-restriction-rules"&gt;更新&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;每30天就会更换测试域名的地址，如果继续用未备案的域名的话，每30天就要把整个网站床图地址更新一遍，用了后期便于维护，把所有相关的图片都从qiniu迁移至github进行托管&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="20181017-启用卜算子统计"&gt;20181017 启用卜算子统计&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;更新&lt;code&gt;busuanzi&lt;/code&gt;官方链接：busuanzi.ibruce.info&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="20170322-评论转为disqus"&gt;20170322 评论转为Disqus&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;由于之前用的评论插件多说要关闭服务了，所以将评论的内容转移至&lt;a href="https://disqus.com/"&gt;Disqus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;由于迁移后的原评论无法直接导入，所以原有评论均被清空了 &lt;code&gt;,&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="20160926-添加本站的累积访问数据"&gt;20160926 添加本站的累积访问数据&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;添加页脚的&lt;code&gt;访问总量&lt;/code&gt;和&lt;code&gt;访客数&lt;/code&gt;&lt;/p&gt;</description></item></channel></rss>

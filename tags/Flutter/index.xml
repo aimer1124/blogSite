@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Flutter on Yuanjie-跑步爱好者，IT从业者。</title><link>https://shiyuanjie.cn/tags/Flutter/</link><description>Recent content in Flutter on Yuanjie-跑步爱好者，IT从业者。</description><generator>Hugo -- 0.151.0</generator><language>zh-CN</language><lastBuildDate>Tue, 17 Mar 2020 11:30:00 +0000</lastBuildDate><atom:link href="https://shiyuanjie.cn/tags/Flutter/index.xml" rel="self" type="application/rss+xml"/><item><title>Flutter学习</title><link>https://shiyuanjie.cn/posts/Android/learn-flutter/</link><pubDate>Tue, 17 Mar 2020 11:30:00 +0000</pubDate><guid>https://shiyuanjie.cn/posts/Android/learn-flutter/</guid><description>&lt;h2 id="什么是flutter"&gt;什么是Flutter&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Flutter is Google’s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;是什么
+&lt;ul&gt;
+&lt;li&gt;UI 组件库&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;做什么
+&lt;ul&gt;
+&lt;li&gt;使用一套代码&lt;/li&gt;
+&lt;li&gt;构建美观、本地话编译的应用程序&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;适用平台
+&lt;ul&gt;
+&lt;li&gt;mobile&lt;/li&gt;
+&lt;li&gt;web&lt;/li&gt;
+&lt;li&gt;desktop&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="使用flutter"&gt;使用Flutter&lt;/h2&gt;
+&lt;h2 id="最佳实践flutter"&gt;最佳实践Flutter&lt;/h2&gt;
+&lt;h2 id="参考"&gt;参考&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://flutter.dev/"&gt;Flutter官方地址&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://flutter.cn/"&gt;Flutter中文官方地址&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
