@@ -7,9 +7,11 @@ date: 2020-01-01 00:00:01
 
 ## 是我
 - 2个儿子的父亲；
-- 跑步爱好者，追逐全马中；
-- IT从业者，正在项目管理的路上。
+- IT从业者，近20年经验；
+- 热爱运动，喜欢阅读和整理；
   
 ## 撩我
 - Github: [Yuanjie](https://github.com/aimer1124)
-- Mail: <380774061@qq.com>
+- Mail: <jacksonshi1985@gmail.com>
+
+`Updated: 2025-10-05`
