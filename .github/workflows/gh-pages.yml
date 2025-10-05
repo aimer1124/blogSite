@@ -24,6 +24,9 @@ jobs:
           submodules: true
           fetch-depth: 0
 
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
@@ -35,6 +38,9 @@ jobs:
 
       - name: Ensure CNAME
         run: echo "shiyuanjie.cn" > public/CNAME
+
+      - name: Disable Jekyll
+        run: touch public/.nojekyll
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
