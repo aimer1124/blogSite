@@ -1,0 +1,8 @@
+# lychee 死链检查的排除清单（正则，每行一条）。
+# 这些外部图床/站点对爬虫常返回 403 或限流，但浏览器访问正常（多为旧文里的书封/外链图），
+# 排除它们以减少误报噪声。如需彻底核查可临时注释掉。
+.*ssl-images-amazon\.com
+.*\.images-amazon\.com
+img\d*\.doubanio\.com
+gss\d*\.bdstatic\.com
+yuedust\.yuedu\.126\.net

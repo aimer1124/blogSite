@@ -1,0 +1,64 @@
+name: Dead-link check (lychee)
+
+# 定期构建站点并用 lychee 扫描全站内/外链，发现失效链接时开一个 Issue 通知。
+# 不阻断任何流程（fail: false），纯巡检；外部书封图床等已知噪声见 .lycheeignore。
+
+on:
+  schedule:
+    - cron: '0 4 1 * *'   # 每月 1 号 04:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write           # 发现死链时开 Issue 所需
+
+concurrency:
+  group: linkcheck
+  cancel-in-progress: true
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          submodules: true
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.151.0'
+          extended: true
+
+      - name: Build site
+        run: hugo --minify --environment production
+
+      - name: Link checker
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --max-concurrency 4
+            --timeout 20
+            --retry-wait-time 2
+            './public/**/*.html'
+          fail: false
+          format: markdown
+          output: ./lychee-report.md
+
+      - name: Publish report to run summary
+        if: always()
+        run: cat ./lychee-report.md >> "$GITHUB_STEP_SUMMARY" || true
+
+      - name: Open issue on broken links
+        if: steps.lychee.outputs.exit_code != 0
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create dead-links --color B60205 --description "自动死链巡检" --force >/dev/null 2>&1 || true
+          gh issue create \
+            --title "死链检查报告 $(date -u +%Y-%m-%d)" \
+            --body-file ./lychee-report.md \
+            --label dead-links || true
