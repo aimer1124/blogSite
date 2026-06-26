@@ -13,10 +13,24 @@ git commit -m "post: 添加 <标题>"
 # 推送 & 合并
 ```
 
-## 2. 主题更新节奏
-- 每季度执行一次：`(cd themes/PaperMod && git pull origin master)`
-- 观察 Release Note 是否有破坏性变更
-- 本地 `hugo server` 验证后再提交
+## 2. 主题更新节奏（带兼容校验的“故意锁定”）
+主题以 git 子模块形式按**精确 commit SHA** 锁定（这本身就保证了构建可复现）。
+当前锁定：`themes/PaperMod` = `v8.0-48-g6e10fae`（master 上 v8.0 之后第 48 个提交）。
+
+> ⚠️ 重要：PaperMod 最后一个正式 release `v8.0` **无法在本仓库 CI 的 Hugo 0.151.0 下构建**
+> （报错 `partial "partials/templates/_funcs/get-page-images" not found`）。
+> 当前锁定的 master 提交才与 Hugo 0.151.0 兼容、构建零告警。
+> 所以**不要因为“用 release 更稳”而回退到 v8.0**——升级/降级主题前务必本地用同款 Hugo 验证。
+
+更新流程（每季度或有需要时，故意而非自动）：
+```bash
+(cd themes/PaperMod && git fetch && git checkout <目标 commit 或 tag>)
+pnpm build           # 必须用 CI 同款 Hugo（pnpm 已锁 hugo-extended@0.151.0）
+# 构建零 error / 关注 deprecation WARN，OK 再提交子模块引用
+git add themes/PaperMod && git commit -m "chore(theme): bump PaperMod to <ref>"
+```
+若主题与 Hugo 版本要一起升，先在分支里同时改 `package.json` 的 `hugo-extended` 与
+`.github/workflows/gh-pages.yml` 的 `hugo-version`，本地验证通过再合并。
 
 ## 3. 访问统计/性能
 - 可接入 Cloudflare 免费加速（含 HTTPS 证书 & 缓存）

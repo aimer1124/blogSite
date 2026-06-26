@@ -1,0 +1,4 @@
+# Allow the hugo-extended postinstall to download the Hugo Extended binary.
+# (pnpm blocks dependency build scripts by default; this approves only this one.)
+allowBuilds:
+  hugo-extended: true
