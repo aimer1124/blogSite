@@ -1,0 +1,13 @@
+version: 2
+updates:
+  # 自动跟进 GitHub Actions 版本（每周检查，提 PR）。
+  # Hugo 与 PaperMod 主题刻意不交给 Dependabot：二者需要一起手动升 + 本地验证
+  # （详见 MAINTENANCE.md，PaperMod v8.0 release 在当前 Hugo 下会构建失败）。
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "ci"
+    labels:
+      - "dependencies"
