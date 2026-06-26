@@ -1,0 +1,79 @@
+/* =========================================================================
+   自定义外观（覆盖 PaperMod，不改主题源码）
+   目标：中文友好排版 + 适度现代化（字体 / 行距 / 强调色 / 卡片化列表）
+   ========================================================================= */
+
+:root {
+  --main-width: 740px;          /* 略加宽，中文一行更舒展 */
+  --radius: 10px;
+  --accent: #2563eb;            /* 强调色（浅色模式） */
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", ui-monospace, SFMono-Regular, Menlo,
+    Consolas, "Liberation Mono", monospace;
+}
+.dark { --accent: #6ea8fe; }    /* 深色模式下更亮一点 */
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+code, pre, kbd { font-family: var(--font-mono); }
+
+/* ---------- 正文阅读体验（针对中文：放大行距/字距/段距） ---------- */
+.post-content {
+  line-height: 1.8;
+  letter-spacing: .01em;
+  font-size: 1.02rem;
+}
+.post-content p { margin: 1.1em 0; }
+.post-content h2 { margin-top: 1.9em; }
+.post-content h3 { margin-top: 1.5em; }
+
+/* 正文链接：强调色 + hover 下划线 */
+.post-content a {
+  color: var(--accent);
+  text-decoration: none;
+  box-shadow: inset 0 -1px 0 0 color-mix(in srgb, var(--accent) 35%, transparent);
+  transition: box-shadow .15s ease;
+}
+.post-content a:hover { box-shadow: inset 0 -2px 0 0 var(--accent); }
+
+/* 图片：圆角 + 居中 + 轻阴影 */
+.post-content img {
+  border-radius: var(--radius);
+  margin: 1.1em auto;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .08);
+}
+
+/* 代码圆角 */
+.post-content pre { border-radius: var(--radius); }
+.post-content :not(pre) > code { border-radius: 6px; padding: .15em .4em; }
+
+/* 引用块：强调色左边线 + 淡色底 */
+.post-content blockquote {
+  border-inline-start: 3px solid var(--accent);
+  background: color-mix(in srgb, var(--accent) 6%, transparent);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+/* ---------- 列表页条目：卡片化 + hover 微抬升 ---------- */
+.post-entry {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+}
+.post-entry:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, .08);
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--border));
+}
+.entry-hint, .entry-footer { color: var(--secondary); }
+
+/* ---------- 导航 hover 强调色 ---------- */
+.nav .logo a:hover, #menu a:hover { color: var(--accent); }
+
+/* ---------- 页脚扩展（ICP / 统计） ---------- */
+.footer-extra a { color: var(--secondary); transition: color .15s ease; }
+.footer-extra a:hover { color: var(--accent); }
