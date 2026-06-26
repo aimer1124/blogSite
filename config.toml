@@ -36,7 +36,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
   env = "production" # enables GA/Utterances/Disqus etc.
   busuanzi = false # 已改用 Cloudflare Web Analytics（后台仪表盘，无页面可见计数器）；如需恢复页面可见 PV/UV 计数，改回 true
   # Cloudflare Web Analytics：在 Cloudflare 仪表盘 → Web Analytics 添加站点后，把 beacon token 填到这里即可生效
-  cloudflareWebAnalyticsToken = ""
+  cloudflareWebAnalyticsToken = "8957c2aa760b4ac1af0d9ecf50ba35ab"
   baiduAd = "ac69e1e54b317232c0d3a881b738cfe8"
   beian = "陕ICP备20003547号-1"
   homeInfoParams = { Title = "你好，我是 Yuanjie", Content = "跑步爱好者 · IT从业者 · 记录与分享" }
