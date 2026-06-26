@@ -43,13 +43,20 @@ git add themes/PaperMod && git commit -m "chore(theme): bump PaperMod to <ref>"
 | ~~图像优化~~ | ✅ 已实现：构建期转 WebP（见第 11 节）。AVIF 可后续再加 |
 | TOC 优化 | 针对中文标题生成锚点 slugify 规则自定义 |
 | SEO | 增加 JSON-LD（文章、BreadcrumbList） |
-| 备份 | 每月 Action 打包 zip 上传到 Release Draft |
+| ~~备份~~ | ✅ 已实现：每月 Action 打包 git bundle 上传到 Release（见第 5 节） |
 
-## 5. 备份策略
-```bash
-git bundle create backup-`date +%Y%m`.bundle master
-```
-存放到本地硬盘/网盘。
+## 5. 备份策略（已自动化）
+仓库本身（GitHub）即主备份，所有文章与图片都随 git 版本管理，换电脑/坏盘 `git clone` 即可全恢复。
+
+额外离线副本由 **`.github/workflows/backup.yml`** 自动产出：每月 1 号把整仓打包成 `git bundle`
+（含所有分支与完整历史）上传到 **Release**（标签 `backup-YYYY-MM-DD`），自动保留最近 12 个、清理更旧的。
+- **手动触发**：仓库 Actions → “Monthly backup” → Run workflow（GitHub 会在仓库 60 天无活动后停用 schedule，届时手动跑一次即可重新激活）。
+- **恢复**：下载某个 `.bundle` →
+  ```bash
+  git clone blogSite-backup-YYYY-MM-DD.bundle 恢复目录
+  cd 恢复目录 && git submodule update --init --recursive   # 拉回 PaperMod 主题
+  ```
+- 想多一层异地副本，可再把下载的 `.bundle` 丢到本地硬盘/网盘。
 
 ## 6. 监控与错误
 - 访问激增：查看 GitHub Pages 状态 或 加 Cloudflare 分析
