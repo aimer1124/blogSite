@@ -25,6 +25,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
   author = "Yuanjie"
   description = "跑步爱好者，IT从业者。"
   keywords = ["测试","敏捷","跑步","项目管理","学习"]
+  images = ["og-default.png"]  # 默认社交分享图(OG/Twitter)，无封面的页面回退到这张
   defaultTheme = "auto" # light, dark, auto
   ShowReadingTime = true
   ShowShareButtons = true
