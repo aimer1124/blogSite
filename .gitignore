@@ -17,6 +17,10 @@ resources/_gen/
 node_modules/
 .hugo_cache/
 .hugo_cache/*
+# `pnpm wechat` 生成的公众号 Markdown（本地产物，无需入库）
+dist/
+# 死链检查报告（CI 产物）
+lychee-report.md
 
 # Logs
 *.log

@@ -39,10 +39,10 @@ git add themes/PaperMod && git commit -m "chore(theme): bump PaperMod to <ref>"
 ## 4. 自动化扩展想法
 | 方向 | 描述 |
 |------|------|
-| 链接检查 | 定期 Action 运行 `lychee` 检测死链 |
+| ~~链接检查~~ | ✅ 已实现：每月 `lychee` 巡检全站死链，发现即开 Issue（`.github/workflows/links.yml`，噪声见 `.lycheeignore`） |
 | ~~图像优化~~ | ✅ 已实现：构建期转 WebP（见第 11 节）。AVIF 可后续再加 |
 | TOC 优化 | 针对中文标题生成锚点 slugify 规则自定义 |
-| SEO | 增加 JSON-LD（文章、BreadcrumbList） |
+| SEO | `robots.txt` 已开启（指向 sitemap）；可再补 JSON-LD（文章、BreadcrumbList）/ 提交 Search Console |
 | ~~备份~~ | ✅ 已实现：每月 Action 打包 git bundle 上传到 Release（见第 5 节） |
 
 ## 5. 备份策略（已自动化）
@@ -101,6 +101,19 @@ assets/css/extended/custom.css  # Hugo 会自动打包
 > ⚠️ 写作约定：插图请用 **Markdown 语法** `![](图片.png)`，**不要**用裸 `<img src="图片.png">`。
 > 裸 HTML `<img>` 引用 bundle 内图片时，Hugo 不会把该图发布到 `public/` → **线上 404**，
 > 且不经过本钩子、拿不到 WebP。（外链图用裸 `<img>` 没问题。）
+
+## 12. 发布到微信公众号
+公众号编辑器不认外部 CSS、会吃标签、外链图易被防盗链挡掉，直接粘 Markdown 会乱。流程：
+
+```bash
+pnpm wechat word-practice          # 传 slug 关键字，或直接传 index.md 路径
+pnpm wechat word-practice | pbcopy # macOS 可直接拷到剪贴板
+```
+脚本（`scripts/to-wechat.py`）会：① 去掉 front matter；② 把相对图片改写成 `https://shiyuanjie.cn/...`
+绝对地址（文章 URL 由 `hugo list all` 精确取得，外链图保持原样）；产物写入 `dist/wechat/<slug>.md`（已 gitignore）。
+
+然后把内容粘进 **[doocs/md](https://doocs.github.io/md/)**（开源微信 Markdown 编辑器，也可用 `pnpm` 本地自托管）
+或 mdnice → 选主题 → 一键复制到公众号后台。自托管图片是公网地址，公众号粘贴时通常能自动抓取转存。
 
 ---
 保持“少即是多”：仅在确有价值时增加新功能，保证写作体验优先。

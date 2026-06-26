@@ -13,6 +13,9 @@ hasCJKLanguage = true
 summaryLength = 140
 ignoreLogs = ['warning-goldmark-raw-html']
 
+## 输出 /robots.txt（PaperMod 模板：生产放行所有爬虫并带上 Sitemap，非生产则全禁）
+enableRobotsTXT = true
+
 
 ## 站内搜索需要首页额外输出 JSON 索引（PaperMod 内置 Fuse.js 搜索）
 [outputs]
