@@ -1,0 +1,70 @@
+name: Monthly backup (git bundle → Release)
+
+# 每月把整仓打包成一个 git bundle（含全部分支与完整历史），作为 Release 资产存档。
+# 这是 GitHub 仓库之外的“离线可恢复”副本：下载 .bundle 后 `git clone 该文件 目录` 即可还原。
+# 注意：GitHub 会在仓库连续 60 天无活动后自动停用 schedule，届时可来此手动 Run workflow 重新激活。
+
+on:
+  schedule:
+    - cron: '0 3 1 * *'   # 每月 1 号 03:00 UTC（北京时间 11:00）
+  workflow_dispatch: {}    # 也支持随时手动触发
+
+permissions:
+  contents: write          # 创建 Release / 上传资产 / 清理旧标签所需
+
+concurrency:
+  group: backup
+  cancel-in-progress: false
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (完整历史 + 所有分支)
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0       # 0 = 拉取所有分支与标签的完整历史
+          submodules: false    # 主题 PaperMod 是独立 pinned 仓库，不入 bundle；恢复后 submodule update 即可
+
+      - name: Create & verify git bundle
+        id: bundle
+        run: |
+          set -euo pipefail
+          git fetch --all --tags --prune
+          STAMP="$(date -u +%Y-%m-%d)"
+          FILE="blogSite-backup-${STAMP}.bundle"
+          git bundle create "$FILE" --all
+          git bundle verify "$FILE"
+          ls -lh "$FILE"
+          echo "file=$FILE"            >> "$GITHUB_OUTPUT"
+          echo "tag=backup-${STAMP}"   >> "$GITHUB_OUTPUT"
+
+      - name: Publish Release with bundle asset
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          NOTES="全仓库自动备份（git bundle，含所有分支与完整历史）。
+          恢复方法：下载本 .bundle 文件后执行  git clone <文件名>.bundle 恢复目录  ，
+          再进入目录  git submodule update --init --recursive  拉回 PaperMod 主题。"
+          gh release create "${{ steps.bundle.outputs.tag }}" "${{ steps.bundle.outputs.file }}" \
+            --title "Backup ${{ steps.bundle.outputs.tag }}" \
+            --notes "$NOTES" \
+            --latest=false
+
+      - name: Prune old backups (keep latest 12)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          # 仅处理 backup-* 这类 Release，按标签名（含日期）倒序，保留最近 12 个、删除更旧的
+          mapfile -t tags < <(gh release list --limit 200 --json tagName \
+            --jq '.[] | select(.tagName|startswith("backup-")) | .tagName' | sort -r)
+          i=0
+          for t in "${tags[@]}"; do
+            i=$((i+1))
+            if [ "$i" -gt 12 ]; then
+              echo "删除旧备份: $t"
+              gh release delete "$t" --yes --cleanup-tag
+            fi
+          done
