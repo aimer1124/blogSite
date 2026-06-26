@@ -1,0 +1,43 @@
+{{- /*
+  正文图片渲染钩子 — 在 PaperMod 默认行为基础上叠加“构建期 WebP”。
+
+  策略：100% 复刻 PaperMod 原 <img> 输出（保留 .Attributes、#center 片段、
+  title 转义、loading=lazy、对 page-bundle 与全局资源的解析），仅当解析到的本地
+  资源是 jpeg/png 时，额外生成同尺寸 WebP，用 <picture> 优先供给、原图兜底。
+
+  红线：
+  - 不改变任何 URL（钩子只影响正文 <img> 的 HTML 输出）。
+  - 外链图 / gif / 未匹配到的本地引用 → 原样输出，绝不阻断构建。
+  - WebP 不缩放，尺寸与原图一致，避免布局抖动。
+  覆盖自 themes/PaperMod/layouts/_default/_markup/render-image.html
+*/ -}}
+{{- $u := urls.Parse .Destination -}}
+{{- $src := $u.String -}}
+{{- $res := false -}}
+{{- if not $u.IsAbs -}}
+  {{- $path := strings.TrimPrefix "./" $u.Path }}
+  {{- with or (.PageInner.Resources.Get $path) (resources.Get $path) -}}
+    {{- $res = . -}}
+    {{- $src = .RelPermalink -}}
+    {{- with $u.RawQuery -}}
+      {{- $src = printf "%s?%s" $src . -}}
+    {{- end -}}
+    {{- with $u.Fragment -}}
+      {{- $src = printf "%s#%s" $src . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $attributes := merge .Attributes (dict "alt" .Text "src" $src "title" (.Title | transform.HTMLEscape) "loading" "lazy") -}}
+{{- $webp := false -}}
+{{- if and $res (in (slice "jpeg" "png") $res.MediaType.SubType) -}}
+  {{- $webp = $res.Process "webp q80" -}}
+{{- end -}}
+{{- if $webp -}}<picture><source srcset="{{ $webp.RelPermalink }}" type="image/webp">{{ end -}}
+<img
+  {{- range $k, $v := $attributes -}}
+    {{- if $v -}}
+      {{- printf " %s=%q" $k $v | safeHTMLAttr -}}
+    {{- end -}}
+  {{- end -}}>
+{{- if $webp -}}</picture>{{- end -}}
+{{- /**/ -}}

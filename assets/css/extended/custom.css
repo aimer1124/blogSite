@@ -46,6 +46,8 @@ code, pre, kbd { font-family: var(--font-mono); }
   margin: 1.1em auto;
   box-shadow: 0 1px 6px rgba(0, 0, 0, .08);
 }
+/* WebP <picture> 包裹：保持与原 block 图片一致的居中/限宽（内部 img 继续沿用上面的样式） */
+.post-content picture { display: block; }
 
 /* 代码圆角 */
 .post-content pre { border-radius: var(--radius); }

@@ -40,7 +40,7 @@ git add themes/PaperMod && git commit -m "chore(theme): bump PaperMod to <ref>"
 | 方向 | 描述 |
 |------|------|
 | 链接检查 | 定期 Action 运行 `lychee` 检测死链 |
-| 图像优化 | 构建阶段将大图转换为 WebP/AVIF |
+| ~~图像优化~~ | ✅ 已实现：构建期转 WebP（见第 11 节）。AVIF 可后续再加 |
 | TOC 优化 | 针对中文标题生成锚点 slugify 规则自定义 |
 | SEO | 增加 JSON-LD（文章、BreadcrumbList） |
 | 备份 | 每月 Action 打包 zip 上传到 Release Draft |
@@ -80,6 +80,20 @@ assets/css/extended/custom.css  # Hugo 会自动打包
 ## 10. 安全
 - 开启仓库 Settings -> Branch protection (最少 1 Review 可选)
 - 避免在公开仓库存放未授权图片/受版权限制内容
+
+## 11. 图片 WebP 优化（构建期，已实现）
+钩子：`layouts/_default/_markup/render-image.html`（覆盖 PaperMod 默认 render-image）。
+- **作用范围**：仅 Markdown 图片语法 `![alt](xxx.png)`，且引用的是**本篇 page-bundle 内**的 jpeg/png。
+  这类图会被转成**同尺寸 WebP**，输出 `<picture><source ...webp><img ...原图></picture>`。
+- **原样放行（不转码、不阻断构建）**：外链图（http/https）、gif（保留动画）、未匹配到的引用。
+- **依赖 Hugo Extended**（WebP 编码）。CI 已 `extended: true`；本地 `pnpm` 装的也是 extended，无需额外操作。
+- **配套 CSS**：`assets/css/extended/custom.css` 里 `.post-content picture{display:block}`，
+  让 `<picture>` 包裹后仍保持图片的居中/限宽。删钩子时这条也可一并删。
+- **构建缓存**：WebP 生成物在 `resources/_gen/`（已 gitignore），CI 每次重建，无需提交。
+
+> ⚠️ 写作约定：插图请用 **Markdown 语法** `![](图片.png)`，**不要**用裸 `<img src="图片.png">`。
+> 裸 HTML `<img>` 引用 bundle 内图片时，Hugo 不会把该图发布到 `public/` → **线上 404**，
+> 且不经过本钩子、拿不到 WebP。（外链图用裸 `<img>` 没问题。）
 
 ---
 保持“少即是多”：仅在确有价值时增加新功能，保证写作体验优先。

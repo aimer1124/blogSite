@@ -12,7 +12,7 @@ draft: false
 # Developer Tools`开发者工具`查看网络请求
 * Windows: F12键
 * Mac OS: option+command+i键
-<img src="github.Chrome.DeveoperTools.png" />
+![开发者工具](github.Chrome.DeveoperTools.png)
 * 打开网络请求`Network`
 * 请求网址[http://aimer1124.github.io/](http://aimer1124.github.io/)后，`Network`中便会有本次的网络请求内容
 ![NetWorks](github.Chrome.Networks.png)
