@@ -4,8 +4,10 @@ tags:
   - JMeter
   - Docker
 categories:
-  - Tool
-date: 2017-01-25 21:50:00
+  - 测试
+date: 2017-01-25T21:50:00+08:00
+slug: "jmeter与Docker"
+draft: false
 ---
 
 # JMeter_docker

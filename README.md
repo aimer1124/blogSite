@@ -72,15 +72,27 @@ summary: "简短摘要用于列表展示"
 GitHub -> Settings -> Pages：Source 选择 “GitHub Actions”。
 
 ## 自定义域名 DNS 记录
+
+**规范域（canonical）：裸域 `shiyuanjie.cn`**（`config.toml` 的 `baseURL` 与所有站内链接均以此为准）。
+
 在域名解析商添加：
 - A 记录：`@` 指向 GitHub Pages 公共 IP（建议四条都加）：
   - 185.199.108.153
   - 185.199.109.153
   - 185.199.110.153
   - 185.199.111.153
-- 可选：`CNAME` 记录 `www` -> `shiyuanjie.cn`（或 `aimer1124.github.io` 也可）
+- `CNAME` 记录 `www` -> `aimer1124.github.io`（让 `www` 也能解析到 Pages）。
 
 GitHub 仓库设置 -> Pages 中确保 Custom domain 填写 `shiyuanjie.cn` 并勾选 Enforce HTTPS。
+
+### `www -> 裸域` 的 301 跳转
+注意：**GitHub Pages 与 DNS 本身都不会把 `www.shiyuanjie.cn` 做 HTTP 301 跳到裸域**——DNS 只能解析、不能发跳转；GitHub Pages 只按其逻辑服务已配置的自定义域名。要让 `www` 永久重定向到裸域，需要一层 HTTP 重定向服务，推荐 **Cloudflare**：
+
+1. 域名 NS 托管到 Cloudflare（免费版即可），按上面的 A / CNAME 记录配置 apex 与 `www`。
+2. 在 Cloudflare 配 **Redirect Rules / Page Rules**：`www.shiyuanjie.cn/*` → `https://shiyuanjie.cn/$1`（301）。
+3. 开启「Always Use HTTPS」。
+
+不接 Cloudflare 时，`www` 仍可正常访问（解析到 Pages），只是不会 301 收敛到裸域。
 
 ## 更新主题
 ```bash

@@ -5,8 +5,10 @@ tags:
   - E2E
   - Android
 categories:
-  - Tool
-date: 2016-11-25 13:46:00
+  - 工程效能
+date: 2016-11-25T13:46:00+08:00
+slug: "Android UI自动化测试神器-Espresso录制"
+draft: false
 ---
 
 Espresso Test Recorder的好处

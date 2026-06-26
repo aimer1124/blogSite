@@ -4,8 +4,10 @@ tags:
   - JMeter
   - 性能测试
 categories:
-  - Translate
-date: 2020-01-08 15:30:00
+  - 测试
+date: 2020-01-08T15:30:00+08:00
+slug: "JMeter5.2更新内容"
+draft: false
 ---
 
 ```

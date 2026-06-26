@@ -4,8 +4,10 @@ tags:
   - JMeter
   - 性能测试
 categories:
-  - Translate
-date: 2017-03-09 16:30:00
+  - 测试
+date: 2017-03-09T16:30:00+08:00
+slug: "JMeter3.1更新内容"
+draft: false
 ---
 
 

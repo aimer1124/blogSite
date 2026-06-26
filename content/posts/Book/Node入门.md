@@ -3,8 +3,10 @@ title: 'Node入门'
 tags:
  - Node.js
 categories:
- - Book
-date: 2016-09-20 20:44:00
+  - 读书
+date: 2016-09-20T20:44:00+08:00
+slug: "Node入门"
+draft: false
 ---
 
 ## 书

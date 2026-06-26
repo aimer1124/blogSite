@@ -5,7 +5,9 @@ tags:
   - 管理
   - PM
 categories:
-  - Management
+  - 管理
+slug: "PM-Daily"
+draft: false
 ---
 
 ## TOC

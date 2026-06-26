@@ -2,12 +2,15 @@
 	"name": "blogsite",
 	"private": true,
 	"version": "1.0.0",
-	"description": "Hugo blog with PaperMod, managed via pnpm and hugo-bin",
+	"description": "Hugo blog with PaperMod, managed via pnpm (Hugo Extended auto-provisioned via hugo-extended)",
 	"scripts": {
 		"dev": "scripts/run-hugo.sh server -D",
 		"build": "scripts/run-hugo.sh --minify",
-		"clean": "rm -rf public resources/_gen vendor/hugo-bin",
-		"check:hugo": "hugo version || echo '请先安装 Hugo (brew install hugo)'"
+		"new": "scripts/new-post.sh",
+		"clean": "rm -rf public resources/_gen .hugo_build.lock",
+		"check:hugo": "scripts/run-hugo.sh version"
 	},
-	"devDependencies": {}
+	"devDependencies": {
+		"hugo-extended": "0.151.0"
+	}
 }

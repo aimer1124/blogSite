@@ -14,6 +14,10 @@ summaryLength = 140
 ignoreLogs = ['warning-goldmark-raw-html']
 
 
+## 站内搜索需要首页额外输出 JSON 索引（PaperMod 内置 Fuse.js 搜索）
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 [author]
   name = "Yuanjie"
 
@@ -30,7 +34,9 @@ ignoreLogs = ['warning-goldmark-raw-html']
   ShowToc = true
   TocOpen = false
   env = "production" # enables GA/Utterances/Disqus etc.
-  busuanzi = true # 自定义: 在自定义头部/底部插入 busuanzi 脚本 (layouts/partials/extend_head.html)
+  busuanzi = false # 已改用 Cloudflare Web Analytics（后台仪表盘，无页面可见计数器）；如需恢复页面可见 PV/UV 计数，改回 true
+  # Cloudflare Web Analytics：在 Cloudflare 仪表盘 → Web Analytics 添加站点后，把 beacon token 填到这里即可生效
+  cloudflareWebAnalyticsToken = "8957c2aa760b4ac1af0d9ecf50ba35ab"
   baiduAd = "ac69e1e54b317232c0d3a881b738cfe8"
   beian = "陕ICP备20003547号-1"
   homeInfoParams = { Title = "你好，我是 Yuanjie", Content = "跑步爱好者 · IT从业者 · 记录与分享" }
@@ -47,12 +53,12 @@ ignoreLogs = ['warning-goldmark-raw-html']
 [[params.links]]
  title = "我的小工具"
  name = "我的小工具"
- url = "https://www.shiyuanjie.cn/tools/"
+ url = "https://shiyuanjie.cn/tools/"
 
 [[params.links]]
  title = "利用21天时间完成一本Mini书"
  name = "利用21天时间完成一本Mini书"
- url = "https://www.shiyuanjie.cn/posts/Upgrade/%E5%88%A9%E7%94%A821%E5%A4%A9%E7%9A%84%E5%AE%8C%E6%88%90%E4%B8%80%E6%9C%ACMini%E4%B9%A6/"
+ url = "https://shiyuanjie.cn/posts/Upgrade/%E5%88%A9%E7%94%A821%E5%A4%A9%E7%9A%84%E5%AE%8C%E6%88%90%E4%B8%80%E6%9C%ACMini%E4%B9%A6/"
 
 [[params.links]]
  title = "练字记录"
@@ -72,7 +78,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
 [[params.links]]
  title = "网站时间线Timeline"
  name = "网站时间线Timeline"
- url = "https://www.shiyuanjie.cn/posts/Blog/%E7%AB%99%E7%82%B9%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/"
+ url = "https://shiyuanjie.cn/posts/Blog/%E7%AB%99%E7%82%B9%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/"
 
 ## 配置 utteranc评论,教程参考 https://utteranc.es/
 [params.utteranc]
@@ -85,6 +91,17 @@ ignoreLogs = ['warning-goldmark-raw-html']
 [params.cc]
     name = "知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议"
     link = "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+
+## Fuse.js 搜索参数（针对中文优化：放宽阈值、允许单字匹配、忽略位置）
+[params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 1
+    ignoreLocation = true
+    keys = ["title", "permalink", "summary", "content"]
 
 ## 配置代码高亮
 [markup]
@@ -116,3 +133,9 @@ ignoreLogs = ['warning-goldmark-raw-html']
     name = "关于"
     url = "/about/"
     weight = 4
+
+  [[menu.main]]
+    identifier = "search"
+    name = "搜索"
+    url = "/search/"
+    weight = 5

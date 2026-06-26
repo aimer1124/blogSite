@@ -4,8 +4,10 @@ tags:
   - Chrome
   - Google
 categories:
-  - Tool
-date: 2017-01-18 14:50:00
+  - 工程效能
+date: 2017-01-18T14:50:00+08:00
+slug: "获取Chrome浏览器"
+draft: false
 ---
 ## 由来
 

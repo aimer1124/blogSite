@@ -9,8 +9,10 @@ tags:
   - Git
   - Testing
 categories:
-  - Testing
-date: 2016-05-10 14:23:00
+  - 测试
+date: 2016-05-10T14:23:00+08:00
+slug: "API自动化测试与持续集成"
+draft: false
 ---
 # 目的
 * 如何使用`SuperTest`测试框架，进行API测试

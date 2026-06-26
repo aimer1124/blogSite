@@ -4,8 +4,10 @@ tags:
   - Node.js
   - 工具
 categories:
-  - Tool
-date: 2019-12-26 09:20:00
+  - 工程效能
+date: 2019-12-26T09:20:00+08:00
+slug: "更新package中依赖包版本"
+draft: false
 ---
 
 ```

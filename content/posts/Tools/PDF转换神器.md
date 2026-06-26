@@ -4,8 +4,10 @@ tags:
   - PDF
   - 工具
 categories:
-  - Tool
-date: 2019-12-26 18:30:00
+  - 工程效能
+date: 2019-12-26T18:30:00+08:00
+slug: "PDF转换神器"
+draft: false
 ---
 
 ### 前情

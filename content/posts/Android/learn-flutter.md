@@ -1,10 +1,12 @@
 ---
 title: 'Flutter学习'
-date: 2020-03-17 11:30:00
+date: 2020-03-17T11:30:00+08:00
 tags:
   - Flutter
 categories:
-  - Design
+  - 工程效能
+slug: "learn-flutter"
+draft: false
 ---
 
 ## 什么是Flutter

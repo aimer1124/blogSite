@@ -1,0 +1,15 @@
+{{- /*
+  自定义页脚扩展：ICP 备案 + 不蒜子统计。
+  通过 PaperMod 官方的 extend_footer.html 扩展点注入，而不是整体覆盖 footer.html，
+  这样可保留主题自带的「代码复制按钮、回到顶部、Powered by、菜单滚动记忆」等功能。
+  不蒜子脚本本身在 extend_head.html 注入。
+*/ -}}
+<div class="footer-extra" style="text-align:center;margin-top:.5rem;font-size:.85em;opacity:.7;">
+  {{- with site.Params.beian }}
+  <span><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">{{ . }}</a></span>
+  {{- end }}
+  {{- if site.Params.busuanzi }}
+  <span id="busuanzi_container_site_pv" style="margin-left:1rem;">总访问量 <span id="busuanzi_value_site_pv"></span></span>
+  <span id="busuanzi_container_site_uv" style="margin-left:1rem;">总访客数 <span id="busuanzi_value_site_uv"></span></span>
+  {{- end }}
+</div>

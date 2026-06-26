@@ -5,8 +5,10 @@ tags:
   - 性能测试
   - Python
 categories:
-  - Translate
-date: 2017-06-08 18:30:00
+  - 测试
+date: 2017-06-08T18:30:00+08:00
+slug: "什么是Locust"
+draft: false
 ---
 
 - 原文地址：[http://docs.locust.io/en/latest/what-is-locust.html#](http://docs.locust.io/en/latest/what-is-locust.html#)

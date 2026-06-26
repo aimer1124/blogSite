@@ -4,8 +4,10 @@ tags:
   - JMeter
   - 性能测试
 categories:
-  - Tool
-date: 2016-09-23 18:53:00
+  - 测试
+date: 2016-09-23T18:53:00+08:00
+slug: "JMeter-自动生成测试Report"
+draft: false
 ---
 
 # Dashboard Report

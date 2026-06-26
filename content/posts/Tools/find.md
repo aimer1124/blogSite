@@ -3,8 +3,10 @@ title: 'find'
 tags:
   - find
 categories:
-  - Tool
-date: 2016-01-20 21:27:00
+  - 工程效能
+date: 2016-01-20T21:27:00+08:00
+slug: "find"
+draft: false
 ---
 
 # find

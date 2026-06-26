@@ -5,8 +5,10 @@ tags:
   - 性能测试
   - Python
 categories:
-  - Translate
-date: 2017-06-03 21:30:00
+  - 测试
+date: 2017-06-03T21:30:00+08:00
+slug: "Locust分布式测试"
+draft: false
 ---
 
 ## 分布式运行Locust

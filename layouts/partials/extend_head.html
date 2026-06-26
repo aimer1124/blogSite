@@ -1,4 +1,9 @@
-{{- /* Busuanzi site analytics */ -}}
-{{- if (or (.Site.Params.busuanzi) (eq .Site.Params.busuanzi true)) -}}
+{{- /* Busuanzi 可见 PV/UV 计数（默认关闭，busuanzi=true 时启用） */ -}}
+{{- if .Site.Params.busuanzi -}}
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+{{- end -}}
+
+{{- /* Cloudflare Web Analytics（后台仪表盘统计，填了 token 才注入；仅生产环境） */ -}}
+{{- if and (eq .Site.Params.env "production") .Site.Params.cloudflareWebAnalyticsToken -}}
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ .Site.Params.cloudflareWebAnalyticsToken }}"}'></script>
 {{- end -}}

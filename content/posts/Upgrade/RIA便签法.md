@@ -5,8 +5,10 @@ tags:
   - 管理
   - 2018
 categories:
-  - Management
-date: 2018-04-08 13:45:00
+  - 成长
+date: 2018-04-08T13:45:00+08:00
+slug: "RIA便签法"
+draft: false
 ---
 
 ```

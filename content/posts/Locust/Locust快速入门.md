@@ -5,8 +5,10 @@ tags:
   - 性能测试
   - Python
 categories:
-  - Translate
-date: 2017-05-24 18:20:00
+  - 测试
+date: 2017-05-24T18:20:00+08:00
+slug: "Locust快速入门"
+draft: false
 ---
 
 ```

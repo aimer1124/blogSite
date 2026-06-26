@@ -3,8 +3,10 @@ title: 'Responsive测试'
 tags:
   - Galen
 categories:
-  - Testing
-date: 2017-08-03 15:30:00
+  - 测试
+date: 2017-08-03T15:30:00+08:00
+slug: "Responsive测试"
+draft: false
 ---
 
 

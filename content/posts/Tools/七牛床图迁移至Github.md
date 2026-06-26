@@ -4,8 +4,10 @@ tags:
   - Github
   - 七牛
 categories:
-  - Mark
-date: 2018-10-18 15:10:00
+  - 工程效能
+date: 2018-10-18T15:10:00+08:00
+slug: "七牛床图迁移至Github"
+draft: false
 ---
 
 

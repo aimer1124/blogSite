@@ -4,8 +4,10 @@ tags:
   - JMeter
   - 性能测试
 categories:
-  - Mark
-date: 2017-02-28 16:15:00
+  - 测试
+date: 2017-02-28T16:15:00+08:00
+slug: "性能测试-JMeter入门"
+draft: false
 ---
 
 

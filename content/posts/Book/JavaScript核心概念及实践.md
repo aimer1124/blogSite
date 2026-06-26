@@ -3,8 +3,10 @@ title: 'JavaScript核心概念及实践'
 tags:
  - JavaScript
 categories:
- - Book
-date: 2016-03-12 23:43:00
+  - 读书
+date: 2016-03-12T23:43:00+08:00
+slug: "JavaScript核心概念及实践"
+draft: false
 ---
 
 ## 封面
