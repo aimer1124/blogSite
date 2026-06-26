@@ -5,8 +5,10 @@ tags:
   - 管理
   - 教育
 categories:
-  - Management
-date: 2017-07-17 10:00:00
+  - 管理
+date: 2017-07-17T10:00:00+08:00
+slug: "TeamLeader如何提反馈"
+draft: false
 ---
 
 

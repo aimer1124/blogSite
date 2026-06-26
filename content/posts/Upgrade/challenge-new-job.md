@@ -6,7 +6,9 @@ tags:
   - 管理
   - 跃迁
 categories:
-  - Mark
+  - 成长
+slug: "challenge-new-job"
+draft: false
 ---
 
 今天在知乎看到一个[问题](https://www.zhihu.com/question/383244782)：

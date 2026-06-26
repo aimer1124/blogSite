@@ -4,8 +4,10 @@ tags:
   - JMeter
   - 性能测试
 categories:
-  - Translate
-date: 2018-10-17 15:20:00
+  - 测试
+date: 2018-10-17T15:20:00+08:00
+slug: "JMeter5.0更新内容"
+draft: false
 ---
 
 [JMeter](http://jmeter.apache.org/)官方在`20180918`发布了JMeter 5.0版本，主要涉及的更新内容如下：

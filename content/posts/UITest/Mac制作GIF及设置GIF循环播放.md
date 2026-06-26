@@ -3,8 +3,10 @@ title: 'MAC制作GIF及设置GIF循环播放'
 tags:
   - GIF
 categories:
-  - Tool
-date: 2016-11-23 16:20:00
+  - 测试
+date: 2016-11-23T16:20:00+08:00
+slug: "Mac制作GIF及设置GIF循环播放"
+draft: false
 ---
 
 >需求：在Mac电脑中录制操作，并生成GIF文件。GIF文件需要循环播放。

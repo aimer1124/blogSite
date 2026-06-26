@@ -4,8 +4,10 @@ tags:
   - API测试
   - SuperTest
 categories:
-  - Tool
-date: 2016-02-28 21:36:00
+  - 测试
+date: 2016-02-28T21:36:00+08:00
+slug: "SuperTest-header-Auth设置"
+draft: false
 ---
 # SuperTest
 

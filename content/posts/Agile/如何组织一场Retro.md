@@ -3,8 +3,10 @@ title: '如何组织一场Retro'
 tags:
   - 敏捷
 categories:
-  - Mark
-date: 2017-03-27 16:40:00
+  - 管理
+date: 2017-03-27T16:40:00+08:00
+slug: "如何组织一场Retro"
+draft: false
 ---
 
 ## Retro

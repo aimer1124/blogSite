@@ -7,8 +7,10 @@ tags:
   - Jenkins
   - Grunt
 categories:
-  - Tool
-date: 2016-01-17 19:51:00
+  - 测试
+date: 2016-01-17T19:51:00+08:00
+slug: "SuperTest"
+draft: false
 ---
 ## 什么是SuperTest
 * The motivation with this module is to provide a high-level abstraction for testing HTTP, while still allowing you to drop down to the lower-level API provided by super-agent.

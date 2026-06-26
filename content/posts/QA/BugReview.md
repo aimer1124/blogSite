@@ -4,7 +4,9 @@ date: 2020-05-27T12:25:12+08:00
 tags:
   - Bug
 categories:
-  - Testing
+  - 测试
+slug: "BugReview"
+draft: false
 ---
 
 > 今天有个朋友问到，BUG Review有什么注意事情和流程方法没？简单整理了下，便于后续回顾。

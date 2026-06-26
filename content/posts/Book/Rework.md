@@ -3,8 +3,10 @@ title: 'Rework 重来:更为简单有效的商业思维'
 tags:
  - 管理
 categories:
- - Book
-date: 2015-09-02 20:44:00
+  - 读书
+date: 2015-09-02T20:44:00+08:00
+slug: "Rework"
+draft: false
 ---
 
 ## 封面

@@ -4,8 +4,10 @@ tags:
   - Google
   - Testing
 categories:
-  - Book
-date: 2015-10-15 21:37:00
+  - 读书
+date: 2015-10-15T21:37:00+08:00
+slug: "Google-软件测试之道"
+draft: false
 ---
 
 ## 封面

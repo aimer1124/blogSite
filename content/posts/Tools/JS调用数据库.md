@@ -5,8 +5,10 @@ tags:
   - Node.js
   - SuperTest
 categories:
-  - Tool
-date: 2016-01-26 22:01:00
+  - 工程效能
+date: 2016-01-26T22:01:00+08:00
+slug: "JS调用数据库"
+draft: false
 ---
 ## 安装Mysql包
 

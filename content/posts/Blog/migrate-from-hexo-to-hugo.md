@@ -5,7 +5,9 @@ tags:
   - Hexo
   - Hugo
 categories:
-  - Mark
+  - 博客
+slug: "migrate-from-hexo-to-hugo"
+draft: false
 ---
 
 Github源代码地址：[https://github.com/aimer1124/python-format-md](https://github.com/aimer1124/python-format-md)

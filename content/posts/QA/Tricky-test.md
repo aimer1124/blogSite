@@ -4,8 +4,10 @@ tags:
   - Test scenario
   - Testing
 categories:
-  - Testing
-date: 2016-01-30 18:47:00
+  - 测试
+date: 2016-01-30T18:47:00+08:00
+slug: "Tricky-test"
+draft: false
 ---
 ## 测试`验证码`，收到客户投诉
 * Scenario

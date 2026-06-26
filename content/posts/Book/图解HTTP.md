@@ -4,8 +4,10 @@ tags:
  - 银屋
  - HTTP
 categories:
- - Book
-date: 2018-11-15 15:45:00
+  - 读书
+date: 2018-11-15T15:45:00+08:00
+slug: "图解HTTP"
+draft: false
 ---
 
 ## 书

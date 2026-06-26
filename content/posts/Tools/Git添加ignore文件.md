@@ -3,8 +3,10 @@ title: 'Git添加ignore文件'
 tags:
  - Git
 categories:
- - Tool
-date: 2016-03-08 20:57:00
+  - 工程效能
+date: 2016-03-08T20:57:00+08:00
+slug: "Git添加ignore文件"
+draft: false
 ---
 
 # Git Ignore

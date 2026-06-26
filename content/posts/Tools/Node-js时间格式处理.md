@@ -4,8 +4,10 @@ tags:
   - Node.js
   - API测试
 categories:
-  - Tool
-date: 2016-01-26 22:18:00
+  - 工程效能
+date: 2016-01-26T22:18:00+08:00
+slug: "Node-js时间格式处理"
+draft: false
 ---
 
 ## moment库

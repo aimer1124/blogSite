@@ -4,9 +4,10 @@ tags:
     - TickTick
     - 整理
 categories:
-    - Tool
-date: 2019-06-11 16:00:00
-
+  - 成长
+date: 2019-06-11T16:00:00+08:00
+slug: "整理TickTick和邮箱"
+draft: false
 ---
 
 ### 邮箱

@@ -5,8 +5,10 @@ tags:
   - E2E
   - Testing
 categories:
-  - Tool
-date: 2016-04-28 11:06:00
+  - 测试
+date: 2016-04-28T11:06:00+08:00
+slug: "Protractor End to End Testing"
+draft: false
 ---
 
 # Protractor

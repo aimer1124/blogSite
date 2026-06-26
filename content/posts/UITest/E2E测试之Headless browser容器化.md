@@ -6,8 +6,10 @@ tags:
   - Protractor
   - Testing
 categories:
-  - Testing
-date: 2016-08-01 20:00:00
+  - 测试
+date: 2016-08-01T20:00:00+08:00
+slug: "E2E测试之Headless browser容器化"
+draft: false
 ---
 
 # 目的

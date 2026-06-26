@@ -4,8 +4,10 @@ tags:
   - JMeter
   - 性能测试
 categories:
-  - Translate
-date: 2019-03-19 20:00:00
+  - 测试
+date: 2019-03-19T20:00:00+08:00
+slug: "JMeter5.1更新内容"
+draft: false
 ---
 
 ## 核心能力提升

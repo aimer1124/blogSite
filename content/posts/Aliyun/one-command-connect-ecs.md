@@ -5,7 +5,9 @@ tags:
   - ECS
   - SSH
 categories:
-  - Tool
+  - 工程效能
+slug: "one-command-connect-ecs"
+draft: false
 ---
 
 

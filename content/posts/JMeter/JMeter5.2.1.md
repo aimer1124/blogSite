@@ -4,9 +4,11 @@ tags:
   - JMeter
   - 性能测试
 categories:
-  - Translate
+  - 测试
 toc: true
-date: 2020-01-11 18:00:00
+date: 2020-01-11T18:00:00+08:00
+slug: "JMeter5.2.1"
+draft: false
 ---
 
 ```

@@ -5,8 +5,10 @@ tags:
   - 性能测试
   - Python
 categories:
-  - Translate
-date: 2017-06-02 21:30:00
+  - 测试
+date: 2017-06-02T21:30:00+08:00
+slug: "编写一个Locust文件"
+draft: false
 ---
 
 Locust文件就是一般的Python文件。唯一的需求就是它至少需要一个继承于`Locust`的类.

@@ -6,8 +6,10 @@ tags:
   - Testing
   - CI
 categories:
-  - Testing
-date: 2018-03-02 12:20:00
+  - 测试
+date: 2018-03-02T12:20:00+08:00
+slug: "如何构建 Headless 的 E2E 测试"
+draft: false
 ---
 
 

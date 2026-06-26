@@ -6,8 +6,10 @@ tags:
   - API测试
   - Testing
 categories:
-  - Tool
-date: 2016-04-15 15:51:00
+  - 测试
+date: 2016-04-15T15:51:00+08:00
+slug: "SuperTestWithGulp"
+draft: false
 ---
 
 # Gulp

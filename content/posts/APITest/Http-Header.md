@@ -4,8 +4,10 @@ tags:
   - API测试
   - SuperTest
 categories:
-  - Tool
-date: 2016-02-29 20:14:00
+  - 测试
+date: 2016-02-29T20:14:00+08:00
+slug: "Http-Header"
+draft: false
 ---
 # Header
 

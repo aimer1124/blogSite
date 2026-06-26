@@ -1,10 +1,12 @@
 ---
 title: 'HCIA考证'
-date: 2022-03-24 09:30:00
+date: 2022-03-24T09:30:00+08:00
 tags:
   - HCIA
 categories:
-  - Mark
+  - 成长
+slug: "HCIA"
+draft: false
 ---
 
 
